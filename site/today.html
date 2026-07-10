@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Today in Congress</title>
+<meta name="description" content="What's being debated and voted on in the House and Senate today." />
+<link rel="stylesheet" href="assets/styles.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏛️</text></svg>" />
+</head>
+<body>
+<header class="masthead">
+  <div class="masthead-inner">
+    <p class="kicker">Game Day Preview</p>
+    <h1>Today in Congress</h1>
+    <p class="sub" id="updated">Loading…</p>
+    <nav>
+      <a href="./">Injury Report</a>
+      <a href="today.html" class="active">Today in Congress</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div id="content"></div>
+</main>
+
+<footer>
+  <p>Summarized from the <a href="https://www.govinfo.gov/app/collection/CREC">Congressional Record Daily Digest</a>.
+  Live floor activity: <a href="https://clerk.house.gov/FloorSummary">House Floor Summary</a> ·
+  <a href="https://www.senate.gov/legislative/floor_activity_pail.htm">Senate Floor Proceedings</a> ·
+  <a href="https://www.majorityleader.gov/schedule/">House schedule</a>. Not affiliated with Congress or the NFL.</p>
+</footer>
+
+<script>
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) =>
+  ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+function chamberCard(name, ch) {
+  const items = (ch.onTheFloor || []).map((it) => `
+    <div class="floor-item">
+      <div class="measure">${esc(it.measure)}</div>
+      <div class="title">${esc(it.title)}</div>
+      <span class="state">${esc(it.status)}</span>
+    </div>`).join("");
+  return `<div class="card">
+    <h2>${name}</h2>
+    <div class="when">Next convenes: ${esc(ch.nextMeeting)}</div>
+    <p class="recap">${esc(ch.lastSessionSummary)}</p>
+    ${items || `<div class="floor-item"><div class="title">Nothing currently listed on the floor.</div></div>`}
+  </div>`;
+}
+
+fetch("data/agenda.json")
+  .then((r) => r.json())
+  .then((d) => {
+    const dateStr = new Date(d.reportDate + "T12:00:00")
+      .toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric", year: "numeric" });
+    document.getElementById("updated").textContent =
+      `${dateStr}` + (d.recordIssueDate ? ` · from the Congressional Record of ${d.recordIssueDate}` : "");
+
+    if (!d.available) {
+      document.getElementById("content").innerHTML = `
+        <div class="empty-note">Today's structured agenda isn't available yet — the summary step needs the daily
+        Congressional Record and an API key. Check the official links below for live floor activity.</div>`;
+      return;
+    }
+
+    let html = `<p class="headline">${esc(d.headline)}</p>
+      <div class="chamber-grid">
+        ${chamberCard("House", d.chambers.house)}
+        ${chamberCard("Senate", d.chambers.senate)}
+      </div>`;
+
+    if (d.committees && d.committees.length) {
+      html += `<div class="committees"><h2>Committee Matchups</h2>` +
+        d.committees.map((c) => `
+          <div class="committee-row">
+            <span class="ch">${esc(c.chamber)}</span>
+            <span class="cm">${esc(c.committee)}</span>
+            <span class="tp">${esc(c.topic)}</span>
+          </div>`).join("") + `</div>`;
+    }
+    document.getElementById("content").innerHTML = html;
+  })
+  .catch(() => {
+    document.getElementById("content").innerHTML =
+      `<div class="empty-note">Couldn't load the agenda data. If you're running locally, serve the site with
+       <code>npm run serve</code> and make sure <code>node scripts/run.js</code> has been run.</div>`;
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Congressional Injury Report</title>
+<meta name="description" content="Who's out in Congress today and why — an NFL-style injury report for the House and Senate, updated daily." />
+<link rel="stylesheet" href="assets/styles.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏛️</text></svg>" />
+</head>
+<body>
+<header class="masthead">
+  <div class="masthead-inner">
+    <p class="kicker">Official-ish · Updated Daily</p>
+    <h1>Congressional Injury Report</h1>
+    <p class="sub" id="updated">Loading…</p>
+    <nav>
+      <a href="./" class="active">Injury Report</a>
+      <a href="today.html">Today in Congress</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div id="stale"></div>
+  <div class="tiles" id="tiles"></div>
+  <div class="tabs" role="tablist">
+    <button id="tab-house" role="tab" aria-selected="true" class="active">House</button>
+    <button id="tab-senate" role="tab" aria-selected="false">Senate</button>
+  </div>
+  <div id="report"></div>
+</main>
+
+<footer>
+  <p><strong>How statuses work:</strong> OUT — announced leave of absence, or missed every roll-call vote on the most
+  recent vote day. DOUBTFUL — missed every vote on 3+ straight vote days with no announced return. QUESTIONABLE —
+  missed at least half of the latest day's votes. PROBABLE — back on the floor after sitting out a full vote day in
+  the past week.</p>
+  <p>Built from official sources: <a href="https://clerk.house.gov">House Clerk roll-call votes</a>,
+  <a href="https://www.senate.gov/legislative/votes_new.htm">Senate roll-call votes</a>, the
+  <a href="https://www.govinfo.gov/app/collection/CREC">Congressional Record</a>, and the
+  <a href="https://unitedstates.github.io/congress-legislators/">congress-legislators</a> project.
+  Reasons are extracted from leave-of-absence grants and members' personal explanations; when none is on record,
+  the absence is listed as undisclosed. Not affiliated with Congress or the NFL.</p>
+</footer>
+
+<script>
+const STATUS_ORDER = ["OUT", "DOUBTFUL", "QUESTIONABLE", "PROBABLE"];
+const STATUS_HINTS = {
+  OUT: "did not play — missed every vote",
+  DOUBTFUL: "extended absence, no timetable for return",
+  QUESTIONABLE: "limited participation on the latest vote day",
+  PROBABLE: "back on the floor after a recent absence",
+};
+let data = null;
+let chamber = "house";
+
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) =>
+  ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+const fmtDate = (iso) => iso
+  ? new Date(iso + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric" })
+  : "";
+
+function seat(m) {
+  if (m.chamber === "senate") return `${m.party}-${m.state}`;
+  return `${m.party}-${m.state}${m.district ? "-" + m.district : ""}`;
+}
+
+function render() {
+  const ch = data.chambers[chamber];
+  const label = chamber === "house" ? "House" : "Senate";
+  const byStatus = Object.fromEntries(STATUS_ORDER.map((s) => [s, []]));
+  for (const e of ch.listed) byStatus[e.status].push(e);
+
+  document.getElementById("tiles").innerHTML = `
+    <div class="tile"><div class="label">${label} active roster</div>
+      <div class="value">${ch.activeCount}<small> / ${ch.totalMembers}</small></div></div>
+    <div class="tile accent-out"><div class="label">Out</div>
+      <div class="value">${byStatus.OUT.length}</div></div>
+    <div class="tile accent-doubtful"><div class="label">Doubtful</div>
+      <div class="value">${byStatus.DOUBTFUL.length}</div></div>
+    <div class="tile"><div class="label">Questionable</div>
+      <div class="value">${byStatus.QUESTIONABLE.length}</div></div>
+    <div class="tile"><div class="label">Probable</div>
+      <div class="value">${byStatus.PROBABLE.length}</div></div>`;
+
+  let html = "";
+  for (const status of STATUS_ORDER) {
+    const list = byStatus[status];
+    html += `<section class="status-section" data-status="${status}">
+      <div class="status-head"><h2>${status}</h2>
+        <span class="count">${list.length}</span>
+        <span class="hint">${STATUS_HINTS[status]}</span></div>`;
+    if (list.length === 0) {
+      html += `<div class="empty-note" style="margin-top:8px">No ${label} members listed as ${status.toLowerCase()}.</div>`;
+    }
+    for (const m of list) {
+      const note = esc(m.note).replace(/\d{4}-\d{2}-\d{2}/g, (d) => fmtDate(d));
+      const why = m.reason
+        ? `<span class="reason">${esc(m.reason)}</span>${m.detail ? " — " + esc(m.detail) : ""} <span title="${esc(m.reasonSource || "")}">·</span> ${note}`
+        : m.status === "PROBABLE"
+          ? note.charAt(0).toUpperCase() + note.slice(1)
+          : `<span class="reason">Undisclosed</span> — ${note}`;
+      html += `<div class="member">
+        <div class="who">
+          <span class="team-badge ${esc(m.party)}">${esc(seat(m))}</span>
+          <span class="name">${esc(m.name)}</span>
+          <span class="chip ${esc(m.status)}">${esc(m.status)}</span>
+        </div>
+        <div class="why">${why}</div>
+        <div class="meta">
+          ${m.since ? `<b>since ${fmtDate(m.since)}</b>` : ""}
+          <b>${m.last7.missed}/${m.last7.total} votes missed</b>
+          <span>last 7 days</span>
+        </div>
+      </div>`;
+    }
+    html += `</section>`;
+  }
+  document.getElementById("report").innerHTML = html;
+}
+
+function setChamber(next) {
+  chamber = next;
+  for (const c of ["house", "senate"]) {
+    const btn = document.getElementById("tab-" + c);
+    btn.classList.toggle("active", c === chamber);
+    btn.setAttribute("aria-selected", String(c === chamber));
+  }
+  render();
+}
+
+fetch("data/report.json")
+  .then((r) => r.json())
+  .then((d) => {
+    data = d;
+    const gen = new Date(d.generatedAt);
+    document.getElementById("updated").textContent =
+      `Report for ${new Date(d.reportDate + "T12:00:00").toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric", year: "numeric" })}` +
+      ` · updated ${gen.toLocaleString("en-US", { hour: "numeric", minute: "2-digit", timeZoneName: "short" })}`;
+
+    // Recess / stale-data banner: latest vote day well before the report date
+    const latest = [d.chambers.house.latestVoteDay, d.chambers.senate.latestVoteDay]
+      .filter(Boolean).sort().reverse()[0];
+    if (latest) {
+      const gapDays = Math.round((new Date(d.reportDate) - new Date(latest)) / 86400000);
+      if (gapDays > 4) {
+        document.getElementById("stale").innerHTML =
+          `<div class="stale">No games scheduled — the most recent roll-call votes were on ${fmtDate(latest)}. ` +
+          `Congress may be in recess; statuses reflect the last vote days on record.</div>`;
+      }
+    }
+    document.getElementById("tab-house").addEventListener("click", () => setChamber("house"));
+    document.getElementById("tab-senate").addEventListener("click", () => setChamber("senate"));
+    render();
+  })
+  .catch(() => {
+    document.getElementById("report").innerHTML =
+      `<div class="empty-note">Couldn't load the report data. If you're running locally, serve the site with
+       <code>npm run serve</code> and make sure <code>node scripts/run.js</code> has been run.</div>`;
+  });
+</script>
+</body>
+</html>

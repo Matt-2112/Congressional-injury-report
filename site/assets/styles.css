@@ -1,0 +1,259 @@
+/* Congress Injury Report — NFL-broadcast-inspired, theme-aware. */
+:root {
+  --surface: #fcfcfb;
+  --plane: #f9f9f7;
+  --ink: #0b0b0b;
+  --ink-2: #52514e;
+  --muted: #898781;
+  --hairline: #e1e0d9;
+  --ring: rgba(11, 11, 11, 0.1);
+  /* status palette (fixed) */
+  --out: #d03b3b;
+  --doubtful: #ec835a;
+  --questionable: #fab219;
+  --probable: #0ca30c;
+  /* party (categorical) */
+  --dem: #2a78d6;
+  --rep: #e34948;
+  --ind: #4a3aa7;
+  --banner: #101820;
+  --banner-ink: #ffffff;
+  --banner-accent: #fab219;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --surface: #1a1a19;
+    --plane: #0d0d0d;
+    --ink: #ffffff;
+    --ink-2: #c3c2b7;
+    --muted: #898781;
+    --hairline: #2c2c2a;
+    --ring: rgba(255, 255, 255, 0.1);
+    --dem: #3987e5;
+    --rep: #e66767;
+    --ind: #9085e9;
+    --banner: #05090d;
+  }
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--plane);
+  color: var(--ink);
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  line-height: 1.45;
+}
+
+/* ---- broadcast header ---- */
+.masthead {
+  background: var(--banner);
+  color: var(--banner-ink);
+  border-bottom: 4px solid var(--banner-accent);
+  padding: 20px 24px 16px;
+}
+.masthead-inner { max-width: 1060px; margin: 0 auto; }
+.kicker {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--banner-accent);
+  margin: 0 0 4px;
+}
+.masthead h1 {
+  margin: 0;
+  font-size: clamp(26px, 5vw, 42px);
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-stretch: condensed;
+}
+.masthead .sub { margin: 6px 0 0; color: rgba(255, 255, 255, 0.75); font-size: 14px; }
+.masthead nav { margin-top: 14px; display: flex; gap: 8px; }
+.masthead nav a {
+  color: var(--banner-ink);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 6px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 999px;
+}
+.masthead nav a.active { background: var(--banner-accent); color: #101820; border-color: var(--banner-accent); }
+
+main { max-width: 1060px; margin: 0 auto; padding: 24px 24px 64px; }
+
+/* ---- stat tiles ---- */
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 4px 0 24px; }
+.tile {
+  background: var(--surface);
+  border: 1px solid var(--ring);
+  border-radius: 10px;
+  padding: 14px 16px 12px;
+}
+.tile .label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+}
+.tile .value { font-size: 30px; font-weight: 800; line-height: 1.1; margin-top: 2px; }
+.tile .value small { font-size: 15px; font-weight: 600; color: var(--ink-2); }
+.tile.accent-out .value { color: var(--out); }
+.tile.accent-doubtful .value { color: var(--doubtful); }
+
+/* ---- chamber tabs ---- */
+.tabs { display: flex; gap: 8px; margin-bottom: 18px; }
+.tabs button {
+  font: inherit;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 14px;
+  padding: 9px 22px;
+  border-radius: 8px;
+  border: 1px solid var(--ring);
+  background: var(--surface);
+  color: var(--ink-2);
+  cursor: pointer;
+}
+.tabs button.active { background: var(--ink); color: var(--plane); border-color: var(--ink); }
+
+/* ---- status sections ---- */
+.status-section { margin-bottom: 26px; }
+.status-head {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  border-bottom: 3px solid var(--hairline);
+  padding-bottom: 6px;
+  margin-bottom: 2px;
+}
+.status-head h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.status-head .count { color: var(--muted); font-size: 14px; font-weight: 600; }
+.status-head .hint { margin-left: auto; color: var(--muted); font-size: 12px; }
+.status-section[data-status="OUT"] .status-head { border-color: var(--out); }
+.status-section[data-status="DOUBTFUL"] .status-head { border-color: var(--doubtful); }
+.status-section[data-status="QUESTIONABLE"] .status-head { border-color: var(--questionable); }
+.status-section[data-status="PROBABLE"] .status-head { border-color: var(--probable); }
+
+/* ---- member rows ---- */
+.member {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 6px 14px;
+  align-items: center;
+  background: var(--surface);
+  border: 1px solid var(--ring);
+  border-radius: 10px;
+  padding: 12px 16px;
+  margin-top: 8px;
+}
+.member .who { display: flex; align-items: center; gap: 10px; min-width: 0; }
+.member .name { font-weight: 700; font-size: 15px; }
+.team-badge {
+  flex: none;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 6px;
+  padding: 3px 8px;
+  min-width: 52px;
+  text-align: center;
+}
+.team-badge.D { background: var(--dem); }
+.team-badge.R { background: var(--rep); }
+.team-badge.I { background: var(--ind); }
+.member .why { grid-column: 1 / 2; color: var(--ink-2); font-size: 13.5px; }
+.member .why .reason { font-weight: 650; color: var(--ink); }
+.member .meta { grid-column: 2 / 4; grid-row: 1 / 3; justify-self: end; text-align: right; font-size: 12px; color: var(--muted); }
+.member .meta b { display: block; color: var(--ink-2); font-size: 13px; font-variant-numeric: tabular-nums; }
+.chip {
+  flex: none;
+  font-size: 10.5px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 3px 9px;
+  border-radius: 999px;
+  color: #fff;
+}
+.chip.OUT { background: var(--out); }
+.chip.DOUBTFUL { background: var(--doubtful); }
+.chip.QUESTIONABLE { background: var(--questionable); color: #241a00; }
+.chip.PROBABLE { background: var(--probable); }
+
+.empty-note, .stale {
+  background: var(--surface);
+  border: 1px dashed var(--hairline);
+  border-radius: 10px;
+  padding: 14px 16px;
+  color: var(--ink-2);
+  font-size: 14px;
+}
+.stale { border-style: solid; border-left: 4px solid var(--questionable); margin-bottom: 18px; }
+
+/* ---- agenda page ---- */
+.headline {
+  font-size: clamp(19px, 3vw, 26px);
+  font-weight: 750;
+  margin: 4px 0 22px;
+  max-width: 46em;
+}
+.chamber-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; }
+.card {
+  background: var(--surface);
+  border: 1px solid var(--ring);
+  border-radius: 12px;
+  padding: 18px 20px;
+}
+.card h2 {
+  margin: 0 0 2px;
+  font-size: 17px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.card .when { color: var(--muted); font-size: 13px; margin-bottom: 10px; }
+.card .recap { color: var(--ink-2); font-size: 14px; margin: 0 0 14px; }
+.floor-item { border-top: 1px solid var(--hairline); padding: 10px 0; }
+.floor-item .measure { font-weight: 800; font-size: 13px; letter-spacing: 0.03em; }
+.floor-item .title { font-size: 14px; margin: 2px 0; }
+.floor-item .state {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--ink-2);
+  background: var(--plane);
+  border: 1px solid var(--hairline);
+  border-radius: 999px;
+  padding: 2px 9px;
+  margin-top: 3px;
+}
+.committees { margin-top: 20px; }
+.committees h2 { font-size: 17px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; }
+.committee-row { display: flex; gap: 12px; border-top: 1px solid var(--hairline); padding: 9px 2px; font-size: 14px; align-items: baseline; }
+.committee-row .ch { flex: none; font-size: 11px; font-weight: 800; text-transform: uppercase; color: var(--muted); width: 52px; }
+.committee-row .cm { flex: none; font-weight: 650; }
+.committee-row .tp { color: var(--ink-2); }
+
+footer { max-width: 1060px; margin: 0 auto; padding: 0 24px 40px; color: var(--muted); font-size: 12.5px; }
+footer a { color: inherit; }
+
+@media (max-width: 560px) {
+  .member { grid-template-columns: 1fr; }
+  .member .meta { grid-column: 1; grid-row: auto; justify-self: start; text-align: left; }
+}

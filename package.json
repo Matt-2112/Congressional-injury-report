@@ -1,0 +1,18 @@
+{
+  "name": "congress-injury-report",
+  "version": "1.0.0",
+  "description": "NFL-style injury report for the United States Congress — who's out, why, and what's on the floor today.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "update": "node scripts/run.js",
+    "serve": "python3 -m http.server 8080 --directory site"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "fast-xml-parser": "^4.5.0"
+  }
+}

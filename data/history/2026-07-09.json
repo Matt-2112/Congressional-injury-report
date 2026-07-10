@@ -1,0 +1,2319 @@
+{
+  "generatedAt": "2026-07-10T03:17:25.450Z",
+  "reportDate": "2026-07-09",
+  "chambers": {
+    "senate": {
+      "latestVoteDay": "2026-06-24",
+      "voteDaysCovered": [
+        "2026-06-24",
+        "2026-06-23",
+        "2026-06-22",
+        "2026-06-18",
+        "2026-06-17",
+        "2026-06-16",
+        "2026-06-15",
+        "2026-06-11",
+        "2026-06-10",
+        "2026-06-09"
+      ],
+      "totalMembers": 100,
+      "activeCount": 98,
+      "listed": [
+        {
+          "bioguide": "B001267",
+          "name": "Michael F. Bennet",
+          "last": "Bennet",
+          "party": "D",
+          "state": "CO",
+          "district": null,
+          "chamber": "senate",
+          "status": "OUT",
+          "note": "missed all 8 votes on 2026-06-24",
+          "since": "2026-06-24",
+          "streakDays": 1,
+          "latestDay": {
+            "date": "2026-06-24",
+            "missed": 8,
+            "total": 8
+          },
+          "last7": {
+            "missed": 15,
+            "total": 17
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "M000355",
+          "name": "Mitch McConnell",
+          "last": "McConnell",
+          "party": "R",
+          "state": "KY",
+          "district": null,
+          "chamber": "senate",
+          "status": "DOUBTFUL",
+          "note": "missed all votes on 7 straight vote days — no announced return",
+          "since": "2026-06-15",
+          "streakDays": 7,
+          "latestDay": {
+            "date": "2026-06-24",
+            "missed": 8,
+            "total": 8
+          },
+          "last7": {
+            "missed": 17,
+            "total": 17
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "S001150",
+          "name": "Adam B. Schiff",
+          "last": "Schiff",
+          "party": "D",
+          "state": "CA",
+          "district": null,
+          "chamber": "senate",
+          "status": "QUESTIONABLE",
+          "note": "missed 5 of 8 votes on 2026-06-24",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-24",
+            "missed": 5,
+            "total": 8
+          },
+          "last7": {
+            "missed": 5,
+            "total": 17
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "A000382",
+          "name": "Angela D. Alsobrooks",
+          "last": "Alsobrooks",
+          "party": "D",
+          "state": "MD",
+          "district": null,
+          "chamber": "senate",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-18",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-24",
+            "missed": 0,
+            "total": 8
+          },
+          "last7": {
+            "missed": 2,
+            "total": 17
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "B001303",
+          "name": "Lisa Blunt Rochester",
+          "last": "Blunt Rochester",
+          "party": "D",
+          "state": "DE",
+          "district": null,
+          "chamber": "senate",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-18",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-24",
+            "missed": 0,
+            "total": 8
+          },
+          "last7": {
+            "missed": 3,
+            "total": 17
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "B001288",
+          "name": "Cory A. Booker",
+          "last": "Booker",
+          "party": "D",
+          "state": "NJ",
+          "district": null,
+          "chamber": "senate",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-17",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-24",
+            "missed": 0,
+            "total": 8
+          },
+          "last7": {
+            "missed": 4,
+            "total": 17
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "C001098",
+          "name": "Ted Cruz",
+          "last": "Cruz",
+          "party": "R",
+          "state": "TX",
+          "district": null,
+          "chamber": "senate",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-22",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-24",
+            "missed": 0,
+            "total": 8
+          },
+          "last7": {
+            "missed": 1,
+            "total": 17
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "C001114",
+          "name": "John R. Curtis",
+          "last": "Curtis",
+          "party": "R",
+          "state": "UT",
+          "district": null,
+          "chamber": "senate",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-22",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-24",
+            "missed": 0,
+            "total": 8
+          },
+          "last7": {
+            "missed": 1,
+            "total": 17
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "D000622",
+          "name": "Tammy Duckworth",
+          "last": "Duckworth",
+          "party": "D",
+          "state": "IL",
+          "district": null,
+          "chamber": "senate",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-18",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-24",
+            "missed": 0,
+            "total": 8
+          },
+          "last7": {
+            "missed": 2,
+            "total": 17
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "D000563",
+          "name": "Richard J. Durbin",
+          "last": "Durbin",
+          "party": "D",
+          "state": "IL",
+          "district": null,
+          "chamber": "senate",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-18",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-24",
+            "missed": 0,
+            "total": 8
+          },
+          "last7": {
+            "missed": 2,
+            "total": 17
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "G000359",
+          "name": "Lindsey Graham",
+          "last": "Graham",
+          "party": "R",
+          "state": "SC",
+          "district": null,
+          "chamber": "senate",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-22",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-24",
+            "missed": 0,
+            "total": 8
+          },
+          "last7": {
+            "missed": 2,
+            "total": 17
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "H001061",
+          "name": "John Hoeven",
+          "last": "Hoeven",
+          "party": "R",
+          "state": "ND",
+          "district": null,
+          "chamber": "senate",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-18",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-24",
+            "missed": 0,
+            "total": 8
+          },
+          "last7": {
+            "missed": 2,
+            "total": 17
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "J000312",
+          "name": "James C. Justice",
+          "last": "Justice",
+          "party": "R",
+          "state": "WV",
+          "district": null,
+          "chamber": "senate",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-22",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-24",
+            "missed": 0,
+            "total": 8
+          },
+          "last7": {
+            "missed": 2,
+            "total": 17
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "K000377",
+          "name": "Mark Kelly",
+          "last": "Kelly",
+          "party": "D",
+          "state": "AZ",
+          "district": null,
+          "chamber": "senate",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-18",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-24",
+            "missed": 0,
+            "total": 8
+          },
+          "last7": {
+            "missed": 4,
+            "total": 17
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "M001243",
+          "name": "David McCormick",
+          "last": "McCormick",
+          "party": "R",
+          "state": "PA",
+          "district": null,
+          "chamber": "senate",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-23",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-24",
+            "missed": 0,
+            "total": 8
+          },
+          "last7": {
+            "missed": 2,
+            "total": 17
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "M001111",
+          "name": "Patty Murray",
+          "last": "Murray",
+          "party": "D",
+          "state": "WA",
+          "district": null,
+          "chamber": "senate",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-22",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-24",
+            "missed": 0,
+            "total": 8
+          },
+          "last7": {
+            "missed": 1,
+            "total": 17
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "S001208",
+          "name": "Elissa Slotkin",
+          "last": "Slotkin",
+          "party": "D",
+          "state": "MI",
+          "district": null,
+          "chamber": "senate",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-22",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-24",
+            "missed": 0,
+            "total": 8
+          },
+          "last7": {
+            "missed": 1,
+            "total": 17
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "W000802",
+          "name": "Sheldon Whitehouse",
+          "last": "Whitehouse",
+          "party": "D",
+          "state": "RI",
+          "district": null,
+          "chamber": "senate",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-22",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-24",
+            "missed": 0,
+            "total": 8
+          },
+          "last7": {
+            "missed": 1,
+            "total": 17
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "Y000064",
+          "name": "Todd Young",
+          "last": "Young",
+          "party": "R",
+          "state": "IN",
+          "district": null,
+          "chamber": "senate",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-22",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-24",
+            "missed": 0,
+            "total": 8
+          },
+          "last7": {
+            "missed": 1,
+            "total": 17
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        }
+      ]
+    },
+    "house": {
+      "latestVoteDay": "2026-06-30",
+      "voteDaysCovered": [
+        "2026-06-30",
+        "2026-06-29",
+        "2026-06-25",
+        "2026-06-24",
+        "2026-06-23",
+        "2026-06-11",
+        "2026-06-10",
+        "2026-06-09",
+        "2026-06-08",
+        "2026-06-04"
+      ],
+      "totalMembers": 431,
+      "activeCount": 426,
+      "listed": [
+        {
+          "bioguide": "D000197",
+          "name": "Diana DeGette",
+          "last": "DeGette",
+          "party": "D",
+          "state": "CO",
+          "district": 1,
+          "chamber": "house",
+          "status": "OUT",
+          "note": "missed all 4 votes on 2026-06-30",
+          "since": "2026-06-29",
+          "streakDays": 2,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 4,
+            "total": 4
+          },
+          "last7": {
+            "missed": 6,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "E000294",
+          "name": "Tom Emmer",
+          "last": "Emmer",
+          "party": "R",
+          "state": "MN",
+          "district": 6,
+          "chamber": "house",
+          "status": "OUT",
+          "note": "missed all 4 votes on 2026-06-30",
+          "since": "2026-06-29",
+          "streakDays": 2,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 4,
+            "total": 4
+          },
+          "last7": {
+            "missed": 6,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "H001081",
+          "name": "Jahana Hayes",
+          "last": "Hayes",
+          "party": "D",
+          "state": "CT",
+          "district": 5,
+          "chamber": "house",
+          "status": "OUT",
+          "note": "missed all 4 votes on 2026-06-30",
+          "since": "2026-06-29",
+          "streakDays": 2,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 4,
+            "total": 4
+          },
+          "last7": {
+            "missed": 8,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "L000491",
+          "name": "Frank D. Lucas",
+          "last": "Lucas",
+          "party": "R",
+          "state": "OK",
+          "district": 3,
+          "chamber": "house",
+          "status": "OUT",
+          "note": "missed all 4 votes on 2026-06-30",
+          "since": "2026-06-29",
+          "streakDays": 2,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 4,
+            "total": 4
+          },
+          "last7": {
+            "missed": 6,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "D000628",
+          "name": "Neal P. Dunn",
+          "last": "Dunn",
+          "party": "R",
+          "state": "FL",
+          "district": 2,
+          "chamber": "house",
+          "status": "DOUBTFUL",
+          "note": "missed all votes on 5 straight vote days — no announced return",
+          "since": "2026-06-23",
+          "streakDays": 5,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 4,
+            "total": 4
+          },
+          "last7": {
+            "missed": 11,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "R000612",
+          "name": "John W. Rose",
+          "last": "Rose",
+          "party": "R",
+          "state": "TN",
+          "district": 6,
+          "chamber": "house",
+          "status": "QUESTIONABLE",
+          "note": "missed 3 of 4 votes on 2026-06-30",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 3,
+            "total": 4
+          },
+          "last7": {
+            "missed": 7,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "B001282",
+          "name": "Andy Barr",
+          "last": "Barr",
+          "party": "R",
+          "state": "KY",
+          "district": 6,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-29",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "B001300",
+          "name": "Nanette Diaz Barragán",
+          "last": "Barragán",
+          "party": "D",
+          "state": "CA",
+          "district": 44,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-29",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "B001322",
+          "name": "Michael Baumgartner",
+          "last": "Baumgartner",
+          "party": "R",
+          "state": "WA",
+          "district": 5,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-23",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "B001295",
+          "name": "Mike Bost",
+          "last": "Bost",
+          "party": "R",
+          "state": "IL",
+          "district": 12,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-25",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 1,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "B001296",
+          "name": "Brendan F. Boyle",
+          "last": "Boyle",
+          "party": "D",
+          "state": "PA",
+          "district": 2,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-23",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "B001317",
+          "name": "Josh Brecheen",
+          "last": "Brecheen",
+          "party": "R",
+          "state": "OK",
+          "district": 2,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-23",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 3,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "B001260",
+          "name": "Vern Buchanan",
+          "last": "Buchanan",
+          "party": "R",
+          "state": "FL",
+          "district": 16,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-29",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 4,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "C001112",
+          "name": "Salud O. Carbajal",
+          "last": "Carbajal",
+          "party": "D",
+          "state": "CA",
+          "district": 24,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-23",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "C001051",
+          "name": "John R. Carter",
+          "last": "Carter",
+          "party": "R",
+          "state": "TX",
+          "district": 31,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-23",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "C001091",
+          "name": "Joaquin Castro",
+          "last": "Castro",
+          "party": "D",
+          "state": "TX",
+          "district": 20,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-29",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "C001067",
+          "name": "Yvette D. Clarke",
+          "last": "Clarke",
+          "party": "D",
+          "state": "NY",
+          "district": 9,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-23",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "C001068",
+          "name": "Steve Cohen",
+          "last": "Cohen",
+          "party": "D",
+          "state": "TN",
+          "district": 9,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-29",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "C001129",
+          "name": "Mike Collins",
+          "last": "Collins",
+          "party": "R",
+          "state": "GA",
+          "district": 10,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-29",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "C001119",
+          "name": "Angie Craig",
+          "last": "Craig",
+          "party": "D",
+          "state": "MN",
+          "district": 2,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-29",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "C001120",
+          "name": "Dan Crenshaw",
+          "last": "Crenshaw",
+          "party": "R",
+          "state": "TX",
+          "district": 2,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-23",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "D000032",
+          "name": "Byron Donalds",
+          "last": "Donalds",
+          "party": "R",
+          "state": "FL",
+          "district": 19,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-29",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 3,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "E000297",
+          "name": "Adriano Espaillat",
+          "last": "Espaillat",
+          "party": "D",
+          "state": "NY",
+          "district": 13,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-23",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "F000481",
+          "name": "Shomari Figures",
+          "last": "Figures",
+          "party": "D",
+          "state": "AL",
+          "district": 2,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-29",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "G000598",
+          "name": "Robert Garcia",
+          "last": "Garcia",
+          "party": "D",
+          "state": "CA",
+          "district": 42,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-29",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "G000592",
+          "name": "Jared F. Golden",
+          "last": "Golden",
+          "party": "D",
+          "state": "ME",
+          "district": 2,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-23",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "G000599",
+          "name": "Daniel S. Goldman",
+          "last": "Goldman",
+          "party": "D",
+          "state": "NY",
+          "district": 10,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-29",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 7,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "G000605",
+          "name": "Adam Gray",
+          "last": "Gray",
+          "party": "D",
+          "state": "CA",
+          "district": 13,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-29",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 7,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "H001077",
+          "name": "Clay Higgins",
+          "last": "Higgins",
+          "party": "R",
+          "state": "LA",
+          "district": 3,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-29",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "H001066",
+          "name": "Steven Horsford",
+          "last": "Horsford",
+          "party": "D",
+          "state": "NV",
+          "district": 4,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-29",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "J000307",
+          "name": "John James",
+          "last": "James",
+          "party": "R",
+          "state": "MI",
+          "district": 10,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-29",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 4,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "K000398",
+          "name": "Thomas H. Kean, Jr.",
+          "last": "Kean",
+          "party": "R",
+          "state": "NJ",
+          "district": 7,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-29",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 7,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "K000402",
+          "name": "Timothy M. Kennedy",
+          "last": "Kennedy",
+          "party": "D",
+          "state": "NY",
+          "district": 26,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-25",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 1,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "L000595",
+          "name": "Julia Letlow",
+          "last": "Letlow",
+          "party": "R",
+          "state": "LA",
+          "district": 5,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-25",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 1,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "L000596",
+          "name": "Anna Paulina Luna",
+          "last": "Luna",
+          "party": "R",
+          "state": "FL",
+          "district": 13,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-25",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 1,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "M000194",
+          "name": "Nancy Mace",
+          "last": "Mace",
+          "party": "R",
+          "state": "SC",
+          "district": 1,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-29",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 7,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "M001157",
+          "name": "Michael T. McCaul",
+          "last": "McCaul",
+          "party": "R",
+          "state": "TX",
+          "district": 10,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-29",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 4,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "M001232",
+          "name": "April McClain Delaney",
+          "last": "McClain Delaney",
+          "party": "D",
+          "state": "MD",
+          "district": 6,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-29",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 4,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "M001229",
+          "name": "LaMonica McIver",
+          "last": "McIver",
+          "party": "D",
+          "state": "NJ",
+          "district": 10,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-23",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "M001137",
+          "name": "Gregory W. Meeks",
+          "last": "Meeks",
+          "party": "D",
+          "state": "NY",
+          "district": 5,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-23",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "M001188",
+          "name": "Grace Meng",
+          "last": "Meng",
+          "party": "D",
+          "state": "NY",
+          "district": 6,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-23",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "M001204",
+          "name": "Daniel Meuser",
+          "last": "Meuser",
+          "party": "R",
+          "state": "PA",
+          "district": 9,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-29",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "M000687",
+          "name": "Kweisi Mfume",
+          "last": "Mfume",
+          "party": "D",
+          "state": "MD",
+          "district": 7,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-29",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 4,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "M001222",
+          "name": "Max L. Miller",
+          "last": "Miller",
+          "party": "R",
+          "state": "OH",
+          "district": 7,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-29",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "M001216",
+          "name": "Cory Mills",
+          "last": "Mills",
+          "party": "R",
+          "state": "FL",
+          "district": 7,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-29",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 1,
+            "total": 4
+          },
+          "last7": {
+            "missed": 3,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "M001206",
+          "name": "Joseph D. Morelle",
+          "last": "Morelle",
+          "party": "D",
+          "state": "NY",
+          "district": 25,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-23",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "M001196",
+          "name": "Seth Moulton",
+          "last": "Moulton",
+          "party": "D",
+          "state": "MA",
+          "district": 6,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-29",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 7,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "N000002",
+          "name": "Jerrold Nadler",
+          "last": "Nadler",
+          "party": "D",
+          "state": "NY",
+          "district": 12,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-23",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "N000026",
+          "name": "Troy E. Nehls",
+          "last": "Nehls",
+          "party": "R",
+          "state": "TX",
+          "district": 22,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-29",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "O000175",
+          "name": "Andrew Ogles",
+          "last": "Ogles",
+          "party": "R",
+          "state": "TN",
+          "district": 5,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-25",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 3,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "O000086",
+          "name": "Burgess Owens",
+          "last": "Owens",
+          "party": "R",
+          "state": "UT",
+          "district": 4,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-29",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "P000620",
+          "name": "Brittany Pettersen",
+          "last": "Pettersen",
+          "party": "D",
+          "state": "CO",
+          "district": 7,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-29",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "R000617",
+          "name": "Delia C. Ramirez",
+          "last": "Ramirez",
+          "party": "D",
+          "state": "IL",
+          "district": 3,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-29",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "R000579",
+          "name": "Patrick Ryan",
+          "last": "Ryan",
+          "party": "D",
+          "state": "NY",
+          "district": 18,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-23",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "S000168",
+          "name": "Maria Elvira Salazar",
+          "last": "Salazar",
+          "party": "R",
+          "state": "FL",
+          "district": 27,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-25",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 5,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "S001145",
+          "name": "Janice D. Schakowsky",
+          "last": "Schakowsky",
+          "party": "D",
+          "state": "IL",
+          "district": 9,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-23",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "S001221",
+          "name": "Hillary J. Scholten",
+          "last": "Scholten",
+          "party": "D",
+          "state": "MI",
+          "district": 3,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-29",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "S001199",
+          "name": "Lloyd Smucker",
+          "last": "Smucker",
+          "party": "R",
+          "state": "PA",
+          "district": 11,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-23",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "S000929",
+          "name": "Victoria Spartz",
+          "last": "Spartz",
+          "party": "R",
+          "state": "IN",
+          "district": 5,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-29",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 3,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "S001220",
+          "name": "Dale W. Strong",
+          "last": "Strong",
+          "party": "R",
+          "state": "AL",
+          "district": 5,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-29",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "S001188",
+          "name": "Marlin A. Stutzman",
+          "last": "Stutzman",
+          "party": "R",
+          "state": "IN",
+          "district": 3,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-23",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "S001223",
+          "name": "Emilia Strong Sykes",
+          "last": "Sykes",
+          "party": "D",
+          "state": "OH",
+          "district": 13,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-29",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "T000193",
+          "name": "Bennie G. Thompson",
+          "last": "Thompson",
+          "party": "D",
+          "state": "MS",
+          "district": 2,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-29",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "T000467",
+          "name": "Glenn Thompson",
+          "last": "Thompson",
+          "party": "R",
+          "state": "PA",
+          "district": 15,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-23",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "T000165",
+          "name": "Thomas P. Tiffany",
+          "last": "Tiffany",
+          "party": "R",
+          "state": "WI",
+          "district": 7,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-29",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 4,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "T000480",
+          "name": "William R. Timmons IV",
+          "last": "Timmons",
+          "party": "R",
+          "state": "SC",
+          "district": 4,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-25",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 1,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "T000486",
+          "name": "Ritchie Torres",
+          "last": "Torres",
+          "party": "D",
+          "state": "NY",
+          "district": 15,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-23",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "V000081",
+          "name": "Nydia M. Velázquez",
+          "last": "Velázquez",
+          "party": "D",
+          "state": "NY",
+          "district": 7,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-25",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 5,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "W000812",
+          "name": "Ann Wagner",
+          "last": "Wagner",
+          "party": "R",
+          "state": "MO",
+          "district": 2,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-24",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "W000798",
+          "name": "Tim Walberg",
+          "last": "Walberg",
+          "party": "R",
+          "state": "MI",
+          "district": 5,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-29",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "W000795",
+          "name": "Joe Wilson",
+          "last": "Wilson",
+          "party": "R",
+          "state": "SC",
+          "district": 2,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-23",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 2,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "W000808",
+          "name": "Frederica S. Wilson",
+          "last": "Wilson",
+          "party": "D",
+          "state": "FL",
+          "district": 24,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-06-29",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-06-30",
+            "missed": 0,
+            "total": 4
+          },
+          "last7": {
+            "missed": 4,
+            "total": 11
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        }
+      ]
+    }
+  }
+}
