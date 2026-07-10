@@ -33,9 +33,11 @@ jobs:
       - run: npm ci
 
       # Roll-call XML is immutable once published; carry the fetch cache
-      # between runs so only new votes hit congress.gov servers.
+      # between runs so only new votes hit congress.gov servers. Save runs
+      # even when the pipeline fails, so partial progress accumulates across
+      # retries instead of re-tripping the Clerk's rate limiter from zero.
       - name: Restore vote XML cache
-        uses: actions/cache@v4
+        uses: actions/cache/restore@v4
         with:
           path: data/cache
           key: vote-cache-${{ github.run_id }}
@@ -46,6 +48,13 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           CONGRESS_GOV_API_KEY: ${{ secrets.CONGRESS_GOV_API_KEY }}
         run: node scripts/run.js
+
+      - name: Save vote XML cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: data/cache
+          key: vote-cache-${{ github.run_id }}
 
       - name: Commit updated data
         run: |

@@ -20,7 +20,11 @@ export const xml = new XMLParser({
   trimValues: true,
 });
 
-export async function fetchText(url, { retries = 2, allow404 = false } = {}) {
+// Backoff schedule leans long: clerk.house.gov rate-limits bursts from
+// datacenter IPs (GitHub Actions) with 403s that clear after a cool-down.
+const BACKOFF_MS = [2000, 5000, 15000, 30000];
+
+export async function fetchText(url, { retries = BACKOFF_MS.length, allow404 = false } = {}) {
   for (let attempt = 0; ; attempt++) {
     try {
       const res = await fetch(url, { headers: { "User-Agent": UA } });
@@ -29,7 +33,8 @@ export async function fetchText(url, { retries = 2, allow404 = false } = {}) {
       return await res.text();
     } catch (err) {
       if (attempt >= retries) throw err;
-      await new Promise((r) => setTimeout(r, 1000 * (attempt + 1)));
+      const base = BACKOFF_MS[Math.min(attempt, BACKOFF_MS.length - 1)];
+      await new Promise((r) => setTimeout(r, base + Math.random() * 1000));
     }
   }
 }

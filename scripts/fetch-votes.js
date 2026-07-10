@@ -104,15 +104,33 @@ async function senateMenu(year) {
 
 // ----------------------------------------------------------------- House ---
 
+// The Clerk's site rate-limits datacenter IPs aggressively, so house fetches
+// run at low concurrency and tolerate a few stragglers: a missing roll only
+// nudges attendance percentages, but an aborted run publishes nothing.
+const HOUSE_CONCURRENCY = 3;
+const MAX_FAILED_ROLLS = 8;
+
 async function fetchHouseVotes() {
   const year = new Date().getFullYear();
   const latest = await latestHouseRoll(year);
+  let failed = 0;
   let votes = (
     await pMap(
       Array.from({ length: latest }, (_, i) => i + 1),
-      (roll) => houseRoll(year, roll)
+      async (roll) => {
+        try {
+          return await houseRoll(year, roll);
+        } catch (err) {
+          failed++;
+          log("votes", `house roll ${roll}: ${err.message} — skipping`);
+          if (failed > MAX_FAILED_ROLLS) throw err;
+          return null;
+        }
+      },
+      HOUSE_CONCURRENCY
     )
   ).filter(Boolean);
+  if (failed > 0) log("votes", `house: skipped ${failed} unfetchable rolls`);
 
   // Early January: top up the status window from the previous year's tail.
   if (distinctDates(votes).length < VOTE_DAYS) {
