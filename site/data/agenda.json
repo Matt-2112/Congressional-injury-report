@@ -1,19 +1,30 @@
 {
-  "generatedAt": "2026-07-10T03:46:41.742Z",
-  "reportDate": "2026-07-09",
+  "generatedAt": "2026-07-10T04:54:53.242Z",
+  "reportDate": "2026-07-10",
   "recordIssueDate": "2026-07-06",
   "available": true,
-  "headline": "Congress heads back from July 4th recess in pro forma session mode as leadership preps next week's agenda.",
+  "headline": "Both chambers in light duty post-Fourth recess, reconvening Thursday in brief pro forma sessions.",
   "chambers": {
     "senate": {
       "nextMeeting": "Thursday, July 9 at 4:00 PM",
-      "lastSessionSummary": "The Senate convened briefly in pro forma session on Monday, July 6, meeting at 9:01 a.m. and adjourning at 9:02 a.m. No votes or business were conducted, establishing the quorum requirement while lawmakers remained on recess.",
+      "lastSessionSummary": "The Senate met in pro forma session on Monday, July 6 at 9:01 a.m. and adjourned within seconds until Thursday. No substantive business was conducted, as Congress remained in its Independence Day recess period.",
       "onTheFloor": []
     },
     "house": {
       "nextMeeting": "Thursday, July 9 at 3:00 PM",
-      "lastSessionSummary": "The House met at 10:30 a.m. on Monday, July 6 and adjourned at 10:32 a.m. in pro forma session, introducing 11 new bills and 2 resolutions, with committee reports filed on H.R. 8481 regarding injunctions and H.J. Res. 1 on Supreme Court composition, but conducting no floor votes.",
-      "onTheFloor": []
+      "lastSessionSummary": "The House met briefly on Monday, July 6 at 10:30 a.m. and adjourned at 10:32 a.m. Eleven bills and two resolutions were introduced, including H.R. 8481 on victim protections and H.J. Res. 1 proposing a constitutional amendment on Supreme Court size. No votes were taken.",
+      "onTheFloor": [
+        {
+          "measure": "H.R. 8481",
+          "title": "Amend federal law to provide natural lifetime injunctions for certain victims",
+          "status": "Committee report filed"
+        },
+        {
+          "measure": "H.J. Res. 1",
+          "title": "Proposed constitutional amendment to fix the Supreme Court at nine justices",
+          "status": "Committee report filed"
+        }
+      ]
     }
   },
   "committees": []
