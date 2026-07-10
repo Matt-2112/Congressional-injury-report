@@ -21,8 +21,9 @@ export const xml = new XMLParser({
 });
 
 // Backoff schedule leans long: clerk.house.gov rate-limits bursts from
-// datacenter IPs (GitHub Actions) with 403s that clear after a cool-down.
-const BACKOFF_MS = [2000, 5000, 15000, 30000];
+// datacenter IPs (GitHub Actions) with 403s whose cool-down can run minutes.
+// CI time is cheap; a slow green run beats a fast red one.
+const BACKOFF_MS = [2000, 10000, 30000, 90000, 180000];
 
 export async function fetchText(url, { retries = BACKOFF_MS.length, allow404 = false } = {}) {
   for (let attempt = 0; ; attempt++) {

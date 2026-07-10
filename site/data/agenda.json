@@ -1,49 +1,59 @@
 {
-  "generatedAt": "2026-07-10T23:45:23.564Z",
+  "generatedAt": "2026-07-10T23:48:56.898Z",
   "reportDate": "2026-07-10",
   "recordIssueDate": "2026-07-09",
   "available": true,
-  "headline": "Congress takes a breather as both chambers go dark for the rest of the week.",
+  "headline": "Congress hits pause for the long weekend—Senate in pro forma, House wraps up with a three-minute session!",
   "chambers": {
     "senate": {
       "nextMeeting": "Monday, July 13 at 3:00 PM",
-      "lastSessionSummary": "The Senate convened briefly in pro forma session on Thursday and immediately adjourned, with no substantive business conducted. The chamber will resume Monday to take up judicial confirmations, including consideration of Matthew Schwartz's nomination to the Second Circuit Court of Appeals and a confirmation vote on Arthur Roberts Jones for the Southern District of Texas.",
+      "lastSessionSummary": "The Senate convened in pro forma session for 30 seconds on Thursday afternoon, conducting no business. The chamber will return Monday to resume consideration of Second Circuit judicial nominee Matthew A. Schwartz and vote on Texas district judge nominee Arthur Roberts Jones.",
       "onTheFloor": [
         {
-          "measure": "Schwartz Nomination",
-          "title": "Consideration of Matthew A. Schwartz nomination to United States Circuit Judge for the Second Circuit",
-          "status": "Scheduled for Monday resumption"
+          "measure": "Matthew A. Schwartz nomination",
+          "title": "United States Circuit Judge for the Second Circuit",
+          "status": "consideration to resume Monday"
         },
         {
-          "measure": "Jones Confirmation",
-          "title": "Confirmation vote on Arthur Roberts Jones nomination to United States District Judge for the Southern District of Texas",
-          "status": "Vote scheduled for 5:30 PM Monday"
+          "measure": "Arthur Roberts Jones nomination",
+          "title": "United States District Judge for the Southern District of Texas",
+          "status": "confirmation vote scheduled for 5:30 PM Monday"
         }
       ]
     },
     "house": {
       "nextMeeting": "Monday, July 13 at 4:00 PM",
-      "lastSessionSummary": "The House met briefly on Thursday afternoon for a pro forma session lasting just three minutes, with no votes or substantive action taken. Speaker appointed Representative Baird as Speaker pro tempore, and the chamber introduced 39 public bills and filed six committee reports before adjourning.",
+      "lastSessionSummary": "The House met briefly at 3 p.m. and adjourned three minutes later without taking any votes. Thirty-nine public bills and three resolutions were introduced, and six bills with amendments were reported out of committee covering healthcare innovation, ALS therapy, family travel, homeland security, aviation security, and counterterrorism.",
       "onTheFloor": [
         {
-          "measure": "H.R. 139",
-          "title": "Sunshine Protection Act of 2025 - establish year-round daylight saving time",
-          "status": "Rules Committee hearing scheduled Monday"
+          "measure": "H.R. 8205",
+          "title": "Amend the Accelerating Access to Critical Therapies for ALS Act to reauthorize through fiscal year 2031",
+          "status": "reported from committee with amendment"
         },
         {
-          "measure": "H.R. 8595",
-          "title": "National Security, Department of State, and Related Programs Appropriations Act, 2027",
-          "status": "Rules Committee markup scheduled Monday"
+          "measure": "H.R. 6238",
+          "title": "Establish the IMPROVE Initiative within the National Institutes of Health",
+          "status": "reported from committee with amendment"
         },
         {
-          "measure": "H.R. 9237",
-          "title": "Take Care of America's Veterans Act",
-          "status": "Rules Committee markup scheduled Monday"
+          "measure": "H.R. 8897",
+          "title": "Improve travel for American families",
+          "status": "reported from committee with amendment"
         },
         {
-          "measure": "H.R. 1181",
-          "title": "Protecting Privacy in Purchases Act - enhance consumer privacy in online transactions",
-          "status": "Rules Committee markup scheduled Monday"
+          "measure": "H.R. 7574",
+          "title": "Reorganize and realign the Engagement, Liaison, and Outreach Office of the Department of Homeland Security",
+          "status": "reported from committee"
+        },
+        {
+          "measure": "H.R. 8770",
+          "title": "Establish funds for investments in aviation security",
+          "status": "reported from committee with amendment"
+        },
+        {
+          "measure": "H.R. 8168",
+          "title": "Assess terrorism threats from foreign terrorist organizations in major non-NATO ally countries",
+          "status": "reported from committee"
         }
       ]
     }
@@ -52,12 +62,12 @@
     {
       "chamber": "house",
       "committee": "Committee on Rules",
-      "topic": "Hearing on H.R. 139 (Sunshine Protection Act), H.R. 8595 (State Appropriations), H.R. 9237 (Veterans), and H.R. 1181 (Privacy Protection)"
+      "topic": "Hearings on Sunshine Protection Act, National Security appropriations, Veterans benefits, and Privacy in Purchases Act"
     },
     {
       "chamber": "house",
       "committee": "Committee on Veterans' Affairs, Subcommittee on Technology Modernization",
-      "topic": "PACT Act Implementation: Modernizing VA Disability Claims Through Effective Technology"
+      "topic": "PACT Act Implementation and modernizing VA disability claims through technology"
     }
   ]
 }
