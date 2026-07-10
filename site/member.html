@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Member Report Card — Congressional Injury Report</title>
+<meta name="description" content="Attendance report card for a member of the United States Congress." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Libre+Franklin:wght@400;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/styles.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏛️</text></svg>" />
+</head>
+<body>
+<header class="masthead">
+  <div class="masthead-inner">
+    <p class="kicker">United States Congress · Member Report Card</p>
+    <div class="rule-ornament" aria-hidden="true">★ ★ ★</div>
+    <h1 id="member-name">Report <em>Card</em></h1>
+    <p class="sub" id="updated">Loading…</p>
+    <nav>
+      <a href="./">Injury Report</a>
+      <a href="today.html">Today in Congress</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="search">
+    <input id="member-search" type="text" autocomplete="off" spellcheck="false"
+      placeholder="Search another member — name, state, or seat" aria-label="Search members of Congress" />
+    <div class="search-results" id="search-results"></div>
+  </div>
+  <div id="card"></div>
+</main>
+
+<footer>
+  <p><strong>Grading:</strong> attendance across every roll-call vote of the current session. 99%+ earns an A+,
+  below 65% is an F; members with fewer than ten eligible votes receive an incomplete. Data from official
+  <a href="https://clerk.house.gov">House Clerk</a> and
+  <a href="https://www.senate.gov/legislative/votes_new.htm">Senate</a> roll-call records, updated daily.
+  Not affiliated with Congress or the NFL.</p>
+</footer>
+
+<script>
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) =>
+  ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+const fmtDate = (iso) => iso
+  ? new Date(iso + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric" })
+  : "";
+
+const ordinal = (n) => {
+  const s = ["th", "st", "nd", "rd"];
+  const v = n % 100;
+  return n + (s[(v - 20) % 10] || s[v] || s[0]);
+};
+
+const bioguide = new URLSearchParams(location.search).get("m");
+
+fetch("data/members.json")
+  .then((r) => r.json())
+  .then((d) => {
+    const m = d.members.find((x) => x.bioguide === bioguide);
+    if (!m) {
+      document.getElementById("card").innerHTML =
+        `<div class="empty-note">Member not found — use the search box above to look one up.</div>`;
+      document.getElementById("updated").textContent = "";
+      return;
+    }
+
+    const seat = m.chamber === "senate"
+      ? `${m.party}-${m.state}`
+      : `${m.party}-${m.state}${m.district ? "-" + m.district : ""}`;
+    const chamberName = m.chamber === "senate" ? "United States Senate" : "House of Representatives";
+
+    const parts = m.name.split(" ");
+    let last = parts.pop();
+    if (/^(Jr\.?|Sr\.?|II|III|IV)$/.test(last) && parts.length > 1) {
+      last = parts.pop() + " " + last;
+    }
+    document.getElementById("member-name").innerHTML = `${esc(parts.join(" "))} <em>${esc(last)}</em>`;
+    document.title = `${m.name} — Report Card`;
+    document.getElementById("updated").textContent =
+      `${seat} · ${chamberName} · ${d.sessionYear} Session`;
+
+    const s = m.session;
+    const poor = s.grade === "F" || s.grade === "D";
+    const rank = s.rank
+      ? `${ordinal(s.rank)} of ${s.of}`
+      : "—";
+
+    let statusHtml = "";
+    if (m.status) {
+      const note = esc(m.status.note).replace(/\d{4}-\d{2}-\d{2}/g, (x) => fmtDate(x));
+      const why = m.status.reason
+        ? `<span class="reason">${esc(m.status.reason)}</span>${m.status.detail ? " — " + esc(m.status.detail) : ""}. `
+        : "";
+      statusHtml = `<p class="rc-status">
+        <span class="chip ${esc(m.status.status)}">${esc(m.status.status)}</span>
+        ${why}${note.charAt(0).toUpperCase() + note.slice(1)}${m.status.since ? ` (since ${fmtDate(m.status.since)})` : ""}.
+      </p>`;
+    } else if (s.pct !== null) {
+      statusHtml = `<p class="rc-status">Active — no absence flags on the current report.</p>`;
+    }
+
+    document.getElementById("card").innerHTML = `
+      <div class="report-card">
+        <p class="rc-label">Official Attendance Record</p>
+        <div class="grade-seal ${poor ? "poor" : ""}">${esc(s.grade)}</div>
+        <div class="rc-pct">${s.pct === null ? "insufficient record" : s.pct + "% attendance this session"}</div>
+        <div class="rc-stats">
+          <div><div class="label">Votes attended</div><div class="value">${s.attended}</div></div>
+          <div><div class="label">Votes eligible</div><div class="value">${s.eligible}</div></div>
+          <div><div class="label">Votes missed</div><div class="value">${s.missed}</div></div>
+          <div><div class="label">Chamber rank</div><div class="value">${rank}</div></div>
+        </div>
+        ${statusHtml}
+        <a class="rc-back" href="./">← Back to the Injury Report</a>
+      </div>`;
+  })
+  .catch(() => {
+    document.getElementById("card").innerHTML =
+      `<div class="empty-note">Couldn't load member data. If you're running locally, serve the site with
+       <code>npm run serve</code> and make sure <code>node scripts/run.js</code> has been run.</div>`;
+  });
+</script>
+<script src="assets/search.js"></script>
+</body>
+</html>

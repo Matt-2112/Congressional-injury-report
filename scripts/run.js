@@ -8,6 +8,7 @@ import { fetchRecord } from "./fetch-record.js";
 import { extractReasons } from "./extract-reasons.js";
 import { buildAgenda } from "./build-agenda.js";
 import { computeReport } from "./compute-report.js";
+import { computeMembers } from "./compute-members.js";
 import { DATA_DIR, SITE_DATA_DIR, log, todayIso, writeJson } from "./lib.js";
 
 // Load .env for local runs (GitHub Actions injects env directly)
@@ -65,8 +66,11 @@ try {
   };
 }
 
+const memberStats = computeMembers(members, votes, report);
+
 // The site reads from site/data/; history is kept alongside for trends later.
 await writeJson(path.join(SITE_DATA_DIR, "report.json"), report);
+await writeJson(path.join(SITE_DATA_DIR, "members.json"), memberStats);
 await writeJson(path.join(SITE_DATA_DIR, "agenda.json"), agenda);
 await writeJson(path.join(DATA_DIR, "history", `${report.reportDate}.json`), report);
 log("done", `report + agenda written for ${report.reportDate}`);

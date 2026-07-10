@@ -1,31 +1,62 @@
 {
-  "generatedAt": "2026-07-10T12:28:28.181Z",
+  "generatedAt": "2026-07-10T23:39:52.363Z",
   "reportDate": "2026-07-10",
-  "recordIssueDate": "2026-07-06",
+  "recordIssueDate": "2026-07-09",
   "available": true,
-  "headline": "Congress in holiday mode as both chambers hold brief pro forma sessions with major bills still in committee limbo.",
+  "headline": "Congress takes a breather with Senate in pro forma session and House adjourning after three minutes—skeleton crew holds the fort before Monday action kicks off!",
   "chambers": {
     "senate": {
-      "nextMeeting": "Thursday, July 9 at 4:00 PM",
-      "lastSessionSummary": "The Senate met briefly in pro forma session on Monday, July 6, adjourning after less than a minute. No legislative business was conducted as the chamber remained in recess mode.",
+      "nextMeeting": "Monday, July 13 at 3:00 PM",
+      "lastSessionSummary": "The Senate convened briefly in pro forma session on Thursday, July 9, meeting at 4 p.m. and adjourning within seconds to preserve legislative business. No substantive floor action took place.",
       "onTheFloor": []
     },
     "house": {
-      "nextMeeting": "Thursday, July 9 at 3:00 PM",
-      "lastSessionSummary": "The House convened in pro forma session on Monday, July 6 for just two minutes with no votes or debate. Eleven public bills and two resolutions were introduced, including measures on restitution injunctions and Supreme Court composition.",
+      "nextMeeting": "Monday, July 13 at 4:00 PM",
+      "lastSessionSummary": "The House held a short session on Thursday, July 9, meeting at 3 p.m. and adjourning at 3:03 p.m. The chamber introduced 39 public bills and 3 resolutions, and filed six committee reports on various healthcare, travel, homeland security, and aviation measures.",
       "onTheFloor": [
         {
-          "measure": "H.R. 8481",
-          "title": "Amend federal law to provide natural lifetime injunctions for certain victims",
-          "status": "reported with amendment"
+          "measure": "H.R. 8205",
+          "title": "Reauthorize the Accelerating Access to Critical Therapies for ALS Act through fiscal year 2031",
+          "status": "reported from committee with amendment"
         },
         {
-          "measure": "H.J. Res. 1",
-          "title": "Propose constitutional amendment requiring Supreme Court be composed of nine justices",
-          "status": "reported"
+          "measure": "H.R. 6238",
+          "title": "Establish the IMPROVE Initiative within the National Institutes of Health",
+          "status": "reported from committee with amendment"
+        },
+        {
+          "measure": "H.R. 8897",
+          "title": "Improve travel for American families",
+          "status": "reported from committee with amendment"
+        },
+        {
+          "measure": "H.R. 8770",
+          "title": "Establish funds for investments in aviation security",
+          "status": "reported from committee with amendment"
+        },
+        {
+          "measure": "H.R. 7574",
+          "title": "Reorganize and realign the Department of Homeland Security Engagement, Liaison, and Outreach Office",
+          "status": "reported from committee"
+        },
+        {
+          "measure": "H.R. 8168",
+          "title": "Assess terrorism threats posed by foreign terrorist organizations in major non-NATO allied countries",
+          "status": "reported from committee"
         }
       ]
     }
   },
-  "committees": []
+  "committees": [
+    {
+      "chamber": "house",
+      "committee": "Committee on Rules",
+      "topic": "Hearing on H.R. 139 (Sunshine Protection Act of 2025), H.R. 8595 (National Security, Department of State appropriations), H.R. 9237 (Veterans benefits), and H.R. 1181 (Privacy in purchases)"
+    },
+    {
+      "chamber": "house",
+      "committee": "Committee on Veterans' Affairs, Subcommittee on Technology Modernization",
+      "topic": "PACT Act Implementation: Modernizing VA Disability Claims Through Effective Technology"
+    }
+  ]
 }

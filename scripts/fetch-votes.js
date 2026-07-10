@@ -1,17 +1,24 @@
 // Roll-call participation from the two official no-key sources:
 //   Senate — LIS XML (vote menu per session + one XML per vote)
 //   House  — Clerk EVS XML (one XML per roll call, numbered per calendar year)
-// Produces, per chamber, the last VOTE_DAYS distinct days that had roll-call
-// votes, with who voted and who didn't on each vote.
-import { asArray, congressForYear, fetchCached, log, toIsoDate, xml } from "./lib.js";
+// Fetches the FULL current session (for report-card grades) plus, in early
+// January, enough of the previous session to cover the status window.
+// Per-vote XML is immutable and cached on disk, so only new rolls hit the
+// network on repeat runs.
+import { asArray, congressForYear, fetchCached, log, pMap, toIsoDate, xml } from "./lib.js";
 
-export const VOTE_DAYS = 10; // enough history for streaks + 7-day lookback
+export const VOTE_DAYS = 10; // status window: streaks + 7-day lookback
 
 const MONTHS = { Jan: 0, Feb: 1, Mar: 2, Apr: 3, May: 4, Jun: 5, Jul: 6, Aug: 7, Sep: 8, Oct: 9, Nov: 10, Dec: 11 };
 
 export async function fetchVotes(members) {
   const [senate, house] = await Promise.all([fetchSenateVotes(members), fetchHouseVotes()]);
   return { senate, house };
+}
+
+// Distinct vote days, newest first — callers slice this for the status window.
+function distinctDates(votes) {
+  return [...new Set(votes.map((v) => v.date))].sort().reverse();
 }
 
 // ---------------------------------------------------------------- Senate ---
@@ -22,43 +29,49 @@ async function fetchSenateVotes(members) {
   );
 
   const year = new Date().getFullYear();
-  let menu = await senateMenu(year);
-  let votesMeta = menu.votes;
-  // Early January: this session may have no votes yet — pull last year's too.
+  let votesMeta = (await senateMenu(year)).votes;
+  // Early January: this session may not yet cover the status window.
   if (distinctDates(votesMeta).length < VOTE_DAYS) {
-    const prev = await senateMenu(year - 1);
-    votesMeta = [...votesMeta, ...prev.votes];
+    const prevDays = new Set();
+    const prev = (await senateMenu(year - 1)).votes
+      .sort((a, b) => b.date.localeCompare(a.date))
+      .filter((v) => {
+        prevDays.add(v.date);
+        return prevDays.size <= VOTE_DAYS;
+      });
+    votesMeta = [...votesMeta, ...prev];
   }
 
-  const days = distinctDates(votesMeta).slice(0, VOTE_DAYS);
-  const wanted = votesMeta.filter((v) => days.includes(v.date));
+  const votes = (
+    await pMap(votesMeta, async (meta) => {
+      const num5 = String(meta.number).padStart(5, "0");
+      const url = `https://www.senate.gov/legislative/LIS/roll_call_votes/vote${meta.congress}${meta.session}/vote_${meta.congress}_${meta.session}_${num5}.xml`;
+      const doc = xml.parse(
+        await fetchCached(url, `senate/vote_${meta.congress}_${meta.session}_${num5}.xml`)
+      );
+      const record = doc.roll_call_vote;
+      const voted = [];
+      const notVoting = [];
+      for (const m of asArray(record.members?.member)) {
+        const bioguide = lisToBioguide.get(String(m.lis_member_id));
+        if (!bioguide) continue; // resigned/deceased member still in old votes
+        (String(m.vote_cast) === "Not Voting" ? notVoting : voted).push(bioguide);
+      }
+      return {
+        id: `senate-${meta.congress}-${meta.session}-${meta.number}`,
+        date: meta.date,
+        question: [record.vote_title, record.question].filter(Boolean).join(" — ") || meta.question,
+        legisNum: meta.issue || null,
+        result: record.vote_result_text ?? record.vote_result ?? meta.result,
+        voted,
+        notVoting,
+      };
+    })
+  ).sort((a, b) => b.date.localeCompare(a.date));
 
-  const votes = [];
-  for (const meta of wanted) {
-    const num5 = String(meta.number).padStart(5, "0");
-    const url = `https://www.senate.gov/legislative/LIS/roll_call_votes/vote${meta.congress}${meta.session}/vote_${meta.congress}_${meta.session}_${num5}.xml`;
-    const doc = xml.parse(await fetchCached(url, `senate/vote_${meta.congress}_${meta.session}_${num5}.xml`));
-    const record = doc.roll_call_vote;
-    const voted = [];
-    const notVoting = [];
-    for (const m of asArray(record.members?.member)) {
-      const bioguide = lisToBioguide.get(String(m.lis_member_id));
-      if (!bioguide) continue; // resigned/deceased member still in old votes
-      (String(m.vote_cast) === "Not Voting" ? notVoting : voted).push(bioguide);
-    }
-    votes.push({
-      id: `senate-${meta.congress}-${meta.session}-${meta.number}`,
-      date: meta.date,
-      question: [record.vote_title, record.question].filter(Boolean).join(" — ") || meta.question,
-      legisNum: meta.issue || null,
-      result: record.vote_result_text ?? record.vote_result ?? meta.result,
-      voted,
-      notVoting,
-    });
-  }
-
-  log("votes", `senate: ${votes.length} votes across ${days.length} vote days (latest ${days[0] ?? "n/a"})`);
-  return { votes, voteDays: days };
+  const voteDays = distinctDates(votes);
+  log("votes", `senate: ${votes.length} votes across ${voteDays.length} vote days (latest ${voteDays[0] ?? "n/a"})`);
+  return { votes, voteDays };
 }
 
 async function senateMenu(year) {
@@ -93,37 +106,36 @@ async function senateMenu(year) {
 
 async function fetchHouseVotes() {
   const year = new Date().getFullYear();
-  let votes = await houseVotesForYear(year);
-  if (distinctDates(votes).length < VOTE_DAYS) {
-    votes = [...votes, ...(await houseVotesForYear(year - 1))];
-  }
-
-  const days = distinctDates(votes).slice(0, VOTE_DAYS);
-  votes = votes.filter((v) => days.includes(v.date));
-  log("votes", `house: ${votes.length} votes across ${days.length} vote days (latest ${days[0] ?? "n/a"})`);
-  return { votes, voteDays: days };
-}
-
-// Walk roll numbers backward from the latest one until we have enough vote
-// days. The latest roll is found by probing forward from the last known
-// number (cached XMLs make re-runs cheap) or by doubling search on first run.
-async function houseVotesForYear(year) {
   const latest = await latestHouseRoll(year);
-  const votes = [];
-  const seenDays = new Set();
-  for (let roll = latest; roll >= 1 && votes.length < 200; roll--) {
-    const vote = await houseRoll(year, roll);
-    if (!vote) continue;
-    seenDays.add(vote.date);
-    if (seenDays.size > VOTE_DAYS) break;
-    votes.push(vote);
+  let votes = (
+    await pMap(
+      Array.from({ length: latest }, (_, i) => i + 1),
+      (roll) => houseRoll(year, roll)
+    )
+  ).filter(Boolean);
+
+  // Early January: top up the status window from the previous year's tail.
+  if (distinctDates(votes).length < VOTE_DAYS) {
+    const prevLatest = await latestHouseRoll(year - 1);
+    const seenDays = new Set(distinctDates(votes));
+    for (let roll = prevLatest; roll >= 1 && seenDays.size <= VOTE_DAYS + VOTE_DAYS; roll--) {
+      const vote = await houseRoll(year - 1, roll);
+      if (!vote) continue;
+      seenDays.add(vote.date);
+      if (seenDays.size > VOTE_DAYS) break;
+      votes.push(vote);
+    }
   }
-  return votes;
+
+  votes.sort((a, b) => b.date.localeCompare(a.date));
+  const voteDays = distinctDates(votes);
+  log("votes", `house: ${votes.length} votes across ${voteDays.length} vote days (latest ${voteDays[0] ?? "n/a"})`);
+  return { votes, voteDays };
 }
 
+// Doubling search for an upper bound, then binary search the frontier.
+// exists() hits the network only for uncached rolls.
 async function latestHouseRoll(year) {
-  // Doubling search for an upper bound, then binary search the frontier.
-  // exists() hits the network only for uncached rolls.
   let lo = 0; // highest known to exist
   let hi = 1;
   while (await houseRollExists(year, hi)) {
@@ -174,10 +186,4 @@ async function houseRoll(year, roll) {
     voted,
     notVoting,
   };
-}
-
-// ------------------------------------------------------------------ misc ---
-
-function distinctDates(votes) {
-  return [...new Set(votes.map((v) => v.date))].sort().reverse();
 }

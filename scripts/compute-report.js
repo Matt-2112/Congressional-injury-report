@@ -10,10 +10,32 @@
 //   PROBABLE     voted on the most recent day, but sat out a full vote day
 //                within the past 7 calendar days — recently back on the field
 import { log, todayIso } from "./lib.js";
+import { VOTE_DAYS } from "./fetch-votes.js";
 
 const DOUBTFUL_STREAK = 3;
 const QUESTIONABLE_SHARE = 0.5;
 const PROBABLE_LOOKBACK_DAYS = 7;
+
+// Per-member per-day tallies, computed once per chamber. Votes arrive for the
+// full session, so this uses Set lookups rather than per-member array scans.
+export function tallyByMemberDay(roster, votes, voteDays) {
+  const tallies = new Map(roster.map((m) => [m.bioguide, new Map()]));
+  const dayIndex = new Map(voteDays.map((d) => [d, true]));
+  for (const vote of votes) {
+    if (!dayIndex.has(vote.date)) continue;
+    const votedSet = new Set(vote.voted);
+    const notVotingSet = new Set(vote.notVoting);
+    for (const [bioguide, days] of tallies) {
+      const missed = notVotingSet.has(bioguide);
+      if (!missed && !votedSet.has(bioguide)) continue; // not eligible (not yet sworn in)
+      let t = days.get(vote.date);
+      if (!t) days.set(vote.date, (t = { total: 0, missed: 0 }));
+      t.total++;
+      if (missed) t.missed++;
+    }
+  }
+  return tallies;
+}
 
 export function computeReport(members, votes, reasons = new Map()) {
   const report = {
@@ -25,10 +47,11 @@ export function computeReport(members, votes, reasons = new Map()) {
   for (const chamber of ["senate", "house"]) {
     const { votes: chamberVotes, voteDays } = votes[chamber];
     const roster = members.filter((m) => m.chamber === chamber);
+    const tallies = tallyByMemberDay(roster, chamberVotes, voteDays);
     const listed = [];
 
     for (const member of roster) {
-      const entry = assess(member, chamberVotes, voteDays, reasons.get(member.bioguide));
+      const entry = assess(member, tallies.get(member.bioguide), voteDays, reasons.get(member.bioguide));
       if (entry) listed.push(entry);
     }
 
@@ -39,7 +62,7 @@ export function computeReport(members, votes, reasons = new Map()) {
 
     report.chambers[chamber] = {
       latestVoteDay: voteDays[0] ?? null,
-      voteDaysCovered: voteDays,
+      voteDaysCovered: voteDays.slice(0, VOTE_DAYS),
       totalMembers: roster.length,
       activeCount: roster.length - listed.filter((e) => e.status === "OUT" || e.status === "DOUBTFUL").length,
       listed,
@@ -54,25 +77,11 @@ export function computeReport(members, votes, reasons = new Map()) {
   return report;
 }
 
-function assess(member, votes, voteDays, reasonInfo) {
-  // Per-day participation, newest day first.
-  const days = voteDays.map((date) => {
-    const dayVotes = votes.filter((v) => v.date === date);
-    let total = 0;
-    let missed = 0;
-    for (const v of dayVotes) {
-      if (v.notVoting.includes(member.bioguide)) {
-        total++;
-        missed++;
-      } else if (v.voted.includes(member.bioguide)) {
-        total++;
-      }
-      // absent from both lists → not yet sworn in / not eligible; don't count
-    }
-    return { date, total, missed };
-  });
-
-  const eligible = days.filter((d) => d.total > 0);
+function assess(member, dayTallies, voteDays, reasonInfo) {
+  // Eligible days for this member, newest first.
+  const eligible = voteDays
+    .filter((d) => dayTallies.has(d))
+    .map((date) => ({ date, ...dayTallies.get(date) }));
   if (eligible.length === 0) return null;
 
   const latest = eligible[0];

@@ -26,6 +26,11 @@
 </header>
 
 <main>
+  <div class="search">
+    <input id="member-search" type="text" autocomplete="off" spellcheck="false"
+      placeholder="Search any member — name, state, or seat" aria-label="Search members of Congress" />
+    <div class="search-results" id="search-results"></div>
+  </div>
   <div id="stale"></div>
   <div class="tiles" id="tiles"></div>
   <div class="tabs" role="tablist">
@@ -109,7 +114,7 @@ function render() {
       html += `<div class="member">
         <div class="who">
           <span class="team-badge ${esc(m.party)}">${esc(seat(m))}</span>
-          <span class="name">${esc(m.name)}</span>
+          <span class="name"><a href="member.html?m=${esc(m.bioguide)}">${esc(m.name)}</a></span>
           <span class="chip ${esc(m.status)}">${esc(m.status)}</span>
         </div>
         <div class="why">${why}</div>
@@ -165,5 +170,6 @@ fetch("data/report.json")
        <code>npm run serve</code> and make sure <code>node scripts/run.js</code> has been run.</div>`;
   });
 </script>
+<script src="assets/search.js"></script>
 </body>
 </html>

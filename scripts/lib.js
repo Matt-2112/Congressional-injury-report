@@ -80,3 +80,18 @@ export function congressForYear(year) {
 export function log(step, msg) {
   console.log(`[${step}] ${msg}`);
 }
+
+// Map with bounded concurrency — hundreds of small XML fetches would be slow
+// serially and rude in parallel.
+export async function pMap(items, fn, concurrency = 8) {
+  const results = new Array(items.length);
+  let next = 0;
+  async function worker() {
+    while (next < items.length) {
+      const i = next++;
+      results[i] = await fn(items[i], i);
+    }
+  }
+  await Promise.all(Array.from({ length: Math.min(concurrency, items.length) }, worker));
+  return results;
+}
