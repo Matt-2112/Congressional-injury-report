@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T04:54:53.226Z",
+  "generatedAt": "2026-07-10T12:28:28.164Z",
   "reportDate": "2026-07-10",
   "chambers": {
     "senate": {
@@ -585,7 +585,7 @@
             "total": 11
           },
           "reason": "health emergency",
-          "detail": "Mrs. Hayes was unavailable to vote on June 29, 2026 because of a health emergency.",
+          "detail": "Mrs. Hayes was unavailable to vote because of a health emergency on June 29, 2026.",
           "reasonSource": "Congressional Record 2026-06-30"
         },
         {

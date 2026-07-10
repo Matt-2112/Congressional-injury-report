@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-07-10T04:54:53.242Z",
+  "generatedAt": "2026-07-10T12:28:28.181Z",
   "reportDate": "2026-07-10",
   "recordIssueDate": "2026-07-06",
   "available": true,
-  "headline": "Both chambers in light duty post-Fourth recess, reconvening Thursday in brief pro forma sessions.",
+  "headline": "Congress in holiday mode as both chambers hold brief pro forma sessions with major bills still in committee limbo.",
   "chambers": {
     "senate": {
       "nextMeeting": "Thursday, July 9 at 4:00 PM",
-      "lastSessionSummary": "The Senate met in pro forma session on Monday, July 6 at 9:01 a.m. and adjourned within seconds until Thursday. No substantive business was conducted, as Congress remained in its Independence Day recess period.",
+      "lastSessionSummary": "The Senate met briefly in pro forma session on Monday, July 6, adjourning after less than a minute. No legislative business was conducted as the chamber remained in recess mode.",
       "onTheFloor": []
     },
     "house": {
       "nextMeeting": "Thursday, July 9 at 3:00 PM",
-      "lastSessionSummary": "The House met briefly on Monday, July 6 at 10:30 a.m. and adjourned at 10:32 a.m. Eleven bills and two resolutions were introduced, including H.R. 8481 on victim protections and H.J. Res. 1 proposing a constitutional amendment on Supreme Court size. No votes were taken.",
+      "lastSessionSummary": "The House convened in pro forma session on Monday, July 6 for just two minutes with no votes or debate. Eleven public bills and two resolutions were introduced, including measures on restitution injunctions and Supreme Court composition.",
       "onTheFloor": [
         {
           "measure": "H.R. 8481",
           "title": "Amend federal law to provide natural lifetime injunctions for certain victims",
-          "status": "Committee report filed"
+          "status": "reported with amendment"
         },
         {
           "measure": "H.J. Res. 1",
-          "title": "Proposed constitutional amendment to fix the Supreme Court at nine justices",
-          "status": "Committee report filed"
+          "title": "Propose constitutional amendment requiring Supreme Court be composed of nine justices",
+          "status": "reported"
         }
       ]
     }
