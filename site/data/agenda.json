@@ -1,6 +1,31 @@
 {
-  "generatedAt": "2026-07-10T03:17:25.467Z",
+  "generatedAt": "2026-07-10T03:36:27.355Z",
   "reportDate": "2026-07-09",
   "recordIssueDate": "2026-07-06",
-  "available": false
+  "available": true,
+  "headline": "Congress returns from recess with pro forma sessions Thursday; no major floor votes scheduled",
+  "chambers": {
+    "senate": {
+      "nextMeeting": "Thursday, July 9 at 4:00 PM",
+      "lastSessionSummary": "The Senate convened in pro forma session on Monday, July 6, meeting for less than a minute before adjourning. The chamber is in recess mode ahead of Thursday's reconvening.",
+      "onTheFloor": []
+    },
+    "house": {
+      "nextMeeting": "Thursday, July 9 at 3:00 PM",
+      "lastSessionSummary": "The House met briefly on Monday, July 6 for a pro forma session lasting just two minutes with no votes taken. Representatives introduced 11 new bills and two resolutions, including measures on lifetime injunctions and Supreme Court composition.",
+      "onTheFloor": [
+        {
+          "measure": "H.R. 8481",
+          "title": "Amend federal law to provide lifetime injunctions for certain victims",
+          "status": "Committee report filed"
+        },
+        {
+          "measure": "H.J. Res. 1",
+          "title": "Propose constitutional amendment requiring Supreme Court be composed of nine justices",
+          "status": "Committee report filed"
+        }
+      ]
+    }
+  },
+  "committees": []
 }
