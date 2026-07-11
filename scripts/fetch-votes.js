@@ -57,12 +57,15 @@ async function fetchSenateVotes(members) {
         if (!bioguide) continue; // resigned/deceased member still in old votes
         (String(m.vote_cast) === "Not Voting" ? notVoting : voted).push(bioguide);
       }
+      const tally = record.count ?? {};
       return {
         id: `senate-${meta.congress}-${meta.session}-${meta.number}`,
         date: meta.date,
         question: [record.vote_title, record.question].filter(Boolean).join(" — ") || meta.question,
         legisNum: meta.issue || null,
         result: record.vote_result_text ?? record.vote_result ?? meta.result,
+        yeas: Number(tally.yeas ?? meta.yeas ?? 0),
+        nays: Number(tally.nays ?? meta.nays ?? 0),
         voted,
         notVoting,
       };
@@ -97,6 +100,8 @@ async function senateMenu(year) {
       issue: v.issue ? String(v.issue) : null,
       question: v.question ? String(v.question) : null,
       result: v.result ? String(v.result) : null,
+      yeas: Number(v.vote_tally?.yeas ?? 0),
+      nays: Number(v.vote_tally?.nays ?? 0),
     };
   });
   return { votes };
@@ -195,12 +200,15 @@ async function houseRoll(year, roll) {
     (String(rv.vote) === "Not Voting" ? notVoting : voted).push(bioguide);
   }
   const md = meta["vote-metadata"];
+  const totals = md["vote-totals"]?.["totals-by-vote"] ?? {};
   return {
     id: `house-${year}-${roll}`,
     date: toIsoDate(md["action-date"]),
     question: String(md["vote-question"] ?? ""),
     legisNum: md["legis-num"] ? String(md["legis-num"]) : null,
     result: String(md["vote-result"] ?? ""),
+    yeas: Number(totals["yea-total"] ?? 0),
+    nays: Number(totals["nay-total"] ?? 0),
     voted,
     notVoting,
   };

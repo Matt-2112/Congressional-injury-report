@@ -71,6 +71,14 @@ const memberStats = computeMembers(members, votes, report);
 // The site reads from site/data/; history is kept alongside for trends later.
 await writeJson(path.join(SITE_DATA_DIR, "report.json"), report);
 await writeJson(path.join(SITE_DATA_DIR, "members.json"), memberStats);
+
+// Share cards are enrichment — never sink the report over a rendering issue.
+try {
+  const { generateOg } = await import("./generate-og.js");
+  await generateOg(memberStats);
+} catch (err) {
+  log("og", `FAILED (continuing): ${err.message}`);
+}
 await writeJson(path.join(SITE_DATA_DIR, "agenda.json"), agenda);
 await writeJson(path.join(DATA_DIR, "history", `${report.reportDate}.json`), report);
 log("done", `report + agenda written for ${report.reportDate}`);

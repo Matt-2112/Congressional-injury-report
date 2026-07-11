@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Libre+Franklin:wght@400;600;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="assets/styles.css" />
+<link rel="stylesheet" href="/assets/styles.css" />
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏛️</text></svg>" />
 </head>
 <body>
@@ -19,8 +19,8 @@
     <h1 id="member-name">Report <em>Card</em></h1>
     <p class="sub" id="updated">Loading…</p>
     <nav>
-      <a href="./">Injury Report</a>
-      <a href="today.html">Today in Congress</a>
+      <a href="/">Injury Report</a>
+      <a href="/today.html">Today in Congress</a>
     </nav>
   </div>
 </header>
@@ -58,7 +58,7 @@ const ordinal = (n) => {
 
 const bioguide = new URLSearchParams(location.search).get("m");
 
-fetch("data/members.json")
+fetch("/data/members.json")
   .then((r) => r.json())
   .then((d) => {
     const m = d.members.find((x) => x.bioguide === bioguide);
@@ -74,6 +74,10 @@ fetch("data/members.json")
       : `${m.party}-${m.state}${m.district ? "-" + m.district : ""}`;
     const chamberName = m.chamber === "senate" ? "United States Senate" : "House of Representatives";
 
+    // Show the crawlable per-member URL in the address bar so copied links
+    // carry Open Graph previews (the /m/ page redirects back here).
+    try { history.replaceState(null, "", `/m/${m.bioguide}.html`); } catch {}
+
     const parts = m.name.split(" ");
     let last = parts.pop();
     if (/^(Jr\.?|Sr\.?|II|III|IV)$/.test(last) && parts.length > 1) {
@@ -82,7 +86,7 @@ fetch("data/members.json")
     document.getElementById("member-name").innerHTML = `${esc(parts.join(" "))} <em>${esc(last)}</em>`;
     document.title = `${m.name} — Report Card`;
     document.getElementById("updated").textContent =
-      `${seat} · ${chamberName} · ${d.sessionYear} Session`;
+      [m.title, `${seat} · ${chamberName} · ${d.sessionYear} Session`].filter(Boolean).join(" · ");
 
     const s = m.session;
     const poor = s.grade === "F" || s.grade === "D";
@@ -116,7 +120,10 @@ fetch("data/members.json")
           <div><div class="label">Chamber rank</div><div class="value">${rank}</div></div>
         </div>
         ${statusHtml}
-        <a class="rc-back" href="./">← Back to the Injury Report</a>
+        ${/Speaker/i.test(m.title ?? "") ? `<p class="rc-status" style="font-style:italic;font-family:Georgia,serif">
+          By tradition, the Speaker of the House votes at the chair's discretion; presiding days without a
+          recorded position do not count against attendance.</p>` : ""}
+        <a class="rc-back" href="/">← Back to the Injury Report</a>
       </div>`;
   })
   .catch(() => {
@@ -125,6 +132,6 @@ fetch("data/members.json")
        <code>npm run serve</code> and make sure <code>node scripts/run.js</code> has been run.</div>`;
   });
 </script>
-<script src="assets/search.js"></script>
+<script src="/assets/search.js"></script>
 </body>
 </html>

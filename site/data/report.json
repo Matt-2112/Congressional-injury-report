@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T11:09:29.722Z",
+  "generatedAt": "2026-07-11T16:51:33.642Z",
   "reportDate": "2026-07-11",
   "chambers": {
     "senate": {
@@ -18,6 +18,241 @@
       ],
       "totalMembers": 100,
       "activeCount": 98,
+      "closeCalls": [
+        {
+          "id": "senate-119-2-189",
+          "date": "2026-06-24",
+          "question": "Motion to Invoke Cloture: Arthur Roberts Jones to be U.S. District Judge for the Southern District of Texas — On the Cloture Motion",
+          "legisNum": "PN930-3",
+          "result": "Cloture Motion Agreed to (50-44)",
+          "yeas": 50,
+          "nays": 44,
+          "margin": 6,
+          "absent": 6,
+          "absentees": [
+            {
+              "bioguide": "B001267",
+              "last": "Bennet",
+              "party": "D",
+              "state": "CO"
+            },
+            {
+              "bioguide": "C001075",
+              "last": "Cassidy",
+              "party": "R",
+              "state": "LA"
+            },
+            {
+              "bioguide": "M000355",
+              "last": "McConnell",
+              "party": "R",
+              "state": "KY"
+            },
+            {
+              "bioguide": "S001150",
+              "last": "Schiff",
+              "party": "D",
+              "state": "CA"
+            },
+            {
+              "bioguide": "S001181",
+              "last": "Shaheen",
+              "party": "D",
+              "state": "NH"
+            },
+            {
+              "bioguide": "T000278",
+              "last": "Tuberville",
+              "party": "R",
+              "state": "AL"
+            }
+          ]
+        },
+        {
+          "id": "senate-119-2-188",
+          "date": "2026-06-24",
+          "question": "Confirmation: Michael J. Hendershot, of Ohio, to be U.S. District Judge for the Northern District of Ohio — On the Nomination",
+          "legisNum": "PN930-2",
+          "result": "Nomination Confirmed (50-44)",
+          "yeas": 50,
+          "nays": 44,
+          "margin": 6,
+          "absent": 6,
+          "absentees": [
+            {
+              "bioguide": "B001267",
+              "last": "Bennet",
+              "party": "D",
+              "state": "CO"
+            },
+            {
+              "bioguide": "C001075",
+              "last": "Cassidy",
+              "party": "R",
+              "state": "LA"
+            },
+            {
+              "bioguide": "G000555",
+              "last": "Gillibrand",
+              "party": "D",
+              "state": "NY"
+            },
+            {
+              "bioguide": "M000355",
+              "last": "McConnell",
+              "party": "R",
+              "state": "KY"
+            },
+            {
+              "bioguide": "S001150",
+              "last": "Schiff",
+              "party": "D",
+              "state": "CA"
+            },
+            {
+              "bioguide": "T000278",
+              "last": "Tuberville",
+              "party": "R",
+              "state": "AL"
+            }
+          ]
+        },
+        {
+          "id": "senate-119-2-184",
+          "date": "2026-06-23",
+          "question": "H. Con. Res. 86 — On the Concurrent Resolution",
+          "legisNum": "H.Con.Res. 86",
+          "result": "Concurrent Resolution Agreed to (50-48)",
+          "yeas": 50,
+          "nays": 48,
+          "margin": 2,
+          "absent": 2,
+          "absentees": [
+            {
+              "bioguide": "M000355",
+              "last": "McConnell",
+              "party": "R",
+              "state": "KY"
+            },
+            {
+              "bioguide": "M001243",
+              "last": "McCormick",
+              "party": "R",
+              "state": "PA"
+            }
+          ]
+        },
+        {
+          "id": "senate-119-2-181",
+          "date": "2026-06-18",
+          "question": "Confirmation: George Holding, of North Carolina, to be United States Director of the European Bank for Reconstruction and Development — On the Nomination",
+          "legisNum": "PN730-33",
+          "result": "Nomination Confirmed (48-39)",
+          "yeas": 48,
+          "nays": 39,
+          "margin": 9,
+          "absent": 13,
+          "absentees": [
+            {
+              "bioguide": "A000382",
+              "last": "Alsobrooks",
+              "party": "D",
+              "state": "MD"
+            },
+            {
+              "bioguide": "B001267",
+              "last": "Bennet",
+              "party": "D",
+              "state": "CO"
+            },
+            {
+              "bioguide": "B001303",
+              "last": "Blunt Rochester",
+              "party": "D",
+              "state": "DE"
+            },
+            {
+              "bioguide": "D000622",
+              "last": "Duckworth",
+              "party": "D",
+              "state": "IL"
+            },
+            {
+              "bioguide": "D000563",
+              "last": "Durbin",
+              "party": "D",
+              "state": "IL"
+            },
+            {
+              "bioguide": "H001061",
+              "last": "Hoeven",
+              "party": "R",
+              "state": "ND"
+            },
+            {
+              "bioguide": "K000377",
+              "last": "Kelly",
+              "party": "D",
+              "state": "AZ"
+            },
+            {
+              "bioguide": "K000394",
+              "last": "Kim",
+              "party": "D",
+              "state": "NJ"
+            }
+          ]
+        },
+        {
+          "id": "senate-119-2-179",
+          "date": "2026-06-17",
+          "question": "Motion to Discharge: S.Res. 616 from the Committee on Foreign Relations — On the Motion to Discharge",
+          "legisNum": "S.Res. 616",
+          "result": "Motion to Discharge Rejected (44-50)",
+          "yeas": 44,
+          "nays": 50,
+          "margin": 6,
+          "absent": 6,
+          "absentees": [
+            {
+              "bioguide": "B001267",
+              "last": "Bennet",
+              "party": "D",
+              "state": "CO"
+            },
+            {
+              "bioguide": "B001303",
+              "last": "Blunt Rochester",
+              "party": "D",
+              "state": "DE"
+            },
+            {
+              "bioguide": "B001288",
+              "last": "Booker",
+              "party": "D",
+              "state": "NJ"
+            },
+            {
+              "bioguide": "G000574",
+              "last": "Gallego",
+              "party": "D",
+              "state": "AZ"
+            },
+            {
+              "bioguide": "K000377",
+              "last": "Kelly",
+              "party": "D",
+              "state": "AZ"
+            },
+            {
+              "bioguide": "M000355",
+              "last": "McConnell",
+              "party": "R",
+              "state": "KY"
+            }
+          ]
+        }
+      ],
       "listed": [
         {
           "bioguide": "B001267",
@@ -512,6 +747,247 @@
       ],
       "totalMembers": 431,
       "activeCount": 426,
+      "closeCalls": [
+        {
+          "id": "house-2026-230",
+          "date": "2026-06-30",
+          "question": "On Ordering the Previous Question",
+          "legisNum": "H RES 1398",
+          "result": "Passed",
+          "yeas": 215,
+          "nays": 210,
+          "margin": 5,
+          "absent": 6,
+          "absentees": [
+            {
+              "bioguide": "D000197",
+              "last": "DeGette",
+              "party": "D",
+              "state": "CO"
+            },
+            {
+              "bioguide": "D000628",
+              "last": "Dunn",
+              "party": "R",
+              "state": "FL"
+            },
+            {
+              "bioguide": "E000294",
+              "last": "Emmer",
+              "party": "R",
+              "state": "MN"
+            },
+            {
+              "bioguide": "H001081",
+              "last": "Hayes",
+              "party": "D",
+              "state": "CT"
+            },
+            {
+              "bioguide": "L000491",
+              "last": "Lucas",
+              "party": "R",
+              "state": "OK"
+            },
+            {
+              "bioguide": "R000612",
+              "last": "Rose",
+              "party": "R",
+              "state": "TN"
+            }
+          ]
+        },
+        {
+          "id": "house-2026-219",
+          "date": "2026-06-10",
+          "question": "On Motion to Recommit",
+          "legisNum": "H R 8464",
+          "result": "Failed",
+          "yeas": 209,
+          "nays": 213,
+          "margin": 4,
+          "absent": 9,
+          "absentees": [
+            {
+              "bioguide": "C001103",
+              "last": "Carter",
+              "party": "R",
+              "state": "GA"
+            },
+            {
+              "bioguide": "C001068",
+              "last": "Cohen",
+              "party": "D",
+              "state": "TN"
+            },
+            {
+              "bioguide": "K000398",
+              "last": "Kean",
+              "party": "R",
+              "state": "NJ"
+            },
+            {
+              "bioguide": "L000596",
+              "last": "Luna",
+              "party": "R",
+              "state": "FL"
+            },
+            {
+              "bioguide": "M000194",
+              "last": "Mace",
+              "party": "R",
+              "state": "SC"
+            },
+            {
+              "bioguide": "M001237",
+              "last": "McDonald Rivet",
+              "party": "D",
+              "state": "MI"
+            },
+            {
+              "bioguide": "M001196",
+              "last": "Moulton",
+              "party": "D",
+              "state": "MA"
+            },
+            {
+              "bioguide": "N000190",
+              "last": "Norman",
+              "party": "R",
+              "state": "SC"
+            }
+          ]
+        },
+        {
+          "id": "house-2026-210",
+          "date": "2026-06-09",
+          "question": "On Ordering the Previous Question",
+          "legisNum": "H RES 1345",
+          "result": "Passed",
+          "yeas": 214,
+          "nays": 211,
+          "margin": 3,
+          "absent": 5,
+          "absentees": [
+            {
+              "bioguide": "D000628",
+              "last": "Dunn",
+              "party": "R",
+              "state": "FL"
+            },
+            {
+              "bioguide": "K000398",
+              "last": "Kean",
+              "party": "R",
+              "state": "NJ"
+            },
+            {
+              "bioguide": "M000194",
+              "last": "Mace",
+              "party": "R",
+              "state": "SC"
+            },
+            {
+              "bioguide": "M001237",
+              "last": "McDonald Rivet",
+              "party": "D",
+              "state": "MI"
+            },
+            {
+              "bioguide": "N000190",
+              "last": "Norman",
+              "party": "R",
+              "state": "SC"
+            }
+          ]
+        },
+        {
+          "id": "house-2026-211",
+          "date": "2026-06-09",
+          "question": "On Agreeing to the Resolution",
+          "legisNum": "H RES 1345",
+          "result": "Passed",
+          "yeas": 213,
+          "nays": 211,
+          "margin": 2,
+          "absent": 6,
+          "absentees": [
+            {
+              "bioguide": "D000628",
+              "last": "Dunn",
+              "party": "R",
+              "state": "FL"
+            },
+            {
+              "bioguide": "K000398",
+              "last": "Kean",
+              "party": "R",
+              "state": "NJ"
+            },
+            {
+              "bioguide": "M000194",
+              "last": "Mace",
+              "party": "R",
+              "state": "SC"
+            },
+            {
+              "bioguide": "M001237",
+              "last": "McDonald Rivet",
+              "party": "D",
+              "state": "MI"
+            },
+            {
+              "bioguide": "N000190",
+              "last": "Norman",
+              "party": "R",
+              "state": "SC"
+            },
+            {
+              "bioguide": "S001224",
+              "last": "Self",
+              "party": "R",
+              "state": "TX"
+            }
+          ]
+        },
+        {
+          "id": "house-2026-213",
+          "date": "2026-06-09",
+          "question": "On Motion to Commit",
+          "legisNum": "S 2",
+          "result": "Failed",
+          "yeas": 211,
+          "nays": 215,
+          "margin": 4,
+          "absent": 4,
+          "absentees": [
+            {
+              "bioguide": "K000398",
+              "last": "Kean",
+              "party": "R",
+              "state": "NJ"
+            },
+            {
+              "bioguide": "M000194",
+              "last": "Mace",
+              "party": "R",
+              "state": "SC"
+            },
+            {
+              "bioguide": "M001237",
+              "last": "McDonald Rivet",
+              "party": "D",
+              "state": "MI"
+            },
+            {
+              "bioguide": "N000190",
+              "last": "Norman",
+              "party": "R",
+              "state": "SC"
+            }
+          ]
+        }
+      ],
       "listed": [
         {
           "bioguide": "D000197",

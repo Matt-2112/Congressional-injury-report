@@ -372,6 +372,38 @@ main { max-width: 1060px; margin: 0 auto; padding: 36px 24px 72px; }
 .committee-row .cm { flex: none; font-weight: 650; }
 .committee-row .tp { color: var(--ink-2); }
 
+/* ---- absences that mattered ---- */
+.close-calls { margin-top: 44px; }
+.close-calls .status-head { border-bottom-color: var(--navy-2); }
+@media (prefers-color-scheme: dark) { .close-calls .status-head { border-bottom-color: var(--gold); } }
+.close-call {
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  border-left: 3px solid var(--navy-2);
+  padding: 13px 18px;
+  margin-top: 10px;
+}
+@media (prefers-color-scheme: dark) { .close-call { border-left-color: var(--gold); } }
+.cc-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.cc-measure {
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  color: var(--navy-2);
+  text-transform: uppercase;
+}
+@media (prefers-color-scheme: dark) { .cc-measure { color: var(--gold-bright); } }
+.cc-question { font-family: "Playfair Display", Georgia, serif; font-weight: 700; font-size: 15px; }
+.cc-tally {
+  margin-left: auto;
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 700;
+  font-size: 17px;
+  font-variant-numeric: tabular-nums;
+}
+.cc-detail { color: var(--ink-2); font-size: 13.5px; margin-top: 3px; }
+.cc-detail a { color: inherit; }
+
 /* ---- member search ---- */
 .search {
   position: relative;

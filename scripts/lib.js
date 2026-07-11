@@ -26,6 +26,9 @@ export const xml = new XMLParser({
 const BACKOFF_MS = [2000, 10000, 30000, 90000, 180000];
 
 export async function fetchText(url, { retries = BACKOFF_MS.length, allow404 = false } = {}) {
+  // On CI (datacenter IPs) pace requests slightly; residential IPs don't
+  // trip the Clerk's limiter, so local runs stay fast.
+  if (process.env.CI) await new Promise((r) => setTimeout(r, 150 + Math.random() * 150));
   for (let attempt = 0; ; attempt++) {
     try {
       const res = await fetch(url, { headers: { "User-Agent": UA } });

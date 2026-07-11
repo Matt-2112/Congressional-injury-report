@@ -21,7 +21,16 @@ export async function fetchRoster() {
     const term = person.terms[person.terms.length - 1];
     if (new Date(term.end) < new Date()) continue;
     if (term.type === "rep" && NON_VOTING.has(term.state)) continue;
+    const roles = (person.leadership_roles ?? []).filter(
+      (r) => !r.end || new Date(r.end) > new Date()
+    );
+    // Prefer the marquee title if someone holds several
+    const title =
+      roles.find((r) => /^Speaker of the House/i.test(r.title))?.title ??
+      roles.find((r) => /Majority Leader|Minority Leader|President Pro Tempore/i.test(r.title))?.title ??
+      null;
     members.push({
+      title,
       bioguide: person.id.bioguide,
       lis: person.id.lis ?? null,
       name: person.name.official_full ?? `${person.name.first} ${person.name.last}`,

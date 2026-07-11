@@ -49,6 +49,7 @@ export function computeMembers(members, votes, report) {
         party: m.party,
         state: m.state,
         district: m.district,
+        title: m.title ?? null,
         session: {
           eligible,
           missed,

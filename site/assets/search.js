@@ -16,7 +16,7 @@
 
   async function load() {
     if (members) return;
-    const d = await fetch("data/members.json").then((r) => r.json());
+    const d = await fetch("/data/members.json").then((r) => r.json());
     members = d.members;
   }
 
@@ -47,7 +47,7 @@
     }
     results.innerHTML = list
       .map(
-        (m, i) => `<a href="member.html?m=${esc(m.bioguide)}" data-i="${i}">
+        (m, i) => `<a href="/member.html?m=${esc(m.bioguide)}" data-i="${i}">
           <span class="team-badge ${esc(m.party)}">${esc(seat(m))}</span>
           <span class="sr-name">${esc(m.name)}</span>
           <span class="sr-grade">${esc(m.session.grade)}</span>

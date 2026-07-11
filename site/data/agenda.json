@@ -1,59 +1,59 @@
 {
-  "generatedAt": "2026-07-11T11:09:29.752Z",
+  "generatedAt": "2026-07-11T16:51:33.679Z",
   "reportDate": "2026-07-11",
   "recordIssueDate": "2026-07-09",
   "available": true,
-  "headline": "Congress takes a breather with both chambers in brief pro forma session Thursday, eyeing Monday's judicial confirmations and committee action.",
+  "headline": "Congress goes quiet on summer schedule as Senate and House break until Monday!",
   "chambers": {
     "senate": {
       "nextMeeting": "Monday, July 13 at 3:00 PM",
-      "lastSessionSummary": "The Senate convened in pro forma session Thursday afternoon, adjourning within seconds at 4:00:30 p.m. No substantive business was conducted, as the chamber is in a brief recess before resuming Monday.",
+      "lastSessionSummary": "The Senate met briefly in pro forma session on Thursday and adjourned until Monday. No votes or substantive business was conducted.",
       "onTheFloor": [
         {
-          "measure": "Matthew A. Schwartz Nomination",
-          "title": "Confirmation vote for U.S. Circuit Judge for the Second Circuit",
-          "status": "Resuming consideration Monday"
+          "measure": "Matthew A. Schwartz nomination",
+          "title": "Circuit Court Judge nomination for the Second Circuit",
+          "status": "consideration resuming Monday"
         },
         {
-          "measure": "Arthur Roberts Jones Nomination",
-          "title": "Confirmation vote for U.S. District Judge for the Southern District of Texas",
-          "status": "Scheduled for Monday at 5:30 PM"
+          "measure": "Arthur Roberts Jones nomination",
+          "title": "District Court Judge nomination for the Southern District of Texas",
+          "status": "confirmation vote scheduled for 5:30 PM Monday"
         }
       ]
     },
     "house": {
       "nextMeeting": "Monday, July 13 at 4:00 PM",
-      "lastSessionSummary": "The House met briefly Thursday for 3 minutes, introducing 39 new bills and 3 resolutions, with six committee reports filed covering topics from ALS research to aviation security and terrorism threat assessments. No votes were held.",
+      "lastSessionSummary": "The House met at 3 p.m. and adjourned at 3:03 p.m. on Thursday, introducing 39 bills and 3 resolutions while filing six committee reports on healthcare, health research, travel, homeland security, and aviation security matters.",
       "onTheFloor": [
         {
           "measure": "H.R. 8205",
-          "title": "Reauthorize ALS Act provisions through fiscal year 2031",
-          "status": "Report filed (H. Rept. 119-733)"
+          "title": "Reauthorize the ALS Act through fiscal year 2031",
+          "status": "reported from committee with amendment"
         },
         {
           "measure": "H.R. 6238",
-          "title": "Establish IMPROVE Initiative within National Institutes of Health",
-          "status": "Report filed (H. Rept. 119-734)"
+          "title": "Establish the IMPROVE Initiative within the National Institutes of Health",
+          "status": "reported from committee with amendment"
         },
         {
           "measure": "H.R. 8897",
           "title": "Improve travel for American families",
-          "status": "Report filed (H. Rept. 119-735)"
+          "status": "reported from committee with amendment"
         },
         {
           "measure": "H.R. 7574",
-          "title": "Reorganize Engagement, Liaison, and Outreach Office at Department of Homeland Security",
-          "status": "Report filed (H. Rept. 119-736)"
+          "title": "Reorganize the Department of Homeland Security Engagement office",
+          "status": "reported from committee"
         },
         {
           "measure": "H.R. 8770",
           "title": "Establish funds for investments in aviation security",
-          "status": "Report filed (H. Rept. 119-737)"
+          "status": "reported from committee with amendment"
         },
         {
           "measure": "H.R. 8168",
-          "title": "Assess terrorism threats from foreign terrorist organizations in major non-NATO allies",
-          "status": "Report filed (H. Rept. 119-738)"
+          "title": "Assess terrorism threats posed by foreign terrorist organizations in major non-NATO allies",
+          "status": "reported from committee"
         }
       ]
     }
@@ -62,11 +62,11 @@
     {
       "chamber": "house",
       "committee": "Committee on Rules",
-      "topic": "Hearing on H.R. 139 (Sunshine Protection Act of 2025) and rule markups for appropriations and veteran benefits bills"
+      "topic": "Hearing on Sunshine Protection Act of 2025, National Security and State Department Appropriations Act 2027, Veterans Act, and Privacy in Purchases Act"
     },
     {
       "chamber": "house",
-      "committee": "Committee on Veterans' Affairs, Subcommittee on Technology Modernization",
+      "committee": "Committee on Veterans' Affairs Subcommittee on Technology Modernization",
       "topic": "PACT Act Implementation: Modernizing VA Disability Claims Through Effective Technology"
     }
   ]

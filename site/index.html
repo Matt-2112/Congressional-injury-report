@@ -5,6 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Congressional Injury Report</title>
 <meta name="description" content="Who's out in Congress today and why — an NFL-style injury report for the House and Senate, updated daily." />
+<meta property="og:title" content="The Congressional Injury Report" />
+<meta property="og:description" content="Who's out, who's questionable, and why — an attendance report for the House and Senate, updated daily." />
+<meta property="og:image" content="https://congressinjuryreport.com/og/site.png" />
+<meta property="og:url" content="https://congressinjuryreport.com/" />
+<meta property="og:site_name" content="Congressional Injury Report" />
+<meta name="twitter:card" content="summary_large_image" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Libre+Franklin:wght@400;600;700&display=swap" rel="stylesheet" />
@@ -127,6 +133,29 @@ function render() {
     }
     html += `</section>`;
   }
+
+  if (ch.closeCalls && ch.closeCalls.length) {
+    html += `<section class="close-calls">
+      <div class="status-head"><h2>Absences That Mattered</h2>
+        <span class="hint">votes this session where the absent outnumbered the margin</span></div>`;
+    for (const c of ch.closeCalls) {
+      const names = c.absentees
+        .map((a) => `<a href="member.html?m=${esc(a.bioguide)}">${esc(a.last)}</a> (${esc(a.party)}-${esc(a.state)})`)
+        .join(", ");
+      const more = c.absent > c.absentees.length ? ` and ${c.absent - c.absentees.length} more` : "";
+      html += `<div class="close-call">
+        <div class="cc-head">
+          <span class="cc-measure">${esc(c.legisNum ?? "")}</span>
+          <span class="cc-question">${esc(c.question)}</span>
+          <span class="cc-tally">${c.yeas}–${c.nays}</span>
+        </div>
+        <div class="cc-detail">${esc(String(c.result))} by ${c.margin === 0 ? "a tie" : `${c.margin} vote${c.margin === 1 ? "" : "s"}`}
+          on ${fmtDate(c.date)} with <b>${c.absent} member${c.absent === 1 ? "" : "s"} out</b>: ${names}${more}.</div>
+      </div>`;
+    }
+    html += `</section>`;
+  }
+
   document.getElementById("report").innerHTML = html;
 }
 

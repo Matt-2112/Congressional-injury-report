@@ -7,21 +7,15 @@ on:
     - cron: "0 10 * * *"
   workflow_dispatch:
 
-permissions:
-  contents: write
-  pages: write
-  id-token: write
-
 concurrency:
   group: daily-report
   cancel-in-progress: false
 
 jobs:
-  update-and-deploy:
+  update:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
 
@@ -60,15 +54,16 @@ jobs:
         run: |
           git config user.name "injury-report-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add site/data data/history
+          git add site data/history
           git diff --cached --quiet || git commit -m "Daily report $(date -u +%F)"
           git push
 
-      - name: Upload site to Pages
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+  # Deploy is a separate, reusable workflow: frontend-only pushes deploy on
+  # their own without a pipeline run, and this job just chains onto it.
+  deploy:
+    needs: update
+    uses: ./.github/workflows/deploy.yml
+    permissions:
+      contents: read
+      pages: write
+      id-token: write

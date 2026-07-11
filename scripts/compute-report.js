@@ -65,6 +65,7 @@ export function computeReport(members, votes, reasons = new Map()) {
       voteDaysCovered: voteDays.slice(0, VOTE_DAYS),
       totalMembers: roster.length,
       activeCount: roster.length - listed.filter((e) => e.status === "OUT" || e.status === "DOUBTFUL").length,
+      closeCalls: closeCalls(chamberVotes, roster),
       listed,
     };
     log(
@@ -75,6 +76,40 @@ export function computeReport(members, votes, reasons = new Map()) {
   }
 
   return report;
+}
+
+// Votes where the absentees outnumbered the margin — the absences that could
+// have changed the outcome. Quorum calls and voice-style records (no yea/nay
+// tally) are skipped; ties count, since one returning member breaks them.
+const CLOSE_CALL_LIMIT = 5;
+
+function closeCalls(votes, roster) {
+  const byBioguide = new Map(roster.map((m) => [m.bioguide, m]));
+  const year = String(new Date().getFullYear());
+  return votes
+    .filter((v) => {
+      if (!v.date.startsWith(year) || v.yeas + v.nays === 0) return false;
+      const margin = Math.abs(v.yeas - v.nays);
+      return v.notVoting.length > 0 && v.notVoting.length >= Math.max(margin, 1);
+    })
+    .sort((a, b) => b.date.localeCompare(a.date))
+    .slice(0, CLOSE_CALL_LIMIT)
+    .map((v) => ({
+      id: v.id,
+      date: v.date,
+      question: v.question,
+      legisNum: v.legisNum,
+      result: v.result,
+      yeas: v.yeas,
+      nays: v.nays,
+      margin: Math.abs(v.yeas - v.nays),
+      absent: v.notVoting.length,
+      absentees: v.notVoting
+        .map((b) => byBioguide.get(b))
+        .filter(Boolean)
+        .slice(0, 8)
+        .map((m) => ({ bioguide: m.bioguide, last: m.last, party: m.party, state: m.state })),
+    }));
 }
 
 function assess(member, dayTallies, voteDays, reasonInfo) {
