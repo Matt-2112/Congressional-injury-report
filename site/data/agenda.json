@@ -1,26 +1,68 @@
 {
-  "generatedAt": "2026-07-10T23:49:54.819Z",
-  "reportDate": "2026-07-10",
+  "generatedAt": "2026-07-11T11:09:29.752Z",
+  "reportDate": "2026-07-11",
   "recordIssueDate": "2026-07-09",
   "available": true,
-  "headline": "Congress hits the pause button as Senate goes pro forma and House adjourns early!",
+  "headline": "Congress takes a breather with both chambers in brief pro forma session Thursday, eyeing Monday's judicial confirmations and committee action.",
   "chambers": {
     "senate": {
       "nextMeeting": "Monday, July 13 at 3:00 PM",
-      "lastSessionSummary": "The Senate met in pro forma session on Thursday and adjourned within 30 seconds. The chamber will reconvene Monday to consider the nomination of Matthew A. Schwartz for United States Circuit Judge for the Second Circuit, with a confirmation vote on Arthur Roberts Jones for United States District Judge scheduled for 5:30 p.m.",
-      "onTheFloor": []
+      "lastSessionSummary": "The Senate convened in pro forma session Thursday afternoon, adjourning within seconds at 4:00:30 p.m. No substantive business was conducted, as the chamber is in a brief recess before resuming Monday.",
+      "onTheFloor": [
+        {
+          "measure": "Matthew A. Schwartz Nomination",
+          "title": "Confirmation vote for U.S. Circuit Judge for the Second Circuit",
+          "status": "Resuming consideration Monday"
+        },
+        {
+          "measure": "Arthur Roberts Jones Nomination",
+          "title": "Confirmation vote for U.S. District Judge for the Southern District of Texas",
+          "status": "Scheduled for Monday at 5:30 PM"
+        }
+      ]
     },
     "house": {
       "nextMeeting": "Monday, July 13 at 4:00 PM",
-      "lastSessionSummary": "The House met briefly on Thursday, adjourning after just three minutes with no votes recorded. The chamber introduced 39 new bills and 3 resolutions, and filed six committee reports on health research, family travel, homeland security, aviation security, and terrorism threat assessments. Monday's agenda will be announced.",
-      "onTheFloor": []
+      "lastSessionSummary": "The House met briefly Thursday for 3 minutes, introducing 39 new bills and 3 resolutions, with six committee reports filed covering topics from ALS research to aviation security and terrorism threat assessments. No votes were held.",
+      "onTheFloor": [
+        {
+          "measure": "H.R. 8205",
+          "title": "Reauthorize ALS Act provisions through fiscal year 2031",
+          "status": "Report filed (H. Rept. 119-733)"
+        },
+        {
+          "measure": "H.R. 6238",
+          "title": "Establish IMPROVE Initiative within National Institutes of Health",
+          "status": "Report filed (H. Rept. 119-734)"
+        },
+        {
+          "measure": "H.R. 8897",
+          "title": "Improve travel for American families",
+          "status": "Report filed (H. Rept. 119-735)"
+        },
+        {
+          "measure": "H.R. 7574",
+          "title": "Reorganize Engagement, Liaison, and Outreach Office at Department of Homeland Security",
+          "status": "Report filed (H. Rept. 119-736)"
+        },
+        {
+          "measure": "H.R. 8770",
+          "title": "Establish funds for investments in aviation security",
+          "status": "Report filed (H. Rept. 119-737)"
+        },
+        {
+          "measure": "H.R. 8168",
+          "title": "Assess terrorism threats from foreign terrorist organizations in major non-NATO allies",
+          "status": "Report filed (H. Rept. 119-738)"
+        }
+      ]
     }
   },
   "committees": [
     {
       "chamber": "house",
       "committee": "Committee on Rules",
-      "topic": "Hearing on the Sunshine Protection Act of 2025, National Security and State Department Appropriations Act for 2027, Take Care of America's Veterans Act, and Protecting Privacy in Purchases Act"
+      "topic": "Hearing on H.R. 139 (Sunshine Protection Act of 2025) and rule markups for appropriations and veteran benefits bills"
     },
     {
       "chamber": "house",
