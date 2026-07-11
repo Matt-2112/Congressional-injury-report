@@ -19,6 +19,11 @@ GitHub Actions (daily, 6 AM ET)
   └─ commits fresh JSON and deploys site/ to GitHub Pages
 ```
 
+Beyond the daily report, the site includes: member search; per-member
+**report cards** (`/m/<bioguide>.html`) grading full-session attendance
+A+ through F with chamber rank and social share cards; and **Absences That
+Mattered** — votes where the absent members outnumbered the margin.
+
 ### Status tiers
 
 | Status | Rule |
@@ -40,6 +45,13 @@ npm run serve              # http://localhost:8080
 The pipeline degrades gracefully: without an `ANTHROPIC_API_KEY`, absences are
 still detected from roll-call data but reasons show as "Undisclosed" and the
 agenda page falls back to links to official sources.
+
+## Workflows
+
+- **Daily injury report** (cron 6 AM ET + manual): runs the pipeline, commits
+  fresh data, then deploys. Vote XML is cached between runs.
+- **Deploy site** (any push touching `site/**` + manual): deploys Pages
+  without a pipeline run — frontend changes ship on push.
 
 ## Deploying
 
