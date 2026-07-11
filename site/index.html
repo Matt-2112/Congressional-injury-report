@@ -106,10 +106,12 @@ function render() {
   let html = "";
   for (const status of STATUS_ORDER) {
     const list = byStatus[status];
-    html += `<section class="status-section" data-status="${status}">
-      <div class="status-head"><h2>${status}</h2>
+    // PROBABLE is the long tail — start it folded so the serious tiers lead.
+    const open = status === "PROBABLE" ? "" : " open";
+    html += `<details class="status-section" data-status="${status}"${open}>
+      <summary class="status-head"><h2>${status}</h2>
         <span class="count">${list.length}</span>
-        <span class="hint">${STATUS_HINTS[status]}</span></div>`;
+        <span class="hint">${STATUS_HINTS[status]}</span></summary>`;
     if (list.length === 0) {
       html += `<div class="empty-note" style="margin-top:8px">No ${label} members listed as ${status.toLowerCase()}.</div>`;
     }
@@ -134,7 +136,7 @@ function render() {
         </div>
       </div>`;
     }
-    html += `</section>`;
+    html += `</details>`;
   }
 
   if (ch.closeCalls && ch.closeCalls.length) {
