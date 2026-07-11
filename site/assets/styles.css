@@ -152,6 +152,11 @@ main { max-width: 1060px; margin: 0 auto; padding: 36px 24px 72px; }
 .tile .value small { font-size: 16px; font-weight: 500; color: var(--ink-2); }
 .tile.accent-out .value { color: var(--out); }
 .tile.accent-doubtful .value { color: var(--doubtful); }
+a.tile { text-decoration: none; color: inherit; display: block; }
+a.tile:hover { border-color: var(--gold); border-top-color: var(--gold); background: rgba(179, 144, 63, 0.07); }
+a.tile .value { color: var(--navy-2); }
+@media (prefers-color-scheme: dark) { a.tile .value { color: var(--gold-bright); } }
+html { scroll-behavior: smooth; }
 
 /* ---- chamber tabs: understated outlined ---- */
 .tabs { display: flex; justify-content: center; gap: 10px; margin-bottom: 30px; }

@@ -98,7 +98,10 @@ function render() {
     <div class="tile"><div class="label">Questionable</div>
       <div class="value">${byStatus.QUESTIONABLE.length}</div></div>
     <div class="tile"><div class="label">Probable</div>
-      <div class="value">${byStatus.PROBABLE.length}</div></div>`;
+      <div class="value">${byStatus.PROBABLE.length}</div></div>
+    ${ch.closeCalls && ch.closeCalls.length ? `<a class="tile tile-link" href="#close-calls">
+      <div class="label">Close Calls</div>
+      <div class="value">${ch.closeCalls.length}<small> ↓</small></div></a>` : ""}`;
 
   let html = "";
   for (const status of STATUS_ORDER) {
@@ -135,7 +138,7 @@ function render() {
   }
 
   if (ch.closeCalls && ch.closeCalls.length) {
-    html += `<section class="close-calls">
+    html += `<section class="close-calls" id="close-calls">
       <div class="status-head"><h2>Absences That Mattered</h2>
         <span class="hint">votes this session where the absent outnumbered the margin</span></div>`;
     for (const c of ch.closeCalls) {
