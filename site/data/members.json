@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T16:51:40.757Z",
+  "generatedAt": "2026-07-11T18:11:10.062Z",
   "sessionYear": 2026,
   "members": [
     {
@@ -6293,8 +6293,8 @@
       "status": {
         "status": "OUT",
         "note": "missed all 4 votes on 2026-06-30",
-        "reason": null,
-        "detail": null,
+        "reason": "health emergency",
+        "detail": "Mrs. Hayes stated she was unavailable to vote because of a health emergency on June 29, 2026.",
         "since": "2026-06-29",
         "last7": {
           "missed": 8,

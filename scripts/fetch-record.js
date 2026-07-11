@@ -5,8 +5,8 @@
 // The House GOP Cloakroom's leave-of-absence page is scraped as a bonus source.
 import { fetchCached, fetchText, log, todayIso } from "./lib.js";
 
-const LOOKBACK_DAYS = 14; // find the most recent issues within this window
-const MAX_ISSUES = 3; // absence texts can lag the absence by a day or two
+const LOOKBACK_DAYS = 21; // find the most recent issues within this window
+const MAX_ISSUES = 5; // absence explanations often lag the absence by days
 
 export async function fetchRecord() {
   const issues = await findRecentIssues();

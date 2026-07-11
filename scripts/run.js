@@ -44,12 +44,45 @@ for (const chamber of Object.values(preliminary.chambers)) {
   }
 }
 
-let reasons = new Map();
+// Reasons persist across runs: the Congressional Record explains an absence
+// once, near its start, but the member stays listed for days after the
+// explanation scrolls out of the fetch window. The store is committed by CI.
+const REASONS_STORE = path.join(DATA_DIR, "reasons-store.json");
+let stored = {};
 try {
-  reasons = await extractReasons(candidates, record);
-} catch (err) {
-  log("reasons", `FAILED (continuing without reasons): ${err.message}`);
+  const { readFileSync } = await import("node:fs");
+  stored = JSON.parse(readFileSync(REASONS_STORE, "utf8"));
+} catch {
+  /* first run */
 }
+
+let reasons = new Map();
+// A stored reason applies only to the member's current absence spell.
+for (const c of candidates) {
+  const s = stored[c.bioguide];
+  if (!s) continue;
+  const entry = preliminary.chambers[c.chamber].listed.find((e) => e.bioguide === c.bioguide);
+  const spellStart = entry?.since ?? new Date(Date.now() - 14 * 86400000).toISOString().slice(0, 10);
+  const cutoff = new Date(spellStart);
+  cutoff.setDate(cutoff.getDate() - 3); // explanations sometimes predate the streak
+  if (new Date(s.date) >= cutoff) reasons.set(c.bioguide, s);
+}
+
+try {
+  const fresh = await extractReasons(candidates, record);
+  for (const [bioguide, info] of fresh) {
+    const date = info.source?.match(/\d{4}-\d{2}-\d{2}/)?.[0] ?? todayIso();
+    reasons.set(bioguide, { ...info, date });
+  }
+} catch (err) {
+  log("reasons", `FAILED (continuing with ${reasons.size} stored reasons): ${err.message}`);
+}
+
+// Persist only reasons for members still under consideration.
+const keep = {};
+for (const c of candidates) if (reasons.has(c.bioguide)) keep[c.bioguide] = reasons.get(c.bioguide);
+await writeJson(REASONS_STORE, keep);
+log("reasons", `using ${reasons.size} reasons (${Object.keys(keep).length} persisted)`);
 
 const report = computeReport(members, votes, reasons);
 
