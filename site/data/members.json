@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T11:14:46.555Z",
+  "generatedAt": "2026-07-13T12:34:45.346Z",
   "sessionYear": 2026,
   "members": [
     {
@@ -18,7 +18,7 @@
         "pct": 99.5,
         "grade": "A+",
         "rank": 16,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -38,7 +38,7 @@
         "pct": 98.4,
         "grade": "A",
         "rank": 41,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -58,7 +58,7 @@
         "pct": 97.9,
         "grade": "A",
         "rank": 47,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -78,7 +78,7 @@
         "pct": 96.4,
         "grade": "A-",
         "rank": 74,
-        "of": 100
+        "of": 99
       },
       "status": {
         "status": "PROBABLE",
@@ -108,7 +108,7 @@
         "pct": 99.5,
         "grade": "A+",
         "rank": 16,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -128,7 +128,7 @@
         "pct": 96.9,
         "grade": "A-",
         "rank": 60,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -148,7 +148,7 @@
         "pct": 100,
         "grade": "A+",
         "rank": 1,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -168,7 +168,7 @@
         "pct": 95.8,
         "grade": "A-",
         "rank": 76,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -188,41 +188,11 @@
         "pct": 96.9,
         "grade": "A-",
         "rank": 60,
-        "of": 100
+        "of": 99
       },
       "status": {
         "status": "PROBABLE",
         "note": "back on the floor after sitting out 2026-06-18",
-        "reason": null,
-        "detail": null,
-        "since": null,
-        "last7": {
-          "missed": 2,
-          "total": 17
-        }
-      }
-    },
-    {
-      "bioguide": "G000359",
-      "name": "Lindsey Graham",
-      "last": "Graham",
-      "chamber": "senate",
-      "party": "R",
-      "state": "SC",
-      "district": null,
-      "title": null,
-      "session": {
-        "eligible": 192,
-        "missed": 16,
-        "attended": 176,
-        "pct": 91.7,
-        "grade": "B",
-        "rank": 93,
-        "of": 100
-      },
-      "status": {
-        "status": "PROBABLE",
-        "note": "back on the floor after sitting out 2026-06-22",
         "reason": null,
         "detail": null,
         "since": null,
@@ -247,8 +217,8 @@
         "attended": 153,
         "pct": 79.7,
         "grade": "C-",
-        "rank": 99,
-        "of": 100
+        "rank": 98,
+        "of": 99
       },
       "status": {
         "status": "DOUBTFUL",
@@ -278,7 +248,7 @@
         "pct": 99.5,
         "grade": "A+",
         "rank": 16,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -298,7 +268,7 @@
         "pct": 100,
         "grade": "A+",
         "rank": 1,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -318,7 +288,7 @@
         "pct": 94.3,
         "grade": "B+",
         "rank": 86,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -338,7 +308,7 @@
         "pct": 94.3,
         "grade": "B+",
         "rank": 86,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -357,8 +327,8 @@
         "attended": 171,
         "pct": 89.1,
         "grade": "B-",
-        "rank": 96,
-        "of": 100
+        "rank": 95,
+        "of": 99
       },
       "status": null
     },
@@ -378,7 +348,7 @@
         "pct": 96.9,
         "grade": "A-",
         "rank": 60,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -398,7 +368,7 @@
         "pct": 94.3,
         "grade": "B+",
         "rank": 86,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -418,7 +388,7 @@
         "pct": 100,
         "grade": "A+",
         "rank": 1,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -437,8 +407,8 @@
         "attended": 121,
         "pct": 63,
         "grade": "F",
-        "rank": 100,
-        "of": 100
+        "rank": 99,
+        "of": 99
       },
       "status": {
         "status": "OUT",
@@ -468,7 +438,7 @@
         "pct": 93.8,
         "grade": "B+",
         "rank": 90,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -488,7 +458,7 @@
         "pct": 99.5,
         "grade": "A+",
         "rank": 16,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -508,7 +478,7 @@
         "pct": 100,
         "grade": "A+",
         "rank": 1,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -528,7 +498,7 @@
         "pct": 98.4,
         "grade": "A",
         "rank": 41,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -548,7 +518,7 @@
         "pct": 96.9,
         "grade": "A-",
         "rank": 60,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -568,7 +538,7 @@
         "pct": 96.9,
         "grade": "A-",
         "rank": 60,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -587,8 +557,8 @@
         "attended": 172,
         "pct": 89.6,
         "grade": "B-",
-        "rank": 95,
-        "of": 100
+        "rank": 94,
+        "of": 99
       },
       "status": null
     },
@@ -608,7 +578,7 @@
         "pct": 100,
         "grade": "A+",
         "rank": 1,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -628,7 +598,7 @@
         "pct": 99.5,
         "grade": "A+",
         "rank": 16,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -648,7 +618,7 @@
         "pct": 99,
         "grade": "A",
         "rank": 29,
-        "of": 100
+        "of": 99
       },
       "status": {
         "status": "PROBABLE",
@@ -678,7 +648,7 @@
         "pct": 99,
         "grade": "A",
         "rank": 29,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -698,7 +668,7 @@
         "pct": 99,
         "grade": "A",
         "rank": 29,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -718,7 +688,7 @@
         "pct": 98.4,
         "grade": "A",
         "rank": 41,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -738,7 +708,7 @@
         "pct": 96.9,
         "grade": "A-",
         "rank": 60,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -758,7 +728,7 @@
         "pct": 99,
         "grade": "A",
         "rank": 29,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -778,7 +748,7 @@
         "pct": 92.2,
         "grade": "B",
         "rank": 92,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -798,7 +768,7 @@
         "pct": 96.9,
         "grade": "A-",
         "rank": 60,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -818,7 +788,7 @@
         "pct": 99.5,
         "grade": "A+",
         "rank": 16,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -838,7 +808,7 @@
         "pct": 96.9,
         "grade": "A-",
         "rank": 60,
-        "of": 100
+        "of": 99
       },
       "status": {
         "status": "PROBABLE",
@@ -867,8 +837,8 @@
         "attended": 175,
         "pct": 91.1,
         "grade": "B",
-        "rank": 94,
-        "of": 100
+        "rank": 93,
+        "of": 99
       },
       "status": null
     },
@@ -888,7 +858,7 @@
         "pct": 97.9,
         "grade": "A",
         "rank": 47,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -908,7 +878,7 @@
         "pct": 96.4,
         "grade": "A-",
         "rank": 74,
-        "of": 100
+        "of": 99
       },
       "status": {
         "status": "QUESTIONABLE",
@@ -938,7 +908,7 @@
         "pct": 99.5,
         "grade": "A+",
         "rank": 16,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -958,7 +928,7 @@
         "pct": 97.9,
         "grade": "A",
         "rank": 47,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -978,7 +948,7 @@
         "pct": 100,
         "grade": "A+",
         "rank": 1,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -998,7 +968,7 @@
         "pct": 99.5,
         "grade": "A+",
         "rank": 16,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -1018,7 +988,7 @@
         "pct": 99.5,
         "grade": "A+",
         "rank": 16,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -1038,7 +1008,7 @@
         "pct": 100,
         "grade": "A+",
         "rank": 1,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -1058,7 +1028,7 @@
         "pct": 99,
         "grade": "A",
         "rank": 29,
-        "of": 100
+        "of": 99
       },
       "status": {
         "status": "PROBABLE",
@@ -1088,7 +1058,7 @@
         "pct": 98.4,
         "grade": "A",
         "rank": 41,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -1108,7 +1078,7 @@
         "pct": 99,
         "grade": "A",
         "rank": 29,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -1128,7 +1098,7 @@
         "pct": 98.4,
         "grade": "A",
         "rank": 41,
-        "of": 100
+        "of": 99
       },
       "status": {
         "status": "PROBABLE",
@@ -1158,7 +1128,7 @@
         "pct": 100,
         "grade": "A+",
         "rank": 1,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -1178,7 +1148,7 @@
         "pct": 99,
         "grade": "A",
         "rank": 29,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -1198,7 +1168,7 @@
         "pct": 95.8,
         "grade": "A-",
         "rank": 76,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -1218,7 +1188,7 @@
         "pct": 95.8,
         "grade": "A-",
         "rank": 76,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -1238,7 +1208,7 @@
         "pct": 97.9,
         "grade": "A",
         "rank": 47,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -1258,7 +1228,7 @@
         "pct": 98.4,
         "grade": "A",
         "rank": 41,
-        "of": 100
+        "of": 99
       },
       "status": {
         "status": "PROBABLE",
@@ -1288,7 +1258,7 @@
         "pct": 97.4,
         "grade": "A",
         "rank": 55,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -1308,7 +1278,7 @@
         "pct": 95.3,
         "grade": "A-",
         "rank": 82,
-        "of": 100
+        "of": 99
       },
       "status": {
         "status": "PROBABLE",
@@ -1338,7 +1308,7 @@
         "pct": 93.8,
         "grade": "B+",
         "rank": 90,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -1358,7 +1328,7 @@
         "pct": 100,
         "grade": "A+",
         "rank": 1,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -1378,7 +1348,7 @@
         "pct": 96.9,
         "grade": "A-",
         "rank": 60,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -1397,8 +1367,8 @@
         "attended": 169,
         "pct": 88,
         "grade": "B-",
-        "rank": 97,
-        "of": 100
+        "rank": 96,
+        "of": 99
       },
       "status": null
     },
@@ -1418,7 +1388,7 @@
         "pct": 97.9,
         "grade": "A",
         "rank": 47,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -1438,7 +1408,7 @@
         "pct": 99.5,
         "grade": "A+",
         "rank": 16,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -1458,7 +1428,7 @@
         "pct": 96.9,
         "grade": "A-",
         "rank": 60,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -1478,7 +1448,7 @@
         "pct": 100,
         "grade": "A+",
         "rank": 1,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -1498,7 +1468,7 @@
         "pct": 97.9,
         "grade": "A",
         "rank": 47,
-        "of": 100
+        "of": 99
       },
       "status": {
         "status": "PROBABLE",
@@ -1528,7 +1498,7 @@
         "pct": 99,
         "grade": "A",
         "rank": 29,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -1548,7 +1518,7 @@
         "pct": 100,
         "grade": "A+",
         "rank": 1,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -1568,7 +1538,7 @@
         "pct": 100,
         "grade": "A+",
         "rank": 1,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -1588,7 +1558,7 @@
         "pct": 99.5,
         "grade": "A+",
         "rank": 16,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -1608,7 +1578,7 @@
         "pct": 95.8,
         "grade": "A-",
         "rank": 76,
-        "of": 100
+        "of": 99
       },
       "status": {
         "status": "PROBABLE",
@@ -1638,7 +1608,7 @@
         "pct": 95.8,
         "grade": "A-",
         "rank": 76,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -1658,7 +1628,7 @@
         "pct": 97.4,
         "grade": "A",
         "rank": 55,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -1678,7 +1648,7 @@
         "pct": 99,
         "grade": "A",
         "rank": 29,
-        "of": 100
+        "of": 99
       },
       "status": {
         "status": "PROBABLE",
@@ -1708,7 +1678,7 @@
         "pct": 97.4,
         "grade": "A",
         "rank": 55,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -1728,7 +1698,7 @@
         "pct": 99.5,
         "grade": "A+",
         "rank": 16,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -1748,7 +1718,7 @@
         "pct": 96.9,
         "grade": "A-",
         "rank": 60,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -1768,7 +1738,7 @@
         "pct": 95.3,
         "grade": "A-",
         "rank": 82,
-        "of": 100
+        "of": 99
       },
       "status": {
         "status": "PROBABLE",
@@ -1798,7 +1768,7 @@
         "pct": 97.9,
         "grade": "A",
         "rank": 47,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -1817,8 +1787,8 @@
         "attended": 166,
         "pct": 86.5,
         "grade": "C+",
-        "rank": 98,
-        "of": 100
+        "rank": 97,
+        "of": 99
       },
       "status": null
     },
@@ -1838,7 +1808,7 @@
         "pct": 100,
         "grade": "A+",
         "rank": 1,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -1858,7 +1828,7 @@
         "pct": 94.3,
         "grade": "B+",
         "rank": 86,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -1878,7 +1848,7 @@
         "pct": 99,
         "grade": "A",
         "rank": 29,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -1898,7 +1868,7 @@
         "pct": 99.5,
         "grade": "A+",
         "rank": 16,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -1918,7 +1888,7 @@
         "pct": 95.8,
         "grade": "A-",
         "rank": 76,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -1938,7 +1908,7 @@
         "pct": 99,
         "grade": "A",
         "rank": 29,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -1958,7 +1928,7 @@
         "pct": 99,
         "grade": "A",
         "rank": 29,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -1978,7 +1948,7 @@
         "pct": 94.8,
         "grade": "B+",
         "rank": 85,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -1998,7 +1968,7 @@
         "pct": 96.9,
         "grade": "A-",
         "rank": 60,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -2018,7 +1988,7 @@
         "pct": 97.4,
         "grade": "A",
         "rank": 55,
-        "of": 100
+        "of": 99
       },
       "status": {
         "status": "PROBABLE",
@@ -2048,7 +2018,7 @@
         "pct": 96.9,
         "grade": "A-",
         "rank": 60,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -2068,7 +2038,7 @@
         "pct": 97.4,
         "grade": "A",
         "rank": 55,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -2088,7 +2058,7 @@
         "pct": 97.9,
         "grade": "A",
         "rank": 47,
-        "of": 100
+        "of": 99
       },
       "status": {
         "status": "PROBABLE",
@@ -2118,7 +2088,7 @@
         "pct": 95.3,
         "grade": "A-",
         "rank": 82,
-        "of": 100
+        "of": 99
       },
       "status": {
         "status": "PROBABLE",
@@ -2148,7 +2118,7 @@
         "pct": 100,
         "grade": "A+",
         "rank": 1,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -2168,7 +2138,7 @@
         "pct": 96.9,
         "grade": "A-",
         "rank": 60,
-        "of": 100
+        "of": 99
       },
       "status": null
     },
@@ -2188,7 +2158,7 @@
         "pct": 100,
         "grade": "A+",
         "rank": 1,
-        "of": 100
+        "of": 99
       },
       "status": null
     },

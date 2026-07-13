@@ -1,59 +1,69 @@
 {
-  "generatedAt": "2026-07-12T11:14:37.981Z",
-  "reportDate": "2026-07-12",
+  "generatedAt": "2026-07-13T12:34:25.315Z",
+  "reportDate": "2026-07-13",
   "recordIssueDate": "2026-07-09",
   "available": true,
-  "headline": "Congress gears up for judicial nominations as both chambers return Monday following brief recess.",
+  "headline": "Congress hits pause with pro forma sessions as Senate sets up judicial confirmations for Monday.",
   "chambers": {
     "senate": {
       "nextMeeting": "Monday, July 13 at 3:00 PM",
-      "lastSessionSummary": "The Senate met briefly in pro forma session on Thursday, July 9, for a quick administrative gathering that lasted just 30 seconds before adjourning for the weekend. No substantive votes or floor action took place.",
+      "lastSessionSummary": "The Senate met briefly in pro forma session on July 9, lasting just 30 seconds before adjourning until Monday. No legislative business was conducted.",
       "onTheFloor": [
         {
-          "measure": "Schwartz Circuit Court Nomination",
-          "title": "Consideration of Matthew A. Schwartz nomination to be United States Circuit Judge for the Second Circuit",
-          "status": "resuming consideration"
+          "measure": "Matthew A. Schwartz nomination",
+          "title": "United States Circuit Judge for the Second Circuit",
+          "status": "debate scheduled"
         },
         {
-          "measure": "Jones District Court Confirmation",
-          "title": "Confirmation vote on Arthur Roberts Jones nomination to be United States District Judge for the Southern District of Texas",
-          "status": "vote scheduled for 5:30 PM"
+          "measure": "Arthur Roberts Jones nomination",
+          "title": "United States District Judge for the Southern District of Texas",
+          "status": "confirmation vote scheduled for 5:30 PM Monday"
         }
       ]
     },
     "house": {
       "nextMeeting": "Monday, July 13 at 4:00 PM",
-      "lastSessionSummary": "The House met briefly on Thursday, July 9, for a three-minute session in which 39 new bills and 3 resolutions were introduced, and six committee reports were filed covering healthcare, travel, homeland security, and aviation security matters. No floor votes took place.",
+      "lastSessionSummary": "The House convened briefly on July 9 for just 3 minutes, introducing 39 public bills and 3 resolutions, including measures on ALS therapy access, family travel improvements, and aviation security. Six bills were reported out of committee with amendments.",
       "onTheFloor": [
         {
+          "measure": "H.R. 139",
+          "title": "Sunshine Protection Act of 2025 - permanent daylight saving time",
+          "status": "rule hearing scheduled July 13"
+        },
+        {
+          "measure": "H.R. 8595",
+          "title": "National Security, Department of State, and Related Programs Appropriations Act, 2027",
+          "status": "rule markup scheduled July 13"
+        },
+        {
+          "measure": "H.R. 9237",
+          "title": "Take Care of America's Veterans Act",
+          "status": "rule markup scheduled July 13"
+        },
+        {
+          "measure": "H.R. 1181",
+          "title": "Protecting Privacy in Purchases Act",
+          "status": "rule markup scheduled July 13"
+        },
+        {
           "measure": "H.R. 8205",
-          "title": "Reauthorize the Accelerating Access to Critical Therapies for ALS Act through fiscal year 2031",
-          "status": "reported from committee"
+          "title": "Amend Accelerating Access to Critical Therapies for ALS Act through fiscal 2031",
+          "status": "reported from committee July 9"
         },
         {
           "measure": "H.R. 6238",
-          "title": "Establish the IMPROVE Initiative within the National Institutes of Health",
-          "status": "reported from committee"
+          "title": "Establish IMPROVE Initiative within National Institutes of Health",
+          "status": "reported from committee July 9"
         },
         {
           "measure": "H.R. 8897",
           "title": "Improve travel for American families",
-          "status": "reported from committee"
-        },
-        {
-          "measure": "H.R. 7574",
-          "title": "Reorganize and realign the Engagement, Liaison, and Outreach Office of the Department of Homeland Security",
-          "status": "reported from committee"
+          "status": "reported from committee July 9"
         },
         {
           "measure": "H.R. 8770",
           "title": "Establish funds for investments in aviation security",
-          "status": "reported from committee"
-        },
-        {
-          "measure": "H.R. 8168",
-          "title": "Assess terrorism threats posed by foreign terrorist organizations in major non-NATO allied countries",
-          "status": "reported from committee"
+          "status": "reported from committee July 9"
         }
       ]
     }
@@ -61,8 +71,8 @@
   "committees": [
     {
       "chamber": "house",
-      "committee": "Committee on Rules",
-      "topic": "Hearing on the Sunshine Protection Act of 2025 (H.R. 139), National Security appropriations, Veterans benefits, and privacy in purchases"
+      "committee": "Committee on Rules, Full Committee",
+      "topic": "hearing on Sunshine Protection Act, appropriations rule markup, Veterans Act rule markup, and Privacy in Purchases Act rule markup"
     },
     {
       "chamber": "house",
