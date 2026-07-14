@@ -1,69 +1,69 @@
 {
-  "generatedAt": "2026-07-13T12:34:25.315Z",
-  "reportDate": "2026-07-13",
+  "generatedAt": "2026-07-14T11:27:24.639Z",
+  "reportDate": "2026-07-14",
   "recordIssueDate": "2026-07-09",
   "available": true,
-  "headline": "Congress hits pause with pro forma sessions as Senate sets up judicial confirmations for Monday.",
+  "headline": "Congress light on action as Senate holds pro forma session and House wraps early summer push!",
   "chambers": {
     "senate": {
       "nextMeeting": "Monday, July 13 at 3:00 PM",
-      "lastSessionSummary": "The Senate met briefly in pro forma session on July 9, lasting just 30 seconds before adjourning until Monday. No legislative business was conducted.",
+      "lastSessionSummary": "The Senate met briefly in pro forma session on July 9, adjourning after 30 seconds. No business was conducted.",
       "onTheFloor": [
         {
-          "measure": "Matthew A. Schwartz nomination",
-          "title": "United States Circuit Judge for the Second Circuit",
-          "status": "debate scheduled"
+          "measure": "Matthew A. Schwartz Nomination",
+          "title": "Confirmation for United States Circuit Judge for the Second Circuit",
+          "status": "resumption of consideration scheduled"
         },
         {
-          "measure": "Arthur Roberts Jones nomination",
-          "title": "United States District Judge for the Southern District of Texas",
+          "measure": "Arthur Roberts Jones Nomination",
+          "title": "Confirmation for United States District Judge for the Southern District of Texas",
           "status": "confirmation vote scheduled for 5:30 PM Monday"
         }
       ]
     },
     "house": {
       "nextMeeting": "Monday, July 13 at 4:00 PM",
-      "lastSessionSummary": "The House convened briefly on July 9 for just 3 minutes, introducing 39 public bills and 3 resolutions, including measures on ALS therapy access, family travel improvements, and aviation security. Six bills were reported out of committee with amendments.",
+      "lastSessionSummary": "The House met briefly on July 9, adjourning after three minutes. Thirty-nine public bills and three resolutions were introduced, and six committee reports were filed on various topics including ALS therapy access, NIH initiatives, and aviation security.",
       "onTheFloor": [
         {
           "measure": "H.R. 139",
-          "title": "Sunshine Protection Act of 2025 - permanent daylight saving time",
-          "status": "rule hearing scheduled July 13"
+          "title": "Sunshine Protection Act of 2025 - daylight saving time measures",
+          "status": "Rules Committee hearing scheduled"
         },
         {
           "measure": "H.R. 8595",
           "title": "National Security, Department of State, and Related Programs Appropriations Act, 2027",
-          "status": "rule markup scheduled July 13"
+          "status": "Rules Committee markup scheduled"
         },
         {
           "measure": "H.R. 9237",
           "title": "Take Care of America's Veterans Act",
-          "status": "rule markup scheduled July 13"
+          "status": "Rules Committee markup scheduled"
         },
         {
           "measure": "H.R. 1181",
           "title": "Protecting Privacy in Purchases Act",
-          "status": "rule markup scheduled July 13"
+          "status": "Rules Committee markup scheduled"
         },
         {
           "measure": "H.R. 8205",
-          "title": "Amend Accelerating Access to Critical Therapies for ALS Act through fiscal 2031",
-          "status": "reported from committee July 9"
+          "title": "Amend the Accelerating Access to Critical Therapies for ALS Act to reauthorize through fiscal year 2031",
+          "status": "reported with amendment"
         },
         {
           "measure": "H.R. 6238",
-          "title": "Establish IMPROVE Initiative within National Institutes of Health",
-          "status": "reported from committee July 9"
+          "title": "Establish the IMPROVE Initiative within the National Institutes of Health",
+          "status": "reported with amendment"
         },
         {
           "measure": "H.R. 8897",
           "title": "Improve travel for American families",
-          "status": "reported from committee July 9"
+          "status": "reported with amendment"
         },
         {
           "measure": "H.R. 8770",
           "title": "Establish funds for investments in aviation security",
-          "status": "reported from committee July 9"
+          "status": "reported with amendment"
         }
       ]
     }
@@ -71,12 +71,12 @@
   "committees": [
     {
       "chamber": "house",
-      "committee": "Committee on Rules, Full Committee",
-      "topic": "hearing on Sunshine Protection Act, appropriations rule markup, Veterans Act rule markup, and Privacy in Purchases Act rule markup"
+      "committee": "Committee on Rules",
+      "topic": "Hearing on Sunshine Protection Act of 2025, national security appropriations, veterans benefits, and privacy in purchases"
     },
     {
       "chamber": "house",
-      "committee": "Committee on Veterans' Affairs, Subcommittee on Technology Modernization",
+      "committee": "Committee on Veterans' Affairs - Subcommittee on Technology Modernization",
       "topic": "PACT Act Implementation: Modernizing VA Disability Claims Through Effective Technology"
     }
   ]
