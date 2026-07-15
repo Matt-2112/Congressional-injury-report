@@ -1,83 +1,108 @@
 {
-  "generatedAt": "2026-07-14T11:27:24.639Z",
-  "reportDate": "2026-07-14",
-  "recordIssueDate": "2026-07-09",
+  "generatedAt": "2026-07-15T11:38:42.534Z",
+  "reportDate": "2026-07-15",
+  "recordIssueDate": "2026-07-13",
   "available": true,
-  "headline": "Congress light on action as Senate holds pro forma session and House wraps early summer push!",
+  "headline": "Congress honors Senator Lindsey Graham with a day of solemn remembrance while eyeing defense bills and judicial confirmations ahead.",
   "chambers": {
     "senate": {
-      "nextMeeting": "Monday, July 13 at 3:00 PM",
-      "lastSessionSummary": "The Senate met briefly in pro forma session on July 9, adjourning after 30 seconds. No business was conducted.",
+      "nextMeeting": "Tuesday, July 14 at 10:00 AM",
+      "lastSessionSummary": "The Senate confirmed Arthur Roberts Jones as United States District Judge for the Southern District of Texas by a 46-44 vote. Members passed S. Res. 801 honoring the late Senator Lindsey Graham of South Carolina. The chamber adjourned early at 7:12 p.m. out of respect for his memory.",
       "onTheFloor": [
         {
-          "measure": "Matthew A. Schwartz Nomination",
-          "title": "Confirmation for United States Circuit Judge for the Second Circuit",
-          "status": "resumption of consideration scheduled"
+          "measure": "Matthew A. Schwartz nomination",
+          "title": "Confirmation vote for U.S. Circuit Judge for the Second Circuit",
+          "status": "Cloture vote scheduled for Tuesday at 12 noon"
         },
         {
-          "measure": "Arthur Roberts Jones Nomination",
-          "title": "Confirmation for United States District Judge for the Southern District of Texas",
-          "status": "confirmation vote scheduled for 5:30 PM Monday"
+          "measure": "S. 4784",
+          "title": "National Defense Authorization Act for Fiscal Year 2027",
+          "status": "Cloture motion expected Tuesday at 2:40 p.m."
+        },
+        {
+          "measure": "Jeffrey T. Kuntz nomination",
+          "title": "U.S. District Judge for the Southern District of Florida",
+          "status": "Cloture vote pending on S. 4784 disposition"
+        },
+        {
+          "measure": "S. 3468",
+          "title": "National programmable cloud laboratories network for research",
+          "status": "Reported with amendments from committee"
         }
       ]
     },
     "house": {
-      "nextMeeting": "Monday, July 13 at 4:00 PM",
-      "lastSessionSummary": "The House met briefly on July 9, adjourning after three minutes. Thirty-nine public bills and three resolutions were introduced, and six committee reports were filed on various topics including ALS therapy access, NIH initiatives, and aviation security.",
+      "nextMeeting": "Tuesday, July 14 at 10:00 AM",
+      "lastSessionSummary": "The House passed 12 measures under suspension of the rules, including aviation security funding, military travel improvements, and fentanyl trafficking metrics bills. Members adopted H. Res. 1424 expressing sorrow at the death of Senator Lindsey Graham. The chamber adjourned at 7:14 p.m. in his honor.",
       "onTheFloor": [
         {
           "measure": "H.R. 139",
-          "title": "Sunshine Protection Act of 2025 - daylight saving time measures",
-          "status": "Rules Committee hearing scheduled"
+          "title": "Sunshine Protection Act of 2025 - make daylight savings time permanent",
+          "status": "Scheduled for floor consideration Tuesday"
         },
         {
           "measure": "H.R. 8595",
-          "title": "National Security, Department of State, and Related Programs Appropriations Act, 2027",
-          "status": "Rules Committee markup scheduled"
+          "title": "National Security and State Department Appropriations Act for fiscal year 2027",
+          "status": "Scheduled for floor consideration Tuesday"
         },
         {
           "measure": "H.R. 9237",
-          "title": "Take Care of America's Veterans Act",
-          "status": "Rules Committee markup scheduled"
+          "title": "Take Care of America's Veterans Act - improve veteran benefits and VA administration",
+          "status": "Scheduled for floor consideration Tuesday"
         },
         {
           "measure": "H.R. 1181",
-          "title": "Protecting Privacy in Purchases Act",
-          "status": "Rules Committee markup scheduled"
+          "title": "Protecting Privacy in Purchases Act - prevent payment card networks from requiring firearms retailer codes",
+          "status": "Scheduled for floor consideration Tuesday"
         },
         {
-          "measure": "H.R. 8205",
-          "title": "Amend the Accelerating Access to Critical Therapies for ALS Act to reauthorize through fiscal year 2031",
-          "status": "reported with amendment"
-        },
-        {
-          "measure": "H.R. 6238",
-          "title": "Establish the IMPROVE Initiative within the National Institutes of Health",
-          "status": "reported with amendment"
+          "measure": "H.R. 3106",
+          "title": "Weatherizing Infrastructure in the North and Terrorism Emergency Readiness Act",
+          "status": "Passed 400-7 on Monday"
         },
         {
           "measure": "H.R. 8897",
-          "title": "Improve travel for American families",
-          "status": "reported with amendment"
+          "title": "Improving Travel for American Families Act",
+          "status": "Passed 398-12 on Monday"
         },
         {
           "measure": "H.R. 8770",
-          "title": "Establish funds for investments in aviation security",
-          "status": "reported with amendment"
+          "title": "Aviation Security Funding Act - establish funds for aviation security investments",
+          "status": "Passed under suspension of the rules Monday"
         }
       ]
     }
   },
   "committees": [
     {
-      "chamber": "house",
-      "committee": "Committee on Rules",
-      "topic": "Hearing on Sunshine Protection Act of 2025, national security appropriations, veterans benefits, and privacy in purchases"
+      "chamber": "senate",
+      "committee": "Committee on Finance",
+      "topic": "Business meeting to consider nominations of five members to the United States International Trade Commission"
+    },
+    {
+      "chamber": "senate",
+      "committee": "Committee on Armed Services",
+      "topic": "Hearings on nominations of Defense Department officials including Under Secretary (Comptroller) and Director of National Reconnaissance Office"
     },
     {
       "chamber": "house",
-      "committee": "Committee on Veterans' Affairs - Subcommittee on Technology Modernization",
-      "topic": "PACT Act Implementation: Modernizing VA Disability Claims Through Effective Technology"
+      "committee": "Committee on Rules",
+      "topic": "Markup of rules for consideration of H.R. 139, H.R. 8595, H.R. 9237, and H.R. 1181"
+    },
+    {
+      "chamber": "house",
+      "committee": "Committee on Energy and Commerce",
+      "topic": "Subcommittee markup on environmental bills including Diesel Emissions Reduction Act and Buses Utilizing Safety and Environmental Standards Act"
+    },
+    {
+      "chamber": "house",
+      "committee": "Committee on Veterans' Affairs",
+      "topic": "Subcommittee hearing on PACT Act implementation and VA disability claims modernization through technology"
+    },
+    {
+      "chamber": "senate",
+      "committee": "Commission on Security and Cooperation in Europe",
+      "topic": "Briefing on Russia's tech authoritarianism in occupied Ukraine territories"
     }
   ]
 }
