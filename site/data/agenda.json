@@ -1,74 +1,74 @@
 {
-  "generatedAt": "2026-07-15T11:38:42.534Z",
-  "reportDate": "2026-07-15",
-  "recordIssueDate": "2026-07-13",
+  "generatedAt": "2026-07-16T11:43:50.385Z",
+  "reportDate": "2026-07-16",
+  "recordIssueDate": "2026-07-14",
   "available": true,
-  "headline": "Congress honors Senator Lindsey Graham with a day of solemn remembrance while eyeing defense bills and judicial confirmations ahead.",
+  "headline": "The House passes permanent daylight saving time by a wide margin while Senate debates defense spending and judicial nominees!",
   "chambers": {
     "senate": {
-      "nextMeeting": "Tuesday, July 14 at 10:00 AM",
-      "lastSessionSummary": "The Senate confirmed Arthur Roberts Jones as United States District Judge for the Southern District of Texas by a 46-44 vote. Members passed S. Res. 801 honoring the late Senator Lindsey Graham of South Carolina. The chamber adjourned early at 7:12 p.m. out of respect for his memory.",
+      "nextMeeting": "Wednesday, July 15 at 10:00 AM",
+      "lastSessionSummary": "The Senate continued work on nominations and passed several commemorative measures, including the Older Americans Act Reauthorization Act. The chamber voted 50-46 to reject a cloture motion on the National Defense Authorization Act for Fiscal Year 2027, and cloture votes are scheduled for upcoming judicial nominations.",
       "onTheFloor": [
-        {
-          "measure": "Matthew A. Schwartz nomination",
-          "title": "Confirmation vote for U.S. Circuit Judge for the Second Circuit",
-          "status": "Cloture vote scheduled for Tuesday at 12 noon"
-        },
         {
           "measure": "S. 4784",
           "title": "National Defense Authorization Act for Fiscal Year 2027",
-          "status": "Cloture motion expected Tuesday at 2:40 p.m."
+          "status": "Motion to proceed rejected 50-46; motion to reconsider entered"
         },
         {
-          "measure": "Jeffrey T. Kuntz nomination",
-          "title": "U.S. District Judge for the Southern District of Florida",
-          "status": "Cloture vote pending on S. 4784 disposition"
+          "measure": "Kuntz Nomination",
+          "title": "Jeffrey T. Kuntz to be United States District Judge for the Southern District of Florida",
+          "status": "Cloture vote scheduled for Wednesday, July 15 at 12 noon; confirmation vote at 2 p.m. if cloture invoked"
         },
         {
-          "measure": "S. 3468",
-          "title": "National programmable cloud laboratories network for research",
-          "status": "Reported with amendments from committee"
+          "measure": "Westercamp Nomination",
+          "title": "Kara Marie Westercamp to be Judge of the United States Court of International Trade",
+          "status": "Cloture vote scheduled for Thursday, July 16"
+        },
+        {
+          "measure": "S. 2120",
+          "title": "Older Americans Act Reauthorization Act",
+          "status": "Passed"
+        },
+        {
+          "measure": "S. Res. 798",
+          "title": "Designating June 2026 as Great Outdoors Month",
+          "status": "Agreed to"
+        },
+        {
+          "measure": "S. Res. 803",
+          "title": "Congratulating the 2025-2026 Carolina Hurricanes for winning the Stanley Cup",
+          "status": "Agreed to"
         }
       ]
     },
     "house": {
-      "nextMeeting": "Tuesday, July 14 at 10:00 AM",
-      "lastSessionSummary": "The House passed 12 measures under suspension of the rules, including aviation security funding, military travel improvements, and fentanyl trafficking metrics bills. Members adopted H. Res. 1424 expressing sorrow at the death of Senator Lindsey Graham. The chamber adjourned at 7:14 p.m. in his honor.",
+      "nextMeeting": "Wednesday, July 15 at 11:00 AM",
+      "lastSessionSummary": "The House passed three significant bills under floor consideration: the Sunshine Protection Act making daylight saving time permanent (308-117), the Protecting Privacy in Purchases Act on firearms merchant codes (221-201), and passed two other bills under suspension of the rules on penny minting and bank acquisition.",
       "onTheFloor": [
         {
           "measure": "H.R. 139",
-          "title": "Sunshine Protection Act of 2025 - make daylight savings time permanent",
-          "status": "Scheduled for floor consideration Tuesday"
-        },
-        {
-          "measure": "H.R. 8595",
-          "title": "National Security and State Department Appropriations Act for fiscal year 2027",
-          "status": "Scheduled for floor consideration Tuesday"
-        },
-        {
-          "measure": "H.R. 9237",
-          "title": "Take Care of America's Veterans Act - improve veteran benefits and VA administration",
-          "status": "Scheduled for floor consideration Tuesday"
+          "title": "Sunshine Protection Act - Make daylight savings time permanent",
+          "status": "Passed 308-117"
         },
         {
           "measure": "H.R. 1181",
-          "title": "Protecting Privacy in Purchases Act - prevent payment card networks from requiring firearms retailer codes",
-          "status": "Scheduled for floor consideration Tuesday"
+          "title": "Protecting Privacy in Purchases Act - Prohibit payment networks from assigning special merchant codes for firearms retailers",
+          "status": "Passed 221-201"
         },
         {
-          "measure": "H.R. 3106",
-          "title": "Weatherizing Infrastructure in the North and Terrorism Emergency Readiness Act",
-          "status": "Passed 400-7 on Monday"
+          "measure": "H.R. 3074",
+          "title": "Common Cents Act - Stop minting the penny and round cash transactions to nearest five cents",
+          "status": "Passed under suspension of rules"
         },
         {
-          "measure": "H.R. 8897",
-          "title": "Improving Travel for American Families Act",
-          "status": "Passed 398-12 on Monday"
+          "measure": "H.R. 6556",
+          "title": "Failing Bank Acquisition Fairness Act - Restrict concentration limit exceptions for failed bank mergers",
+          "status": "Passed under suspension of rules"
         },
         {
-          "measure": "H.R. 8770",
-          "title": "Aviation Security Funding Act - establish funds for aviation security investments",
-          "status": "Passed under suspension of the rules Monday"
+          "measure": "H.R. 8595",
+          "title": "National Security, Department of State, and Related Programs Appropriations Act, 2027",
+          "status": "Scheduled for consideration on July 15"
         }
       ]
     }
@@ -76,33 +76,33 @@
   "committees": [
     {
       "chamber": "senate",
-      "committee": "Committee on Finance",
-      "topic": "Business meeting to consider nominations of five members to the United States International Trade Commission"
+      "committee": "Banking, Housing, and Urban Affairs",
+      "topic": "Semiannual Monetary Policy Report to Congress, 10 a.m. Wednesday"
     },
     {
       "chamber": "senate",
-      "committee": "Committee on Armed Services",
-      "topic": "Hearings on nominations of Defense Department officials including Under Secretary (Comptroller) and Director of National Reconnaissance Office"
-    },
-    {
-      "chamber": "house",
-      "committee": "Committee on Rules",
-      "topic": "Markup of rules for consideration of H.R. 139, H.R. 8595, H.R. 9237, and H.R. 1181"
-    },
-    {
-      "chamber": "house",
-      "committee": "Committee on Energy and Commerce",
-      "topic": "Subcommittee markup on environmental bills including Diesel Emissions Reduction Act and Buses Utilizing Safety and Environmental Standards Act"
-    },
-    {
-      "chamber": "house",
-      "committee": "Committee on Veterans' Affairs",
-      "topic": "Subcommittee hearing on PACT Act implementation and VA disability claims modernization through technology"
+      "committee": "Judiciary",
+      "topic": "Confirmation hearing on Todd Blanche nomination for Attorney General, 9 a.m. Wednesday"
     },
     {
       "chamber": "senate",
-      "committee": "Commission on Security and Cooperation in Europe",
-      "topic": "Briefing on Russia's tech authoritarianism in occupied Ukraine territories"
+      "committee": "Health, Education, Labor, and Pensions",
+      "topic": "Business meeting on labor statistics commissioner and National Labor Relations Board nominations, 9:45 a.m. Wednesday"
+    },
+    {
+      "chamber": "house",
+      "committee": "Education and Workforce",
+      "topic": "Markup on 10 education bureaucracy reduction bills, 10:15 a.m. Wednesday"
+    },
+    {
+      "chamber": "house",
+      "committee": "Energy and Commerce",
+      "topic": "Health subcommittee markup on drug safety bills and hearing on FDA biomedical innovation, 10 a.m. Wednesday"
+    },
+    {
+      "chamber": "house",
+      "committee": "Judiciary",
+      "topic": "Markup on Congressional Records Protection Act and other measures, 10 a.m. Wednesday"
     }
   ]
 }
