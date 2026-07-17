@@ -1,74 +1,59 @@
 {
-  "generatedAt": "2026-07-16T11:43:50.385Z",
-  "reportDate": "2026-07-16",
-  "recordIssueDate": "2026-07-14",
+  "generatedAt": "2026-07-17T11:24:09.277Z",
+  "reportDate": "2026-07-17",
+  "recordIssueDate": "2026-07-15",
   "available": true,
-  "headline": "The House passes permanent daylight saving time by a wide margin while Senate debates defense spending and judicial nominees!",
+  "headline": "House passes defense and State Department funding as Senate moves toward historic Medicare vote!",
   "chambers": {
     "senate": {
-      "nextMeeting": "Wednesday, July 15 at 10:00 AM",
-      "lastSessionSummary": "The Senate continued work on nominations and passed several commemorative measures, including the Older Americans Act Reauthorization Act. The chamber voted 50-46 to reject a cloture motion on the National Defense Authorization Act for Fiscal Year 2027, and cloture votes are scheduled for upcoming judicial nominations.",
+      "nextMeeting": "Thursday, July 16 at 10:00 AM",
+      "lastSessionSummary": "The Senate passed four resolutions on July 15, including a measure opposing executive clemency for Samuel Bankman-Fried, memorials for the Highland Park shooting anniversary and the 2016 West Virginia floods, and a celebration of the 2026 FIFA World Cup hosted in North America. The chamber also confirmed Judge Jeffrey T. Kuntz to the Southern District of Florida by a 51-46 vote.",
       "onTheFloor": [
         {
-          "measure": "S. 4784",
-          "title": "National Defense Authorization Act for Fiscal Year 2027",
-          "status": "Motion to proceed rejected 50-46; motion to reconsider entered"
+          "measure": "S.J. Res. 198",
+          "title": "Congressional disapproval of Medicare prior authorization rule under the WISeR Model",
+          "status": "motion to proceed vote scheduled for 1:30 p.m. Thursday"
         },
         {
-          "measure": "Kuntz Nomination",
-          "title": "Jeffrey T. Kuntz to be United States District Judge for the Southern District of Florida",
-          "status": "Cloture vote scheduled for Wednesday, July 15 at 12 noon; confirmation vote at 2 p.m. if cloture invoked"
+          "measure": "Kara Marie Westercamp nomination",
+          "title": "Nomination to be Judge of the United States Court of International Trade",
+          "status": "cloture vote scheduled for 11:45 a.m. Thursday"
         },
         {
-          "measure": "Westercamp Nomination",
-          "title": "Kara Marie Westercamp to be Judge of the United States Court of International Trade",
-          "status": "Cloture vote scheduled for Thursday, July 16"
+          "measure": "S. 4949",
+          "title": "Rivers, harbors, water resources conservation and development improvements",
+          "status": "ordered favorably reported with amendment"
         },
         {
-          "measure": "S. 2120",
-          "title": "Older Americans Act Reauthorization Act",
-          "status": "Passed"
-        },
-        {
-          "measure": "S. Res. 798",
-          "title": "Designating June 2026 as Great Outdoors Month",
-          "status": "Agreed to"
-        },
-        {
-          "measure": "S. Res. 803",
-          "title": "Congratulating the 2025-2026 Carolina Hurricanes for winning the Stanley Cup",
-          "status": "Agreed to"
+          "measure": "S. 4983-5007",
+          "title": "Twenty-five miscellaneous bills introduced",
+          "status": "introduced"
         }
       ]
     },
     "house": {
-      "nextMeeting": "Wednesday, July 15 at 11:00 AM",
-      "lastSessionSummary": "The House passed three significant bills under floor consideration: the Sunshine Protection Act making daylight saving time permanent (308-117), the Protecting Privacy in Purchases Act on firearms merchant codes (221-201), and passed two other bills under suspension of the rules on penny minting and bank acquisition.",
+      "nextMeeting": "Thursday, July 16 at 9:00 AM",
+      "lastSessionSummary": "The House passed H.R. 8595, the National Security, Department of State, and Related Programs Appropriations Act for 2027, by a vote of 217-209 on July 15. The chamber approved multiple amendments addressing anti-trafficking efforts, State Department oversight, and support for Taiwan while rejecting amendments to eliminate funding for the Fulbright Program and restrict aid to Israel and Jordan.",
       "onTheFloor": [
         {
-          "measure": "H.R. 139",
-          "title": "Sunshine Protection Act - Make daylight savings time permanent",
-          "status": "Passed 308-117"
+          "measure": "H.R. 9237",
+          "title": "Take Care of America's Veterans Act",
+          "status": "consideration scheduled for Thursday"
         },
         {
-          "measure": "H.R. 1181",
-          "title": "Protecting Privacy in Purchases Act - Prohibit payment networks from assigning special merchant codes for firearms retailers",
-          "status": "Passed 221-201"
-        },
-        {
-          "measure": "H.R. 3074",
-          "title": "Common Cents Act - Stop minting the penny and round cash transactions to nearest five cents",
-          "status": "Passed under suspension of rules"
-        },
-        {
-          "measure": "H.R. 6556",
-          "title": "Failing Bank Acquisition Fairness Act - Restrict concentration limit exceptions for failed bank mergers",
-          "status": "Passed under suspension of rules"
+          "measure": "H.R. 9602-9611",
+          "title": "Bundle of \"Less Bureaucracy, Better\" education bills including higher education, K-12, student aid, and tribal education reforms",
+          "status": "ordered reported as amended from Education Committee"
         },
         {
           "measure": "H.R. 8595",
           "title": "National Security, Department of State, and Related Programs Appropriations Act, 2027",
-          "status": "Scheduled for consideration on July 15"
+          "status": "passed 217-209"
+        },
+        {
+          "measure": "H.R. 5880, H.R. 7184, H.R. 8005",
+          "title": "Drug enforcement bills addressing illicit pill presses and fentanyl",
+          "status": "forwarded to full Energy and Commerce Committee"
         }
       ]
     }
@@ -76,33 +61,33 @@
   "committees": [
     {
       "chamber": "senate",
+      "committee": "Judiciary",
+      "topic": "Continuation of Attorney General nomination hearing for Todd Blanche; business meeting on circuit and district judge nominations - 9 a.m. Thursday"
+    },
+    {
+      "chamber": "senate",
+      "committee": "Armed Services",
+      "topic": "Confirmation hearing on General Douglas A. Schiess nomination for Chief of Space Operations - 9:30 a.m. Thursday"
+    },
+    {
+      "chamber": "senate",
+      "committee": "Finance",
+      "topic": "Confirmation hearings on Treasury Department nominees including Deputy Secretary and Under Secretary positions - 10 a.m. Thursday"
+    },
+    {
+      "chamber": "house",
+      "committee": "Budget",
+      "topic": "Markup on Concurrent Resolution on the Budget for Fiscal Year 2027 - 9 a.m. Thursday"
+    },
+    {
+      "chamber": "senate",
       "committee": "Banking, Housing, and Urban Affairs",
-      "topic": "Semiannual Monetary Policy Report to Congress, 10 a.m. Wednesday"
+      "topic": "Hearing on Consumer Financial Protection Bureau Semi-Annual Report with focus on CFPB reform - 10 a.m. Thursday"
     },
     {
       "chamber": "senate",
-      "committee": "Judiciary",
-      "topic": "Confirmation hearing on Todd Blanche nomination for Attorney General, 9 a.m. Wednesday"
-    },
-    {
-      "chamber": "senate",
-      "committee": "Health, Education, Labor, and Pensions",
-      "topic": "Business meeting on labor statistics commissioner and National Labor Relations Board nominations, 9:45 a.m. Wednesday"
-    },
-    {
-      "chamber": "house",
-      "committee": "Education and Workforce",
-      "topic": "Markup on 10 education bureaucracy reduction bills, 10:15 a.m. Wednesday"
-    },
-    {
-      "chamber": "house",
-      "committee": "Energy and Commerce",
-      "topic": "Health subcommittee markup on drug safety bills and hearing on FDA biomedical innovation, 10 a.m. Wednesday"
-    },
-    {
-      "chamber": "house",
-      "committee": "Judiciary",
-      "topic": "Markup on Congressional Records Protection Act and other measures, 10 a.m. Wednesday"
+      "committee": "Foreign Relations",
+      "topic": "Confirmation hearings on State Department ambassador nominees to Cambodia, Slovakia, Brazil, and The Gambia - 11 a.m. Thursday"
     }
   ]
 }
