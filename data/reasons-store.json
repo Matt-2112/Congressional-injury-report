@@ -1,9 +1,9 @@
 {
   "D000230": {
     "reason": "granted leave of absence",
-    "detail": "Mr. Davis of Illinois was granted leave of absence by unanimous consent for July 13, 2026.",
+    "detail": "Mr. Davis of Illinois was granted leave of absence by unanimous consent on July 13, 2026.",
     "onLeave": true,
-    "source": "Congressional Record 2026-07-13 — LEAVE OF ABSENCE",
+    "source": "Congressional Record 2026-07-13",
     "date": "2026-07-13"
   }
 }

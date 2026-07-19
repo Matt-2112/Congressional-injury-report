@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-07-18T11:07:56.092Z",
-  "reportDate": "2026-07-18",
+  "generatedAt": "2026-07-19T11:12:05.392Z",
+  "reportDate": "2026-07-19",
   "recordIssueDate": "2026-07-16",
   "available": true,
-  "headline": "Senate blocks Medicare prior auth disapproval, while Westercamp nears confirmation and Flowers heads to cloture vote Monday.",
+  "headline": "Senate punches its ticket for judicial battles ahead with cloture set for federal judge nominations!",
   "chambers": {
     "senate": {
       "nextMeeting": "Monday, July 20 at 3:00 PM",
-      "lastSessionSummary": "The Senate voted 46-50 against advancing a disapproval resolution on Medicare's prior authorization rule. Kara Marie Westercamp's nomination for International Trade Court judge cleared cloture 49-48 and is set for confirmation. Benjamin Flowers' nomination for Sixth Circuit Judge underwent cloture proceedings with a vote scheduled for Monday.",
+      "lastSessionSummary": "The Senate confirmed five International Trade Commission members and 160 military nominations across all service branches. A failed procedural vote blocked consideration of a Medicare prior authorization rule disapproval resolution, and judicial nominations advanced with cloture scheduled for Benjamin Flowers' circuit court bid.",
       "onTheFloor": [
         {
+          "measure": "Flowers Nomination",
+          "title": "Nomination of Benjamin M. Flowers of Ohio to be United States Circuit Judge for the Sixth Circuit",
+          "status": "Cloture vote scheduled for Monday, July 20 at 5:30 PM"
+        },
+        {
+          "measure": "Westercamp Nomination",
+          "title": "Nomination of Kara Marie Westercamp of Virginia to be Judge of the United States Court of International Trade",
+          "status": "Cloture motion agreed to 49-48; confirmation vote pending"
+        },
+        {
           "measure": "S.J. Res. 198",
-          "title": "Congressional disapproval of Medicare prior authorization rule for WISeR Model services",
-          "status": "failed 46-50, did not proceed"
-        },
-        {
-          "measure": "Westercamp nomination",
-          "title": "Kara Marie Westercamp to be Judge of the United States Court of International Trade",
-          "status": "cloture agreed 49-48, confirmation vote pending"
-        },
-        {
-          "measure": "Flowers nomination",
-          "title": "Benjamin M. Flowers to be United States Circuit Judge for Sixth Circuit",
-          "status": "cloture vote scheduled Monday 5:30 PM"
-        },
-        {
-          "measure": "International Trade Commission nominations",
-          "title": "Five nominees confirmed to USITC including Brett Doyle, David Foley Jr., Samuel Negatu, Peter-Anthony Pappas, and Bartholomew Thanhauser",
-          "status": "confirmed"
-        },
-        {
-          "measure": "Military nominations",
-          "title": "160 military nominations confirmed across all service branches including general and admiral ranks",
-          "status": "confirmed"
+          "title": "Congressional disapproval of Medicare prior authorization rule under the WISeR Model",
+          "status": "Motion to proceed rejected 46-50"
         }
       ]
     },
     "house": {
       "nextMeeting": "Saturday, July 18 at 10:00 AM",
-      "lastSessionSummary": "The House passed H.R. 5362 naming the VA multispecialty clinic in Marietta, Georgia after Colonel Michael H. Boyce by 418-0 vote. H.R. 9237, the Take Care of America's Veterans Act, saw debate continue with a motion to recommit rejected 210-211.",
+      "lastSessionSummary": "The House passed H.R. 5362 naming a VA clinic in Marietta, Georgia after Colonel Michael H. Boyce by a 418-0 vote under suspension of the rules. The chamber continued debate on H.R. 9237, the Take Care of America's Veterans Act, and rejected a motion to recommit the bill 210-211.",
       "onTheFloor": [
         {
-          "measure": "H.R. 5362",
-          "title": "Name Department of Veterans Affairs multispecialty clinic in Marietta, Georgia as Colonel Michael H. Boyce VA Clinic",
-          "status": "passed 418-0"
+          "measure": "H.R. 9237",
+          "title": "Take Care of America's Veterans Act to improve benefits for veterans and Department of Veterans Affairs administration",
+          "status": "Further proceedings postponed; motion to recommit rejected 210-211"
         },
         {
-          "measure": "H.R. 9237",
-          "title": "Take Care of America's Veterans Act—improve veterans benefits and VA administration",
-          "status": "debate ongoing, further proceedings postponed"
+          "measure": "H.R. 5362",
+          "title": "Naming the Department of Veterans Affairs multispecialty clinic in Marietta, Georgia as the Colonel Michael H. Boyce Department of Veterans Affairs Multispecialty Clinic",
+          "status": "Passed 418-0 under suspension of the rules"
+        },
+        {
+          "measure": "H.R. 3029",
+          "title": "Amend Research and Development, Competition, and Innovation Act to support nucleic acid screening",
+          "status": "Committee report filed (H. Rept. 119-751)"
+        },
+        {
+          "measure": "H.R. 8790",
+          "title": "Amend Energy Independence and Security Act of 2007 to direct next-generation geothermal research and development",
+          "status": "Committee report filed (H. Rept. 119-752, Part 1)"
         }
       ]
     }
@@ -56,33 +56,33 @@
   "committees": [
     {
       "chamber": "senate",
-      "committee": "Armed Services",
-      "topic": "Hearing on nomination of Lieutenant General Douglas A. Schiess to be Chief of Space Operations"
+      "committee": "Committee on Armed Services",
+      "topic": "Hearing on nomination of Lieutenant General Douglas A. Schiess, USSF, to be Chief of Space Operations"
     },
     {
       "chamber": "senate",
-      "committee": "Banking, Housing, and Urban Affairs",
+      "committee": "Committee on Banking, Housing, and Urban Affairs",
       "topic": "Hearing on Consumer Financial Protection Bureau Semi-Annual Report and CFPB reform"
     },
     {
       "chamber": "senate",
-      "committee": "Commerce, Science, and Transportation",
-      "topic": "Hearing on nomination of David Cummins to be Administrator of Transportation Security Administration"
+      "committee": "Committee on Commerce, Science, and Transportation",
+      "topic": "Hearing on nomination of David Cummins of Virginia to be TSA Administrator"
     },
     {
       "chamber": "senate",
-      "committee": "Judiciary",
-      "topic": "Hearing on nomination of Todd Blanche to be Attorney General"
+      "committee": "Committee on Health, Education, Labor, and Pensions",
+      "topic": "Hearing on nomination of Keith Sonderling of Florida to be Secretary of Labor"
+    },
+    {
+      "chamber": "senate",
+      "committee": "Committee on the Judiciary",
+      "topic": "Hearing on nomination of Todd Blanche of Florida to be Attorney General"
     },
     {
       "chamber": "house",
-      "committee": "Budget",
-      "topic": "Markup of Concurrent Resolution on Budget for Fiscal Year 2027"
-    },
-    {
-      "chamber": "senate",
-      "committee": "Finance",
-      "topic": "Hearing on Treasury Department nominees including Deputy Secretary Francis Brooke"
+      "committee": "Committee on the Budget",
+      "topic": "Full committee markup on Concurrent Resolution on the Budget for Fiscal Year 2027"
     }
   ]
 }
