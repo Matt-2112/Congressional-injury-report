@@ -1,54 +1,34 @@
 {
-  "generatedAt": "2026-07-19T11:12:05.392Z",
-  "reportDate": "2026-07-19",
-  "recordIssueDate": "2026-07-16",
+  "generatedAt": "2026-07-20T12:20:07.750Z",
+  "reportDate": "2026-07-20",
+  "recordIssueDate": "2026-07-18",
   "available": true,
-  "headline": "Senate punches its ticket for judicial battles ahead with cloture set for federal judge nominations!",
+  "headline": "Senate returns Monday with judicial confirmation votes looming while House tackles energy and healthcare bills in committee markups!",
   "chambers": {
     "senate": {
       "nextMeeting": "Monday, July 20 at 3:00 PM",
-      "lastSessionSummary": "The Senate confirmed five International Trade Commission members and 160 military nominations across all service branches. A failed procedural vote blocked consideration of a Medicare prior authorization rule disapproval resolution, and judicial nominations advanced with cloture scheduled for Benjamin Flowers' circuit court bid.",
+      "lastSessionSummary": "The Senate was not in session on Saturday, July 18. Reports were filed on Medicare wheelchair payment rules and the fiscal year 2027 budget resolution.",
       "onTheFloor": [
         {
-          "measure": "Flowers Nomination",
+          "measure": "Benjamin M. Flowers nomination",
           "title": "Nomination of Benjamin M. Flowers of Ohio to be United States Circuit Judge for the Sixth Circuit",
-          "status": "Cloture vote scheduled for Monday, July 20 at 5:30 PM"
-        },
-        {
-          "measure": "Westercamp Nomination",
-          "title": "Nomination of Kara Marie Westercamp of Virginia to be Judge of the United States Court of International Trade",
-          "status": "Cloture motion agreed to 49-48; confirmation vote pending"
-        },
-        {
-          "measure": "S.J. Res. 198",
-          "title": "Congressional disapproval of Medicare prior authorization rule under the WISeR Model",
-          "status": "Motion to proceed rejected 46-50"
+          "status": "Cloture vote scheduled for Monday at 5:30 PM"
         }
       ]
     },
     "house": {
-      "nextMeeting": "Saturday, July 18 at 10:00 AM",
-      "lastSessionSummary": "The House passed H.R. 5362 naming a VA clinic in Marietta, Georgia after Colonel Michael H. Boyce by a 418-0 vote under suspension of the rules. The chamber continued debate on H.R. 9237, the Take Care of America's Veterans Act, and rejected a motion to recommit the bill 210-211.",
+      "nextMeeting": "Monday, July 20 at 12:00 PM",
+      "lastSessionSummary": "The House met briefly on Saturday for a two-minute session. Reports were filed on H.R. 1703 regarding Medicare wheelchair payment rules and H. Con. Res. 113 establishing the fiscal year 2027 congressional budget.",
       "onTheFloor": [
         {
-          "measure": "H.R. 9237",
-          "title": "Take Care of America's Veterans Act to improve benefits for veterans and Department of Veterans Affairs administration",
-          "status": "Further proceedings postponed; motion to recommit rejected 210-211"
+          "measure": "H.R. 1703",
+          "title": "Amend Medicare payment rules for manual wheelchairs under Part B",
+          "status": "Committee report filed"
         },
         {
-          "measure": "H.R. 5362",
-          "title": "Naming the Department of Veterans Affairs multispecialty clinic in Marietta, Georgia as the Colonel Michael H. Boyce Department of Veterans Affairs Multispecialty Clinic",
-          "status": "Passed 418-0 under suspension of the rules"
-        },
-        {
-          "measure": "H.R. 3029",
-          "title": "Amend Research and Development, Competition, and Innovation Act to support nucleic acid screening",
-          "status": "Committee report filed (H. Rept. 119-751)"
-        },
-        {
-          "measure": "H.R. 8790",
-          "title": "Amend Energy Independence and Security Act of 2007 to direct next-generation geothermal research and development",
-          "status": "Committee report filed (H. Rept. 119-752, Part 1)"
+          "measure": "H. Con. Res. 113",
+          "title": "Establish congressional budget for fiscal year 2027 and budgetary levels through 2036",
+          "status": "Committee report filed"
         }
       ]
     }
@@ -56,33 +36,23 @@
   "committees": [
     {
       "chamber": "senate",
-      "committee": "Committee on Armed Services",
-      "topic": "Hearing on nomination of Lieutenant General Douglas A. Schiess, USSF, to be Chief of Space Operations"
-    },
-    {
-      "chamber": "senate",
-      "committee": "Committee on Banking, Housing, and Urban Affairs",
-      "topic": "Hearing on Consumer Financial Protection Bureau Semi-Annual Report and CFPB reform"
-    },
-    {
-      "chamber": "senate",
-      "committee": "Committee on Commerce, Science, and Transportation",
-      "topic": "Hearing on nomination of David Cummins of Virginia to be TSA Administrator"
-    },
-    {
-      "chamber": "senate",
-      "committee": "Committee on Health, Education, Labor, and Pensions",
-      "topic": "Hearing on nomination of Keith Sonderling of Florida to be Secretary of Labor"
-    },
-    {
-      "chamber": "senate",
-      "committee": "Committee on the Judiciary",
-      "topic": "Hearing on nomination of Todd Blanche of Florida to be Attorney General"
+      "committee": "Select Committee on Intelligence",
+      "topic": "Closed business meeting on intelligence matters"
     },
     {
       "chamber": "house",
-      "committee": "Committee on the Budget",
-      "topic": "Full committee markup on Concurrent Resolution on the Budget for Fiscal Year 2027"
+      "committee": "Committee on Energy and Commerce",
+      "topic": "Markup on 28 bills including energy grid acts, drug enforcement measures, healthcare transparency, and pipeline safety"
+    },
+    {
+      "chamber": "house",
+      "committee": "Committee on Rules",
+      "topic": "Hearing on insider trading, capital access, budget resolution, appropriations, defense authorization, and work incentive legislation"
+    },
+    {
+      "chamber": "house",
+      "committee": "Permanent Select Committee on Intelligence",
+      "topic": "Markup on H.R. 9624, Intelligence Authorization Act for Fiscal Year 2027"
     }
   ]
 }
