@@ -1,34 +1,44 @@
 {
-  "generatedAt": "2026-07-20T12:20:07.750Z",
-  "reportDate": "2026-07-20",
+  "generatedAt": "2026-07-21T11:50:05.479Z",
+  "reportDate": "2026-07-21",
   "recordIssueDate": "2026-07-18",
   "available": true,
-  "headline": "Senate returns Monday with judicial confirmation votes looming while House tackles energy and healthcare bills in committee markups!",
+  "headline": "Congress returns Monday with judicial confirmation votes in the Senate and a packed Energy and Commerce markup in the House!",
   "chambers": {
     "senate": {
       "nextMeeting": "Monday, July 20 at 3:00 PM",
-      "lastSessionSummary": "The Senate was not in session on Saturday, July 18. Reports were filed on Medicare wheelchair payment rules and the fiscal year 2027 budget resolution.",
+      "lastSessionSummary": "The Senate was not in session on Saturday, July 18. The chamber stands adjourned and will reconvene Monday afternoon to resume consideration of Benjamin M. Flowers' nomination to be United States Circuit Judge for the Sixth Circuit.",
       "onTheFloor": [
         {
-          "measure": "Benjamin M. Flowers nomination",
+          "measure": "Benjamin M. Flowers Nomination",
           "title": "Nomination of Benjamin M. Flowers of Ohio to be United States Circuit Judge for the Sixth Circuit",
-          "status": "Cloture vote scheduled for Monday at 5:30 PM"
+          "status": "Cloture vote scheduled for 5:30 PM Monday"
         }
       ]
     },
     "house": {
       "nextMeeting": "Monday, July 20 at 12:00 PM",
-      "lastSessionSummary": "The House met briefly on Saturday for a two-minute session. Reports were filed on H.R. 1703 regarding Medicare wheelchair payment rules and H. Con. Res. 113 establishing the fiscal year 2027 congressional budget.",
+      "lastSessionSummary": "The House met briefly on Saturday, July 18 for just two minutes. Two reports were filed: H.R. 1703 on Medicare payment rules for manual wheelchairs and H. Con. Res. 113 establishing the fiscal year 2027 congressional budget. No votes were held.",
       "onTheFloor": [
         {
-          "measure": "H.R. 1703",
-          "title": "Amend Medicare payment rules for manual wheelchairs under Part B",
-          "status": "Committee report filed"
+          "measure": "H.R. 6529",
+          "title": "Protecting Families from AI Data Center Energy Costs Act",
+          "status": "Committee markup scheduled Monday"
         },
         {
-          "measure": "H. Con. Res. 113",
-          "title": "Establish congressional budget for fiscal year 2027 and budgetary levels through 2036",
-          "status": "Committee report filed"
+          "measure": "H.R. 6633",
+          "title": "High-Capacity Grid Act",
+          "status": "Committee markup scheduled Monday"
+        },
+        {
+          "measure": "H.R. 9332",
+          "title": "Load Forecasting Enhancement Act",
+          "status": "Committee markup scheduled Monday"
+        },
+        {
+          "measure": "H.R. 8800",
+          "title": "National Defense Authorization Act for Fiscal Year 2027",
+          "status": "Rules Committee hearing scheduled Monday"
         }
       ]
     }
@@ -42,17 +52,17 @@
     {
       "chamber": "house",
       "committee": "Committee on Energy and Commerce",
-      "topic": "Markup on 28 bills including energy grid acts, drug enforcement measures, healthcare transparency, and pipeline safety"
+      "topic": "Markup on 25 bills including AI data center costs, grid modernization, drug trafficking prevention, and Medicare transparency"
     },
     {
       "chamber": "house",
       "committee": "Committee on Rules",
-      "topic": "Hearing on insider trading, capital access, budget resolution, appropriations, defense authorization, and work incentive legislation"
+      "topic": "Hearing on Stop Insider Trading Act, Main Street Capital Access Act, FY2027 budget, continuing appropriations, defense authorization, and disabled worker employment"
     },
     {
       "chamber": "house",
       "committee": "Permanent Select Committee on Intelligence",
-      "topic": "Markup on H.R. 9624, Intelligence Authorization Act for Fiscal Year 2027"
+      "topic": "Markup on Intelligence Authorization Act for Fiscal Year 2027"
     }
   ]
 }
