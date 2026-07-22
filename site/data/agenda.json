@@ -1,68 +1,118 @@
 {
-  "generatedAt": "2026-07-21T11:50:05.479Z",
-  "reportDate": "2026-07-21",
-  "recordIssueDate": "2026-07-18",
+  "generatedAt": "2026-07-22T11:50:39.926Z",
+  "reportDate": "2026-07-22",
+  "recordIssueDate": "2026-07-20",
   "available": true,
-  "headline": "Congress returns Monday with judicial confirmation votes in the Senate and a packed Energy and Commerce markup in the House!",
+  "headline": "Senate lined up three judge votes and the House moved a stack of healthcare bills, but the real action is a defense authorization bill set to dominate the floor next week.",
   "chambers": {
     "senate": {
-      "nextMeeting": "Monday, July 20 at 3:00 PM",
-      "lastSessionSummary": "The Senate was not in session on Saturday, July 18. The chamber stands adjourned and will reconvene Monday afternoon to resume consideration of Benjamin M. Flowers' nomination to be United States Circuit Judge for the Sixth Circuit.",
+      "nextMeeting": "Tuesday, July 21 at 10:00 AM",
+      "lastSessionSummary": "The Senate advanced three judicial nominations this Monday, including Benjamin Flowers for the Sixth Circuit and Michael Martin for the Eastern District of Michigan, with cloture votes scheduled. The chamber began debate on the National Defense Authorization Act for Fiscal Year 2027 and also began consideration of Antonio Pozos for a federal judgeship.",
       "onTheFloor": [
         {
-          "measure": "Benjamin M. Flowers Nomination",
-          "title": "Nomination of Benjamin M. Flowers of Ohio to be United States Circuit Judge for the Sixth Circuit",
-          "status": "Cloture vote scheduled for 5:30 PM Monday"
+          "measure": "S. 4784",
+          "title": "National Defense Authorization Act for Fiscal Year 2027 - authorize military appropriations and personnel strengths",
+          "status": "motion to proceed begun"
+        },
+        {
+          "measure": "Benjamin M. Flowers nomination",
+          "title": "Nomination to be United States Circuit Judge for the Sixth Circuit",
+          "status": "cloture agreed 43-40, post-cloture consideration scheduled Tuesday July 21"
+        },
+        {
+          "measure": "Michael C. Martin nomination",
+          "title": "Nomination to be United States District Judge for the Eastern District of Michigan",
+          "status": "cloture vote scheduled Wednesday, July 22"
+        },
+        {
+          "measure": "Antonio M. Pozos nomination",
+          "title": "Nomination to be United States District Judge for the Eastern District of Pennsylvania",
+          "status": "cloture vote scheduled after Martin nomination"
+        },
+        {
+          "measure": "Daniel Mack Traynor nomination",
+          "title": "Nomination to be United States Circuit Judge for the Eighth Circuit",
+          "status": "cloture vote scheduled after Pozos nomination"
         }
       ]
     },
     "house": {
-      "nextMeeting": "Monday, July 20 at 12:00 PM",
-      "lastSessionSummary": "The House met briefly on Saturday, July 18 for just two minutes. Two reports were filed: H.R. 1703 on Medicare payment rules for manual wheelchairs and H. Con. Res. 113 establishing the fiscal year 2027 congressional budget. No votes were held.",
+      "nextMeeting": "Tuesday, July 21 at 10:00 AM",
+      "lastSessionSummary": "The House passed 16 bills under suspension of the rules on Monday, including measures on Medicare wheelchair coverage, food safety, Alzheimer's disease research, traumatic brain injury programs, and federal employee benefits. The Rules Committee approved a complex rule governing floor consideration of six major bills including the National Defense Authorization Act.",
       "onTheFloor": [
         {
-          "measure": "H.R. 6529",
-          "title": "Protecting Families from AI Data Center Energy Costs Act",
-          "status": "Committee markup scheduled Monday"
-        },
-        {
-          "measure": "H.R. 6633",
-          "title": "High-Capacity Grid Act",
-          "status": "Committee markup scheduled Monday"
-        },
-        {
-          "measure": "H.R. 9332",
-          "title": "Load Forecasting Enhancement Act",
-          "status": "Committee markup scheduled Monday"
-        },
-        {
           "measure": "H.R. 8800",
-          "title": "National Defense Authorization Act for Fiscal Year 2027",
-          "status": "Rules Committee hearing scheduled Monday"
+          "title": "National Defense Authorization Act for Fiscal Year 2027 - authorize military activities, construction, and personnel strengths",
+          "status": "rule granted Monday, consideration scheduled Tuesday"
+        },
+        {
+          "measure": "H.R. 8884",
+          "title": "Removing Barriers to Work for Disabled Americans Act - amend Social Security disability insurance",
+          "status": "rule granted Monday, consideration scheduled Tuesday"
+        },
+        {
+          "measure": "H. Con. Res. 113",
+          "title": "Establishing the congressional budget for fiscal year 2027 through 2036",
+          "status": "rule granted Monday, consideration scheduled Tuesday"
+        },
+        {
+          "measure": "H.R. 7008",
+          "title": "Stop Insider Trading Act - restrict stock holdings for Congress members and families",
+          "status": "rule granted Monday, consideration scheduled Tuesday"
+        },
+        {
+          "measure": "H.R. 6955",
+          "title": "Main Street Capital Access Act - make improvements to Federal banking laws",
+          "status": "rule granted Monday, consideration scheduled Tuesday"
+        },
+        {
+          "measure": "H.R. 9770",
+          "title": "Continuing Appropriations Act, 2027",
+          "status": "rule granted Monday, consideration scheduled Tuesday"
+        },
+        {
+          "measure": "H.R. 4541",
+          "title": "EARLY Act Reauthorization - reauthorize Young Women's Breast Health Education Act",
+          "status": "passed 394-6"
+        },
+        {
+          "measure": "H.R. 8823",
+          "title": "Putting Patients First by Strengthening Provider Accountability in FECA Act",
+          "status": "passed 396-0"
         }
       ]
     }
   },
   "committees": [
     {
-      "chamber": "senate",
-      "committee": "Select Committee on Intelligence",
-      "topic": "Closed business meeting on intelligence matters"
-    },
-    {
       "chamber": "house",
       "committee": "Committee on Energy and Commerce",
-      "topic": "Markup on 25 bills including AI data center costs, grid modernization, drug trafficking prevention, and Medicare transparency"
+      "topic": "Markup on 28 bills addressing grid modernization, AI energy costs, healthcare transparency, drug enforcement, and medical device biosimilars"
     },
     {
       "chamber": "house",
       "committee": "Committee on Rules",
-      "topic": "Hearing on Stop Insider Trading Act, Main Street Capital Access Act, FY2027 budget, continuing appropriations, defense authorization, and disabled worker employment"
+      "topic": "Hearing and 8-4 vote granting structured rule for National Defense Authorization Act, Social Security disability reauthorization, budget resolution, and other major legislation"
+    },
+    {
+      "chamber": "senate",
+      "committee": "Committee on Appropriations",
+      "topic": "Hearing on President's supplemental funding request (July 21)"
+    },
+    {
+      "chamber": "senate",
+      "committee": "Committee on Commerce, Science, and Transportation",
+      "topic": "Subcommittee hearing on measuring progress in science, standards, and strategic competition (July 21)"
+    },
+    {
+      "chamber": "senate",
+      "committee": "Committee on Energy and Natural Resources",
+      "topic": "Subcommittee on National Parks hearing on 28 bills affecting national parks, historic trails, and public lands (July 21)"
     },
     {
       "chamber": "house",
-      "committee": "Permanent Select Committee on Intelligence",
-      "topic": "Markup on Intelligence Authorization Act for Fiscal Year 2027"
+      "committee": "Committee on Education and Workforce",
+      "topic": "Full Committee markup on Title IX clarification, parental rights, AI literacy, alternative credentials, and union governance (July 21)"
     }
   ]
 }
