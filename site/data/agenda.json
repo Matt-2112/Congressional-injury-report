@@ -1,118 +1,118 @@
 {
-  "generatedAt": "2026-07-22T11:50:39.926Z",
-  "reportDate": "2026-07-22",
-  "recordIssueDate": "2026-07-20",
+  "generatedAt": "2026-07-23T11:53:49.445Z",
+  "reportDate": "2026-07-23",
+  "recordIssueDate": "2026-07-21",
   "available": true,
-  "headline": "Senate lined up three judge votes and the House moved a stack of healthcare bills, but the real action is a defense authorization bill set to dominate the floor next week.",
+  "headline": "Defense bill dominance continues as Senate locks in three judicial confirmations!",
   "chambers": {
     "senate": {
-      "nextMeeting": "Tuesday, July 21 at 10:00 AM",
-      "lastSessionSummary": "The Senate advanced three judicial nominations this Monday, including Benjamin Flowers for the Sixth Circuit and Michael Martin for the Eastern District of Michigan, with cloture votes scheduled. The chamber began debate on the National Defense Authorization Act for Fiscal Year 2027 and also began consideration of Antonio Pozos for a federal judgeship.",
+      "nextMeeting": "Wednesday, July 22 at 10:00 AM",
+      "lastSessionSummary": "The Senate confirmed Kara Marie Westercamp to the Court of International Trade by a 50-48 vote and passed the Affordable Prescriptions For Patients Act addressing patent infringement of biological products. A unanimous-consent agreement was reached scheduling judicial confirmation votes for Wednesday, including Benjamin M. Flowers for the Sixth Circuit.",
       "onTheFloor": [
         {
-          "measure": "S. 4784",
-          "title": "National Defense Authorization Act for Fiscal Year 2027 - authorize military appropriations and personnel strengths",
-          "status": "motion to proceed begun"
+          "measure": "S. 1041",
+          "title": "Affordable Prescriptions For Patients Act—amends patent law to address infringement claims involving biological products",
+          "status": "passed"
         },
         {
-          "measure": "Benjamin M. Flowers nomination",
-          "title": "Nomination to be United States Circuit Judge for the Sixth Circuit",
-          "status": "cloture agreed 43-40, post-cloture consideration scheduled Tuesday July 21"
+          "measure": "S. Con. Res. 37",
+          "title": "Authorizes use of Capitol Rotunda for ceremony honoring late Senator Lindsey Graham",
+          "status": "agreed to"
         },
         {
-          "measure": "Michael C. Martin nomination",
-          "title": "Nomination to be United States District Judge for the Eastern District of Michigan",
-          "status": "cloture vote scheduled Wednesday, July 22"
+          "measure": "S. Res. 809",
+          "title": "Designates June 15 as World Elder Abuse Awareness Day and June as Elder Abuse Awareness Month",
+          "status": "agreed to"
         },
         {
-          "measure": "Antonio M. Pozos nomination",
-          "title": "Nomination to be United States District Judge for the Eastern District of Pennsylvania",
-          "status": "cloture vote scheduled after Martin nomination"
+          "measure": "S. Res. 810",
+          "title": "Constitutes majority party membership on committees for 119th Congress",
+          "status": "agreed to"
         },
         {
-          "measure": "Daniel Mack Traynor nomination",
-          "title": "Nomination to be United States Circuit Judge for the Eighth Circuit",
-          "status": "cloture vote scheduled after Pozos nomination"
+          "measure": "Flowers nomination",
+          "title": "Benjamin M. Flowers of Ohio to be United States Circuit Judge for the Sixth Circuit",
+          "status": "confirmation vote scheduled Wednesday 11:30 AM"
+        },
+        {
+          "measure": "Martin nomination",
+          "title": "Michael C. Martin of Michigan to be United States District Judge for Eastern District of Michigan",
+          "status": "cloture vote scheduled Wednesday 2:00 PM"
+        },
+        {
+          "measure": "Pozos nomination",
+          "title": "Antonio M. Pozos of Pennsylvania to be United States District Judge for Eastern District of Pennsylvania",
+          "status": "cloture vote scheduled after Martin confirmation"
+        },
+        {
+          "measure": "Traynor nomination",
+          "title": "Daniel Mack Traynor of North Dakota to be United States Circuit Judge for the Eighth Circuit",
+          "status": "cloture vote scheduled Wednesday 5:30 PM"
         }
       ]
     },
     "house": {
-      "nextMeeting": "Tuesday, July 21 at 10:00 AM",
-      "lastSessionSummary": "The House passed 16 bills under suspension of the rules on Monday, including measures on Medicare wheelchair coverage, food safety, Alzheimer's disease research, traumatic brain injury programs, and federal employee benefits. The Rules Committee approved a complex rule governing floor consideration of six major bills including the National Defense Authorization Act.",
+      "nextMeeting": "Wednesday, July 22 at 11:00 AM",
+      "lastSessionSummary": "The House passed H.R. 1118, the Value Over Cost Act, by 421-1 establishing best value procurement through the multiple award schedule program. Consideration of H.R. 8800, the National Defense Authorization Act for Fiscal Year 2027, continues with dozens of amendments adopted addressing military readiness, supply chain security, and personnel support.",
       "onTheFloor": [
         {
           "measure": "H.R. 8800",
-          "title": "National Defense Authorization Act for Fiscal Year 2027 - authorize military activities, construction, and personnel strengths",
-          "status": "rule granted Monday, consideration scheduled Tuesday"
+          "title": "National Defense Authorization Act for Fiscal Year 2027—authorizes appropriations for military activities, construction, and defense operations",
+          "status": "debate ongoing, consideration continues Wednesday"
         },
         {
-          "measure": "H.R. 8884",
-          "title": "Removing Barriers to Work for Disabled Americans Act - amend Social Security disability insurance",
-          "status": "rule granted Monday, consideration scheduled Tuesday"
+          "measure": "H.R. 1118",
+          "title": "Value Over Cost Act—provides best value procurement through multiple award schedule program",
+          "status": "passed 421-1"
         },
         {
-          "measure": "H. Con. Res. 113",
-          "title": "Establishing the congressional budget for fiscal year 2027 through 2036",
-          "status": "rule granted Monday, consideration scheduled Tuesday"
+          "measure": "Defense bill amendments",
+          "title": "Rogers en bloc amendment package including 90+ provisions on military modernization, supply chain security, servicemember benefits, and semiconductor acquisitions",
+          "status": "agreed to"
         },
         {
-          "measure": "H.R. 7008",
-          "title": "Stop Insider Trading Act - restrict stock holdings for Congress members and families",
-          "status": "rule granted Monday, consideration scheduled Tuesday"
+          "measure": "Cyber and supply chain provisions",
+          "title": "Begich amendments requiring 72-hour cyber incident reporting and Chinese sourcing restrictions on defense contractors",
+          "status": "adopted"
         },
         {
-          "measure": "H.R. 6955",
-          "title": "Main Street Capital Access Act - make improvements to Federal banking laws",
-          "status": "rule granted Monday, consideration scheduled Tuesday"
-        },
-        {
-          "measure": "H.R. 9770",
-          "title": "Continuing Appropriations Act, 2027",
-          "status": "rule granted Monday, consideration scheduled Tuesday"
-        },
-        {
-          "measure": "H.R. 4541",
-          "title": "EARLY Act Reauthorization - reauthorize Young Women's Breast Health Education Act",
-          "status": "passed 394-6"
-        },
-        {
-          "measure": "H.R. 8823",
-          "title": "Putting Patients First by Strengthening Provider Accountability in FECA Act",
-          "status": "passed 396-0"
+          "measure": "Personnel support provisions",
+          "title": "Buchanan and other amendments providing servicemember benefits including glucose monitoring, nutrition programs, and mental health services",
+          "status": "adopted"
         }
       ]
     }
   },
   "committees": [
     {
-      "chamber": "house",
-      "committee": "Committee on Energy and Commerce",
-      "topic": "Markup on 28 bills addressing grid modernization, AI energy costs, healthcare transparency, drug enforcement, and medical device biosimilars"
-    },
-    {
-      "chamber": "house",
-      "committee": "Committee on Rules",
-      "topic": "Hearing and 8-4 vote granting structured rule for National Defense Authorization Act, Social Security disability reauthorization, budget resolution, and other major legislation"
-    },
-    {
-      "chamber": "senate",
-      "committee": "Committee on Appropriations",
-      "topic": "Hearing on President's supplemental funding request (July 21)"
-    },
-    {
       "chamber": "senate",
       "committee": "Committee on Commerce, Science, and Transportation",
-      "topic": "Subcommittee hearing on measuring progress in science, standards, and strategic competition (July 21)"
+      "topic": "S. 1759 civil supersonic flight, S. 3258 FAA medication list, S. 4429 foreign adversary connected vehicles, and nominations including NTSB and TSA administrator—10:30 AM Wednesday"
     },
     {
       "chamber": "senate",
-      "committee": "Committee on Energy and Natural Resources",
-      "topic": "Subcommittee on National Parks hearing on 28 bills affecting national parks, historic trails, and public lands (July 21)"
+      "committee": "Committee on Health, Education, Labor, and Pensions",
+      "topic": "S. 2355 hospital price transparency, S. 4189 insulin pricing, S. 5026 food and beverage warning labels, and nursing workforce development—10:00 AM Wednesday"
+    },
+    {
+      "chamber": "senate",
+      "committee": "Committee on Foreign Relations",
+      "topic": "Nominations for multiple ambassadors and assistant secretaries including Kari Lake for Jamaica and Douglas Mastriano for Slovak Republic—9:00 AM Wednesday"
     },
     {
       "chamber": "house",
-      "committee": "Committee on Education and Workforce",
-      "topic": "Full Committee markup on Title IX clarification, parental rights, AI literacy, alternative credentials, and union governance (July 21)"
+      "committee": "Committee on Energy and Commerce",
+      "topic": "Subcommittee on Communications and Technology hearing on protecting communications networks and improving connectivity—1:30 PM Wednesday"
+    },
+    {
+      "chamber": "house",
+      "committee": "Committee on Foreign Affairs",
+      "topic": "Full committee continues markup on H.R. 9086, 9062, 1939, and 9087 regarding Foreign Service Act, international trade, Sudan sanctions, and foreign affairs matters—5:00 PM Wednesday"
+    },
+    {
+      "chamber": "house",
+      "committee": "Committee on Appropriations",
+      "topic": "Full committee hearing on funding lapses and shutdown reform—10:00 AM Wednesday"
     }
   ]
 }
