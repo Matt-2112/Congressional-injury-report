@@ -1,84 +1,64 @@
 {
-  "generatedAt": "2026-07-23T11:53:49.445Z",
-  "reportDate": "2026-07-23",
-  "recordIssueDate": "2026-07-21",
+  "generatedAt": "2026-07-24T11:44:44.824Z",
+  "reportDate": "2026-07-24",
+  "recordIssueDate": "2026-07-22",
   "available": true,
-  "headline": "Defense bill dominance continues as Senate locks in three judicial confirmations!",
+  "headline": "House overwhelms Senate with defense bill passage as judicial nominations roll forward in upper chamber.",
   "chambers": {
     "senate": {
-      "nextMeeting": "Wednesday, July 22 at 10:00 AM",
-      "lastSessionSummary": "The Senate confirmed Kara Marie Westercamp to the Court of International Trade by a 50-48 vote and passed the Affordable Prescriptions For Patients Act addressing patent infringement of biological products. A unanimous-consent agreement was reached scheduling judicial confirmation votes for Wednesday, including Benjamin M. Flowers for the Sixth Circuit.",
+      "nextMeeting": "Thursday, July 23 at 10:00 AM",
+      "lastSessionSummary": "The Senate confirmed two federal judges: Benjamin M. Flowers to the Sixth Circuit by 49-46, and Michael C. Martin to the Eastern District of Michigan by 62-36. Cloture motions advanced on the Clayton nomination for Director of National Intelligence and the Traynor nomination for Eighth Circuit judge, setting up final votes Thursday. S.J. Res. 180 on Iran hostilities awaits a discharge motion.",
       "onTheFloor": [
         {
-          "measure": "S. 1041",
-          "title": "Affordable Prescriptions For Patients Act—amends patent law to address infringement claims involving biological products",
-          "status": "passed"
+          "measure": "Clayton Nomination",
+          "title": "Confirmation of Walter Clayton as Director of National Intelligence",
+          "status": "cloture vote scheduled Friday, July 24"
         },
         {
-          "measure": "S. Con. Res. 37",
-          "title": "Authorizes use of Capitol Rotunda for ceremony honoring late Senator Lindsey Graham",
-          "status": "agreed to"
+          "measure": "Traynor Nomination",
+          "title": "Daniel Mack Traynor to be United States Circuit Judge for the Eighth Circuit",
+          "status": "confirmation vote scheduled Thursday, July 23 at 12 noon"
         },
         {
-          "measure": "S. Res. 809",
-          "title": "Designates June 15 as World Elder Abuse Awareness Day and June as Elder Abuse Awareness Month",
-          "status": "agreed to"
+          "measure": "Pozos Nomination",
+          "title": "Antonio M. Pozos to be United States District Judge for the Eastern District of Pennsylvania",
+          "status": "confirmation vote scheduled Thursday, July 23 at 1:45 PM"
         },
         {
-          "measure": "S. Res. 810",
-          "title": "Constitutes majority party membership on committees for 119th Congress",
-          "status": "agreed to"
+          "measure": "S.J. Res. 180",
+          "title": "Directing removal of U.S. Armed Forces from hostilities within or against Iran unauthorized by Congress",
+          "status": "discharge motion vote scheduled Thursday, July 23 at 11:30 AM"
         },
         {
-          "measure": "Flowers nomination",
-          "title": "Benjamin M. Flowers of Ohio to be United States Circuit Judge for the Sixth Circuit",
-          "status": "confirmation vote scheduled Wednesday 11:30 AM"
-        },
-        {
-          "measure": "Martin nomination",
-          "title": "Michael C. Martin of Michigan to be United States District Judge for Eastern District of Michigan",
-          "status": "cloture vote scheduled Wednesday 2:00 PM"
-        },
-        {
-          "measure": "Pozos nomination",
-          "title": "Antonio M. Pozos of Pennsylvania to be United States District Judge for Eastern District of Pennsylvania",
-          "status": "cloture vote scheduled after Martin confirmation"
-        },
-        {
-          "measure": "Traynor nomination",
-          "title": "Daniel Mack Traynor of North Dakota to be United States Circuit Judge for the Eighth Circuit",
-          "status": "cloture vote scheduled Wednesday 5:30 PM"
+          "measure": "S. 5062-5094",
+          "title": "Thirty-three bills introduced covering various legislative matters",
+          "status": "introduced, referred to committee"
         }
       ]
     },
     "house": {
-      "nextMeeting": "Wednesday, July 22 at 11:00 AM",
-      "lastSessionSummary": "The House passed H.R. 1118, the Value Over Cost Act, by 421-1 establishing best value procurement through the multiple award schedule program. Consideration of H.R. 8800, the National Defense Authorization Act for Fiscal Year 2027, continues with dozens of amendments adopted addressing military readiness, supply chain security, and personnel support.",
+      "nextMeeting": "Thursday, July 23 at 9:00 AM",
+      "lastSessionSummary": "The House passed the National Defense Authorization Act for Fiscal Year 2027 (H.R. 8800) by 216-212, authorizing military appropriations and defense activities. Dozens of amendments addressing readiness, supply chain security, and military personnel programs were agreed to during floor debate.",
       "onTheFloor": [
         {
           "measure": "H.R. 8800",
-          "title": "National Defense Authorization Act for Fiscal Year 2027—authorizes appropriations for military activities, construction, and defense operations",
-          "status": "debate ongoing, consideration continues Wednesday"
+          "title": "National Defense Authorization Act for Fiscal Year 2027 authorizing military appropriations and personnel strengths",
+          "status": "passed 216-212"
         },
         {
-          "measure": "H.R. 1118",
-          "title": "Value Over Cost Act—provides best value procurement through multiple award schedule program",
-          "status": "passed 421-1"
+          "measure": "H.R. 8884",
+          "title": "Removing Barriers to Work for Disabled Americans Act",
+          "status": "scheduled for consideration Thursday, July 23"
         },
         {
-          "measure": "Defense bill amendments",
-          "title": "Rogers en bloc amendment package including 90+ provisions on military modernization, supply chain security, servicemember benefits, and semiconductor acquisitions",
-          "status": "agreed to"
+          "measure": "H.R. 9823-9891",
+          "title": "69 public bills introduced on various legislative topics",
+          "status": "introduced, referred to committees"
         },
         {
-          "measure": "Cyber and supply chain provisions",
-          "title": "Begich amendments requiring 72-hour cyber incident reporting and Chinese sourcing restrictions on defense contractors",
-          "status": "adopted"
-        },
-        {
-          "measure": "Personnel support provisions",
-          "title": "Buchanan and other amendments providing servicemember benefits including glucose monitoring, nutrition programs, and mental health services",
-          "status": "adopted"
+          "measure": "H. Res. 1446-1450",
+          "title": "Five resolutions introduced",
+          "status": "introduced, referred to committees"
         }
       ]
     }
@@ -86,33 +66,33 @@
   "committees": [
     {
       "chamber": "senate",
-      "committee": "Committee on Commerce, Science, and Transportation",
-      "topic": "S. 1759 civil supersonic flight, S. 3258 FAA medication list, S. 4429 foreign adversary connected vehicles, and nominations including NTSB and TSA administrator—10:30 AM Wednesday"
+      "committee": "Committee on Banking, Housing, and Urban Affairs",
+      "topic": "Business meeting and opening hearing on nominations including Christopher Phelan for Council of Economic Advisers and Brian Johnson for Bureau of Consumer Financial Protection - Thursday, July 23 at 10:00 AM"
     },
     {
       "chamber": "senate",
       "committee": "Committee on Health, Education, Labor, and Pensions",
-      "topic": "S. 2355 hospital price transparency, S. 4189 insulin pricing, S. 5026 food and beverage warning labels, and nursing workforce development—10:00 AM Wednesday"
+      "topic": "Business meeting on nominations including Sean Kaufman for Assistant Secretary of Preparedness and Response and Erica Schwartz for CDC Director - Thursday, July 23 at 9:47 AM"
+    },
+    {
+      "chamber": "senate",
+      "committee": "Committee on the Judiciary",
+      "topic": "Business meeting on nominations including Todd Blanche for Attorney General and Daniel Desmond Domenico for Tenth Circuit judge, plus subcommittee designation - Thursday, July 23 at 10:15 AM"
+    },
+    {
+      "chamber": "senate",
+      "committee": "Committee on Energy and Natural Resources",
+      "topic": "Concluded oversight hearing examining the Federal Energy Regulatory Commission with commissioners testifying on energy policy - Wednesday, July 22"
     },
     {
       "chamber": "senate",
       "committee": "Committee on Foreign Relations",
-      "topic": "Nominations for multiple ambassadors and assistant secretaries including Kari Lake for Jamaica and Douglas Mastriano for Slovak Republic—9:00 AM Wednesday"
+      "topic": "Ordered favorably reported multiple State Department nominations including ambassadors to Jamaica, Brazil, Moldova, and Cambodia - Wednesday, July 22"
     },
     {
-      "chamber": "house",
-      "committee": "Committee on Energy and Commerce",
-      "topic": "Subcommittee on Communications and Technology hearing on protecting communications networks and improving connectivity—1:30 PM Wednesday"
-    },
-    {
-      "chamber": "house",
-      "committee": "Committee on Foreign Affairs",
-      "topic": "Full committee continues markup on H.R. 9086, 9062, 1939, and 9087 regarding Foreign Service Act, international trade, Sudan sanctions, and foreign affairs matters—5:00 PM Wednesday"
-    },
-    {
-      "chamber": "house",
-      "committee": "Committee on Appropriations",
-      "topic": "Full committee hearing on funding lapses and shutdown reform—10:00 AM Wednesday"
+      "chamber": "senate",
+      "committee": "Committee on Commerce, Science, and Transportation",
+      "topic": "Ordered favorably reported aviation and broadband bills including aviation safety updates and FAA medical certification procedures - Wednesday, July 22"
     }
   ]
 }
