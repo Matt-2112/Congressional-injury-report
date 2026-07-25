@@ -1,64 +1,54 @@
 {
-  "generatedAt": "2026-07-24T11:44:44.824Z",
-  "reportDate": "2026-07-24",
-  "recordIssueDate": "2026-07-22",
+  "generatedAt": "2026-07-25T11:14:38.514Z",
+  "reportDate": "2026-07-25",
+  "recordIssueDate": "2026-07-23",
   "available": true,
-  "headline": "House overwhelms Senate with defense bill passage as judicial nominations roll forward in upper chamber.",
+  "headline": "HOUSE PASSES DISABILITY WORK ACT BY 44 VOTES, SENATE PUNTS ON IRAN DISCHARGE AS CLOCK WINDS DOWN ON RECESS!",
   "chambers": {
     "senate": {
-      "nextMeeting": "Thursday, July 23 at 10:00 AM",
-      "lastSessionSummary": "The Senate confirmed two federal judges: Benjamin M. Flowers to the Sixth Circuit by 49-46, and Michael C. Martin to the Eastern District of Michigan by 62-36. Cloture motions advanced on the Clayton nomination for Director of National Intelligence and the Traynor nomination for Eighth Circuit judge, setting up final votes Thursday. S.J. Res. 180 on Iran hostilities awaits a discharge motion.",
+      "nextMeeting": "Monday, July 27 at 3:00 PM",
+      "lastSessionSummary": "Senate confirmed two judicial nominees including Daniel Traynor to the Eighth Circuit by a single vote, confirmed Treasury Department officials, and rejected a motion to discharge the Foreign Relations Committee from Iran war powers legislation. The chamber passed the Lunar Landing Day Act and a resolution designating July 25 as National Day of the American Cowboy before adjourning for a district work period.",
       "onTheFloor": [
         {
-          "measure": "Clayton Nomination",
-          "title": "Confirmation of Walter Clayton as Director of National Intelligence",
-          "status": "cloture vote scheduled Friday, July 24"
+          "measure": "S. 4784",
+          "title": "National Defense Authorization Act for Fiscal Year 2027",
+          "status": "motion to proceed withdrawn"
         },
         {
-          "measure": "Traynor Nomination",
-          "title": "Daniel Mack Traynor to be United States Circuit Judge for the Eighth Circuit",
-          "status": "confirmation vote scheduled Thursday, July 23 at 12 noon"
-        },
-        {
-          "measure": "Pozos Nomination",
-          "title": "Antonio M. Pozos to be United States District Judge for the Eastern District of Pennsylvania",
-          "status": "confirmation vote scheduled Thursday, July 23 at 1:45 PM"
+          "measure": "H.R. 5334",
+          "title": "Educator Expense Deduction for Early Childhood Educators",
+          "status": "cloture vote scheduled for after Clayton nomination disposition"
         },
         {
           "measure": "S.J. Res. 180",
-          "title": "Directing removal of U.S. Armed Forces from hostilities within or against Iran unauthorized by Congress",
-          "status": "discharge motion vote scheduled Thursday, July 23 at 11:30 AM"
+          "title": "Remove U.S. Armed Forces from hostilities with Iran",
+          "status": "motion to discharge failed 47-49"
         },
         {
-          "measure": "S. 5062-5094",
-          "title": "Thirty-three bills introduced covering various legislative matters",
-          "status": "introduced, referred to committee"
+          "measure": "S. 5123",
+          "title": "Designate July 20 as Lunar Landing Day",
+          "status": "passed"
+        },
+        {
+          "measure": "S. Res. 813",
+          "title": "Designate July 25 as National Day of the American Cowboy",
+          "status": "agreed to"
         }
       ]
     },
     "house": {
-      "nextMeeting": "Thursday, July 23 at 9:00 AM",
-      "lastSessionSummary": "The House passed the National Defense Authorization Act for Fiscal Year 2027 (H.R. 8800) by 216-212, authorizing military appropriations and defense activities. Dozens of amendments addressing readiness, supply chain security, and military personnel programs were agreed to during floor debate.",
+      "nextMeeting": "Monday, July 27 at 9:30 AM",
+      "lastSessionSummary": "House passed two major bills: H.Con.Res. 89 directing the President to remove U.S. Armed Forces from hostilities with Iran (214-208), and H.R. 8884 reauthorizing disability insurance demonstrations under the Social Security Act (232-188). The chamber adjourned early to begin a district work period.",
       "onTheFloor": [
-        {
-          "measure": "H.R. 8800",
-          "title": "National Defense Authorization Act for Fiscal Year 2027 authorizing military appropriations and personnel strengths",
-          "status": "passed 216-212"
-        },
         {
           "measure": "H.R. 8884",
           "title": "Removing Barriers to Work for Disabled Americans Act",
-          "status": "scheduled for consideration Thursday, July 23"
+          "status": "passed 232-188"
         },
         {
-          "measure": "H.R. 9823-9891",
-          "title": "69 public bills introduced on various legislative topics",
-          "status": "introduced, referred to committees"
-        },
-        {
-          "measure": "H. Res. 1446-1450",
-          "title": "Five resolutions introduced",
-          "status": "introduced, referred to committees"
+          "measure": "H. Con. Res. 89",
+          "title": "Direct President to remove U.S. Armed Forces from Iran hostilities",
+          "status": "passed 214-208"
         }
       ]
     }
@@ -66,33 +56,23 @@
   "committees": [
     {
       "chamber": "senate",
-      "committee": "Committee on Banking, Housing, and Urban Affairs",
-      "topic": "Business meeting and opening hearing on nominations including Christopher Phelan for Council of Economic Advisers and Brian Johnson for Bureau of Consumer Financial Protection - Thursday, July 23 at 10:00 AM"
+      "committee": "Banking, Housing, and Urban Affairs",
+      "topic": "Nominations of Christopher Phelan as Chair of Council of Economic Advisers and John Crews to National Credit Union Administration Board"
     },
     {
       "chamber": "senate",
-      "committee": "Committee on Health, Education, Labor, and Pensions",
-      "topic": "Business meeting on nominations including Sean Kaufman for Assistant Secretary of Preparedness and Response and Erica Schwartz for CDC Director - Thursday, July 23 at 9:47 AM"
+      "committee": "Banking, Housing, and Urban Affairs",
+      "topic": "Hearing on nominations for Bureau of Consumer Financial Protection Director, Assistant Secretary of Commerce, and HUD CFO"
     },
     {
       "chamber": "senate",
-      "committee": "Committee on the Judiciary",
-      "topic": "Business meeting on nominations including Todd Blanche for Attorney General and Daniel Desmond Domenico for Tenth Circuit judge, plus subcommittee designation - Thursday, July 23 at 10:15 AM"
+      "committee": "Finance",
+      "topic": "Nominations of Treasury Department officials including Deputy Secretary and Under Secretary"
     },
     {
       "chamber": "senate",
-      "committee": "Committee on Energy and Natural Resources",
-      "topic": "Concluded oversight hearing examining the Federal Energy Regulatory Commission with commissioners testifying on energy policy - Wednesday, July 22"
-    },
-    {
-      "chamber": "senate",
-      "committee": "Committee on Foreign Relations",
-      "topic": "Ordered favorably reported multiple State Department nominations including ambassadors to Jamaica, Brazil, Moldova, and Cambodia - Wednesday, July 22"
-    },
-    {
-      "chamber": "senate",
-      "committee": "Committee on Commerce, Science, and Transportation",
-      "topic": "Ordered favorably reported aviation and broadband bills including aviation safety updates and FAA medical certification procedures - Wednesday, July 22"
+      "committee": "Judiciary",
+      "topic": "Nominations of U.S. Attorney and Circuit/District Judges; subcommittee assignments for 119th Congress"
     }
   ]
 }
