@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T11:23:10.705Z",
+  "generatedAt": "2026-07-27T12:57:25.008Z",
   "sessionYear": 2026,
   "members": [
     {
@@ -3673,8 +3673,8 @@
       "status": {
         "status": "QUESTIONABLE",
         "note": "missed 1 of 2 votes on 2026-07-23",
-        "reason": "absent, reason not stated",
-        "detail": "Ms. Sewell submitted a personal explanation for Roll Call No. 283 but did not provide a reason for her absence.",
+        "reason": "absent, no reason stated",
+        "detail": "Ms. Sewell stated she was not present for Roll Call No. 283 on July 23, 2026, but provided no explanation for her absence.",
         "since": null,
         "last7": {
           "missed": 1,

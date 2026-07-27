@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-07-26T11:22:51.164Z",
-  "reportDate": "2026-07-26",
+  "generatedAt": "2026-07-27T12:57:07.426Z",
+  "reportDate": "2026-07-27",
   "recordIssueDate": "2026-07-23",
   "available": true,
-  "headline": "House advances disability work bill while Iran war powers measure clears—Senate prepares for pivotal cloture fight on intel director Monday.",
+  "headline": "House passes disability work expansion 232-188 as Senate readies weekend hammer on intelligence director",
   "chambers": {
     "senate": {
       "nextMeeting": "Monday, July 27 at 3:00 PM",
-      "lastSessionSummary": "The Senate passed the Lunar Landing Day Act (S. 5123) designating July 20 as a federal holiday, and approved a resolution naming July 25 National Day of the American Cowboy. On nominations, senators confirmed Daniel Mack Traynor to the Eighth Circuit Court and Antonio M. Pozos to the Eastern District of Pennsylvania. The chamber saw two key votes fail: a 47-49 motion to discharge a committee on Iran war powers (S.J. Res. 180) and a cloture attempt on the Seed Act was entered, with the actual vote postponed pending the Clayton Director of National Intelligence nomination.",
+      "lastSessionSummary": "The Senate confirmed two judicial nominees: Daniel Mack Traynor to the Eighth Circuit Court by 48-47, and Antonio M. Pozos to the Eastern District of Pennsylvania by 49-44. The chamber failed to discharge the Foreign Relations Committee from a measure on Iran hostilities removal (47-49), and began considering the Seed Act with a cloture vote scheduled for Monday at 5:30 PM.",
       "onTheFloor": [
         {
-          "measure": "S. 4784",
-          "title": "National Defense Authorization Act for Fiscal Year 2027—authorizes military appropriations and personnel strengths for DoD and DOE",
-          "status": "Motion to proceed withdrawn"
+          "measure": "Walter Clayton Nomination",
+          "title": "Cloture vote on Director of National Intelligence nominee from New York",
+          "status": "Cloture vote scheduled Monday, July 27 at 5:30 PM"
         },
         {
           "measure": "H.R. 5334",
-          "title": "Seed Act—allows early childhood educators to take educator expense deduction",
-          "status": "Cloture motion entered; vote ripens July 27"
+          "title": "Allow early childhood educators to take educator expense deduction",
+          "status": "Awaiting cloture motion disposition"
+        },
+        {
+          "measure": "John Breslow Nomination",
+          "title": "Nomination to be Ambassador to the Republic of Cyprus",
+          "status": "Under Senate consideration"
         },
         {
           "measure": "S. 5123",
-          "title": "Lunar Landing Day Act—designates July 20 as Lunar Landing Day",
-          "status": "Passed"
-        },
-        {
-          "measure": "S.J. Res. 180",
-          "title": "Directs removal of U.S. Armed Forces from Iran hostilities not authorized by Congress",
-          "status": "Motion to discharge failed 47-49"
+          "title": "Designate July 20 as Lunar Landing Day",
+          "status": "Passed the Senate"
         },
         {
           "measure": "S. Res. 813",
-          "title": "Designates July 25 as National Day of the American Cowboy",
+          "title": "Designate July 25, 2026 as National Day of the American Cowboy",
           "status": "Agreed to"
         }
       ]
     },
     "house": {
       "nextMeeting": "Monday, July 27 at 9:30 AM",
-      "lastSessionSummary": "The House passed H.R. 8884, the Removing Barriers to Work for Disabled Americans Act, 232-188, which reauthorizes the disability insurance program's demonstration authority. The chamber also approved H. Con. Res. 89 by a vote of 214-208, directing the President to remove Armed Forces from hostilities with Iran under the War Powers Resolution. The Speaker designated July 23 through August 30 as a district work period.",
+      "lastSessionSummary": "The House passed two major measures Thursday morning: H. Con. Res. 89 directing the President to remove armed forces from hostilities with Iran by 214-208, and H.R. 8884, the Removing Barriers to Work for Disabled Americans Act, by 232-188. The chamber then adjourned for a district work period from July 23 through August 30.",
       "onTheFloor": [
         {
           "measure": "H.R. 8884",
-          "title": "Removing Barriers to Work for Disabled Americans Act—reauthorizes demonstration authority for disability insurance program",
-          "status": "Passed 232-188 (Roll No. 283)"
+          "title": "Reauthorize demonstration authority for disability insurance program and expand work opportunities",
+          "status": "Passed 232-188"
         },
         {
           "measure": "H. Con. Res. 89",
-          "title": "Directs President to remove U.S. Armed Forces from hostilities with Iran pursuant to War Powers Resolution",
-          "status": "Agreed to 214-208 (Roll No. 282)"
+          "title": "Direct President to remove U.S. Armed Forces from hostilities with Iran under War Powers Resolution",
+          "status": "Passed 214-208"
         }
       ]
     }
@@ -57,17 +57,22 @@
     {
       "chamber": "senate",
       "committee": "Banking, Housing, and Urban Affairs",
-      "topic": "Nominations of Christopher Phelan for Council of Economic Advisers Chair and John Crews for NCUA Board; hearings on Brian Johnson (CFPB Director), Abby Warren (Commerce Assistant Secretary), and Irving Dennis (HUD CFO)"
+      "topic": "Business meeting on nominations of Christopher Phelan for Council of Economic Advisers and John Crews for National Credit Union Administration Board"
+    },
+    {
+      "chamber": "senate",
+      "committee": "Banking, Housing, and Urban Affairs",
+      "topic": "Hearing on nominations for Director of Bureau of Consumer Financial Protection, Assistant Secretary of Commerce, and CFO of Department of Housing and Urban Development"
     },
     {
       "chamber": "senate",
       "committee": "Finance",
-      "topic": "Nominations of Treasury Department officials including Deputy Secretary Francis Brooke and Under/Assistant Secretaries"
+      "topic": "Business meeting on nominations for Deputy Secretary and Under Secretaries of the Department of the Treasury"
     },
     {
       "chamber": "senate",
       "committee": "Judiciary",
-      "topic": "Nominations of Christopher Nassar (U.S. Attorney for Northern District of Oklahoma), Daniel Desmond Domenico (Tenth Circuit Judge), and Matthew R. Byrne (Southern District of Ohio Judge); announcement of subcommittee assignments"
+      "topic": "Business meeting on nominations for U.S. Attorney and federal judges, and announcement of subcommittee assignments for 119th Congress"
     }
   ]
 }
