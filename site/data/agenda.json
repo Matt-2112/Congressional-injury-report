@@ -1,59 +1,49 @@
 {
-  "generatedAt": "2026-07-28T12:00:17.424Z",
-  "reportDate": "2026-07-28",
-  "recordIssueDate": "2026-07-27",
+  "generatedAt": "2026-07-29T12:04:33.884Z",
+  "reportDate": "2026-07-29",
+  "recordIssueDate": "2026-07-28",
   "available": true,
-  "headline": "Senate closes in on national intelligence chief as Walter Clayton faces confirmation vote Tuesday at 6:30 p.m.",
+  "headline": "Senate confirms National Intelligence Director Clayton 51-47 as SEED Act advances toward final vote!",
   "chambers": {
     "senate": {
-      "nextMeeting": "Tuesday, July 28 at 5:00 PM",
-      "lastSessionSummary": "The Senate advanced the Walter Clayton nomination for Director of National Intelligence with a 51-43 cloture vote Monday, clearing the path for a confirmation vote on Tuesday evening. The chamber also passed S. Res. 781 commemorating Juneteenth National Independence Day, and began consideration of the National Defense Authorization Act for Fiscal Year 2027.",
+      "nextMeeting": "Wednesday, July 29 at 10:30 AM",
+      "lastSessionSummary": "The Senate confirmed Walter Clayton of New York as Director of National Intelligence by a 51-47 vote. Senators also achieved a cloture agreement on the motion to proceed to H.R. 5334, the SEED Act, which provides early childhood educator tax deductions, clearing the way for continued debate.",
       "onTheFloor": [
         {
-          "measure": "Walter Clayton Nomination",
-          "title": "Nomination of Walter Clayton of New York to be Director of National Intelligence",
-          "status": "Cloture passed 51-43; confirmation vote scheduled Tuesday at 6:30 PM"
-        },
-        {
           "measure": "H.R. 5334",
-          "title": "SEED Act - vehicle for sanctions legislation",
-          "status": "Cloture vote pending post-Clayton vote"
+          "title": "SEED Act - Allow early childhood educators to take educator expense deduction",
+          "status": "Cloture invoked 86-12, post-cloture consideration resumes Wednesday at 10:30 AM"
         },
         {
-          "measure": "S. 4784",
-          "title": "National Defense Authorization Act for Fiscal Year 2027 - military appropriations and personnel strengths",
-          "status": "Motion to proceed under consideration"
+          "measure": "S. 380",
+          "title": "Improve obstetric emergency care",
+          "status": "Reported with amendment"
         },
         {
-          "measure": "S. Res. 781",
-          "title": "Juneteenth National Independence Day commemoration",
-          "status": "Passed"
+          "measure": "S. 494",
+          "title": "Establish national plan to coordinate epilepsy research",
+          "status": "Reported with amendment"
         },
         {
-          "measure": "S. 1414",
-          "title": "Amend Public Health Service Act regarding biosimilar clinical studies requirements",
-          "status": "Reported from committee"
+          "measure": "S. 5026",
+          "title": "Require warning labels on sugar-sweetened and ultra-processed foods, restrict junk food advertising to children",
+          "status": "Reported with amendment"
         },
         {
-          "measure": "S. 2355",
-          "title": "Hospital and insurer price transparency amendments to Public Health Service Act",
-          "status": "Reported from committee"
+          "measure": "S. 4974",
+          "title": "Amend Federal Food, Drug, and Cosmetic Act on food safety",
+          "status": "Reported with amendment"
         },
         {
-          "measure": "S. 3676",
-          "title": "Sports diplomacy strategy for major U.S. sporting events",
-          "status": "Reported from committee"
-        },
-        {
-          "measure": "S. 4259",
-          "title": "Secure and resilient Unmanned Aerial Systems development and Taiwan defense support",
-          "status": "Reported from committee"
+          "measure": "S. 4110",
+          "title": "Revise and extend health workforce programs under Public Health Service Act",
+          "status": "Reported with amendment"
         }
       ]
     },
     "house": {
       "nextMeeting": "Thursday, July 30 at 8:30 AM",
-      "lastSessionSummary": "The House met briefly Monday and adjourned after just two minutes without holding any votes or quorum calls. The chamber introduced 30 new bills and 6 resolutions for consideration in future sessions.",
+      "lastSessionSummary": "The House was not in session on Tuesday, July 28. The chamber will reconvene in Pro Forma session on Thursday morning.",
       "onTheFloor": []
     }
   },
@@ -61,32 +51,27 @@
     {
       "chamber": "senate",
       "committee": "Committee on Energy and Natural Resources",
-      "topic": "Business meeting to consider wilderness designations, conservation areas, and land management bills across multiple western states (Colorado, Oregon, Nevada, Washington, California, Arizona, Pennsylvania, Alaska)"
+      "topic": "Business meeting to consider 45+ bills on conservation, wilderness designations, national parks, and land management"
     },
     {
       "chamber": "senate",
-      "committee": "Committee on Health, Education, Labor, and Pensions",
-      "topic": "Full committee business meeting to consider education bills and nominations including Erica Schwartz for CDC Director, Sean Kaufman for HHS Assistant Secretary, and Keith Sonderling for Secretary of Labor"
+      "committee": "Committee on Health, Education, Labor, and Pensions - Subcommittee on Employment and Workplace Safety",
+      "topic": "Hearings on the impact of AI on the workplace"
     },
     {
       "chamber": "senate",
-      "committee": "Committee on Commerce, Science, and Transportation",
-      "topic": "Subcommittee on Telecommunications and Media hearing on intelligent networks and artificial intelligence in communications"
+      "committee": "Committee on Homeland Security and Governmental Affairs",
+      "topic": "Hearings to examine testimony of Anthony Fauci"
     },
     {
       "chamber": "senate",
-      "committee": "Committee on Foreign Relations",
-      "topic": "Hearing to examine pending nominations"
+      "committee": "Committee on Indian Affairs",
+      "topic": "Hearings on water rights settlements for Native American tribes"
     },
     {
       "chamber": "senate",
-      "committee": "Committee on the Judiciary",
-      "topic": "Business meeting to consider nomination of Todd Blanche for Attorney General"
-    },
-    {
-      "chamber": "joint",
-      "committee": "Commission on Security and Cooperation in Europe",
-      "topic": "Briefing on Russia's exploitation and engagement in Africa"
+      "committee": "Special Committee on Aging",
+      "topic": "Hearings on AI deception machine, deepfakes, chatbots, and senior fraud"
     }
   ]
 }
