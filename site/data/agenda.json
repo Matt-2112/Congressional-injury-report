@@ -1,77 +1,77 @@
 {
-  "generatedAt": "2026-07-29T12:04:33.884Z",
-  "reportDate": "2026-07-29",
-  "recordIssueDate": "2026-07-28",
+  "generatedAt": "2026-07-30T11:54:27.164Z",
+  "reportDate": "2026-07-30",
+  "recordIssueDate": "2026-07-29",
   "available": true,
-  "headline": "Senate confirms National Intelligence Director Clayton 51-47 as SEED Act advances toward final vote!",
+  "headline": "Senate races through nominations and Iran resolutions as child care rule faces congressional pushback!",
   "chambers": {
     "senate": {
-      "nextMeeting": "Wednesday, July 29 at 10:30 AM",
-      "lastSessionSummary": "The Senate confirmed Walter Clayton of New York as Director of National Intelligence by a 51-47 vote. Senators also achieved a cloture agreement on the motion to proceed to H.R. 5334, the SEED Act, which provides early childhood educator tax deductions, clearing the way for continued debate.",
+      "nextMeeting": "Thursday, July 30 at 10:00 AM",
+      "lastSessionSummary": "The Senate passed a resolution opposing any presidential pardon or clemency for Ghislaine Maxwell and designated July as National Anti-Counterfeiting and Consumer Education and Awareness Month. The chamber began consideration of H.R. 5334, the SEED Act, which would expand educator expense deductions for early childhood educators, passing a motion to proceed 84-12.",
       "onTheFloor": [
         {
           "measure": "H.R. 5334",
-          "title": "SEED Act - Allow early childhood educators to take educator expense deduction",
-          "status": "Cloture invoked 86-12, post-cloture consideration resumes Wednesday at 10:30 AM"
+          "title": "SEED Act—allows early childhood educators to deduct expenses on their taxes",
+          "status": "debate underway, motion to proceed passed 84-12"
         },
         {
-          "measure": "S. 380",
-          "title": "Improve obstetric emergency care",
-          "status": "Reported with amendment"
+          "measure": "S. Res. 817",
+          "title": "Authorizes en bloc consideration of certain executive nominations",
+          "status": "post-cloture debate, adoption vote scheduled 1:45 p.m. Thursday"
         },
         {
-          "measure": "S. 494",
-          "title": "Establish national plan to coordinate epilepsy research",
-          "status": "Reported with amendment"
+          "measure": "S.J. Res. 199",
+          "title": "Congressional disapproval of HHS child care development fund flexibility rule",
+          "status": "motion to proceed vote scheduled 11:30 a.m. Thursday"
         },
         {
-          "measure": "S. 5026",
-          "title": "Require warning labels on sugar-sweetened and ultra-processed foods, restrict junk food advertising to children",
-          "status": "Reported with amendment"
+          "measure": "S.J. Res. 181",
+          "title": "Directs removal of U.S. Armed Forces from hostilities with Iran absent congressional authorization",
+          "status": "discharge vote scheduled after S.J. Res. 199"
         },
         {
-          "measure": "S. 4974",
-          "title": "Amend Federal Food, Drug, and Cosmetic Act on food safety",
-          "status": "Reported with amendment"
+          "measure": "S. Res. 608",
+          "title": "Opposes presidential pardon or clemency for Ghislaine Maxwell for crimes related to Jeffrey Epstein",
+          "status": "passed"
         },
         {
-          "measure": "S. 4110",
-          "title": "Revise and extend health workforce programs under Public Health Service Act",
-          "status": "Reported with amendment"
+          "measure": "S. Res. 818",
+          "title": "Designates July as National Anti-Counterfeiting and Consumer Education and Awareness Month",
+          "status": "passed"
         }
       ]
     },
     "house": {
       "nextMeeting": "Thursday, July 30 at 8:30 AM",
-      "lastSessionSummary": "The House was not in session on Tuesday, July 28. The chamber will reconvene in Pro Forma session on Thursday morning.",
+      "lastSessionSummary": "The House was not in session on Wednesday, July 29. The chamber will reconvene in Pro Forma session on Thursday.",
       "onTheFloor": []
     }
   },
   "committees": [
     {
       "chamber": "senate",
-      "committee": "Committee on Energy and Natural Resources",
-      "topic": "Business meeting to consider 45+ bills on conservation, wilderness designations, national parks, and land management"
+      "committee": "Committee on Commerce, Science, and Transportation, Subcommittee on Telecommunications and Media",
+      "topic": "Intelligent networks and artificial intelligence's role in transforming communications"
     },
     {
       "chamber": "senate",
-      "committee": "Committee on Health, Education, Labor, and Pensions - Subcommittee on Employment and Workplace Safety",
-      "topic": "Hearings on the impact of AI on the workplace"
+      "committee": "Committee on Finance",
+      "topic": "Business meeting on Taxpayer Assistance and Service Act"
     },
     {
       "chamber": "senate",
-      "committee": "Committee on Homeland Security and Governmental Affairs",
-      "topic": "Hearings to examine testimony of Anthony Fauci"
+      "committee": "Committee on Foreign Relations",
+      "topic": "Nominations for USAID Global Media CEO, IMF Executive Director, and Ambassador to Trinidad and Tobago"
     },
     {
       "chamber": "senate",
-      "committee": "Committee on Indian Affairs",
-      "topic": "Hearings on water rights settlements for Native American tribes"
+      "committee": "Committee on Health, Education, Labor, and Pensions",
+      "topic": "Business meeting on education bills and health/labor nominees including CDC and Labor Department positions"
     },
     {
-      "chamber": "senate",
-      "committee": "Special Committee on Aging",
-      "topic": "Hearings on AI deception machine, deepfakes, chatbots, and senior fraud"
+      "chamber": "joint",
+      "committee": "Commission on Security and Cooperation in Europe",
+      "topic": "Russia's exploitation and engagement in Africa"
     }
   ]
 }
