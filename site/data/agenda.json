@@ -1,72 +1,57 @@
 {
-  "generatedAt": "2026-07-30T11:54:27.164Z",
-  "reportDate": "2026-07-30",
-  "recordIssueDate": "2026-07-29",
+  "generatedAt": "2026-07-31T12:04:16.891Z",
+  "reportDate": "2026-07-31",
+  "recordIssueDate": "2026-07-30",
   "available": true,
-  "headline": "Senate races through nominations and Iran resolutions as child care rule faces congressional pushback!",
+  "headline": "Senate advances toward cloture vote on African trade bill while House takes weekend break!",
   "chambers": {
     "senate": {
-      "nextMeeting": "Thursday, July 30 at 10:00 AM",
-      "lastSessionSummary": "The Senate passed a resolution opposing any presidential pardon or clemency for Ghislaine Maxwell and designated July as National Anti-Counterfeiting and Consumer Education and Awareness Month. The chamber began consideration of H.R. 5334, the SEED Act, which would expand educator expense deductions for early childhood educators, passing a motion to proceed 84-12.",
+      "nextMeeting": "Monday, August 3 at 3:00 PM",
+      "lastSessionSummary": "Senate handled routine business including 34 new bills and several resolutions designating national observances. The chamber rejected motions on child care regulations and Iran military operations, then moved toward a crucial procedural vote on the AGOA Extension Act.",
       "onTheFloor": [
         {
-          "measure": "H.R. 5334",
-          "title": "SEED Act—allows early childhood educators to deduct expenses on their taxes",
-          "status": "debate underway, motion to proceed passed 84-12"
-        },
-        {
-          "measure": "S. Res. 817",
-          "title": "Authorizes en bloc consideration of certain executive nominations",
-          "status": "post-cloture debate, adoption vote scheduled 1:45 p.m. Thursday"
+          "measure": "H.R. 6500",
+          "title": "Extend duty-free trade benefits for African imports under the African Growth and Opportunity Act and extend customs user fees",
+          "status": "Cloture vote scheduled for Monday, August 3 at 5:30 PM"
         },
         {
           "measure": "S.J. Res. 199",
-          "title": "Congressional disapproval of HHS child care development fund flexibility rule",
-          "status": "motion to proceed vote scheduled 11:30 a.m. Thursday"
+          "title": "Congressional disapproval of HHS rule on Child Care and Development Fund flexibility",
+          "status": "Motion to proceed failed 47-52"
         },
         {
           "measure": "S.J. Res. 181",
-          "title": "Directs removal of U.S. Armed Forces from hostilities with Iran absent congressional authorization",
-          "status": "discharge vote scheduled after S.J. Res. 199"
-        },
-        {
-          "measure": "S. Res. 608",
-          "title": "Opposes presidential pardon or clemency for Ghislaine Maxwell for crimes related to Jeffrey Epstein",
-          "status": "passed"
-        },
-        {
-          "measure": "S. Res. 818",
-          "title": "Designates July as National Anti-Counterfeiting and Consumer Education and Awareness Month",
-          "status": "passed"
+          "title": "Direct removal of US Armed Forces from hostilities in Iran not authorized by Congress",
+          "status": "Motion to discharge committee failed 49-50"
         }
       ]
     },
     "house": {
-      "nextMeeting": "Thursday, July 30 at 8:30 AM",
-      "lastSessionSummary": "The House was not in session on Wednesday, July 29. The chamber will reconvene in Pro Forma session on Thursday.",
+      "nextMeeting": "Monday, August 3 at 4:00 PM",
+      "lastSessionSummary": "House convened briefly for a pro forma session, adjourning after less than 2 minutes. No votes were taken and no legislative action occurred.",
       "onTheFloor": []
     }
   },
   "committees": [
     {
       "chamber": "senate",
-      "committee": "Committee on Commerce, Science, and Transportation, Subcommittee on Telecommunications and Media",
-      "topic": "Intelligent networks and artificial intelligence's role in transforming communications"
+      "committee": "Commerce, Science, and Transportation - Telecommunications and Media Subcommittee",
+      "topic": "Intelligent networks and powering artificial intelligence"
     },
     {
       "chamber": "senate",
-      "committee": "Committee on Finance",
-      "topic": "Business meeting on Taxpayer Assistance and Service Act"
+      "committee": "Finance Committee",
+      "topic": "Taxpayer Assistance and Service Act"
     },
     {
       "chamber": "senate",
-      "committee": "Committee on Foreign Relations",
-      "topic": "Nominations for USAID Global Media CEO, IMF Executive Director, and Ambassador to Trinidad and Tobago"
+      "committee": "Foreign Relations Committee",
+      "topic": "Nominations of Sarah Rogers for CEO of US Agency for Global Media, Rebekah Jurata for IMF Executive Director, and Jennifer Johnson-Carroll as Ambassador to Trinidad and Tobago"
     },
     {
       "chamber": "senate",
-      "committee": "Committee on Health, Education, Labor, and Pensions",
-      "topic": "Business meeting on education bills and health/labor nominees including CDC and Labor Department positions"
+      "committee": "Health, Education, Labor, and Pensions Committee",
+      "topic": "Education bills on dyslexia, student data systems, and literacy initiatives; nominations for CDC Director and Labor Secretary"
     },
     {
       "chamber": "joint",
