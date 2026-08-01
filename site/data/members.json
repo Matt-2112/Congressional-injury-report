@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T12:04:33.531Z",
+  "generatedAt": "2026-08-01T11:20:31.375Z",
   "sessionYear": 2026,
   "members": [
     {
@@ -3574,7 +3574,7 @@
         "status": "QUESTIONABLE",
         "note": "missed 1 of 2 votes on 2026-07-23",
         "reason": "unavoidable circumstances",
-        "detail": "Ms. Sewell missed votes and would have voted NAY on Roll Call No. 283 on July 23, 2026.",
+        "detail": "Ms. Sewell's personal explanation indicates she missed votes but provides no specific reason, only that she would have voted NAY on Roll Call No. 283.",
         "since": null,
         "last7": {
           "missed": 1,

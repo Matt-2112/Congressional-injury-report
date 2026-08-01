@@ -1,42 +1,42 @@
 {
-  "generatedAt": "2026-07-31T12:04:16.891Z",
-  "reportDate": "2026-07-31",
+  "generatedAt": "2026-08-01T11:20:23.341Z",
+  "reportDate": "2026-08-01",
   "recordIssueDate": "2026-07-30",
   "available": true,
-  "headline": "Senate advances toward cloture vote on African trade bill while House takes weekend break!",
+  "headline": "Senate sets cloture vote Monday on AGOA trade extension as both chambers gear up for August recess showdown!",
   "chambers": {
     "senate": {
       "nextMeeting": "Monday, August 3 at 3:00 PM",
-      "lastSessionSummary": "Senate handled routine business including 34 new bills and several resolutions designating national observances. The chamber rejected motions on child care regulations and Iran military operations, then moved toward a crucial procedural vote on the AGOA Extension Act.",
+      "lastSessionSummary": "The Senate passed several commemorative resolutions including National Whistleblower Appreciation Day and Gold Star Children's Day. They also confirmed numerous military nominations across all service branches and began consideration of the AGOA Extension Act, with a cloture vote scheduled for Monday evening.",
       "onTheFloor": [
         {
           "measure": "H.R. 6500",
-          "title": "Extend duty-free trade benefits for African imports under the African Growth and Opportunity Act and extend customs user fees",
-          "status": "Cloture vote scheduled for Monday, August 3 at 5:30 PM"
+          "title": "AGOA Extension Act extending duty-free treatment for African imports and extending customs user fees",
+          "status": "Cloture vote scheduled for 5:30 p.m. Monday, August 3"
         },
         {
           "measure": "S.J. Res. 199",
-          "title": "Congressional disapproval of HHS rule on Child Care and Development Fund flexibility",
-          "status": "Motion to proceed failed 47-52"
+          "title": "Congressional disapproval of HHS Child Care and Development Fund flexibility rule",
+          "status": "Motion to proceed failed 47-52 on July 30"
         },
         {
           "measure": "S.J. Res. 181",
-          "title": "Direct removal of US Armed Forces from hostilities in Iran not authorized by Congress",
-          "status": "Motion to discharge committee failed 49-50"
+          "title": "Directing removal of U.S. Armed Forces from hostilities in Iran not authorized by Congress",
+          "status": "Motion to discharge failed 49-50 on July 30"
         }
       ]
     },
     "house": {
       "nextMeeting": "Monday, August 3 at 4:00 PM",
-      "lastSessionSummary": "House convened briefly for a pro forma session, adjourning after less than 2 minutes. No votes were taken and no legislative action occurred.",
+      "lastSessionSummary": "The House held a pro forma session, convening briefly at 8:30 a.m. and adjourning at 8:32 a.m. with no votes or substantive business conducted. The chamber introduced 36 public bills and 4 resolutions.",
       "onTheFloor": []
     }
   },
   "committees": [
     {
       "chamber": "senate",
-      "committee": "Commerce, Science, and Transportation - Telecommunications and Media Subcommittee",
-      "topic": "Intelligent networks and powering artificial intelligence"
+      "committee": "Commerce, Science, and Transportation Subcommittee on Telecommunications and Media",
+      "topic": "Intelligent networks, artificial intelligence, and communications infrastructure"
     },
     {
       "chamber": "senate",
@@ -46,12 +46,7 @@
     {
       "chamber": "senate",
       "committee": "Foreign Relations Committee",
-      "topic": "Nominations of Sarah Rogers for CEO of US Agency for Global Media, Rebekah Jurata for IMF Executive Director, and Jennifer Johnson-Carroll as Ambassador to Trinidad and Tobago"
-    },
-    {
-      "chamber": "senate",
-      "committee": "Health, Education, Labor, and Pensions Committee",
-      "topic": "Education bills on dyslexia, student data systems, and literacy initiatives; nominations for CDC Director and Labor Secretary"
+      "topic": "Nominations of Sarah Rogers for CEO of U.S. Agency for Global Media, Rebekah Jurata for IMF Executive Director, and Jennifer Johnson-Carroll for Ambassador to Trinidad and Tobago"
     },
     {
       "chamber": "joint",
