@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T11:19:48.187Z",
+  "generatedAt": "2026-08-03T12:57:15.646Z",
   "sessionYear": 2026,
   "members": [
     {
@@ -3573,8 +3573,8 @@
       "status": {
         "status": "QUESTIONABLE",
         "note": "missed 1 of 2 votes on 2026-07-23",
-        "reason": "missed vote, no reason stated",
-        "detail": "Ms. Sewell stated she would have voted NAY on Roll Call No. 283 had she been present.",
+        "reason": "absence without stated reason",
+        "detail": "Ms. Sewell stated she would have voted NAY on Roll Call No. 283 but did not provide a reason for her absence.",
         "since": null,
         "last7": {
           "missed": 1,

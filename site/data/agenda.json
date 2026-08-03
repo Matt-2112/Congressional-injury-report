@@ -1,57 +1,62 @@
 {
-  "generatedAt": "2026-08-02T11:19:32.451Z",
-  "reportDate": "2026-08-02",
+  "generatedAt": "2026-08-03T12:56:58.916Z",
+  "reportDate": "2026-08-03",
   "recordIssueDate": "2026-07-30",
   "available": true,
-  "headline": "Senate votes on AGOA trade extension Monday as both chambers prep for recess sprint!",
+  "headline": "Senate poised to vote on AGOA Extension Act as cloture showdown looms Monday!",
   "chambers": {
     "senate": {
       "nextMeeting": "Monday, August 3 at 3:00 PM",
-      "lastSessionSummary": "The Senate rejected motions to proceed on two measures: one on child care fund regulations (47-52) and another on Iran hostilities authorization (49-50). The chamber confirmed dozens of military nominations and began consideration of the AGOA Extension Act, with a cloture vote scheduled for Monday.",
+      "lastSessionSummary": "The Senate held routine proceedings on July 30, confirming 66 military nominations across all service branches and passing several designations including National Whistleblower Appreciation Day and National Farmers Market Week. Two key disapproval motions—one targeting child care regulations and another addressing Iran-related hostilities—both failed to advance.",
       "onTheFloor": [
         {
           "measure": "H.R. 6500",
-          "title": "AGOA Extension Act—extends duty-free trade treatment for African countries and customs user fees",
-          "status": "cloture vote scheduled Monday, August 3 at 5:30 PM"
+          "title": "AGOA Extension Act and customs user fees—using a legislative vehicle for the continuing resolution",
+          "status": "Cloture vote scheduled for Monday, August 3 at 5:30 PM on motion to proceed"
         },
         {
           "measure": "S.J. Res. 199",
-          "title": "Congressional disapproval of HHS child care and development fund flexibility rule",
-          "status": "motion to proceed rejected 47-52"
+          "title": "Congressional disapproval of HHS child care development fund regulations",
+          "status": "Motion to proceed failed 47-52"
         },
         {
           "measure": "S.J. Res. 181",
-          "title": "Direct removal of U.S. Armed Forces from hostilities with Iran not authorized by Congress",
-          "status": "motion to discharge rejected 49-50"
+          "title": "Direct removal of US Armed Forces from hostilities with Iran without congressional authorization",
+          "status": "Motion to discharge from committee failed 49-50"
         }
       ]
     },
     "house": {
       "nextMeeting": "Monday, August 3 at 4:00 PM",
-      "lastSessionSummary": "The House held only a pro forma session, meeting briefly at 8:30 a.m. and adjourning at 8:32 a.m. No floor votes were taken. The chamber introduced 36 new bills and 4 resolutions.",
+      "lastSessionSummary": "The House met briefly on July 30 in pro forma session, convening at 8:30 a.m. and adjourning at 8:32 a.m. with no votes recorded. Thirty-six bills and four resolutions were introduced during the abbreviated session.",
       "onTheFloor": []
     }
   },
   "committees": [
     {
       "chamber": "senate",
-      "committee": "Committee on Finance",
+      "committee": "Commerce, Science, and Transportation Subcommittee on Telecommunications and Media",
+      "topic": "Intelligent networks and artificial intelligence powering communications infrastructure"
+    },
+    {
+      "chamber": "senate",
+      "committee": "Finance Committee",
       "topic": "Taxpayer Assistance and Service Act—ordered favorably reported"
     },
     {
       "chamber": "senate",
-      "committee": "Committee on Health, Education, Labor, and Pensions",
-      "topic": "Education and labor bills including literacy, disability education, and student data systems—ordered favorably"
+      "committee": "Foreign Relations Committee",
+      "topic": "Nominations of Sarah Rogers for CEO of US Agency for Global Media, Rebekah Jurata for IMF Executive Director, and Jennifer Johnson-Carroll for Ambassador to Trinidad and Tobago"
     },
     {
       "chamber": "senate",
-      "committee": "Subcommittee on Telecommunications and Media",
-      "topic": "Intelligent networks and AI-powered communications infrastructure"
+      "committee": "Health, Education, Labor, and Pensions Committee",
+      "topic": "Multiple education bills including data systems, dyslexia provisions, and literacy initiatives; nominations of CDC Director Erica Schwartz and Labor Secretary Keith Sonderling"
     },
     {
-      "chamber": "senate",
-      "committee": "Committee on Foreign Relations",
-      "topic": "Nominations hearing for USAGM CEO, IMF Director, and Ambassador to Trinidad and Tobago"
+      "chamber": "joint",
+      "committee": "Commission on Security and Cooperation in Europe",
+      "topic": "Russia's exploitation and engagement across the African continent"
     }
   ]
 }
