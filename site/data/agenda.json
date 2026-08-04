@@ -1,34 +1,34 @@
 {
-  "generatedAt": "2026-08-03T12:56:58.916Z",
-  "reportDate": "2026-08-03",
+  "generatedAt": "2026-08-04T12:03:53.006Z",
+  "reportDate": "2026-08-04",
   "recordIssueDate": "2026-07-30",
   "available": true,
-  "headline": "Senate poised to vote on AGOA Extension Act as cloture showdown looms Monday!",
+  "headline": "Senate locks in cloture vote on AGOA Extension Act as both chambers head into recess mode.",
   "chambers": {
     "senate": {
       "nextMeeting": "Monday, August 3 at 3:00 PM",
-      "lastSessionSummary": "The Senate held routine proceedings on July 30, confirming 66 military nominations across all service branches and passing several designations including National Whistleblower Appreciation Day and National Farmers Market Week. Two key disapproval motions—one targeting child care regulations and another addressing Iran-related hostilities—both failed to advance.",
+      "lastSessionSummary": "The Senate passed resolutions honoring Whistleblowers, Farmers Markets, and Gold Star Children, while confirming 66 military nominations. Two amendments on child care regulations and Iran military operations failed to advance after close votes.",
       "onTheFloor": [
         {
           "measure": "H.R. 6500",
-          "title": "AGOA Extension Act and customs user fees—using a legislative vehicle for the continuing resolution",
-          "status": "Cloture vote scheduled for Monday, August 3 at 5:30 PM on motion to proceed"
+          "title": "Extend duty-free trade preferences for African countries under AGOA and extend customs user fees",
+          "status": "Cloture vote scheduled Monday, August 3 at 5:30 PM"
         },
         {
           "measure": "S.J. Res. 199",
-          "title": "Congressional disapproval of HHS child care development fund regulations",
+          "title": "Congressional disapproval of Health and Human Services child care regulations",
           "status": "Motion to proceed failed 47-52"
         },
         {
           "measure": "S.J. Res. 181",
-          "title": "Direct removal of US Armed Forces from hostilities with Iran without congressional authorization",
-          "status": "Motion to discharge from committee failed 49-50"
+          "title": "Direct removal of U.S. Armed Forces from hostilities in Iran without congressional authorization",
+          "status": "Motion to discharge committee failed 49-50"
         }
       ]
     },
     "house": {
       "nextMeeting": "Monday, August 3 at 4:00 PM",
-      "lastSessionSummary": "The House met briefly on July 30 in pro forma session, convening at 8:30 a.m. and adjourning at 8:32 a.m. with no votes recorded. Thirty-six bills and four resolutions were introduced during the abbreviated session.",
+      "lastSessionSummary": "The House met briefly in a pro forma session, convening at 8:30 a.m. and adjourning at 8:32 a.m. No votes were taken and no committee hearings were held.",
       "onTheFloor": []
     }
   },
@@ -40,23 +40,18 @@
     },
     {
       "chamber": "senate",
-      "committee": "Finance Committee",
-      "topic": "Taxpayer Assistance and Service Act—ordered favorably reported"
+      "committee": "Finance",
+      "topic": "Taxpayer Assistance and Service Act ordered favorably reported"
     },
     {
       "chamber": "senate",
-      "committee": "Foreign Relations Committee",
-      "topic": "Nominations of Sarah Rogers for CEO of US Agency for Global Media, Rebekah Jurata for IMF Executive Director, and Jennifer Johnson-Carroll for Ambassador to Trinidad and Tobago"
+      "committee": "Foreign Relations",
+      "topic": "Nominations for USAGM CEO, IMF Executive Director, and Ambassador to Trinidad and Tobago"
     },
     {
       "chamber": "senate",
-      "committee": "Health, Education, Labor, and Pensions Committee",
-      "topic": "Multiple education bills including data systems, dyslexia provisions, and literacy initiatives; nominations of CDC Director Erica Schwartz and Labor Secretary Keith Sonderling"
-    },
-    {
-      "chamber": "joint",
-      "committee": "Commission on Security and Cooperation in Europe",
-      "topic": "Russia's exploitation and engagement across the African continent"
+      "committee": "Health, Education, Labor, and Pensions",
+      "topic": "Education bills on student data systems, dyslexia, and literacy outcomes, plus labor and health nominations"
     }
   ]
 }
