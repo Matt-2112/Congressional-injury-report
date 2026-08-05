@@ -1,57 +1,82 @@
 {
-  "generatedAt": "2026-08-04T12:03:53.006Z",
-  "reportDate": "2026-08-04",
-  "recordIssueDate": "2026-07-30",
+  "generatedAt": "2026-08-05T12:01:52.612Z",
+  "reportDate": "2026-08-05",
+  "recordIssueDate": "2026-08-04",
   "available": true,
-  "headline": "Senate locks in cloture vote on AGOA Extension Act as both chambers head into recess mode.",
+  "headline": "Senate powers through health bills and positions for Wednesday showdown on African trade and CDC chief!",
   "chambers": {
     "senate": {
-      "nextMeeting": "Monday, August 3 at 3:00 PM",
-      "lastSessionSummary": "The Senate passed resolutions honoring Whistleblowers, Farmers Markets, and Gold Star Children, while confirming 66 military nominations. Two amendments on child care regulations and Iran military operations failed to advance after close votes.",
+      "nextMeeting": "Wednesday, August 5 at 10:30 AM",
+      "lastSessionSummary": "The Senate passed three major health measures: S. 4472 to reauthorize the Accelerating Access to Critical Therapies for ALS Act through fiscal year 2031, and S. 494 establishing a national plan to coordinate epilepsy research. The chamber also recognized the 80th anniversary of the Fulbright Program. Meantime, the Senate continued debate on H.R. 6500, the AGOA Extension Act, with a cloture vote scheduled for Wednesday morning.",
       "onTheFloor": [
         {
           "measure": "H.R. 6500",
-          "title": "Extend duty-free trade preferences for African countries under AGOA and extend customs user fees",
-          "status": "Cloture vote scheduled Monday, August 3 at 5:30 PM"
+          "title": "AGOA Extension Act extending duty-free treatment for African imports and customs user fees",
+          "status": "Motion to proceed under consideration, cloture vote scheduled 11:30 AM Wednesday"
         },
         {
-          "measure": "S.J. Res. 199",
-          "title": "Congressional disapproval of Health and Human Services child care regulations",
-          "status": "Motion to proceed failed 47-52"
+          "measure": "Erica Schwartz nomination",
+          "title": "Nomination for Director of the Centers for Disease Control and Prevention",
+          "status": "Cloture vote 11:30 AM Wednesday, confirmation vote at 2:15 PM if cloture invoked"
         },
         {
-          "measure": "S.J. Res. 181",
-          "title": "Direct removal of U.S. Armed Forces from hostilities in Iran without congressional authorization",
-          "status": "Motion to discharge committee failed 49-50"
+          "measure": "S.J. Res. 187",
+          "title": "Congressional disapproval of EPA rule on PFAS reporting and recordkeeping",
+          "status": "Motion to proceed expected Wednesday"
+        },
+        {
+          "measure": "S. 4472",
+          "title": "Accelerating Access to Critical Therapies for ALS Reauthorization Act",
+          "status": "Passed"
+        },
+        {
+          "measure": "S. 494",
+          "title": "National Plan for Epilepsy Act",
+          "status": "Passed"
+        },
+        {
+          "measure": "S. Res. 830",
+          "title": "Recognition of Fulbright Program 80th anniversary",
+          "status": "Passed"
         }
       ]
     },
     "house": {
-      "nextMeeting": "Monday, August 3 at 4:00 PM",
-      "lastSessionSummary": "The House met briefly in a pro forma session, convening at 8:30 a.m. and adjourning at 8:32 a.m. No votes were taken and no committee hearings were held.",
+      "nextMeeting": "Thursday, August 6 at 9:00 AM",
+      "lastSessionSummary": "The House was not in session on Tuesday. The chamber will meet in Pro Forma session on Thursday, August 6 at 9 a.m., maintaining quorum during the August recess.",
       "onTheFloor": []
     }
   },
   "committees": [
     {
       "chamber": "senate",
-      "committee": "Commerce, Science, and Transportation Subcommittee on Telecommunications and Media",
-      "topic": "Intelligent networks and artificial intelligence powering communications infrastructure"
+      "committee": "Committee on Commerce, Science, and Transportation",
+      "topic": "Markup of five bills protecting children online from AI, including age verification requirements for interactive computer services and safe design features for AI chatbots for minors; 10 a.m. Wednesday"
     },
     {
       "chamber": "senate",
-      "committee": "Finance",
-      "topic": "Taxpayer Assistance and Service Act ordered favorably reported"
+      "committee": "Committee on Finance",
+      "topic": "Hearing on process approaches for addressing Social Security solvency; 10 a.m. Wednesday"
     },
     {
       "chamber": "senate",
-      "committee": "Foreign Relations",
-      "topic": "Nominations for USAGM CEO, IMF Executive Director, and Ambassador to Trinidad and Tobago"
+      "committee": "Committee on Foreign Relations",
+      "topic": "Hearing on ambassadorial nominations for Montenegro, Sierra Leone, and Colombia; 10 a.m. Wednesday"
     },
     {
       "chamber": "senate",
-      "committee": "Health, Education, Labor, and Pensions",
-      "topic": "Education bills on student data systems, dyslexia, and literacy outcomes, plus labor and health nominations"
+      "committee": "Committee on Judiciary",
+      "topic": "Hearing on nominations for Fifth Circuit judge, District judge, Assistant Attorney General, and Sentencing Commission members; 10:15 a.m. Wednesday"
+    },
+    {
+      "chamber": "senate",
+      "committee": "Committee on Indian Affairs",
+      "topic": "Business meeting on bills transferring mineral interests and Federal lands into trust for tribal nations; 2:30 p.m. Wednesday"
+    },
+    {
+      "chamber": "senate",
+      "committee": "Committee on Small Business and Entrepreneurship",
+      "topic": "Hearing on small businesses leading innovation initiatives; 2:30 p.m. Wednesday"
     }
   ]
 }
