@@ -1,28 +1,38 @@
 {
-  "generatedAt": "2026-08-05T12:01:52.612Z",
-  "reportDate": "2026-08-05",
+  "generatedAt": "2026-08-06T12:05:19.224Z",
+  "reportDate": "2026-08-06",
   "recordIssueDate": "2026-08-04",
   "available": true,
-  "headline": "Senate powers through health bills and positions for Wednesday showdown on African trade and CDC chief!",
+  "headline": "Senate passes ALS and epilepsy research bills while CDC director confirmation looms Wednesday!",
   "chambers": {
     "senate": {
       "nextMeeting": "Wednesday, August 5 at 10:30 AM",
-      "lastSessionSummary": "The Senate passed three major health measures: S. 4472 to reauthorize the Accelerating Access to Critical Therapies for ALS Act through fiscal year 2031, and S. 494 establishing a national plan to coordinate epilepsy research. The chamber also recognized the 80th anniversary of the Fulbright Program. Meantime, the Senate continued debate on H.R. 6500, the AGOA Extension Act, with a cloture vote scheduled for Wednesday morning.",
+      "lastSessionSummary": "Senate passed S. 4472, reauthorizing critical ALS therapies research through fiscal year 2031, and S. 494, establishing a national epilepsy research coordination plan. The chamber also passed a resolution recognizing the Fulbright Program's 80th anniversary while continuing debate on the AGOA Extension Act and advancing various health and education measures.",
       "onTheFloor": [
         {
           "measure": "H.R. 6500",
-          "title": "AGOA Extension Act extending duty-free treatment for African imports and customs user fees",
-          "status": "Motion to proceed under consideration, cloture vote scheduled 11:30 AM Wednesday"
+          "title": "AGOA Extension Act—extend duty-free treatment for African imports and customs user fees",
+          "status": "Post-cloture consideration expected to continue, motion to proceed debate ongoing"
         },
         {
-          "measure": "Erica Schwartz nomination",
-          "title": "Nomination for Director of the Centers for Disease Control and Prevention",
-          "status": "Cloture vote 11:30 AM Wednesday, confirmation vote at 2:15 PM if cloture invoked"
+          "measure": "CDC Director Nomination—Erica Schwartz",
+          "title": "Confirmation vote for Erica Schwartz of Florida as Director of the Centers for Disease Control and Prevention",
+          "status": "Cloture vote at 11:30 a.m. Wednesday; confirmation vote scheduled for 2:15 p.m."
         },
         {
           "measure": "S.J. Res. 187",
-          "title": "Congressional disapproval of EPA rule on PFAS reporting and recordkeeping",
-          "status": "Motion to proceed expected Wednesday"
+          "title": "Congressional disapproval of EPA rule on PFAS reporting submission period modification",
+          "status": "Motion to proceed expected during Wednesday session"
+        },
+        {
+          "measure": "S. 2511",
+          "title": "Establish a postsecondary student data system",
+          "status": "Reported with amendment"
+        },
+        {
+          "measure": "S. 3097",
+          "title": "Provide additional health information protections",
+          "status": "Reported with amendment"
         },
         {
           "measure": "S. 4472",
@@ -33,17 +43,12 @@
           "measure": "S. 494",
           "title": "National Plan for Epilepsy Act",
           "status": "Passed"
-        },
-        {
-          "measure": "S. Res. 830",
-          "title": "Recognition of Fulbright Program 80th anniversary",
-          "status": "Passed"
         }
       ]
     },
     "house": {
       "nextMeeting": "Thursday, August 6 at 9:00 AM",
-      "lastSessionSummary": "The House was not in session on Tuesday. The chamber will meet in Pro Forma session on Thursday, August 6 at 9 a.m., maintaining quorum during the August recess.",
+      "lastSessionSummary": "The House did not meet on August 4, 2026. The chamber will reconvene in Pro Forma session on Thursday, August 6 at 9:00 a.m.",
       "onTheFloor": []
     }
   },
@@ -51,32 +56,32 @@
     {
       "chamber": "senate",
       "committee": "Committee on Commerce, Science, and Transportation",
-      "topic": "Markup of five bills protecting children online from AI, including age verification requirements for interactive computer services and safe design features for AI chatbots for minors; 10 a.m. Wednesday"
+      "topic": "Markup of child safety bills including internet age verification, AI chatbot safeguards for minors, and AI-enabled toy regulations"
     },
     {
       "chamber": "senate",
       "committee": "Committee on Finance",
-      "topic": "Hearing on process approaches for addressing Social Security solvency; 10 a.m. Wednesday"
+      "topic": "Hearing on process approaches for addressing Social Security solvency"
     },
     {
       "chamber": "senate",
       "committee": "Committee on Foreign Relations",
-      "topic": "Hearing on ambassadorial nominations for Montenegro, Sierra Leone, and Colombia; 10 a.m. Wednesday"
+      "topic": "Confirmation hearings for ambassadors to Montenegro, Sierra Leone, and Colombia"
     },
     {
       "chamber": "senate",
       "committee": "Committee on Judiciary",
-      "topic": "Hearing on nominations for Fifth Circuit judge, District judge, Assistant Attorney General, and Sentencing Commission members; 10:15 a.m. Wednesday"
+      "topic": "Confirmation hearings for federal judges and Justice Department officials"
     },
     {
       "chamber": "senate",
-      "committee": "Committee on Indian Affairs",
-      "topic": "Business meeting on bills transferring mineral interests and Federal lands into trust for tribal nations; 2:30 p.m. Wednesday"
+      "committee": "Subcommittee on Federal Courts, Oversight, Agency Action, and Federal Rights",
+      "topic": "Hearing on the Muslim Brotherhood network in America"
     },
     {
       "chamber": "senate",
-      "committee": "Committee on Small Business and Entrepreneurship",
-      "topic": "Hearing on small businesses leading innovation initiatives; 2:30 p.m. Wednesday"
+      "committee": "Select Committee on Intelligence",
+      "topic": "Closed briefing on Sudan conflict updates"
     }
   ]
 }
