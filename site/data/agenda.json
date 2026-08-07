@@ -1,54 +1,49 @@
 {
-  "generatedAt": "2026-08-06T12:05:19.224Z",
-  "reportDate": "2026-08-06",
-  "recordIssueDate": "2026-08-04",
+  "generatedAt": "2026-08-07T10:56:29.867Z",
+  "reportDate": "2026-08-07",
+  "recordIssueDate": "2026-08-05",
   "available": true,
-  "headline": "Senate passes ALS and epilepsy research bills while CDC director confirmation looms Wednesday!",
+  "headline": "Senate pushing through amendments on Africa trade deal while navigating judicial confirmations and athlete rights debate!",
   "chambers": {
     "senate": {
-      "nextMeeting": "Wednesday, August 5 at 10:30 AM",
-      "lastSessionSummary": "Senate passed S. 4472, reauthorizing critical ALS therapies research through fiscal year 2031, and S. 494, establishing a national epilepsy research coordination plan. The chamber also passed a resolution recognizing the Fulbright Program's 80th anniversary while continuing debate on the AGOA Extension Act and advancing various health and education measures.",
+      "nextMeeting": "Thursday, August 6 at 10:00 AM",
+      "lastSessionSummary": "The Senate confirmed CDC Director Erica Schwartz 51-44 and passed the Northern Border Security Enhancement Act with an amendment. The chamber spent much of the day debating amendments to H.R. 6500, the AGOA Extension Act, with cloture votes set for Friday on multiple amendments and on Todd Blanche's nomination for Attorney General.",
       "onTheFloor": [
         {
           "measure": "H.R. 6500",
-          "title": "AGOA Extension Act—extend duty-free treatment for African imports and customs user fees",
-          "status": "Post-cloture consideration expected to continue, motion to proceed debate ongoing"
+          "title": "AGOA Extension Act - extends duty-free treatment for African imports and customs user fees",
+          "status": "Cloture vote scheduled Friday, August 7 on multiple amendments"
         },
         {
-          "measure": "CDC Director Nomination—Erica Schwartz",
-          "title": "Confirmation vote for Erica Schwartz of Florida as Director of the Centers for Disease Control and Prevention",
-          "status": "Cloture vote at 11:30 a.m. Wednesday; confirmation vote scheduled for 2:15 p.m."
+          "measure": "S. 4668",
+          "title": "Protect College Sports Act - protects NIL rights and fair competition for student athletes",
+          "status": "Cloture motion pending, vote after H.R. 6500 disposed"
         },
         {
-          "measure": "S.J. Res. 187",
-          "title": "Congressional disapproval of EPA rule on PFAS reporting submission period modification",
-          "status": "Motion to proceed expected during Wednesday session"
+          "measure": "Todd Blanche Nomination",
+          "title": "Attorney General nominee from Florida",
+          "status": "Cloture vote expected after S. 4668 motion to proceed"
         },
         {
-          "measure": "S. 2511",
-          "title": "Establish a postsecondary student data system",
-          "status": "Reported with amendment"
+          "measure": "S. 850",
+          "title": "Northern Border Security Enhancement Act - updates threat analysis and border strategy requirements",
+          "status": "Passed with amendment"
         },
         {
-          "measure": "S. 3097",
-          "title": "Provide additional health information protections",
-          "status": "Reported with amendment"
+          "measure": "En bloc nominations",
+          "title": "Package of judicial and executive nominations",
+          "status": "51-44 cloture vote agreed, consideration Thursday at 10 a.m."
         },
         {
-          "measure": "S. 4472",
-          "title": "Accelerating Access to Critical Therapies for ALS Reauthorization Act",
-          "status": "Passed"
-        },
-        {
-          "measure": "S. 494",
-          "title": "National Plan for Epilepsy Act",
-          "status": "Passed"
+          "measure": "Erica Schwartz Nomination",
+          "title": "Director of Centers for Disease Control and Prevention",
+          "status": "Confirmed 51-44"
         }
       ]
     },
     "house": {
       "nextMeeting": "Thursday, August 6 at 9:00 AM",
-      "lastSessionSummary": "The House did not meet on August 4, 2026. The chamber will reconvene in Pro Forma session on Thursday, August 6 at 9:00 a.m.",
+      "lastSessionSummary": "The House was not in session on August 5. The chamber will reconvene in Pro Forma session Thursday morning.",
       "onTheFloor": []
     }
   },
@@ -56,32 +51,32 @@
     {
       "chamber": "senate",
       "committee": "Committee on Commerce, Science, and Transportation",
-      "topic": "Markup of child safety bills including internet age verification, AI chatbot safeguards for minors, and AI-enabled toy regulations"
+      "topic": "Child internet safety and AI chatbot protections for minors"
     },
     {
       "chamber": "senate",
       "committee": "Committee on Finance",
-      "topic": "Hearing on process approaches for addressing Social Security solvency"
+      "topic": "Social Security solvency solutions and policy approaches"
     },
     {
       "chamber": "senate",
       "committee": "Committee on Foreign Relations",
-      "topic": "Confirmation hearings for ambassadors to Montenegro, Sierra Leone, and Colombia"
+      "topic": "Ambassador nominations to Montenegro, Sierra Leone, and Colombia; Sudan conflict briefing"
     },
     {
       "chamber": "senate",
       "committee": "Committee on Judiciary",
-      "topic": "Confirmation hearings for federal judges and Justice Department officials"
+      "topic": "Federal court and sentencing commission nominations; Muslim Brotherhood network oversight"
     },
     {
       "chamber": "senate",
-      "committee": "Subcommittee on Federal Courts, Oversight, Agency Action, and Federal Rights",
-      "topic": "Hearing on the Muslim Brotherhood network in America"
+      "committee": "Committee on Banking, Housing, and Urban Affairs (scheduled August 6)",
+      "topic": "Small business access to capital and financial empowerment"
     },
     {
       "chamber": "senate",
-      "committee": "Select Committee on Intelligence",
-      "topic": "Closed briefing on Sudan conflict updates"
+      "committee": "Committee on Agriculture, Nutrition, and Forestry (scheduled August 6)",
+      "topic": "Agricultural Act of 2026 business meeting"
     }
   ]
 }
