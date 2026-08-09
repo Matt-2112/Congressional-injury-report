@@ -1,67 +1,56 @@
 {
-  "generatedAt": "2026-08-08T10:37:50.466Z",
-  "reportDate": "2026-08-08",
-  "recordIssueDate": "2026-08-06",
+  "generatedAt": "2026-08-09T10:38:58.645Z",
+  "reportDate": "2026-08-09",
+  "recordIssueDate": "2026-08-07",
   "available": true,
-  "headline": "Senate passes education literacy bill and merchant marine athletes act; House adjourned after brief morning session",
+  "headline": "Senate racks up a legislative scoreboard with major sanctions, spending, and judicial confirmations in Friday blitz!",
   "chambers": {
     "senate": {
-      "nextMeeting": "Friday, August 7 at 10:00 AM",
-      "lastSessionSummary": "The Senate passed four bills on the floor including S. 3266 supporting USMMA athletic programs, S. 434 establishing the Commercial Space Activity Advisory Committee, S. 2398 reauthorizing the Kay Hagan Tick Act, and S. 1838 authorizing Down syndrome research. The chamber also agreed to several resolutions recognizing the 1960 Missouri Tigers football team, designating National Airborne Day and National Park Week, and commemorating the Fort Stewart shooting anniversary. Eighty-six bills and 13 resolutions were introduced.",
+      "nextMeeting": "Monday, August 10 at 10:00 AM",
+      "lastSessionSummary": "The Senate passed H.R. 5334, the Lindsey O. Graham Sanctioning Russia and Iran Act, 86-11, imposing tough new sanctions on Russia and Iran in honor of the late Senator Graham. Lawmakers also cleared H.R. 6500, a continuing appropriations bill for fiscal 2027, by a 90-6 vote, averting a government shutdown. On personnel, the Senate confirmed Todd Blanche as Attorney General plus a slate of 44 nominees across multiple federal agencies in a single vote.",
       "onTheFloor": [
         {
           "measure": "H.R. 5334",
-          "title": "SEED Act - Allow early childhood educators to take educator expense deduction",
-          "status": "Amendments to be voted on Friday at 11:30 AM; passage requires 60 votes"
+          "title": "Lindsey O. Graham Sanctioning Russia and Iran Act",
+          "status": "passed 86-11"
         },
         {
           "measure": "H.R. 6500",
-          "title": "AGOA Extension Act - Extend duty-free treatment for African countries",
-          "status": "Cloture vote on amendment scheduled for Friday following H.R. 5334"
+          "title": "Continuing Appropriations and Extensions Act for fiscal 2027",
+          "status": "passed 90-6"
         },
         {
-          "measure": "S. 3266",
-          "title": "USMMA Athletics Act - Support athletic programs at U.S. Merchant Marine Academy",
-          "status": "Passed"
+          "measure": "Todd Blanche nomination",
+          "title": "Attorney General",
+          "status": "confirmed 51-47"
         },
         {
-          "measure": "S. 434",
-          "title": "Space Commerce Advisory Committee Act - Establish Commercial Space Activity Advisory Committee",
-          "status": "Passed with amendment"
+          "measure": "S. 5271",
+          "title": "Help America Vote Act amendment requiring photo ID for voters",
+          "status": "cloture motion rejected 52-46, not advancing"
         },
         {
-          "measure": "S. 2398",
-          "title": "Kay Hagan Tick Reauthorization Act - Reauthorize tick research and prevention",
-          "status": "Passed"
+          "measure": "H.R. 3633",
+          "title": "Digital Asset Market Clarity Act regulating crypto and digital commodities",
+          "status": "cloture vote scheduled September 15"
         },
         {
-          "measure": "S. 1838",
-          "title": "DeOndra Dixon INCLUDE Project Act - Fund Down syndrome research and training",
-          "status": "Passed"
+          "measure": "S. 4668",
+          "title": "Protect College Sports Act safeguarding student-athlete name and image rights",
+          "status": "cloture vote scheduled no earlier than September 15"
+        },
+        {
+          "measure": "H. Con. Res. 89",
+          "title": "War Powers Resolution directing removal of Armed Forces from Iran hostilities",
+          "status": "scheduled for floor debate by October 2"
         }
       ]
     },
     "house": {
       "nextMeeting": "Monday, August 10 at 11:00 AM",
-      "lastSessionSummary": "The House met briefly at 9 a.m. and adjourned at 9:03 a.m. No votes were taken. Twenty-six public bills and five resolutions were introduced. The Speaker appointed Representative Obernolte to act as Speaker pro tempore.",
+      "lastSessionSummary": "The House was not in session on Friday, August 7. The chamber will reconvene in pro forma session on Monday to maintain its legislative schedule during the August recess period.",
       "onTheFloor": []
     }
   },
-  "committees": [
-    {
-      "chamber": "senate",
-      "committee": "Banking, Housing, and Urban Affairs",
-      "topic": "Empowering Main Street by unlocking access to capital"
-    },
-    {
-      "chamber": "senate",
-      "committee": "Foreign Relations",
-      "topic": "Protecting Americans from global scam operations"
-    },
-    {
-      "chamber": "senate",
-      "committee": "Homeland Security and Governmental Affairs",
-      "topic": "Business meeting - ordered favorable reports on dozens of bills including postal facility designations"
-    }
-  ]
+  "committees": []
 }
