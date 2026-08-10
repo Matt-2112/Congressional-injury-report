@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-08-09T10:38:58.645Z",
-  "reportDate": "2026-08-09",
+  "generatedAt": "2026-08-10T11:12:11.843Z",
+  "reportDate": "2026-08-10",
   "recordIssueDate": "2026-08-07",
   "available": true,
-  "headline": "Senate racks up a legislative scoreboard with major sanctions, spending, and judicial confirmations in Friday blitz!",
+  "headline": "Senate powers through major spending bill and sanctions package as they head toward August recess!",
   "chambers": {
     "senate": {
       "nextMeeting": "Monday, August 10 at 10:00 AM",
-      "lastSessionSummary": "The Senate passed H.R. 5334, the Lindsey O. Graham Sanctioning Russia and Iran Act, 86-11, imposing tough new sanctions on Russia and Iran in honor of the late Senator Graham. Lawmakers also cleared H.R. 6500, a continuing appropriations bill for fiscal 2027, by a 90-6 vote, averting a government shutdown. On personnel, the Senate confirmed Todd Blanche as Attorney General plus a slate of 44 nominees across multiple federal agencies in a single vote.",
+      "lastSessionSummary": "The Senate passed the continuing appropriations bill for fiscal 2027 by 90-6, securing government funding through the recess. Senators also approved the Lindsey O. Graham Sanctioning Russia and Iran Act by 86-11, imposing new economic measures against Moscow. Additionally, the chamber confirmed Todd Blanche of Florida as Attorney General in a 51-47 party-line vote.",
       "onTheFloor": [
+        {
+          "measure": "H.R. 6500",
+          "title": "Continuing Appropriations and Extensions Act for fiscal year 2027",
+          "status": "passed 90-6"
+        },
         {
           "measure": "H.R. 5334",
           "title": "Lindsey O. Graham Sanctioning Russia and Iran Act",
           "status": "passed 86-11"
         },
         {
-          "measure": "H.R. 6500",
-          "title": "Continuing Appropriations and Extensions Act for fiscal 2027",
-          "status": "passed 90-6"
-        },
-        {
-          "measure": "Todd Blanche nomination",
-          "title": "Attorney General",
-          "status": "confirmed 51-47"
-        },
-        {
           "measure": "S. 5271",
-          "title": "Help America Vote Act amendment requiring photo ID for voters",
-          "status": "cloture motion rejected 52-46, not advancing"
+          "title": "Help America Vote Act amendment requiring photo voter identification",
+          "status": "cloture motion rejected 52-46"
         },
         {
           "measure": "H.R. 3633",
-          "title": "Digital Asset Market Clarity Act regulating crypto and digital commodities",
-          "status": "cloture vote scheduled September 15"
+          "title": "Digital Asset Market Clarity Act regulating cryptocurrency",
+          "status": "cloture vote scheduled for September 15"
         },
         {
           "measure": "S. 4668",
-          "title": "Protect College Sports Act safeguarding student-athlete name and image rights",
-          "status": "cloture vote scheduled no earlier than September 15"
+          "title": "Protect College Sports Act regulating student athlete name, image, and likeness rights",
+          "status": "cloture vote scheduled between September 15-23"
         },
         {
           "measure": "H. Con. Res. 89",
-          "title": "War Powers Resolution directing removal of Armed Forces from Iran hostilities",
-          "status": "scheduled for floor debate by October 2"
+          "title": "War Powers Resolution concurrent resolution on Iranian hostilities",
+          "status": "scheduled for vote by October 2"
+        },
+        {
+          "measure": "S. 1525",
+          "title": "Common Cents Act to cease penny minting and round cash transactions",
+          "status": "passed"
         }
       ]
     },
     "house": {
       "nextMeeting": "Monday, August 10 at 11:00 AM",
-      "lastSessionSummary": "The House was not in session on Friday, August 7. The chamber will reconvene in pro forma session on Monday to maintain its legislative schedule during the August recess period.",
+      "lastSessionSummary": "The House was not in session on Friday, August 7. The chamber will meet Monday in pro forma session only, conducting minimal procedural business during the August recess period.",
       "onTheFloor": []
     }
   },
