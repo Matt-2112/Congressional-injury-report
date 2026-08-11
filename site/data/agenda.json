@@ -1,54 +1,18 @@
 {
-  "generatedAt": "2026-08-10T11:12:11.843Z",
-  "reportDate": "2026-08-10",
-  "recordIssueDate": "2026-08-07",
+  "generatedAt": "2026-08-11T10:53:38.007Z",
+  "reportDate": "2026-08-11",
+  "recordIssueDate": "2026-08-10",
   "available": true,
-  "headline": "Senate powers through major spending bill and sanctions package as they head toward August recess!",
+  "headline": "Congress in summer recess mode: pro forma sessions as lawmakers return Thursday",
   "chambers": {
     "senate": {
-      "nextMeeting": "Monday, August 10 at 10:00 AM",
-      "lastSessionSummary": "The Senate passed the continuing appropriations bill for fiscal 2027 by 90-6, securing government funding through the recess. Senators also approved the Lindsey O. Graham Sanctioning Russia and Iran Act by 86-11, imposing new economic measures against Moscow. Additionally, the chamber confirmed Todd Blanche of Florida as Attorney General in a 51-47 party-line vote.",
-      "onTheFloor": [
-        {
-          "measure": "H.R. 6500",
-          "title": "Continuing Appropriations and Extensions Act for fiscal year 2027",
-          "status": "passed 90-6"
-        },
-        {
-          "measure": "H.R. 5334",
-          "title": "Lindsey O. Graham Sanctioning Russia and Iran Act",
-          "status": "passed 86-11"
-        },
-        {
-          "measure": "S. 5271",
-          "title": "Help America Vote Act amendment requiring photo voter identification",
-          "status": "cloture motion rejected 52-46"
-        },
-        {
-          "measure": "H.R. 3633",
-          "title": "Digital Asset Market Clarity Act regulating cryptocurrency",
-          "status": "cloture vote scheduled for September 15"
-        },
-        {
-          "measure": "S. 4668",
-          "title": "Protect College Sports Act regulating student athlete name, image, and likeness rights",
-          "status": "cloture vote scheduled between September 15-23"
-        },
-        {
-          "measure": "H. Con. Res. 89",
-          "title": "War Powers Resolution concurrent resolution on Iranian hostilities",
-          "status": "scheduled for vote by October 2"
-        },
-        {
-          "measure": "S. 1525",
-          "title": "Common Cents Act to cease penny minting and round cash transactions",
-          "status": "passed"
-        }
-      ]
+      "nextMeeting": "Thursday, August 13 at 8:00 AM",
+      "lastSessionSummary": "The Senate convened in pro forma session on Monday morning for just 33 seconds before adjourning until Thursday. No legislation was debated or voted on during the brief procedural meeting.",
+      "onTheFloor": []
     },
     "house": {
-      "nextMeeting": "Monday, August 10 at 11:00 AM",
-      "lastSessionSummary": "The House was not in session on Friday, August 7. The chamber will meet Monday in pro forma session only, conducting minimal procedural business during the August recess period.",
+      "nextMeeting": "Thursday, August 13 at 9:00 AM",
+      "lastSessionSummary": "The House met for a quick pro forma session Monday morning, adjourning after 2 minutes. Twelve new bills and three resolutions were introduced, but no votes were held as the chamber prepares for its August recess.",
       "onTheFloor": []
     }
   },
