@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-08-12T11:02:22.471Z",
-  "reportDate": "2026-08-12",
+  "generatedAt": "2026-08-13T11:03:02.409Z",
+  "reportDate": "2026-08-13",
   "recordIssueDate": "2026-08-10",
   "available": true,
-  "headline": "Congress kicks off the week with minimal action as both chambers meet only briefly in pro forma session.",
+  "headline": "Congress goes quiet for the week—both chambers in pro forma sessions Thursday with no votes or business scheduled.",
   "chambers": {
     "senate": {
       "nextMeeting": "Thursday, August 13 at 8:00 AM",
-      "lastSessionSummary": "The Senate convened at 10:00 a.m. in pro forma session and adjourned at 10:00 a.m., lasting just 33 seconds. No votes or business was conducted. The chamber will reconvene Thursday morning.",
+      "lastSessionSummary": "The Senate convened briefly in pro forma session on Monday, August 10, and adjourned immediately. No legislative business was conducted. The chamber will return for another pro forma session Thursday morning before the August recess.",
       "onTheFloor": []
     },
     "house": {
       "nextMeeting": "Thursday, August 13 at 9:00 AM",
-      "lastSessionSummary": "The House met briefly at 11:00 a.m. and adjourned at 11:02 a.m. Twelve public bills and three resolutions were introduced, but no votes were taken. Several Senate bills were received and held at the desk.",
+      "lastSessionSummary": "The House met for two minutes on Monday, August 10, with Speaker pro tempore Foxx presiding. Twelve new bills (H.R. 10070-10081) and three resolutions were introduced, and 15 Senate bills were held at the desk. No votes were taken. The House will convene in pro forma session Thursday before the August recess.",
       "onTheFloor": []
     }
   },
