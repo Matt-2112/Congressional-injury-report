@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-08-14T11:00:09.373Z",
-  "reportDate": "2026-08-14",
+  "generatedAt": "2026-08-15T10:26:48.713Z",
+  "reportDate": "2026-08-15",
   "recordIssueDate": "2026-08-13",
   "available": true,
-  "headline": "Congress on Summer Recess—Both Chambers in Pro Forma Mode with No Floor Action on Thursday",
+  "headline": "Both chambers take a breather with pro forma sessions before returning to full action Monday!",
   "chambers": {
     "senate": {
       "nextMeeting": "Monday, August 17 at 1:30 PM",
-      "lastSessionSummary": "The Senate met in pro forma session for just 28 seconds Thursday morning, adjourning quickly without taking any substantive action. The chamber will remain in this minimal-activity posture until returning to regular business next week.",
+      "lastSessionSummary": "The Senate convened briefly in pro forma session on August 13, meeting for just over thirty seconds at 8:01 a.m. before adjourning until the following week.",
       "onTheFloor": []
     },
     "house": {
       "nextMeeting": "Monday, August 17 at 9:00 AM",
-      "lastSessionSummary": "The House convened briefly at 9 a.m. and adjourned at 9:03 a.m. in pro forma session, introducing 27 new bills and 3 resolutions but conducting no recorded votes. Speaker appointed Rep. Foxx as Speaker pro tempore for the day.",
+      "lastSessionSummary": "The House held a pro forma session on August 13, convening at 9 a.m. and adjourning at 9:03 a.m. The chamber introduced 27 new public bills and 3 resolutions during this brief meeting.",
       "onTheFloor": []
     }
   },
