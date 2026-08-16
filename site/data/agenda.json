@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-08-15T10:26:48.713Z",
-  "reportDate": "2026-08-15",
+  "generatedAt": "2026-08-16T10:27:17.701Z",
+  "reportDate": "2026-08-16",
   "recordIssueDate": "2026-08-13",
   "available": true,
-  "headline": "Both chambers take a breather with pro forma sessions before returning to full action Monday!",
+  "headline": "Congress goes dark with both chambers adjourning for the week – back in pro forma session Monday!",
   "chambers": {
     "senate": {
       "nextMeeting": "Monday, August 17 at 1:30 PM",
-      "lastSessionSummary": "The Senate convened briefly in pro forma session on August 13, meeting for just over thirty seconds at 8:01 a.m. before adjourning until the following week.",
+      "lastSessionSummary": "The Senate convened briefly in pro forma session on Thursday, August 13, meeting for just over one minute before adjourning. No substantive business was conducted.",
       "onTheFloor": []
     },
     "house": {
       "nextMeeting": "Monday, August 17 at 9:00 AM",
-      "lastSessionSummary": "The House held a pro forma session on August 13, convening at 9 a.m. and adjourning at 9:03 a.m. The chamber introduced 27 new public bills and 3 resolutions during this brief meeting.",
+      "lastSessionSummary": "The House met briefly Thursday morning for a pro forma session lasting three minutes. Speaker Foxx was appointed as Speaker pro tempore. The chamber introduced 27 public bills and 3 resolutions but held no votes or quorum calls.",
       "onTheFloor": []
     }
   },
