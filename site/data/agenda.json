@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-08-20T10:35:00.322Z",
-  "reportDate": "2026-08-20",
+  "generatedAt": "2026-08-21T10:34:13.501Z",
+  "reportDate": "2026-08-21",
   "recordIssueDate": "2026-08-17",
   "available": true,
-  "headline": "Congress in recess mode—both chambers convening briefly Thursday in pro forma sessions",
+  "headline": "Congress in recess mode: Both chambers call light pro forma sessions as legislators head to the hills for August break.",
   "chambers": {
     "senate": {
       "nextMeeting": "Thursday, August 20 at 11:30 AM",
-      "lastSessionSummary": "The Senate held a brief pro forma session on Monday, August 17, meeting at 1:30 p.m. and adjourning within minutes. No legislative action occurred.",
+      "lastSessionSummary": "The Senate met in pro forma session on Monday, August 17, conducting only routine business before adjourning for a recess that will extend through mid-August. No substantive legislation was debated or voted on.",
       "onTheFloor": []
     },
     "house": {
       "nextMeeting": "Thursday, August 20 at 10:00 AM",
-      "lastSessionSummary": "The House met briefly on Monday, August 17 at 9 a.m., adjourning at 9:08 a.m. Nine public bills and one resolution were introduced for the record. No votes were held.",
+      "lastSessionSummary": "The House convened briefly on Monday, August 17 for a pro forma session lasting just eight minutes. Nine new bills and one resolution were introduced, but no votes were held as the chamber prepares for the August recess period.",
       "onTheFloor": []
     }
   },
