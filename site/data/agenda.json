@@ -1,19 +1,60 @@
 {
-  "generatedAt": "2026-08-21T10:34:13.501Z",
-  "reportDate": "2026-08-21",
-  "recordIssueDate": "2026-08-17",
+  "generatedAt": "2026-08-22T10:27:38.161Z",
+  "reportDate": "2026-08-22",
+  "recordIssueDate": "2026-08-20",
   "available": true,
-  "headline": "Congress in recess mode: Both chambers call light pro forma sessions as legislators head to the hills for August break.",
+  "headline": "Congress keeps things light with back-to-back pro forma sessions as August winds down.",
   "chambers": {
     "senate": {
-      "nextMeeting": "Thursday, August 20 at 11:30 AM",
-      "lastSessionSummary": "The Senate met in pro forma session on Monday, August 17, conducting only routine business before adjourning for a recess that will extend through mid-August. No substantive legislation was debated or voted on.",
+      "nextMeeting": "Monday, August 24 at 12:30 PM",
+      "lastSessionSummary": "The Senate met briefly in pro forma session on Thursday, August 20, lasting just 40 seconds. No substantive business was conducted, with the chamber adjourning until the following Monday.",
       "onTheFloor": []
     },
     "house": {
-      "nextMeeting": "Thursday, August 20 at 10:00 AM",
-      "lastSessionSummary": "The House convened briefly on Monday, August 17 for a pro forma session lasting just eight minutes. Nine new bills and one resolution were introduced, but no votes were held as the chamber prepares for the August recess period.",
-      "onTheFloor": []
+      "nextMeeting": "Monday, August 24 at 9:00 AM",
+      "lastSessionSummary": "The House met for just 3 minutes on Thursday, August 20, with no votes recorded. Twenty new bills and one resolution were introduced, while eight bills received committee reports clearing them for potential floor consideration.",
+      "onTheFloor": [
+        {
+          "measure": "H.R. 309",
+          "title": "Authorization for Interior Department funding for the National Law Enforcement Museum",
+          "status": "reported from committee"
+        },
+        {
+          "measure": "H.R. 3276",
+          "title": "Establish the Urban Bird Treaty Program",
+          "status": "reported from committee"
+        },
+        {
+          "measure": "H.R. 8476",
+          "title": "Require schools to treat antisemitism as vigorously as other Civil Rights Act violations",
+          "status": "reported from committee"
+        },
+        {
+          "measure": "H.R. 3925",
+          "title": "Land exchange in San Bernardino County, California",
+          "status": "reported from committee"
+        },
+        {
+          "measure": "H.R. 2406",
+          "title": "Address sexual harassment and assault involving NOAA personnel",
+          "status": "reported from committee"
+        },
+        {
+          "measure": "H.R. 2827",
+          "title": "Equitable settlement of Indian land disputes in Illinois",
+          "status": "reported from committee"
+        },
+        {
+          "measure": "H.R. 6893",
+          "title": "Reauthorize Chesapeake Bay Office of NOAA",
+          "status": "reported from committee"
+        },
+        {
+          "measure": "H.R. 7889",
+          "title": "Reauthorize water resources research and technology institutes program",
+          "status": "reported from committee"
+        }
+      ]
     }
   },
   "committees": []
