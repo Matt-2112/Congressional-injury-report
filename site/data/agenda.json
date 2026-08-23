@@ -1,60 +1,19 @@
 {
-  "generatedAt": "2026-08-22T10:27:38.161Z",
-  "reportDate": "2026-08-22",
+  "generatedAt": "2026-08-23T10:28:26.512Z",
+  "reportDate": "2026-08-23",
   "recordIssueDate": "2026-08-20",
   "available": true,
-  "headline": "Congress keeps things light with back-to-back pro forma sessions as August winds down.",
+  "headline": "Congress in summer recess mode: Senate and House both running on minimal sessions heading into the long weekend.",
   "chambers": {
     "senate": {
       "nextMeeting": "Monday, August 24 at 12:30 PM",
-      "lastSessionSummary": "The Senate met briefly in pro forma session on Thursday, August 20, lasting just 40 seconds. No substantive business was conducted, with the chamber adjourning until the following Monday.",
+      "lastSessionSummary": "The Senate convened in pro forma session on Thursday, August 20, with no business conducted. The chamber adjourned quickly and will reconvene in pro forma session on Monday with no legislative activity scheduled.",
       "onTheFloor": []
     },
     "house": {
       "nextMeeting": "Monday, August 24 at 9:00 AM",
-      "lastSessionSummary": "The House met for just 3 minutes on Thursday, August 20, with no votes recorded. Twenty new bills and one resolution were introduced, while eight bills received committee reports clearing them for potential floor consideration.",
-      "onTheFloor": [
-        {
-          "measure": "H.R. 309",
-          "title": "Authorization for Interior Department funding for the National Law Enforcement Museum",
-          "status": "reported from committee"
-        },
-        {
-          "measure": "H.R. 3276",
-          "title": "Establish the Urban Bird Treaty Program",
-          "status": "reported from committee"
-        },
-        {
-          "measure": "H.R. 8476",
-          "title": "Require schools to treat antisemitism as vigorously as other Civil Rights Act violations",
-          "status": "reported from committee"
-        },
-        {
-          "measure": "H.R. 3925",
-          "title": "Land exchange in San Bernardino County, California",
-          "status": "reported from committee"
-        },
-        {
-          "measure": "H.R. 2406",
-          "title": "Address sexual harassment and assault involving NOAA personnel",
-          "status": "reported from committee"
-        },
-        {
-          "measure": "H.R. 2827",
-          "title": "Equitable settlement of Indian land disputes in Illinois",
-          "status": "reported from committee"
-        },
-        {
-          "measure": "H.R. 6893",
-          "title": "Reauthorize Chesapeake Bay Office of NOAA",
-          "status": "reported from committee"
-        },
-        {
-          "measure": "H.R. 7889",
-          "title": "Reauthorize water resources research and technology institutes program",
-          "status": "reported from committee"
-        }
-      ]
+      "lastSessionSummary": "The House met briefly on Thursday, August 20 for a pro forma session lasting just three minutes. Twenty new bills were introduced and eight committee reports were filed, including measures on the National Law Enforcement Museum, antisemitism discrimination enforcement in schools, and Indian land disputes, but no votes or floor debate occurred.",
+      "onTheFloor": []
     }
   },
   "committees": []
