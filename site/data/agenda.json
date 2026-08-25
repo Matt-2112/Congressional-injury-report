@@ -1,48 +1,58 @@
 {
-  "generatedAt": "2026-08-24T10:40:48.294Z",
-  "reportDate": "2026-08-24",
+  "generatedAt": "2026-08-25T10:37:14.962Z",
+  "reportDate": "2026-08-25",
   "recordIssueDate": "2026-08-20",
   "available": true,
-  "headline": "Congress in recess mode as both chambers hold only pro forma sessions before Monday return.",
+  "headline": "Congress in pro forma mode as both chambers take light schedule before August recess wind-down.",
   "chambers": {
     "senate": {
-      "nextMeeting": "Monday, August 24 at 12:30 PM",
-      "lastSessionSummary": "The Senate convened for a brief pro forma session on Thursday, August 20, lasting just 40 seconds before adjourning. No legislative business was conducted as the chamber prepares for a recess period.",
+      "nextMeeting": "Monday, August 24, 2026 at 12:30 PM",
+      "lastSessionSummary": "The Senate met briefly in pro forma session on August 20 for just 40 seconds, adjourning until Monday. No committee meetings were held.",
       "onTheFloor": []
     },
     "house": {
-      "nextMeeting": "Monday, August 24 at 9:00 AM",
-      "lastSessionSummary": "The House held a three-minute pro forma session on Thursday, August 20, introducing 20 new bills and filing 8 committee reports on various matters including federal funding for museums, antisemitism protections in schools, and water resources reauthorization. No votes were taken.",
+      "nextMeeting": "Monday, August 24, 2026 at 9:00 AM",
+      "lastSessionSummary": "The House met at 10 a.m. and adjourned at 10:03 a.m. on August 20, introducing 20 public bills and one resolution. Eight bills received committee reports, including measures on the Law Enforcement Museum, urban bird programs, and antisemitic discrimination on campuses.",
       "onTheFloor": [
         {
           "measure": "H.R. 309",
-          "title": "Authorize the Secretary of the Interior to provide funding for the National Law Enforcement Museum",
-          "status": "reported from committee with amendment"
-        },
-        {
-          "measure": "H.R. 8476",
-          "title": "Require schools receiving federal aid to treat antisemitic discrimination as seriously as other forms of discrimination under civil rights law",
-          "status": "reported from committee with amendment"
+          "title": "Authorization for National Law Enforcement Museum funding",
+          "status": "reported with amendment"
         },
         {
           "measure": "H.R. 3276",
-          "title": "Direct the Secretary of the Interior to establish the Urban Bird Treaty Program",
-          "status": "reported from committee with amendment"
+          "title": "Establish Urban Bird Treaty Program",
+          "status": "reported with amendment"
+        },
+        {
+          "measure": "H.R. 8476",
+          "title": "Require schools to treat antisemitism-motivated discrimination like other civil rights violations",
+          "status": "reported with amendment"
         },
         {
           "measure": "H.R. 3925",
-          "title": "Provide for a land exchange in San Bernardino County, California",
-          "status": "reported from committee with amendment"
+          "title": "Land exchange in San Bernardino County, California",
+          "status": "reported with amendment"
+        },
+        {
+          "measure": "H.R. 2406",
+          "title": "Address sexual harassment and assault involving NOAA personnel",
+          "status": "reported"
+        },
+        {
+          "measure": "H.R. 2827",
+          "title": "Equitable settlement of Indian land disputes in Illinois",
+          "status": "reported"
         },
         {
           "measure": "H.R. 6893",
-          "title": "Reauthorize the Chesapeake Bay Office of the National Oceanic and Atmospheric Administration",
-          "status": "reported from committee with amendment"
+          "title": "Reauthorize Chesapeake Bay Office of NOAA",
+          "status": "reported with amendment"
         },
         {
           "measure": "H.R. 7889",
-          "title": "Reauthorize the water resources research and technology institutes program",
-          "status": "reported from committee"
+          "title": "Reauthorize Water Resources Research and Technology Institutes Program",
+          "status": "reported"
         }
       ]
     }
