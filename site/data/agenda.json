@@ -1,60 +1,19 @@
 {
-  "generatedAt": "2026-08-25T10:37:14.962Z",
-  "reportDate": "2026-08-25",
-  "recordIssueDate": "2026-08-20",
+  "generatedAt": "2026-08-26T10:39:17.870Z",
+  "reportDate": "2026-08-26",
+  "recordIssueDate": "2026-08-24",
   "available": true,
-  "headline": "Congress in pro forma mode as both chambers take light schedule before August recess wind-down.",
+  "headline": "Both chambers hold brief pro forma sessions as August recess continues across Capitol Hill.",
   "chambers": {
     "senate": {
-      "nextMeeting": "Monday, August 24, 2026 at 12:30 PM",
-      "lastSessionSummary": "The Senate met briefly in pro forma session on August 20 for just 40 seconds, adjourning until Monday. No committee meetings were held.",
+      "nextMeeting": "Thursday, August 27 at 8:00 AM",
+      "lastSessionSummary": "The Senate convened in pro forma session for 32 seconds on Monday, August 24, with no legislative business conducted. The chamber will remain largely dormant through the August recess period.",
       "onTheFloor": []
     },
     "house": {
-      "nextMeeting": "Monday, August 24, 2026 at 9:00 AM",
-      "lastSessionSummary": "The House met at 10 a.m. and adjourned at 10:03 a.m. on August 20, introducing 20 public bills and one resolution. Eight bills received committee reports, including measures on the Law Enforcement Museum, urban bird programs, and antisemitic discrimination on campuses.",
-      "onTheFloor": [
-        {
-          "measure": "H.R. 309",
-          "title": "Authorization for National Law Enforcement Museum funding",
-          "status": "reported with amendment"
-        },
-        {
-          "measure": "H.R. 3276",
-          "title": "Establish Urban Bird Treaty Program",
-          "status": "reported with amendment"
-        },
-        {
-          "measure": "H.R. 8476",
-          "title": "Require schools to treat antisemitism-motivated discrimination like other civil rights violations",
-          "status": "reported with amendment"
-        },
-        {
-          "measure": "H.R. 3925",
-          "title": "Land exchange in San Bernardino County, California",
-          "status": "reported with amendment"
-        },
-        {
-          "measure": "H.R. 2406",
-          "title": "Address sexual harassment and assault involving NOAA personnel",
-          "status": "reported"
-        },
-        {
-          "measure": "H.R. 2827",
-          "title": "Equitable settlement of Indian land disputes in Illinois",
-          "status": "reported"
-        },
-        {
-          "measure": "H.R. 6893",
-          "title": "Reauthorize Chesapeake Bay Office of NOAA",
-          "status": "reported with amendment"
-        },
-        {
-          "measure": "H.R. 7889",
-          "title": "Reauthorize Water Resources Research and Technology Institutes Program",
-          "status": "reported"
-        }
-      ]
+      "nextMeeting": "Thursday, August 27 at 9:00 AM",
+      "lastSessionSummary": "The House met briefly at 9 a.m. and adjourned at 9:03 a.m. on Monday, August 24, with no votes held. Eleven public bills (H.R. 10138-10148) and four resolutions were introduced, but no substantive floor activity occurred as members remain on recess.",
+      "onTheFloor": []
     }
   },
   "committees": []
