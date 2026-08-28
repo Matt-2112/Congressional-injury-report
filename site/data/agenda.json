@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-08-27T20:13:29.102Z",
-  "reportDate": "2026-08-27",
-  "recordIssueDate": "2026-08-24",
+  "generatedAt": "2026-08-28T21:08:43.477Z",
+  "reportDate": "2026-08-28",
+  "recordIssueDate": "2026-08-27",
   "available": true,
-  "headline": "Both chambers gaveled in for a quick pro forma session Monday as Congress prepares to reconvene Thursday morning!",
+  "headline": "Congress takes a breather: both chambers hold minimal sessions with reconvening set for Monday.",
   "chambers": {
     "senate": {
-      "nextMeeting": "Thursday, August 27 at 8:00 AM",
-      "lastSessionSummary": "The Senate convened briefly in pro forma session on Monday, August 24 at 12:30 p.m. and adjourned within seconds. The chamber will return to pro forma proceedings on Thursday.",
+      "nextMeeting": "Monday, August 31 at 11:30 AM",
+      "lastSessionSummary": "The Senate convened briefly in pro forma session on Thursday morning, lasting just 33 seconds before adjourning. No substantive business was conducted. The chamber will reconvene in pro forma session Monday.",
       "onTheFloor": []
     },
     "house": {
-      "nextMeeting": "Thursday, August 27 at 9:00 AM",
-      "lastSessionSummary": "The House met Monday, August 24 for a brief session lasting just three minutes. Eleven public bills and four resolutions were introduced, but no votes or quorum calls took place. The chamber will reconvene in pro forma session Thursday.",
+      "nextMeeting": "Monday, August 31 at 12:00 PM",
+      "lastSessionSummary": "The House met for just four minutes on Thursday morning, adjourning immediately after opening remarks. Thirty-four bills and eight resolutions were introduced for future consideration, but no votes or substantive debate took place. The chamber is essentially in recess.",
       "onTheFloor": []
     }
   },
