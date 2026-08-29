@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-08-28T21:08:43.477Z",
-  "reportDate": "2026-08-28",
+  "generatedAt": "2026-08-29T14:57:57.016Z",
+  "reportDate": "2026-08-29",
   "recordIssueDate": "2026-08-27",
   "available": true,
-  "headline": "Congress takes a breather: both chambers hold minimal sessions with reconvening set for Monday.",
+  "headline": "Congress largely dormant as both chambers prep for Monday return with skeletal pro forma sessions.",
   "chambers": {
     "senate": {
       "nextMeeting": "Monday, August 31 at 11:30 AM",
-      "lastSessionSummary": "The Senate convened briefly in pro forma session on Thursday morning, lasting just 33 seconds before adjourning. No substantive business was conducted. The chamber will reconvene in pro forma session Monday.",
+      "lastSessionSummary": "The Senate held a brief pro forma session on Thursday morning, meeting for just 33 seconds before adjourning. No legislative business was conducted as lawmakers took a recess break ahead of their return on August 31.",
       "onTheFloor": []
     },
     "house": {
       "nextMeeting": "Monday, August 31 at 12:00 PM",
-      "lastSessionSummary": "The House met for just four minutes on Thursday morning, adjourning immediately after opening remarks. Thirty-four bills and eight resolutions were introduced for future consideration, but no votes or substantive debate took place. The chamber is essentially in recess.",
+      "lastSessionSummary": "The House met for just 3 minutes on Thursday morning, with no votes cast. Lawmakers introduced 34 new bills and 8 resolutions while committees filed 20 reports before the chamber adjourned, effectively wrapping up pre-recess activity.",
       "onTheFloor": []
     }
   },
