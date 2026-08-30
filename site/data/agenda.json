@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-08-29T14:57:57.016Z",
-  "reportDate": "2026-08-29",
+  "generatedAt": "2026-08-30T14:44:42.347Z",
+  "reportDate": "2026-08-30",
   "recordIssueDate": "2026-08-27",
   "available": true,
-  "headline": "Congress largely dormant as both chambers prep for Monday return with skeletal pro forma sessions.",
+  "headline": "Congress takes a breather—Senate and House both in recess for the long Labor Day weekend!",
   "chambers": {
     "senate": {
       "nextMeeting": "Monday, August 31 at 11:30 AM",
-      "lastSessionSummary": "The Senate held a brief pro forma session on Thursday morning, meeting for just 33 seconds before adjourning. No legislative business was conducted as lawmakers took a recess break ahead of their return on August 31.",
+      "lastSessionSummary": "The Senate convened briefly at 8:00 a.m. on Thursday, August 27 in pro forma session and adjourned within seconds until Monday, August 31. No legislative business was conducted.",
       "onTheFloor": []
     },
     "house": {
       "nextMeeting": "Monday, August 31 at 12:00 PM",
-      "lastSessionSummary": "The House met for just 3 minutes on Thursday morning, with no votes cast. Lawmakers introduced 34 new bills and 8 resolutions while committees filed 20 reports before the chamber adjourned, effectively wrapping up pre-recess activity.",
+      "lastSessionSummary": "The House met at 9 a.m. on Thursday, August 27 and adjourned at 9:03 a.m. Thirty-four new bills and eight resolutions were introduced, and sixteen bills received committee reports, but no floor votes or debate occurred.",
       "onTheFloor": []
     }
   },
