@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-08-31T17:28:06.701Z",
-  "reportDate": "2026-08-31",
+  "generatedAt": "2026-09-01T14:38:42.226Z",
+  "reportDate": "2026-09-01",
   "recordIssueDate": "2026-08-27",
   "available": true,
-  "headline": "Congress returns from recess on Monday with a pro forma Senate session and House meeting as lawmakers reconvene for the fall legislative push.",
+  "headline": "Congress keeps the lights on with a pro forma session as both chambers prepare to return after Labor Day recess.",
   "chambers": {
     "senate": {
       "nextMeeting": "Monday, August 31 at 11:30 AM",
-      "lastSessionSummary": "The Senate met in pro forma session on August 27, convening at 8:00 a.m. and adjourning just 33 seconds later. No legislative business was conducted as Congress was in its August recess period.",
+      "lastSessionSummary": "The Senate convened in pro forma session on Thursday, August 27, meeting for just 33 seconds before adjourning. No legislative business was conducted as the chamber headed into the extended recess period.",
       "onTheFloor": []
     },
     "house": {
       "nextMeeting": "Monday, August 31 at 12:00 PM",
-      "lastSessionSummary": "The House met on August 27 for a brief session lasting just 3 minutes, during which 34 public bills and 8 resolutions were introduced. The chamber filed 18 committee reports on a range of issues including tax-exempt organization disclosures, Indian Health Service improvements, and renewable energy measures, but no votes were held.",
+      "lastSessionSummary": "The House met briefly on August 27 for just three minutes, introducing 34 new bills and 8 resolutions while filing 19 committee reports. No votes were taken as the chamber wound down before the recess.",
       "onTheFloor": []
     }
   },
