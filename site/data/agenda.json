@@ -1,20 +1,87 @@
 {
-  "generatedAt": "2026-09-01T14:38:42.226Z",
-  "reportDate": "2026-09-01",
-  "recordIssueDate": "2026-08-27",
+  "generatedAt": "2026-09-02T14:12:32.864Z",
+  "reportDate": "2026-09-02",
+  "recordIssueDate": "2026-09-01",
   "available": true,
-  "headline": "Congress keeps the lights on with a pro forma session as both chambers prepare to return after Labor Day recess.",
+  "headline": "House passes trade deal and ethics investigations surge as Congress battles over business regulations and character questions!",
   "chambers": {
     "senate": {
-      "nextMeeting": "Monday, August 31 at 11:30 AM",
-      "lastSessionSummary": "The Senate convened in pro forma session on Thursday, August 27, meeting for just 33 seconds before adjourning. No legislative business was conducted as the chamber headed into the extended recess period.",
+      "nextMeeting": "Friday, September 4 at 10:00 AM",
+      "lastSessionSummary": "The Senate met in pro forma session on September 1, adjourning until September 4. No votes or legislative action took place.",
       "onTheFloor": []
     },
     "house": {
-      "nextMeeting": "Monday, August 31 at 12:00 PM",
-      "lastSessionSummary": "The House met briefly on August 27 for just three minutes, introducing 34 new bills and 8 resolutions while filing 19 committee reports. No votes were taken as the chamber wound down before the recess.",
-      "onTheFloor": []
+      "nextMeeting": "Wednesday, September 2 at 10:00 AM",
+      "lastSessionSummary": "The House passed the AGOA Extension Act with strong bipartisan support (370-48) and approved multiple ethics-related resolutions, including finding two individuals in contempt for refusing to comply with ethics subpoenas. Georgia Rep. Everton Blair was sworn in, bringing the House to 432 members.",
+      "onTheFloor": [
+        {
+          "measure": "H.R. 6500",
+          "title": "AGOA Extension Act—extends duty-free trade benefits for African countries",
+          "status": "Passed 370-48"
+        },
+        {
+          "measure": "H.R. 9436",
+          "title": "Northeast Lobsterman Protection Act—extends right whale protection regulations",
+          "status": "Passed 219-196"
+        },
+        {
+          "measure": "H. Res. 1504",
+          "title": "Find Michael Joseph in contempt of Congress for refusing ethics subpoenas",
+          "status": "Passed"
+        },
+        {
+          "measure": "H. Res. 1505",
+          "title": "Find Hector Roos in contempt of Congress for refusing ethics subpoenas",
+          "status": "Passed"
+        },
+        {
+          "measure": "H. Res. 1490",
+          "title": "Condemn and denounce socialism in all its forms",
+          "status": "Passed 220-192"
+        },
+        {
+          "measure": "H. Res. 1498",
+          "title": "Allegations relating to Representative Chuck Edwards",
+          "status": "Passed 413-2"
+        },
+        {
+          "measure": "H.R. 1501",
+          "title": "Protecting Domestic Mining Act",
+          "status": "Scheduled for Wednesday consideration"
+        }
+      ]
     }
   },
-  "committees": []
+  "committees": [
+    {
+      "chamber": "house",
+      "committee": "Committee on Energy and Commerce, Full Committee",
+      "topic": "Markup on nuclear energy, battery recycling, and emission reduction bills including Nuclear REFUEL Act, American Enrichment Deployment Act, and BRACE Act"
+    },
+    {
+      "chamber": "house",
+      "committee": "Committee on Financial Services, Full Committee",
+      "topic": "Hearing on Strengthening the American Economy: Promoting Growth, Opportunity, and Prosperity"
+    },
+    {
+      "chamber": "house",
+      "committee": "Committee on the Judiciary, Subcommittee on the Constitution and Limited Government",
+      "topic": "Hearing on Birthright Citizenship and the Fourteenth Amendment, Part II"
+    },
+    {
+      "chamber": "house",
+      "committee": "Committee on Natural Resources, Subcommittee on Federal Lands",
+      "topic": "Hearing on wild and scenic rivers, historic trails, conservation acts, and Theodore Roosevelt Presidential Library Act"
+    },
+    {
+      "chamber": "house",
+      "committee": "Committee on Oversight and Government Reform, Subcommittee on Economic Growth, Energy Policy, and Regulatory Affairs",
+      "topic": "Hearing on state and local natural gas bans and their cost impacts"
+    },
+    {
+      "chamber": "house",
+      "committee": "Committee on Energy and Commerce, Subcommittee on Commerce, Manufacturing, and Trade",
+      "topic": "Markup on memory chip competitiveness, automotive security, open-source AI leadership, and quantum competitiveness measures"
+    }
+  ]
 }
