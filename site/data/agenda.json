@@ -1,53 +1,33 @@
 {
-  "generatedAt": "2026-09-02T14:12:32.864Z",
-  "reportDate": "2026-09-02",
-  "recordIssueDate": "2026-09-01",
+  "generatedAt": "2026-09-03T14:16:03.444Z",
+  "reportDate": "2026-09-03",
+  "recordIssueDate": "2026-09-02",
   "available": true,
-  "headline": "House passes trade deal and ethics investigations surge as Congress battles over business regulations and character questions!",
+  "headline": "House scores two big votes as new California rep takes the oath, with mining protection narrowly passing and court-packing amendment falling short!",
   "chambers": {
     "senate": {
       "nextMeeting": "Friday, September 4 at 10:00 AM",
-      "lastSessionSummary": "The Senate met in pro forma session on September 1, adjourning until September 4. No votes or legislative action took place.",
+      "lastSessionSummary": "The Senate was not in session on Wednesday, September 2, 2026, and stands in recess. The chamber will reconvene Friday for a pro forma session.",
       "onTheFloor": []
     },
     "house": {
-      "nextMeeting": "Wednesday, September 2 at 10:00 AM",
-      "lastSessionSummary": "The House passed the AGOA Extension Act with strong bipartisan support (370-48) and approved multiple ethics-related resolutions, including finding two individuals in contempt for refusing to comply with ethics subpoenas. Georgia Rep. Everton Blair was sworn in, bringing the House to 432 members.",
+      "nextMeeting": "Thursday, September 3 at 9:00 AM",
+      "lastSessionSummary": "The House swore in Representative Aisha Wahab of California's 14th District following her special election victory on August 18, bringing the chamber to 433 members. The body voted on mining legislation and a constitutional amendment on the Supreme Court's size, passing the former while rejecting the latter.",
       "onTheFloor": [
         {
-          "measure": "H.R. 6500",
-          "title": "AGOA Extension Act—extends duty-free trade benefits for African countries",
-          "status": "Passed 370-48"
-        },
-        {
-          "measure": "H.R. 9436",
-          "title": "Northeast Lobsterman Protection Act—extends right whale protection regulations",
-          "status": "Passed 219-196"
-        },
-        {
-          "measure": "H. Res. 1504",
-          "title": "Find Michael Joseph in contempt of Congress for refusing ethics subpoenas",
-          "status": "Passed"
-        },
-        {
-          "measure": "H. Res. 1505",
-          "title": "Find Hector Roos in contempt of Congress for refusing ethics subpoenas",
-          "status": "Passed"
-        },
-        {
-          "measure": "H. Res. 1490",
-          "title": "Condemn and denounce socialism in all its forms",
-          "status": "Passed 220-192"
-        },
-        {
-          "measure": "H. Res. 1498",
-          "title": "Allegations relating to Representative Chuck Edwards",
-          "status": "Passed 413-2"
-        },
-        {
           "measure": "H.R. 1501",
-          "title": "Protecting Domestic Mining Act",
-          "status": "Scheduled for Wednesday consideration"
+          "title": "Protecting Domestic Mining Act — amends the FAST Act to include certain mineral production activities as covered projects",
+          "status": "Passed 218-201"
+        },
+        {
+          "measure": "H.J. Res. 1",
+          "title": "Constitutional amendment to require the Supreme Court be composed of nine justices",
+          "status": "Failed 212-206 (needed 2/3 majority)"
+        },
+        {
+          "measure": "H.R. 4795",
+          "title": "Protect Economic and Academic Freedom Act",
+          "status": "Scheduled for consideration Thursday, September 3"
         }
       ]
     }
@@ -55,33 +35,28 @@
   "committees": [
     {
       "chamber": "house",
-      "committee": "Committee on Energy and Commerce, Full Committee",
-      "topic": "Markup on nuclear energy, battery recycling, and emission reduction bills including Nuclear REFUEL Act, American Enrichment Deployment Act, and BRACE Act"
-    },
-    {
-      "chamber": "house",
-      "committee": "Committee on Financial Services, Full Committee",
-      "topic": "Hearing on Strengthening the American Economy: Promoting Growth, Opportunity, and Prosperity"
+      "committee": "Committee on Energy and Commerce",
+      "topic": "Markup on nuclear policy bills including the Nuclear REFUEL Act, American Enrichment Deployment Act, and NRC Staff Pay Alignment Act"
     },
     {
       "chamber": "house",
       "committee": "Committee on the Judiciary, Subcommittee on the Constitution and Limited Government",
-      "topic": "Hearing on Birthright Citizenship and the Fourteenth Amendment, Part II"
+      "topic": "Hearing on birthright citizenship and the Fourteenth Amendment (Part II)"
     },
     {
       "chamber": "house",
       "committee": "Committee on Natural Resources, Subcommittee on Federal Lands",
-      "topic": "Hearing on wild and scenic rivers, historic trails, conservation acts, and Theodore Roosevelt Presidential Library Act"
+      "topic": "Hearing on conservation and land designation bills including Myakka Wild and Scenic River Act and Route 66 National Historic Trail Designation Act"
     },
     {
       "chamber": "house",
-      "committee": "Committee on Oversight and Government Reform, Subcommittee on Economic Growth, Energy Policy, and Regulatory Affairs",
-      "topic": "Hearing on state and local natural gas bans and their cost impacts"
+      "committee": "Committee on Veterans' Affairs",
+      "topic": "Hearing on VA Electronic Health Record Modernization status update"
     },
     {
       "chamber": "house",
-      "committee": "Committee on Energy and Commerce, Subcommittee on Commerce, Manufacturing, and Trade",
-      "topic": "Markup on memory chip competitiveness, automotive security, open-source AI leadership, and quantum competitiveness measures"
+      "committee": "Committee on Energy and Commerce, Subcommittee on Environment (scheduled for Thursday)",
+      "topic": "Hearing on Safe Drinking Water Infrastructure Improvement Act and Water Cost Accountability Act"
     }
   ]
 }
