@@ -1,33 +1,33 @@
 {
-  "generatedAt": "2026-09-03T14:16:03.444Z",
-  "reportDate": "2026-09-03",
+  "generatedAt": "2026-09-04T14:06:23.445Z",
+  "reportDate": "2026-09-04",
   "recordIssueDate": "2026-09-02",
   "available": true,
-  "headline": "House scores two big votes as new California rep takes the oath, with mining protection narrowly passing and court-packing amendment falling short!",
+  "headline": "House passes mining legislation as California special election fills 14th District seat!",
   "chambers": {
     "senate": {
       "nextMeeting": "Friday, September 4 at 10:00 AM",
-      "lastSessionSummary": "The Senate was not in session on Wednesday, September 2, 2026, and stands in recess. The chamber will reconvene Friday for a pro forma session.",
+      "lastSessionSummary": "The Senate was not in session on Wednesday, September 2. The chamber stands adjourned and will reconvene Friday for a pro forma session.",
       "onTheFloor": []
     },
     "house": {
       "nextMeeting": "Thursday, September 3 at 9:00 AM",
-      "lastSessionSummary": "The House swore in Representative Aisha Wahab of California's 14th District following her special election victory on August 18, bringing the chamber to 433 members. The body voted on mining legislation and a constitutional amendment on the Supreme Court's size, passing the former while rejecting the latter.",
+      "lastSessionSummary": "The House swore in new representative Aisha Wahab from California's 14th District following her special election victory on August 18. The chamber voted on two measures: rejecting a constitutional amendment to fix Supreme Court size at nine justices (212-206), and passing the Protecting Domestic Mining Act (218-201).",
       "onTheFloor": [
         {
           "measure": "H.R. 1501",
-          "title": "Protecting Domestic Mining Act — amends the FAST Act to include certain mineral production activities as covered projects",
-          "status": "Passed 218-201"
+          "title": "Protecting Domestic Mining Act - amends the FAST Act to include mineral production activities as covered projects",
+          "status": "passed 218-201"
         },
         {
           "measure": "H.J. Res. 1",
-          "title": "Constitutional amendment to require the Supreme Court be composed of nine justices",
-          "status": "Failed 212-206 (needed 2/3 majority)"
+          "title": "Constitutional amendment requiring the Supreme Court to have nine justices",
+          "status": "failed 212-206"
         },
         {
           "measure": "H.R. 4795",
           "title": "Protect Economic and Academic Freedom Act",
-          "status": "Scheduled for consideration Thursday, September 3"
+          "status": "scheduled for consideration September 3"
         }
       ]
     }
@@ -36,27 +36,32 @@
     {
       "chamber": "house",
       "committee": "Committee on Energy and Commerce",
-      "topic": "Markup on nuclear policy bills including the Nuclear REFUEL Act, American Enrichment Deployment Act, and NRC Staff Pay Alignment Act"
-    },
-    {
-      "chamber": "house",
-      "committee": "Committee on the Judiciary, Subcommittee on the Constitution and Limited Government",
-      "topic": "Hearing on birthright citizenship and the Fourteenth Amendment (Part II)"
+      "topic": "Full Committee markup on 10 bills including nuclear reactor licensing, environmental standards, and battery recycling measures"
     },
     {
       "chamber": "house",
       "committee": "Committee on Natural Resources, Subcommittee on Federal Lands",
-      "topic": "Hearing on conservation and land designation bills including Myakka Wild and Scenic River Act and Route 66 National Historic Trail Designation Act"
+      "topic": "Hearing on conservation and historic preservation bills including the Myakka Wild and Scenic River Act and Route 66 National Historic Trail Designation Act"
+    },
+    {
+      "chamber": "house",
+      "committee": "Committee on Judiciary, Subcommittee on the Constitution and Limited Government",
+      "topic": "Second hearing on birthright citizenship and the Fourteenth Amendment with Kansas Attorney General Kris Kobach"
     },
     {
       "chamber": "house",
       "committee": "Committee on Veterans' Affairs",
-      "topic": "Hearing on VA Electronic Health Record Modernization status update"
+      "topic": "Hearing on VA electronic health record modernization status update with deputy secretary testimony"
     },
     {
       "chamber": "house",
-      "committee": "Committee on Energy and Commerce, Subcommittee on Environment (scheduled for Thursday)",
-      "topic": "Hearing on Safe Drinking Water Infrastructure Improvement Act and Water Cost Accountability Act"
+      "committee": "Committee on Education and Workforce, Subcommittee on Workforce Protections",
+      "topic": "Hearing on reducing workplace regulations to unleash job creation"
+    },
+    {
+      "chamber": "house",
+      "committee": "Committee on Energy and Commerce, Subcommittee on Environment",
+      "topic": "Hearing scheduled for September 3 on Safe Drinking Water Infrastructure and Water Cost Accountability legislation"
     }
   ]
 }
