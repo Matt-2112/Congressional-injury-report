@@ -1,67 +1,20 @@
 {
-  "generatedAt": "2026-09-04T14:06:23.445Z",
-  "reportDate": "2026-09-04",
-  "recordIssueDate": "2026-09-02",
+  "generatedAt": "2026-09-05T13:19:27.408Z",
+  "reportDate": "2026-09-05",
+  "recordIssueDate": "2026-09-04",
   "available": true,
-  "headline": "House passes mining legislation as California special election fills 14th District seat!",
+  "headline": "Congress holds pro forma sessions Friday as summer winds down, both chambers return Tuesday.",
   "chambers": {
     "senate": {
-      "nextMeeting": "Friday, September 4 at 10:00 AM",
-      "lastSessionSummary": "The Senate was not in session on Wednesday, September 2. The chamber stands adjourned and will reconvene Friday for a pro forma session.",
+      "nextMeeting": "Tuesday, September 8 at 1:15 PM",
+      "lastSessionSummary": "The Senate convened in pro forma session at 10:00 a.m. on Friday, September 4th and immediately adjourned. The brief gathering maintained the Senate's presence without conducting substantive business.",
       "onTheFloor": []
     },
     "house": {
-      "nextMeeting": "Thursday, September 3 at 9:00 AM",
-      "lastSessionSummary": "The House swore in new representative Aisha Wahab from California's 14th District following her special election victory on August 18. The chamber voted on two measures: rejecting a constitutional amendment to fix Supreme Court size at nine justices (212-206), and passing the Protecting Domestic Mining Act (218-201).",
-      "onTheFloor": [
-        {
-          "measure": "H.R. 1501",
-          "title": "Protecting Domestic Mining Act - amends the FAST Act to include mineral production activities as covered projects",
-          "status": "passed 218-201"
-        },
-        {
-          "measure": "H.J. Res. 1",
-          "title": "Constitutional amendment requiring the Supreme Court to have nine justices",
-          "status": "failed 212-206"
-        },
-        {
-          "measure": "H.R. 4795",
-          "title": "Protect Economic and Academic Freedom Act",
-          "status": "scheduled for consideration September 3"
-        }
-      ]
+      "nextMeeting": "Tuesday, September 8 at 2:00 PM",
+      "lastSessionSummary": "The House met briefly at 10 a.m. on Friday, September 4th in a shortened session, adjourning at 10:02 a.m. Six new bills (H.R. 10298-10303) and two resolutions (H. Res. 1512-1513) were introduced, with no votes taken.",
+      "onTheFloor": []
     }
   },
-  "committees": [
-    {
-      "chamber": "house",
-      "committee": "Committee on Energy and Commerce",
-      "topic": "Full Committee markup on 10 bills including nuclear reactor licensing, environmental standards, and battery recycling measures"
-    },
-    {
-      "chamber": "house",
-      "committee": "Committee on Natural Resources, Subcommittee on Federal Lands",
-      "topic": "Hearing on conservation and historic preservation bills including the Myakka Wild and Scenic River Act and Route 66 National Historic Trail Designation Act"
-    },
-    {
-      "chamber": "house",
-      "committee": "Committee on Judiciary, Subcommittee on the Constitution and Limited Government",
-      "topic": "Second hearing on birthright citizenship and the Fourteenth Amendment with Kansas Attorney General Kris Kobach"
-    },
-    {
-      "chamber": "house",
-      "committee": "Committee on Veterans' Affairs",
-      "topic": "Hearing on VA electronic health record modernization status update with deputy secretary testimony"
-    },
-    {
-      "chamber": "house",
-      "committee": "Committee on Education and Workforce, Subcommittee on Workforce Protections",
-      "topic": "Hearing on reducing workplace regulations to unleash job creation"
-    },
-    {
-      "chamber": "house",
-      "committee": "Committee on Energy and Commerce, Subcommittee on Environment",
-      "topic": "Hearing scheduled for September 3 on Safe Drinking Water Infrastructure and Water Cost Accountability legislation"
-    }
-  ]
+  "committees": []
 }

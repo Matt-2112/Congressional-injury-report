@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T14:06:37.445Z",
+  "generatedAt": "2026-09-05T13:19:31.394Z",
   "sessionYear": 2026,
   "members": [
     {
@@ -3624,7 +3624,7 @@
         "status": "DOUBTFUL",
         "note": "missed all votes on 4 straight vote days — no announced return",
         "reason": "lower back injury",
-        "detail": "Adam Smith of Washington missed votes on September 1, 2026 due to a lower back injury.",
+        "detail": "Member missed votes on August 31, September 1, 2, 3, and 4, 2026 due to a lower back injury.",
         "since": "2026-08-31",
         "last7": {
           "missed": 12,
