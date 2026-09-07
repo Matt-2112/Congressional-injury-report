@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-09-06T13:28:56.947Z",
-  "reportDate": "2026-09-06",
+  "generatedAt": "2026-09-07T15:38:23.052Z",
+  "reportDate": "2026-09-07",
   "recordIssueDate": "2026-09-04",
   "available": true,
-  "headline": "Congress taking a long weekend as both chambers adjourn early with no votes or major action on Friday.",
+  "headline": "Congress goes dark for the long weekend with both chambers in pro forma limbo as lawmakers prepare for Tuesday.",
   "chambers": {
     "senate": {
       "nextMeeting": "Tuesday, September 8 at 1:15 PM",
-      "lastSessionSummary": "The Senate met in pro forma session for fewer than one minute at 10:00 a.m. on Friday, September 4, before adjourning until Tuesday. No legislative business was conducted.",
+      "lastSessionSummary": "The Senate convened in pro forma session on Friday, September 4, meeting for just 34 seconds before adjourning until Tuesday. No legislative business was conducted.",
       "onTheFloor": []
     },
     "house": {
       "nextMeeting": "Tuesday, September 8 at 2:00 PM",
-      "lastSessionSummary": "The House met briefly at 10:00 a.m. and adjourned just two minutes later. Six public bills and two resolutions were introduced, but the chamber took no votes and conducted no floor business.",
+      "lastSessionSummary": "The House met briefly on Friday, September 4, introducing 6 new bills and 2 resolutions before adjourning after just two minutes. No votes or quorum calls took place.",
       "onTheFloor": []
     }
   },
