@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-09-07T15:38:23.052Z",
-  "reportDate": "2026-09-07",
+  "generatedAt": "2026-09-08T14:16:13.872Z",
+  "reportDate": "2026-09-08",
   "recordIssueDate": "2026-09-04",
   "available": true,
-  "headline": "Congress goes dark for the long weekend with both chambers in pro forma limbo as lawmakers prepare for Tuesday.",
+  "headline": "Congress takes a breather with pro forma sessions scheduled for Tuesday—both chambers adjourning early Friday before the long weekend!",
   "chambers": {
     "senate": {
-      "nextMeeting": "Tuesday, September 8 at 1:15 PM",
-      "lastSessionSummary": "The Senate convened in pro forma session on Friday, September 4, meeting for just 34 seconds before adjourning until Tuesday. No legislative business was conducted.",
+      "nextMeeting": "Tuesday, September 8 at 1:15 p.m.",
+      "lastSessionSummary": "The Senate met in pro forma session on Friday morning and quickly adjourned. No votes, floor action, or committee meetings took place—a standard quick session held during recess periods to maintain continuity.",
       "onTheFloor": []
     },
     "house": {
-      "nextMeeting": "Tuesday, September 8 at 2:00 PM",
-      "lastSessionSummary": "The House met briefly on Friday, September 4, introducing 6 new bills and 2 resolutions before adjourning after just two minutes. No votes or quorum calls took place.",
+      "nextMeeting": "Tuesday, September 8 at 2:00 p.m.",
+      "lastSessionSummary": "The House met briefly Friday morning for a pro forma session, introducing 6 public bills and 2 resolutions before adjourning. Speaker appointed Representative Simpson as Speaker pro tempore. No votes or substantive floor action occurred.",
       "onTheFloor": []
     }
   },
