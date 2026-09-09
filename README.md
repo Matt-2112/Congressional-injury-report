@@ -67,5 +67,3 @@ agenda page falls back to links to official sources.
 - [Congressional Record via govinfo bulk data](https://www.govinfo.gov/app/collection/CREC)
 - [House Republican Cloakroom leave-of-absence page](https://repcloakroom.house.gov/leave-of-absence/)
 - [congress-legislators](https://github.com/unitedstates/congress-legislators) member roster
-
-Not affiliated with the United States Congress or the National Football League.
