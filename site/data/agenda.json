@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-09-08T14:16:13.872Z",
-  "reportDate": "2026-09-08",
-  "recordIssueDate": "2026-09-04",
+  "generatedAt": "2026-09-09T14:16:39.341Z",
+  "reportDate": "2026-09-09",
+  "recordIssueDate": "2026-09-08",
   "available": true,
-  "headline": "Congress takes a breather with pro forma sessions scheduled for Tuesday—both chambers adjourning early Friday before the long weekend!",
+  "headline": "Congress keeps it brief with back-to-back pro forma sessions while committees stay dark before the weekend!",
   "chambers": {
     "senate": {
-      "nextMeeting": "Tuesday, September 8 at 1:15 p.m.",
-      "lastSessionSummary": "The Senate met in pro forma session on Friday morning and quickly adjourned. No votes, floor action, or committee meetings took place—a standard quick session held during recess periods to maintain continuity.",
+      "nextMeeting": "Thursday, September 10 at 3:00 PM",
+      "lastSessionSummary": "The Senate convened in pro forma session on Tuesday, September 8, meeting for just 27 seconds before adjourning. No business was conducted as the chamber was in a brief procedural session.",
       "onTheFloor": []
     },
     "house": {
-      "nextMeeting": "Tuesday, September 8 at 2:00 p.m.",
-      "lastSessionSummary": "The House met briefly Friday morning for a pro forma session, introducing 6 public bills and 2 resolutions before adjourning. Speaker appointed Representative Simpson as Speaker pro tempore. No votes or substantive floor action occurred.",
+      "nextMeeting": "Thursday, September 10 at 3:30 PM",
+      "lastSessionSummary": "The House met briefly on Tuesday, September 8, for just 3 minutes with no votes taken. Twenty-two public bills and six resolutions were introduced, and thirteen committee reports were filed covering topics ranging from veterans' education to tax administration and civil rights compliance.",
       "onTheFloor": []
     }
   },

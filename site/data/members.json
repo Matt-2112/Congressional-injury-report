@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T14:16:17.727Z",
+  "generatedAt": "2026-09-09T14:16:51.388Z",
   "sessionYear": 2026,
   "members": [
     {
@@ -3624,7 +3624,7 @@
         "status": "DOUBTFUL",
         "note": "missed all votes on 4 straight vote days — no announced return",
         "reason": "lower back injury",
-        "detail": "Member missed votes on August 31, September 1, September 2, September 3, and September 4, 2026 due to a lower back injury.",
+        "detail": "Adam Smith missed votes on August 31, September 1, 2, 3, and 4, 2026 due to a lower back injury.",
         "since": "2026-08-31",
         "last7": {
           "missed": 12,
@@ -10513,8 +10513,8 @@
       "status": {
         "status": "OUT",
         "note": "missed all 1 vote on 2026-09-03",
-        "reason": null,
-        "detail": null,
+        "reason": "unable to be present in d.c.",
+        "detail": "Addison P. McDowell was unable to be present in D.C. on September 2 and 3, 2026 for vote series.",
         "since": "2026-09-02",
         "last7": {
           "missed": 3,
