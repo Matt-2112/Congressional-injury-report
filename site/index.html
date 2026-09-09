@@ -56,7 +56,7 @@
   <a href="https://www.govinfo.gov/app/collection/CREC">Congressional Record</a>, and the
   <a href="https://unitedstates.github.io/congress-legislators/">congress-legislators</a> project.
   Reasons are extracted from leave-of-absence grants and members' personal explanations; when none is on record,
-  the absence is listed as undisclosed. Not affiliated with Congress or the NFL.</p>
+  the absence is listed as undisclosed.</p>
 </footer>
 
 <script>
@@ -65,7 +65,7 @@ const STATUS_ORDER = ["OUT", "IR", "QUESTIONABLE", "PROBABLE"];
 const STATUS_LABELS = { IR: "Injured Reserve" };
 const statusLabel = (s) => STATUS_LABELS[s] ?? s;
 const STATUS_HINTS = {
-  OUT: "did not play — missed every vote",
+  OUT: "did not participate — missed every vote",
   IR: "extended absence, no timetable for return",
   QUESTIONABLE: "limited participation on the latest vote day",
   PROBABLE: "back on the floor after a recent absence",
