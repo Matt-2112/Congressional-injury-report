@@ -1,7 +1,7 @@
 # 🏛️ Congressional Injury Report
 
-An NFL-style injury report for the United States Congress: who's OUT, DOUBTFUL,
-QUESTIONABLE, or PROBABLE — and why — plus a "Today in Congress" page covering
+An NFL-style injury report for the United States Congress: who's OUT, on INJURED
+RESERVE, QUESTIONABLE, or PROBABLE — and why — plus a "Today in Congress" page covering
 what's on the floor. Updated daily from official sources.
 
 ## How it works
@@ -29,7 +29,7 @@ Mattered** — votes where the absent members outnumbered the margin.
 | Status | Rule |
 |---|---|
 | **OUT** | Granted a leave of absence, or missed every vote on the most recent vote day |
-| **DOUBTFUL** | Missed every vote on 3+ consecutive vote days, no announced return |
+| **INJURED RESERVE** (IR) | Missed every vote on 3+ consecutive vote days, no announced return |
 | **QUESTIONABLE** | Missed at least half (but not all) of the latest day's votes |
 | **PROBABLE** | Voted most recently, but sat out a full vote day within the past week |
 

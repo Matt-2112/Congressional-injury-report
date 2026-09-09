@@ -3,8 +3,8 @@
 // Status precedence (forward-looking, like an NFL report):
 //   OUT          announced leave of absence, or missed every vote on the most
 //                recent vote day
-//   DOUBTFUL     missed every vote on 3+ consecutive vote days with no
-//                announced return — extended absence, no timetable
+//   IR           (injured reserve) missed every vote on 3+ consecutive vote
+//                days with no announced return — extended absence, no timetable
 //   QUESTIONABLE missed at least half (but not all) of the most recent day's
 //                votes
 //   PROBABLE     voted on the most recent day, but sat out a full vote day
@@ -12,7 +12,7 @@
 import { log, todayIso } from "./lib.js";
 import { VOTE_DAYS } from "./fetch-votes.js";
 
-const DOUBTFUL_STREAK = 3;
+const IR_STREAK = 3;
 const QUESTIONABLE_SHARE = 0.5;
 const PROBABLE_LOOKBACK_DAYS = 7;
 
@@ -55,7 +55,7 @@ export function computeReport(members, votes, reasons = new Map()) {
       if (entry) listed.push(entry);
     }
 
-    const order = { OUT: 0, DOUBTFUL: 1, QUESTIONABLE: 2, PROBABLE: 3 };
+    const order = { OUT: 0, IR: 1, QUESTIONABLE: 2, PROBABLE: 3 };
     listed.sort(
       (a, b) => order[a.status] - order[b.status] || a.last.localeCompare(b.last)
     );
@@ -64,14 +64,14 @@ export function computeReport(members, votes, reasons = new Map()) {
       latestVoteDay: voteDays[0] ?? null,
       voteDaysCovered: voteDays.slice(0, VOTE_DAYS),
       totalMembers: roster.length,
-      activeCount: roster.length - listed.filter((e) => e.status === "OUT" || e.status === "DOUBTFUL").length,
+      activeCount: roster.length - listed.filter((e) => e.status === "OUT" || e.status === "IR").length,
       closeCalls: closeCalls(chamberVotes, roster),
       listed,
     };
     log(
       "report",
       `${chamber}: ${listed.length} listed (${listed.filter((e) => e.status === "OUT").length} out, ` +
-        `${listed.filter((e) => e.status === "DOUBTFUL").length} doubtful) of ${roster.length}`
+        `${listed.filter((e) => e.status === "IR").length} on IR) of ${roster.length}`
     );
   }
 
@@ -133,8 +133,8 @@ function assess(member, dayTallies, voteDays, reasonInfo) {
   if (reasonInfo?.onLeave) {
     status = "OUT";
     note = "granted leave of absence";
-  } else if (streak >= DOUBTFUL_STREAK) {
-    status = "DOUBTFUL";
+  } else if (streak >= IR_STREAK) {
+    status = "IR";
     note = `missed all votes on ${streak} straight vote days — no announced return`;
   } else if (streak >= 1) {
     status = "OUT";

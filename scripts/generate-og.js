@@ -15,7 +15,10 @@ const NAVY_EDGE = "#0a1730";
 const GOLD = "#d4af5a";
 const CREAM = "#faf7ee";
 const CREAM_DIM = "rgba(244,239,227,0.72)";
-const STATUS_COLORS = { OUT: "#e06c6c", DOUBTFUL: "#e0925f", QUESTIONABLE: "#d4af5a", PROBABLE: "#7fbd8b" };
+const STATUS_COLORS = { OUT: "#e06c6c", IR: "#e0925f", QUESTIONABLE: "#d4af5a", PROBABLE: "#7fbd8b" };
+// Display labels for statuses whose badge text differs from the internal key.
+const STATUS_LABELS = { IR: "Injured Reserve" };
+const statusLabel = (s) => STATUS_LABELS[s] ?? s;
 
 GlobalFonts.registerFromPath(path.join(ROOT, "scripts/og-assets/PlayfairDisplay.ttf"), "Playfair");
 GlobalFonts.registerFromPath(path.join(ROOT, "scripts/og-assets/LibreFranklin.ttf"), "Franklin");
@@ -89,7 +92,7 @@ function memberCard(m) {
     const color = STATUS_COLORS[m.status.status] ?? GOLD;
     ctx.font = "700 30px Franklin";
     ctx.fillStyle = color;
-    const label = m.status.status;
+    const label = statusLabel(m.status.status);
     ctx.fillText(label, 80, 470);
     const lw = ctx.measureText(label).width;
     if (m.status.reason) {
@@ -157,7 +160,7 @@ function memberPage(m, base) {
   const grade = m.session.grade;
   const title = `${m.name} — ${grade} | Congressional Injury Report`;
   const desc = m.status
-    ? `${m.status.status}${m.status.reason ? " — " + m.status.reason : ""}. ${m.session.pct}% attendance this session (${m.session.missed} votes missed).`
+    ? `${statusLabel(m.status.status)}${m.status.reason ? " — " + m.status.reason : ""}. ${m.session.pct}% attendance this session (${m.session.missed} votes missed).`
     : `${m.session.pct === null ? "New this session" : m.session.pct + "% attendance this session"} — ranked ${m.session.rank ?? "—"} of ${m.session.of ?? "—"} in the ${m.chamber === "senate" ? "Senate" : "House"}.`;
   return `<!doctype html>
 <html lang="en"><head>

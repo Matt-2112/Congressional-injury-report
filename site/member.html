@@ -68,6 +68,8 @@ fetch("/data/members.json")
       document.getElementById("updated").textContent = "";
       return;
     }
+    // Back-compat: DOUBTFUL was renamed to IR (Injured Reserve).
+    if (m.status && m.status.status === "DOUBTFUL") m.status.status = "IR";
 
     const seat = m.chamber === "senate"
       ? `${m.party}-${m.state}`

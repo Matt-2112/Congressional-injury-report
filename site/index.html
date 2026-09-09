@@ -48,7 +48,7 @@
 
 <footer>
   <p><strong>How statuses work:</strong> OUT — announced leave of absence, or missed every roll-call vote on the most
-  recent vote day. DOUBTFUL — missed every vote on 3+ straight vote days with no announced return. QUESTIONABLE —
+  recent vote day. INJURED RESERVE (IR) — missed every vote on 3+ straight vote days with no announced return. QUESTIONABLE —
   missed at least half of the latest day's votes. PROBABLE — back on the floor after sitting out a full vote day in
   the past week.</p>
   <p>Built from official sources: <a href="https://clerk.house.gov">House Clerk roll-call votes</a>,
@@ -60,10 +60,13 @@
 </footer>
 
 <script>
-const STATUS_ORDER = ["OUT", "DOUBTFUL", "QUESTIONABLE", "PROBABLE"];
+const STATUS_ORDER = ["OUT", "IR", "QUESTIONABLE", "PROBABLE"];
+// Display labels for statuses whose section/tile text differs from the key.
+const STATUS_LABELS = { IR: "Injured Reserve" };
+const statusLabel = (s) => STATUS_LABELS[s] ?? s;
 const STATUS_HINTS = {
   OUT: "did not play — missed every vote",
-  DOUBTFUL: "extended absence, no timetable for return",
+  IR: "extended absence, no timetable for return",
   QUESTIONABLE: "limited participation on the latest vote day",
   PROBABLE: "back on the floor after a recent absence",
 };
@@ -93,8 +96,8 @@ function render() {
       <div class="value">${ch.activeCount}<small> / ${ch.totalMembers}</small></div></div>
     <div class="tile accent-out"><div class="label">Out</div>
       <div class="value">${byStatus.OUT.length}</div></div>
-    <div class="tile accent-doubtful"><div class="label">Doubtful</div>
-      <div class="value">${byStatus.DOUBTFUL.length}</div></div>
+    <div class="tile accent-ir"><div class="label">Injured Reserve</div>
+      <div class="value">${byStatus.IR.length}</div></div>
     <div class="tile"><div class="label">Questionable</div>
       <div class="value">${byStatus.QUESTIONABLE.length}</div></div>
     <div class="tile"><div class="label">Probable</div>
@@ -109,11 +112,11 @@ function render() {
     // PROBABLE is the long tail — start it folded so the serious tiers lead.
     const open = status === "PROBABLE" ? "" : " open";
     html += `<details class="status-section" data-status="${status}"${open}>
-      <summary class="status-head"><h2>${status}</h2>
+      <summary class="status-head"><h2>${statusLabel(status)}</h2>
         <span class="count">${list.length}</span>
         <span class="hint">${STATUS_HINTS[status]}</span></summary>`;
     if (list.length === 0) {
-      html += `<div class="empty-note" style="margin-top:8px">No ${label} members listed as ${status.toLowerCase()}.</div>`;
+      html += `<div class="empty-note" style="margin-top:8px">No ${label} members listed as ${statusLabel(status).toLowerCase()}.</div>`;
     }
     for (const m of list) {
       const note = esc(m.note).replace(/\d{4}-\d{2}-\d{2}/g, (d) => fmtDate(d));
@@ -178,6 +181,11 @@ fetch("data/report.json")
   .then((r) => r.json())
   .then((d) => {
     data = d;
+    // Back-compat: DOUBTFUL was renamed to IR (Injured Reserve). Normalize any
+    // data still on the old key so a not-yet-regenerated report.json renders.
+    for (const ch of Object.values(data.chambers)) {
+      for (const e of ch.listed) if (e.status === "DOUBTFUL") e.status = "IR";
+    }
     const gen = new Date(d.generatedAt);
     document.getElementById("updated").textContent =
       `Report for ${new Date(d.reportDate + "T12:00:00").toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric", year: "numeric" })}` +

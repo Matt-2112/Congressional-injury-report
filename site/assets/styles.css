@@ -14,7 +14,7 @@
   --ring: rgba(14, 33, 68, 0.14);
   /* status palette (validated) */
   --out: #a52a2a;
-  --doubtful: #c2622e;
+  --ir: #c2622e;
   --questionable: #a07d1c;
   --probable: #2e6b3a;
   /* party */
@@ -34,7 +34,7 @@
     --hairline: #2e3441;
     --ring: rgba(212, 175, 90, 0.18);
     --out: #d06a6a;
-    --doubtful: #d98a55;
+    --ir: #d98a55;
     --questionable: #d4af5a;
     --probable: #6fae7c;
     --dem: #6f9bd4;
@@ -151,7 +151,7 @@ main { max-width: 1060px; margin: 0 auto; padding: 36px 24px 72px; }
 }
 .tile .value small { font-size: 16px; font-weight: 500; color: var(--ink-2); }
 .tile.accent-out .value { color: var(--out); }
-.tile.accent-doubtful .value { color: var(--doubtful); }
+.tile.accent-ir .value { color: var(--ir); }
 a.tile { text-decoration: none; color: inherit; display: block; }
 a.tile:hover { border-color: var(--gold); border-top-color: var(--gold); background: rgba(179, 144, 63, 0.07); }
 a.tile .value { color: var(--navy-2); }
@@ -230,7 +230,7 @@ summary.status-head::before {
 details[open] > summary.status-head::before { content: "▾"; }
 summary.status-head:hover h2 { text-decoration: underline; text-decoration-color: var(--gold); text-underline-offset: 5px; }
 .status-section[data-status="OUT"] h2 { color: var(--out); }
-.status-section[data-status="DOUBTFUL"] h2 { color: var(--doubtful); }
+.status-section[data-status="IR"] h2 { color: var(--ir); }
 .status-section[data-status="QUESTIONABLE"] h2 { color: var(--questionable); }
 .status-section[data-status="PROBABLE"] h2 { color: var(--probable); }
 
@@ -247,7 +247,7 @@ summary.status-head:hover h2 { text-decoration: underline; text-decoration-color
   margin-top: 10px;
 }
 .status-section[data-status="OUT"] .member { border-left-color: var(--out); }
-.status-section[data-status="DOUBTFUL"] .member { border-left-color: var(--doubtful); }
+.status-section[data-status="IR"] .member { border-left-color: var(--ir); }
 .status-section[data-status="QUESTIONABLE"] .member { border-left-color: var(--questionable); }
 .status-section[data-status="PROBABLE"] .member { border-left-color: var(--probable); }
 .member .who { display: flex; align-items: center; gap: 11px; min-width: 0; }
@@ -295,7 +295,7 @@ summary.status-head:hover h2 { text-decoration: underline; text-decoration-color
   background: transparent;
 }
 .chip.OUT { color: var(--out); }
-.chip.DOUBTFUL { color: var(--doubtful); }
+.chip.IR { color: var(--ir); }
 .chip.QUESTIONABLE { color: var(--questionable); }
 .chip.PROBABLE { color: var(--probable); }
 
