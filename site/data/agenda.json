@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-09-09T14:16:39.341Z",
-  "reportDate": "2026-09-09",
+  "generatedAt": "2026-09-10T14:09:39.671Z",
+  "reportDate": "2026-09-10",
   "recordIssueDate": "2026-09-08",
   "available": true,
-  "headline": "Congress keeps it brief with back-to-back pro forma sessions while committees stay dark before the weekend!",
+  "headline": "Congress takes a holiday week breather with only pro forma sessions ahead!",
   "chambers": {
     "senate": {
       "nextMeeting": "Thursday, September 10 at 3:00 PM",
-      "lastSessionSummary": "The Senate convened in pro forma session on Tuesday, September 8, meeting for just 27 seconds before adjourning. No business was conducted as the chamber was in a brief procedural session.",
+      "lastSessionSummary": "The Senate met in pro forma session on Tuesday afternoon, lasting just over half a minute before adjourning. No legislative business was conducted.",
       "onTheFloor": []
     },
     "house": {
       "nextMeeting": "Thursday, September 10 at 3:30 PM",
-      "lastSessionSummary": "The House met briefly on Tuesday, September 8, for just 3 minutes with no votes taken. Twenty-two public bills and six resolutions were introduced, and thirteen committee reports were filed covering topics ranging from veterans' education to tax administration and civil rights compliance.",
+      "lastSessionSummary": "The House held a brief session on Tuesday, introducing 22 bills and 6 resolutions while filing reports on veterans' benefits, tax administration, and education policies. The chamber adjourned after just three minutes with no votes recorded.",
       "onTheFloor": []
     }
   },

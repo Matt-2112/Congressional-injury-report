@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T14:16:51.388Z",
+  "generatedAt": "2026-09-10T14:09:51.827Z",
   "sessionYear": 2026,
   "members": [
     {
@@ -201,7 +201,7 @@
         "of": 100
       },
       "status": {
-        "status": "DOUBTFUL",
+        "status": "IR",
         "note": "missed all votes on 23 straight vote days — no announced return",
         "reason": null,
         "detail": null,
@@ -2661,7 +2661,7 @@
         "of": 433
       },
       "status": {
-        "status": "DOUBTFUL",
+        "status": "IR",
         "note": "missed all votes on 4 straight vote days — no announced return",
         "reason": null,
         "detail": null,
@@ -2921,7 +2921,7 @@
         "of": 433
       },
       "status": {
-        "status": "DOUBTFUL",
+        "status": "IR",
         "note": "missed all votes on 4 straight vote days — no announced return",
         "reason": null,
         "detail": null,
@@ -3141,7 +3141,7 @@
         "of": 433
       },
       "status": {
-        "status": "DOUBTFUL",
+        "status": "IR",
         "note": "missed all votes on 4 straight vote days — no announced return",
         "reason": null,
         "detail": null,
@@ -3621,10 +3621,10 @@
         "of": 433
       },
       "status": {
-        "status": "DOUBTFUL",
+        "status": "IR",
         "note": "missed all votes on 4 straight vote days — no announced return",
         "reason": "lower back injury",
-        "detail": "Adam Smith missed votes on August 31, September 1, 2, 3, and 4, 2026 due to a lower back injury.",
+        "detail": "Smith missed votes on September 1-3, 2026 due to a lower back injury.",
         "since": "2026-08-31",
         "last7": {
           "missed": 12,
@@ -3811,7 +3811,7 @@
         "of": 433
       },
       "status": {
-        "status": "DOUBTFUL",
+        "status": "IR",
         "note": "missed all votes on 4 straight vote days — no announced return",
         "reason": null,
         "detail": null,
@@ -4901,7 +4901,7 @@
         "of": 433
       },
       "status": {
-        "status": "DOUBTFUL",
+        "status": "IR",
         "note": "missed all votes on 4 straight vote days — no announced return",
         "reason": null,
         "detail": null,
@@ -5411,7 +5411,7 @@
         "of": 433
       },
       "status": {
-        "status": "DOUBTFUL",
+        "status": "IR",
         "note": "missed all votes on 5 straight vote days — no announced return",
         "reason": null,
         "detail": null,
@@ -7161,7 +7161,7 @@
         "of": 433
       },
       "status": {
-        "status": "DOUBTFUL",
+        "status": "IR",
         "note": "missed all votes on 4 straight vote days — no announced return",
         "reason": null,
         "detail": null,
@@ -7291,7 +7291,7 @@
         "of": 433
       },
       "status": {
-        "status": "DOUBTFUL",
+        "status": "IR",
         "note": "missed all votes on 4 straight vote days — no announced return",
         "reason": null,
         "detail": null,
@@ -7471,7 +7471,7 @@
         "of": 433
       },
       "status": {
-        "status": "DOUBTFUL",
+        "status": "IR",
         "note": "missed all votes on 4 straight vote days — no announced return",
         "reason": null,
         "detail": null,
@@ -8471,7 +8471,7 @@
         "of": 433
       },
       "status": {
-        "status": "DOUBTFUL",
+        "status": "IR",
         "note": "missed all votes on 4 straight vote days — no announced return",
         "reason": null,
         "detail": null,
@@ -10514,7 +10514,7 @@
         "status": "OUT",
         "note": "missed all 1 vote on 2026-09-03",
         "reason": "unable to be present in d.c.",
-        "detail": "Addison P. McDowell was unable to be present in D.C. on September 2 and 3, 2026 for vote series.",
+        "detail": "McDowell was unable to be present in D.C. for morning vote series on September 3, 2026 and afternoon vote series on September 2, 2026.",
         "since": "2026-09-02",
         "last7": {
           "missed": 3,
