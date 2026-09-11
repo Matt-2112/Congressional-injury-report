@@ -1,19 +1,25 @@
 {
-  "generatedAt": "2026-09-10T14:09:39.671Z",
-  "reportDate": "2026-09-10",
-  "recordIssueDate": "2026-09-08",
+  "generatedAt": "2026-09-11T14:09:02.859Z",
+  "reportDate": "2026-09-11",
+  "recordIssueDate": "2026-09-10",
   "available": true,
-  "headline": "Congress takes a holiday week breather with only pro forma sessions ahead!",
+  "headline": "Congress honors 9/11 anniversary as both chambers observe moment of silence with most business on hold.",
   "chambers": {
     "senate": {
-      "nextMeeting": "Thursday, September 10 at 3:00 PM",
-      "lastSessionSummary": "The Senate met in pro forma session on Tuesday afternoon, lasting just over half a minute before adjourning. No legislative business was conducted.",
+      "nextMeeting": "Monday, September 14 at 3:00 PM",
+      "lastSessionSummary": "The Senate met briefly in pro forma session on September 10, holding only a 30-second meeting before adjourning for the long weekend. No substantive business was conducted.",
       "onTheFloor": []
     },
     "house": {
-      "nextMeeting": "Thursday, September 10 at 3:30 PM",
-      "lastSessionSummary": "The House held a brief session on Tuesday, introducing 22 bills and 6 resolutions while filing reports on veterans' benefits, tax administration, and education policies. The chamber adjourned after just three minutes with no votes recorded.",
-      "onTheFloor": []
+      "nextMeeting": "Monday, September 14 at 12:00 PM",
+      "lastSessionSummary": "The House convened for just three minutes on September 10 to pass a resolution honoring the 25th anniversary of the September 11, 2001 terrorist attacks. The chamber then adjourned as a mark of respect to the victims.",
+      "onTheFloor": [
+        {
+          "measure": "H. Res. 1520",
+          "title": "Expressing the sense of the House regarding the terrorist attacks on September 11, 2001",
+          "status": "passed"
+        }
+      ]
     }
   },
   "committees": []
