@@ -1,23 +1,54 @@
 {
-  "generatedAt": "2026-09-11T14:09:02.859Z",
-  "reportDate": "2026-09-11",
+  "generatedAt": "2026-09-12T13:27:51.709Z",
+  "reportDate": "2026-09-12",
   "recordIssueDate": "2026-09-10",
   "available": true,
-  "headline": "Congress honors 9/11 anniversary as both chambers observe moment of silence with most business on hold.",
+  "headline": "Congress honors 9/11's 25th anniversary with solemn session as lawmakers prepare for judicial confirmation votes Monday.",
   "chambers": {
     "senate": {
       "nextMeeting": "Monday, September 14 at 3:00 PM",
-      "lastSessionSummary": "The Senate met briefly in pro forma session on September 10, holding only a 30-second meeting before adjourning for the long weekend. No substantive business was conducted.",
-      "onTheFloor": []
+      "lastSessionSummary": "The Senate held a brief pro forma session on September 10 to mark time before returning to regular business. The chamber will resume full legislative work on Monday with a scheduled cloture vote on the nomination of Matthew R. Byrne to be U.S. District Judge for the Southern District of Ohio.",
+      "onTheFloor": [
+        {
+          "measure": "Matthew R. Byrne Nomination",
+          "title": "Confirmation of nominee to be United States District Judge for the Southern District of Ohio",
+          "status": "Cloture vote scheduled for approximately 5:30 PM on Monday, September 14"
+        }
+      ]
     },
     "house": {
       "nextMeeting": "Monday, September 14 at 12:00 PM",
-      "lastSessionSummary": "The House convened for just three minutes on September 10 to pass a resolution honoring the 25th anniversary of the September 11, 2001 terrorist attacks. The chamber then adjourned as a mark of respect to the victims.",
+      "lastSessionSummary": "The House held a brief session on September 10 to pass H. Res. 1520, expressing the sense of the chamber regarding the 25th anniversary of the September 11, 2001 terrorist attacks. The chamber adjourned at 3:33 p.m. as a mark of respect to the memory of the victims.",
       "onTheFloor": [
         {
           "measure": "H. Res. 1520",
-          "title": "Expressing the sense of the House regarding the terrorist attacks on September 11, 2001",
-          "status": "passed"
+          "title": "Expressing the sense of the House regarding the terrorist attacks on September 11, 2001, on the 25th anniversary of that date",
+          "status": "passed unanimously on September 10"
+        },
+        {
+          "measure": "H.R. 9360",
+          "title": "Sunset the Advisory Committee on the Records of Congress",
+          "status": "reported with amendment (H. Rept. 119-808)"
+        },
+        {
+          "measure": "H.R. 9342",
+          "title": "Revise certain authorities of the Government Publishing Office",
+          "status": "reported with amendment (H. Rept. 119-809, Part 1)"
+        },
+        {
+          "measure": "H.R. 4931",
+          "title": "Authorize the Secretary of the Interior to extend certain leases within units of the National Park System without opening the lease to bidding",
+          "status": "reported with amendment (H. Rept. 119-810)"
+        },
+        {
+          "measure": "H.R. 2317",
+          "title": "Provide for transfer and disposal of certain Federal lands in northern Nevada for economic development and conservation",
+          "status": "reported with amendment (H. Rept. 119-811, Part 1)"
+        },
+        {
+          "measure": "H.R. 9327",
+          "title": "Establish a pilot program in U.S. Customs and Border Protection to adopt dogs from local animal shelters as support dogs",
+          "status": "reported (H. Rept. 119-812)"
         }
       ]
     }
