@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-09-13T14:11:58.945Z",
-  "reportDate": "2026-09-13",
+  "generatedAt": "2026-09-14T16:14:41.880Z",
+  "reportDate": "2026-09-14",
   "recordIssueDate": "2026-09-10",
   "available": true,
-  "headline": "Congress honors 25th anniversary of 9/11 with solemn ceremonies; Senate resumes business Monday",
+  "headline": "Congress Observes 9/11 Anniversary as Senate Prepares for Judicial Nominations Vote",
   "chambers": {
     "senate": {
       "nextMeeting": "Monday, September 14 at 3:00 PM",
-      "lastSessionSummary": "The Senate met in pro forma session on Thursday, September 10, with minimal proceedings. The chamber adjourned briefly out of respect for the 25th anniversary of the September 11 terrorist attacks.",
+      "lastSessionSummary": "The Senate convened in pro forma session on September 10 and adjourned with no business conducted. The chamber will return Monday with a cloture vote scheduled on the nomination of Matthew R. Byrne for U.S. District Judge for the Southern District of Ohio.",
       "onTheFloor": [
         {
-          "measure": "Matthew R. Byrne nomination",
-          "title": "Cloture vote on nomination to United States District Judge for the Southern District of Ohio",
-          "status": "cloture vote scheduled for approximately 5:30 p.m. Monday"
+          "measure": "Matthew R. Byrne Nomination",
+          "title": "United States District Judge for the Southern District of Ohio",
+          "status": "cloture vote scheduled for approximately 5:30 PM Monday"
         }
       ]
     },
     "house": {
       "nextMeeting": "Monday, September 14 at 12:00 PM",
-      "lastSessionSummary": "The House convened briefly on Thursday, September 10 and adjourned at 3:33 p.m. in observance of the 25th anniversary of the September 11 attacks. H. Res. 1520 expressing the sense of the House regarding the 2001 terrorist attacks was agreed to unanimously. The chamber adjudged as a mark of respect to the victims.",
+      "lastSessionSummary": "The House met briefly on September 10 for a brief pro forma session, adjourning immediately as a mark of respect on the 25th anniversary of the September 11, 2001 terrorist attacks. H. Res. 1520 expressing remembrance of that date was agreed to unanimously.",
       "onTheFloor": [
         {
           "measure": "H.R. 9360",
@@ -32,17 +32,17 @@
         },
         {
           "measure": "H.R. 4931",
-          "title": "Allow Secretary of Interior to extend certain leases within National Park System without opening to bidding",
+          "title": "Authorize Secretary of the Interior to extend certain National Park System leases without opening to bidding",
           "status": "reported with amendment"
         },
         {
           "measure": "H.R. 2317",
-          "title": "Transfer ownership of certain Federal lands in northern Nevada for economic development and conservation",
+          "title": "Transfer and authorize disposal of certain Federal lands in northern Nevada for economic development and conservation",
           "status": "reported with amendment"
         },
         {
           "measure": "H.R. 9327",
-          "title": "Establish pilot program for Customs and Border Protection to adopt shelter dogs as support animals",
+          "title": "Establish pilot program for U.S. Customs and Border Protection to adopt shelter dogs as support dogs",
           "status": "reported"
         },
         {
@@ -52,7 +52,7 @@
         },
         {
           "measure": "H.R. 9340",
-          "title": "Amend Public Utility Regulatory Policies Act to establish Federal standard for cost recovery of utility upgrades",
+          "title": "Amend Public Utility Regulatory Policies Act regarding recovery of full incremental costs for upgrades to large-load customers",
           "status": "reported with amendment"
         }
       ]

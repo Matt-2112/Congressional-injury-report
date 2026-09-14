@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T14:12:19.572Z",
+  "generatedAt": "2026-09-14T16:15:04.118Z",
   "sessionYear": 2026,
   "members": [
     {
@@ -3624,7 +3624,7 @@
         "status": "IR",
         "note": "missed all votes on 4 straight vote days — no announced return",
         "reason": "lower back injury",
-        "detail": "Smith missed votes on September 1, 2026 due to a lower back injury.",
+        "detail": "Smith missed votes on September 1, 2, and 3, 2026 due to a lower back injury.",
         "since": "2026-08-31",
         "last7": {
           "missed": 12,
