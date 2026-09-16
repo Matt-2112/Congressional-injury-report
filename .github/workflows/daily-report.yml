@@ -56,7 +56,9 @@ jobs:
         run: |
           git config user.name "injury-report-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add site data/history data/reasons-store.json data/social-store.json
+          git add site data/history data/reasons-store.json
+          # Only present once the Bluesky poster has run; add it when it exists.
+          if [ -f data/social-store.json ]; then git add data/social-store.json; fi
           git diff --cached --quiet || git commit -m "Daily report $(date -u +%F)"
           git push
 
