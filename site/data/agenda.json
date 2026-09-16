@@ -1,79 +1,64 @@
 {
-  "generatedAt": "2026-09-16T19:15:03.607Z",
+  "generatedAt": "2026-09-16T20:08:32.076Z",
   "reportDate": "2026-09-16",
-  "recordIssueDate": "2026-09-14",
+  "recordIssueDate": "2026-09-15",
   "available": true,
-  "headline": "Senate confirms judge while House takes aim at fraud and EPA rules!",
+  "headline": "House votes to spike impeachment while Senate advances college sports bill with cloture motion!",
   "chambers": {
     "senate": {
-      "nextMeeting": "Tuesday, September 15 at 10:00 AM",
-      "lastSessionSummary": "The Senate considered federal judicial nominations including Kasdin Miller Mitchell for Texas District Court and Matthew R. Byrne for Ohio District Court, with a cloture motion filed on the Byrne nomination. The Senate also passed S. Res. 849 designating the week of September 11-17, 2026, as Patriot Week, and received 33 new executive nominations including judicial, diplomatic, and cabinet positions.",
+      "nextMeeting": "Wednesday, September 16 at 10:00 AM",
+      "lastSessionSummary": "The Senate voted 74-24 to advance cloture on the motion to proceed to S. 4668, the Protect College Sports Act. A cloture motion on the Digital Asset Market Clarity Act (H.R. 3633) failed 49-50. Matthew R. Byrne was confirmed as U.S. District Judge for the Southern District of Ohio with a 52-45 vote.",
       "onTheFloor": [
         {
-          "measure": "Matthew R. Byrne nomination",
-          "title": "Confirmation vote for U.S. District Judge for Southern District of Ohio",
-          "status": "Cloture invoked 47-46; confirmation vote scheduled 11:15 AM Tuesday"
-        },
-        {
-          "measure": "Kasdin Miller Mitchell nomination",
-          "title": "Cloture motion for U.S. District Judge for Northern District of Texas",
-          "status": "Cloture vote pending disposition of H.R. 3633 motion"
+          "measure": "S. 4668",
+          "title": "Protect College Sports Act - protects student-athletes' name, image, and likeness rights and promotes fair competition in college athletics",
+          "status": "Cloture agreed 74-24, debate continues post-cloture at 10 a.m. Wednesday"
         },
         {
           "measure": "H.R. 3633",
-          "title": "Digital Asset Market Clarity Act regulating cryptocurrencies and prohibiting Federal Reserve central bank digital currencies",
-          "status": "Motion to proceed cloture vote scheduled Tuesday 2:15 PM"
+          "title": "Digital Asset Market Clarity Act - regulates digital commodities and central bank digital currency",
+          "status": "Cloture motion rejected 49-50, motion to reconsider entered"
         },
         {
-          "measure": "S. Res. 849",
-          "title": "Designation of September 11-17, 2026, as Patriot Week",
-          "status": "Passed"
-        },
-        {
-          "measure": "Tax Convention with Croatia",
-          "title": "Removal of injunction of secrecy on trade treaty",
-          "status": "Referred to Committee on Foreign Relations"
+          "measure": "Judicial Nomination - Matthew R. Byrne",
+          "title": "United States District Judge for the Southern District of Ohio",
+          "status": "Confirmed 52-45"
         }
       ]
     },
     "house": {
-      "nextMeeting": "Tuesday, September 15 at 10:00 AM",
-      "lastSessionSummary": "The House passed 21 suspension bills covering environmental regulations, military family leave, wildlife protections, and tribal lands. Representative Green announced intent to offer an impeachment resolution against President Trump. Key measures on fraud enforcement and EPA rule disapprovals are scheduled for floor consideration.",
+      "nextMeeting": "Wednesday, September 16 at 9:00 AM",
+      "lastSessionSummary": "The House voted 232-147 with 47 answering present to table an impeachment resolution against Donald John Trump. Multiple suspension bills passed with strong bipartisan votes including elder fraud protections (414-7), whistleblower protections (424-0), and the War Powers resolution directing removal of forces from Iran (220-204).",
       "onTheFloor": [
         {
-          "measure": "H. Res. 1530",
-          "title": "Rule for consideration of fraud enforcement bills and EPA disapproval resolutions",
-          "status": "Approved by Rules Committee 7-3; consideration scheduled Tuesday"
-        },
-        {
-          "measure": "H.R. 9576",
-          "title": "National Fraud Enforcement Division Act establishing new DOJ division to combat fraud in federal programs",
-          "status": "Scheduled under closed rule with one hour debate"
-        },
-        {
-          "measure": "H.R. 10326",
-          "title": "PROOF Act enhancing information-sharing between federal and state law enforcement on fraud detection",
-          "status": "Scheduled under closed rule with one hour debate"
-        },
-        {
-          "measure": "H.J. Res. 210",
-          "title": "Congressional disapproval of EPA California nonroad engine pollution standards for ocean-going vessels",
-          "status": "Scheduled with one hour debate"
-        },
-        {
-          "measure": "H.J. Res. 213",
-          "title": "Congressional disapproval of EPA California commercial harbor craft pollution regulations",
-          "status": "Scheduled with one hour debate"
-        },
-        {
-          "measure": "H.R. 5334",
-          "title": "Lindsey O. Graham Sanctioning Russia and Iran Act with Senate amendments",
-          "status": "Motion to concur on Senate amendments scheduled for Tuesday"
+          "measure": "H. Res. 1486",
+          "title": "Impeachment resolution against President Donald John Trump",
+          "status": "Motion to table agreed 232-147 (47 present)"
         },
         {
           "measure": "H. Con. Res. 93",
-          "title": "War Powers Resolution directive to remove Armed Forces from hostilities with Iran",
-          "status": "Debate postponed"
+          "title": "Directing removal of U.S. Armed Forces from hostilities with Iran under War Powers Resolution",
+          "status": "Passed 220-204"
+        },
+        {
+          "measure": "H.R. 2978",
+          "title": "Guarding Unprotected Aging Retirees from Deception Act - permits law enforcement to investigate elder and blockchain financial fraud",
+          "status": "Passed under suspension 414-7"
+        },
+        {
+          "measure": "H.R. 4646",
+          "title": "Whistleblower Protection Act - applies whistleblower protections to HUD-funded contracts",
+          "status": "Passed under suspension 424-0"
+        },
+        {
+          "measure": "H.J. Res. 210",
+          "title": "Congressional disapproval of EPA rule on California vehicle at-berth emissions standards",
+          "status": "Passed 216-11"
+        },
+        {
+          "measure": "H.R. 8278",
+          "title": "FUTURES Act - requires agencies to assess technological capabilities in supervision",
+          "status": "Passed under suspension 417-7"
         }
       ]
     }
@@ -81,33 +66,33 @@
   "committees": [
     {
       "chamber": "senate",
-      "committee": "Committee on Finance",
-      "topic": "Hearings on nominees for HHS Deputy Secretary, HHS Assistant Secretary, IRS Chief Counsel, and U.S. Tax Court Judge"
+      "committee": "Committee on Commerce, Science, and Transportation",
+      "topic": "Business meeting to consider various bills including Virginia Graeme Baker Pool Safety reauthorization, FAA airborne position reference tools, and professional boxing safety requirements - 10 a.m. Wednesday, SR-253"
     },
     {
       "chamber": "senate",
-      "committee": "Committee on the Judiciary",
-      "topic": "Oversight hearing on the Federal Bureau of Investigation"
+      "committee": "Committee on Energy and Natural Resources",
+      "topic": "Hearings on geothermal energy expediting, giant sequoia health, and various energy and water infrastructure bills - 10 a.m. Wednesday, SD-366"
     },
     {
-      "chamber": "house",
-      "committee": "Committee on Rules",
-      "topic": "Hearing and markup on fraud enforcement and EPA rule disapproval measures"
-    },
-    {
-      "chamber": "house",
-      "committee": "Committee on Natural Resources",
-      "topic": "Full Committee markup on endangered species, land management, and tribal water rights bills"
-    },
-    {
-      "chamber": "house",
-      "committee": "Committee on Transportation and Infrastructure",
-      "topic": "Full Committee markup on drone safety, aviation, maritime cybersecurity, and disaster protection measures"
+      "chamber": "senate",
+      "committee": "Committee on Health, Education, Labor, and Pensions",
+      "topic": "Hearings on nominations of Gerard Klomp for Deputy HHS Secretary, Timothy Westlake for Mental Health Assistant Secretary, and Nicole Saphier for Surgeon General - 10 a.m. Wednesday, SD-430"
     },
     {
       "chamber": "house",
       "committee": "Committee on Energy and Commerce",
-      "topic": "Full Committee markup on automotive security, recycled materials, AI leadership, and broadband measures"
+      "topic": "Full committee markup on automotive security, AI leadership, semiconductor competitiveness, broadband, and data privacy bills - 10 a.m. Wednesday, 2123 Rayburn"
+    },
+    {
+      "chamber": "house",
+      "committee": "Committee on Ways and Means",
+      "topic": "Full committee markup on digital asset taxation, tax verification, health screening pilots, and trade enforcement bills - 10 a.m. Wednesday, HVC-210"
+    },
+    {
+      "chamber": "house",
+      "committee": "Committee on the Judiciary",
+      "topic": "Full committee markup on firearms taxes, tort reform, Secret Service protections, and climate litigation bills - 10 a.m. Wednesday, 2141 Rayburn"
     }
   ]
 }
