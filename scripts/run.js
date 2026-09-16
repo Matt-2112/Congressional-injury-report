@@ -105,6 +105,15 @@ const memberStats = computeMembers(members, votes, report);
 await writeJson(path.join(SITE_DATA_DIR, "report.json"), report);
 await writeJson(path.join(SITE_DATA_DIR, "members.json"), memberStats);
 
+// ZIP → district crosswalk powers "find my rep" search. Independent of the
+// vote data and rarely changing, so never let it sink the report.
+try {
+  const { fetchZipDistricts } = await import("./fetch-zip-districts.js");
+  await fetchZipDistricts();
+} catch (err) {
+  log("zip", `FAILED (keeping existing crosswalk): ${err.message}`);
+}
+
 // Share cards are enrichment — never sink the report over a rendering issue.
 try {
   const { generateOg } = await import("./generate-og.js");
