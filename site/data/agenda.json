@@ -1,32 +1,98 @@
 {
-  "generatedAt": "2026-09-15T14:44:23.741Z",
-  "reportDate": "2026-09-15",
-  "recordIssueDate": "2026-09-10",
+  "generatedAt": "2026-09-16T14:43:27.737Z",
+  "reportDate": "2026-09-16",
+  "recordIssueDate": "2026-09-14",
   "available": true,
-  "headline": "Congress pays respects to 9/11 anniversary with pro forma sessions and next week's judiciary vote looming",
+  "headline": "Senate advances judge nominations while House passes 25 bills on suspension to keep government running!",
   "chambers": {
     "senate": {
-      "nextMeeting": "Monday, September 14 at 3:00 PM",
-      "lastSessionSummary": "The Senate met in pro forma session on September 10, taking just 30 seconds to convene and adjourn. The chamber observed the 25th anniversary of the September 11 terrorist attacks.",
+      "nextMeeting": "Tuesday, September 15 at 10:00 AM",
+      "lastSessionSummary": "The Senate advanced consideration of Matthew R. Byrne's nomination for U.S. District Judge for the Southern District of Ohio, with a cloture vote passed 47-46. The chamber also received 30 new executive nominations including federal judges, cabinet officials, and ambassadors, and passed S. Res. 849 designating September 11-17 as Patriot Week.",
       "onTheFloor": [
         {
-          "measure": "Matthew R. Byrne nomination",
-          "title": "Cloture vote on nomination of Matthew R. Byrne, of Ohio, to be United States District Judge for the Southern District of Ohio",
-          "status": "Cloture vote scheduled for approximately 5:30 PM Monday, September 14"
+          "measure": "Nomination: Matthew R. Byrne",
+          "title": "United States District Judge for the Southern District of Ohio",
+          "status": "Cloture passed 47-46; confirmation vote scheduled September 15 at 11:15 AM"
+        },
+        {
+          "measure": "Nomination: Kasdin Miller Mitchell",
+          "title": "United States District Judge for the Northern District of Texas",
+          "status": "Cloture motion filed; awaiting vote"
+        },
+        {
+          "measure": "H.R. 3633",
+          "title": "Digital Asset Market Clarity Act - regulates cryptocurrency and digital commodities",
+          "status": "Cloture vote scheduled for September 15 at 2:15 PM"
+        },
+        {
+          "measure": "S. Res. 849",
+          "title": "Designate September 11-17, 2026 as Patriot Week",
+          "status": "Passed"
         }
       ]
     },
     "house": {
-      "nextMeeting": "Monday, September 14 at 12:00 PM",
-      "lastSessionSummary": "The House met for just 3 minutes on September 10 to pass H. Res. 1520, expressing the sense of the House regarding the 25th anniversary of the September 11 terrorist attacks. The chamber adjourned early as a mark of respect to the victims.",
+      "nextMeeting": "Tuesday, September 15 at 10:00 AM",
+      "lastSessionSummary": "The House passed 25 bills under suspension of the rules, including measures protecting national parks, Indian tribal lands, military families, and emergency communications. Notable votes included the National Wildlife Refuge System Invasive Species Strike Team Act (371-33) and the Making It Likely for Families of the Military to Live with Leave Access Act (345-60). Representative Green announced intent to offer an impeachment resolution.",
       "onTheFloor": [
         {
-          "measure": "H. Res. 1520",
-          "title": "Expressing the sense of the House of Representatives regarding the terrorist attacks launched against the United States on September 11, 2001, on the 25th anniversary of that date",
-          "status": "Passed"
+          "measure": "H. Res. 1530",
+          "title": "Rule providing for consideration of multiple bills and Senate amendments",
+          "status": "Providing consideration framework for Tuesday debate"
+        },
+        {
+          "measure": "H.R. 9576",
+          "title": "National Fraud Enforcement Division Act of 2026 - establishes DOJ division for federal program fraud prosecution",
+          "status": "Scheduled for debate under closed rule"
+        },
+        {
+          "measure": "H.R. 10326",
+          "title": "PROOF Act - enhances information-sharing between federal and state law enforcement on fraud",
+          "status": "Scheduled for debate under closed rule"
+        },
+        {
+          "measure": "H.J. Res. 210 and 213",
+          "title": "Congressional disapproval of EPA rules on vessel emissions and harbor craft regulations",
+          "status": "Scheduled for debate"
+        },
+        {
+          "measure": "H.R. 5334",
+          "title": "Lindsey O. Graham Sanctioning Russia and Iran Act of 2026 - Senate amendments pending",
+          "status": "Awaiting House concurrence on Senate changes"
         }
       ]
     }
   },
-  "committees": []
+  "committees": [
+    {
+      "chamber": "house",
+      "committee": "Committee on Rules",
+      "topic": "Hearing and markup on EPA emission disapproval resolutions, fraud enforcement bills, and Russia-Iran sanctions amendments"
+    },
+    {
+      "chamber": "senate",
+      "committee": "Committee on Finance",
+      "topic": "Confirmation hearings on HHS and Treasury nominations including Deputy Secretary and IRS Chief Counsel"
+    },
+    {
+      "chamber": "senate",
+      "committee": "Committee on the Judiciary",
+      "topic": "Oversight hearing on Federal Bureau of Investigation operations"
+    },
+    {
+      "chamber": "house",
+      "committee": "Committee on Energy and Commerce",
+      "topic": "Subcommittee hearings on nuclear spent fuel policy and Medicare payment reform"
+    },
+    {
+      "chamber": "house",
+      "committee": "Committee on Natural Resources",
+      "topic": "Full committee markup of 15 bills including endangered species, Native American lands, and conservation measures"
+    },
+    {
+      "chamber": "house",
+      "committee": "Committee on Transportation and Infrastructure",
+      "topic": "Full committee markup of 11 bills on aviation safety, rural airports, and maritime cybersecurity"
+    }
+  ]
 }
