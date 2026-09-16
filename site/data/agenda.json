@@ -1,98 +1,113 @@
 {
-  "generatedAt": "2026-09-16T14:43:27.737Z",
+  "generatedAt": "2026-09-16T19:15:03.607Z",
   "reportDate": "2026-09-16",
   "recordIssueDate": "2026-09-14",
   "available": true,
-  "headline": "Senate advances judge nominations while House passes 25 bills on suspension to keep government running!",
+  "headline": "Senate confirms judge while House takes aim at fraud and EPA rules!",
   "chambers": {
     "senate": {
       "nextMeeting": "Tuesday, September 15 at 10:00 AM",
-      "lastSessionSummary": "The Senate advanced consideration of Matthew R. Byrne's nomination for U.S. District Judge for the Southern District of Ohio, with a cloture vote passed 47-46. The chamber also received 30 new executive nominations including federal judges, cabinet officials, and ambassadors, and passed S. Res. 849 designating September 11-17 as Patriot Week.",
+      "lastSessionSummary": "The Senate considered federal judicial nominations including Kasdin Miller Mitchell for Texas District Court and Matthew R. Byrne for Ohio District Court, with a cloture motion filed on the Byrne nomination. The Senate also passed S. Res. 849 designating the week of September 11-17, 2026, as Patriot Week, and received 33 new executive nominations including judicial, diplomatic, and cabinet positions.",
       "onTheFloor": [
         {
-          "measure": "Nomination: Matthew R. Byrne",
-          "title": "United States District Judge for the Southern District of Ohio",
-          "status": "Cloture passed 47-46; confirmation vote scheduled September 15 at 11:15 AM"
+          "measure": "Matthew R. Byrne nomination",
+          "title": "Confirmation vote for U.S. District Judge for Southern District of Ohio",
+          "status": "Cloture invoked 47-46; confirmation vote scheduled 11:15 AM Tuesday"
         },
         {
-          "measure": "Nomination: Kasdin Miller Mitchell",
-          "title": "United States District Judge for the Northern District of Texas",
-          "status": "Cloture motion filed; awaiting vote"
+          "measure": "Kasdin Miller Mitchell nomination",
+          "title": "Cloture motion for U.S. District Judge for Northern District of Texas",
+          "status": "Cloture vote pending disposition of H.R. 3633 motion"
         },
         {
           "measure": "H.R. 3633",
-          "title": "Digital Asset Market Clarity Act - regulates cryptocurrency and digital commodities",
-          "status": "Cloture vote scheduled for September 15 at 2:15 PM"
+          "title": "Digital Asset Market Clarity Act regulating cryptocurrencies and prohibiting Federal Reserve central bank digital currencies",
+          "status": "Motion to proceed cloture vote scheduled Tuesday 2:15 PM"
         },
         {
           "measure": "S. Res. 849",
-          "title": "Designate September 11-17, 2026 as Patriot Week",
+          "title": "Designation of September 11-17, 2026, as Patriot Week",
           "status": "Passed"
+        },
+        {
+          "measure": "Tax Convention with Croatia",
+          "title": "Removal of injunction of secrecy on trade treaty",
+          "status": "Referred to Committee on Foreign Relations"
         }
       ]
     },
     "house": {
       "nextMeeting": "Tuesday, September 15 at 10:00 AM",
-      "lastSessionSummary": "The House passed 25 bills under suspension of the rules, including measures protecting national parks, Indian tribal lands, military families, and emergency communications. Notable votes included the National Wildlife Refuge System Invasive Species Strike Team Act (371-33) and the Making It Likely for Families of the Military to Live with Leave Access Act (345-60). Representative Green announced intent to offer an impeachment resolution.",
+      "lastSessionSummary": "The House passed 21 suspension bills covering environmental regulations, military family leave, wildlife protections, and tribal lands. Representative Green announced intent to offer an impeachment resolution against President Trump. Key measures on fraud enforcement and EPA rule disapprovals are scheduled for floor consideration.",
       "onTheFloor": [
         {
           "measure": "H. Res. 1530",
-          "title": "Rule providing for consideration of multiple bills and Senate amendments",
-          "status": "Providing consideration framework for Tuesday debate"
+          "title": "Rule for consideration of fraud enforcement bills and EPA disapproval resolutions",
+          "status": "Approved by Rules Committee 7-3; consideration scheduled Tuesday"
         },
         {
           "measure": "H.R. 9576",
-          "title": "National Fraud Enforcement Division Act of 2026 - establishes DOJ division for federal program fraud prosecution",
-          "status": "Scheduled for debate under closed rule"
+          "title": "National Fraud Enforcement Division Act establishing new DOJ division to combat fraud in federal programs",
+          "status": "Scheduled under closed rule with one hour debate"
         },
         {
           "measure": "H.R. 10326",
-          "title": "PROOF Act - enhances information-sharing between federal and state law enforcement on fraud",
-          "status": "Scheduled for debate under closed rule"
+          "title": "PROOF Act enhancing information-sharing between federal and state law enforcement on fraud detection",
+          "status": "Scheduled under closed rule with one hour debate"
         },
         {
-          "measure": "H.J. Res. 210 and 213",
-          "title": "Congressional disapproval of EPA rules on vessel emissions and harbor craft regulations",
-          "status": "Scheduled for debate"
+          "measure": "H.J. Res. 210",
+          "title": "Congressional disapproval of EPA California nonroad engine pollution standards for ocean-going vessels",
+          "status": "Scheduled with one hour debate"
+        },
+        {
+          "measure": "H.J. Res. 213",
+          "title": "Congressional disapproval of EPA California commercial harbor craft pollution regulations",
+          "status": "Scheduled with one hour debate"
         },
         {
           "measure": "H.R. 5334",
-          "title": "Lindsey O. Graham Sanctioning Russia and Iran Act of 2026 - Senate amendments pending",
-          "status": "Awaiting House concurrence on Senate changes"
+          "title": "Lindsey O. Graham Sanctioning Russia and Iran Act with Senate amendments",
+          "status": "Motion to concur on Senate amendments scheduled for Tuesday"
+        },
+        {
+          "measure": "H. Con. Res. 93",
+          "title": "War Powers Resolution directive to remove Armed Forces from hostilities with Iran",
+          "status": "Debate postponed"
         }
       ]
     }
   },
   "committees": [
     {
-      "chamber": "house",
-      "committee": "Committee on Rules",
-      "topic": "Hearing and markup on EPA emission disapproval resolutions, fraud enforcement bills, and Russia-Iran sanctions amendments"
-    },
-    {
       "chamber": "senate",
       "committee": "Committee on Finance",
-      "topic": "Confirmation hearings on HHS and Treasury nominations including Deputy Secretary and IRS Chief Counsel"
+      "topic": "Hearings on nominees for HHS Deputy Secretary, HHS Assistant Secretary, IRS Chief Counsel, and U.S. Tax Court Judge"
     },
     {
       "chamber": "senate",
       "committee": "Committee on the Judiciary",
-      "topic": "Oversight hearing on Federal Bureau of Investigation operations"
+      "topic": "Oversight hearing on the Federal Bureau of Investigation"
     },
     {
       "chamber": "house",
-      "committee": "Committee on Energy and Commerce",
-      "topic": "Subcommittee hearings on nuclear spent fuel policy and Medicare payment reform"
+      "committee": "Committee on Rules",
+      "topic": "Hearing and markup on fraud enforcement and EPA rule disapproval measures"
     },
     {
       "chamber": "house",
       "committee": "Committee on Natural Resources",
-      "topic": "Full committee markup of 15 bills including endangered species, Native American lands, and conservation measures"
+      "topic": "Full Committee markup on endangered species, land management, and tribal water rights bills"
     },
     {
       "chamber": "house",
       "committee": "Committee on Transportation and Infrastructure",
-      "topic": "Full committee markup of 11 bills on aviation safety, rural airports, and maritime cybersecurity"
+      "topic": "Full Committee markup on drone safety, aviation, maritime cybersecurity, and disaster protection measures"
+    },
+    {
+      "chamber": "house",
+      "committee": "Committee on Energy and Commerce",
+      "topic": "Full Committee markup on automotive security, recycled materials, AI leadership, and broadband measures"
     }
   ]
 }
