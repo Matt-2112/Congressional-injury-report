@@ -123,4 +123,14 @@ try {
 }
 await writeJson(path.join(SITE_DATA_DIR, "agenda.json"), agenda);
 await writeJson(path.join(DATA_DIR, "history", `${report.reportDate}.json`), report);
+
+// Daily digest to Bluesky. Outward-facing but self-guarding: no credentials
+// (local runs) or an already-posted date means it quietly does nothing.
+try {
+  const { postSocial } = await import("./post-social.js");
+  await postSocial(report);
+} catch (err) {
+  log("social", `FAILED (continuing): ${err.message}`);
+}
+
 log("done", `report + agenda written for ${report.reportDate}`);
