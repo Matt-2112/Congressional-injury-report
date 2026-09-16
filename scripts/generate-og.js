@@ -7,8 +7,9 @@ import path from "node:path";
 import { createCanvas, GlobalFonts } from "@napi-rs/canvas";
 import { ROOT, log } from "./lib.js";
 
-const OG_DIR = path.join(ROOT, "site", "og");
-const M_DIR = path.join(ROOT, "site", "m");
+const SITE_DIR = path.join(ROOT, "site");
+const OG_DIR = path.join(SITE_DIR, "og");
+const M_DIR = path.join(SITE_DIR, "m");
 
 const NAVY = "#0e2144";
 const NAVY_EDGE = "#0a1730";
@@ -155,17 +156,93 @@ function siteCard() {
 }
 
 const escAttr = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
+const escHtml = (s) => String(s ?? "")
+  .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
-function memberPage(m, base) {
-  const grade = m.session.grade;
+const ordinal = (n) => {
+  const s = ["th", "st", "nd", "rd"];
+  const v = n % 100;
+  return n + (s[(v - 20) % 10] || s[v] || s[0]);
+};
+
+// "2026-06-30" → "Jun 30". Deterministic (UTC noon) so bytes are stable.
+const fmtDate = (iso) =>
+  /^\d{4}-\d{2}-\d{2}$/.test(iso)
+    ? new Date(iso + "T12:00:00Z").toLocaleDateString("en-US", { month: "short", day: "numeric", timeZone: "UTC" })
+    : iso;
+
+// The head name is set off with the surname in italic, mirroring member.html.
+function splitName(name) {
+  const parts = name.split(" ");
+  let last = parts.pop();
+  if (/^(Jr\.?|Sr\.?|II|III|IV)$/.test(last) && parts.length > 1) last = parts.pop() + " " + last;
+  return { first: parts.join(" "), last };
+}
+
+function seatLine(m) {
+  const seat = m.chamber === "senate"
+    ? `${m.party}-${m.state}`
+    : `${m.party}-${m.state}${m.district ? "-" + m.district : ""}`;
+  const chamberName = m.chamber === "senate" ? "United States Senate" : "House of Representatives";
+  return { seat, chamberName };
+}
+
+// Full, crawlable report-card page. Server-rendered so search engines and
+// social crawlers get real content + structured data (no JS, no redirect);
+// search.js still hydrates the "find another member" box for humans.
+function memberPage(m, base, sessionYear) {
+  const s = m.session;
+  const grade = s.grade;
+  const { seat, chamberName } = seatLine(m);
+  const { first, last } = splitName(m.name);
+  const jobTitle = m.title || (m.chamber === "senate" ? "United States Senator" : "United States Representative");
+
   const title = `${m.name} — ${grade} | Congressional Injury Report`;
   const desc = m.status
-    ? `${statusLabel(m.status.status)}${m.status.reason ? " — " + m.status.reason : ""}. ${m.session.pct}% attendance this session (${m.session.missed} votes missed).`
-    : `${m.session.pct === null ? "New this session" : m.session.pct + "% attendance this session"} — ranked ${m.session.rank ?? "—"} of ${m.session.of ?? "—"} in the ${m.chamber === "senate" ? "Senate" : "House"}.`;
+    ? `${statusLabel(m.status.status)}${m.status.reason ? " — " + m.status.reason : ""}. ${s.pct}% attendance this session (${s.missed} votes missed).`
+    : `${s.pct === null ? "New this session" : s.pct + "% attendance this session"} — ranked ${s.rank ?? "—"} of ${s.of ?? "—"} in the ${m.chamber === "senate" ? "Senate" : "House"}.`;
+
+  const poor = grade === "F" || grade === "D";
+  const rank = s.rank ? `${ordinal(s.rank)} of ${s.of}` : "—";
+  const pctText = s.pct === null ? "insufficient record" : `${s.pct}% attendance this session`;
+
+  let statusHtml = "";
+  if (m.status) {
+    let note = escHtml(m.status.note).replace(/\d{4}-\d{2}-\d{2}/g, (d) => fmtDate(d));
+    note = note.charAt(0).toUpperCase() + note.slice(1);
+    const why = m.status.reason
+      ? `<span class="reason">${escHtml(m.status.reason)}</span>${m.status.detail ? " — " + escHtml(m.status.detail) : ""}. `
+      : "";
+    statusHtml = `<p class="rc-status">
+      <span class="chip ${escAttr(m.status.status)}">${escHtml(m.status.status)}</span>
+      ${why}${note}${m.status.since ? ` (since ${fmtDate(m.status.since)})` : ""}.
+    </p>`;
+  } else if (s.pct !== null) {
+    statusHtml = `<p class="rc-status">Active — no absence flags on the current report.</p>`;
+  }
+  const speakerHtml = /Speaker/i.test(m.title ?? "")
+    ? `<p class="rc-status" style="font-style:italic;font-family:Georgia,serif">By tradition, the Speaker of the House votes at the chair's discretion; presiding days without a recorded position do not count against attendance.</p>`
+    : "";
+
+  const ld = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: m.name,
+    jobTitle,
+    memberOf: { "@type": "GovernmentOrganization", name: chamberName },
+    description: desc,
+    ...(base ? { url: `${base}/m/${m.bioguide}.html`, image: `${base}/og/${m.bioguide}.png` } : {}),
+  };
+  const ldJson = JSON.stringify(ld).replace(/</g, "\\u003c");
+
   return `<!doctype html>
-<html lang="en"><head>
+<html lang="en">
+<head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${escAttr(title)}</title>
+<meta name="description" content="${escAttr(desc)}">
+<link rel="canonical" href="${base}/m/${m.bioguide}.html">
 <meta property="og:title" content="${escAttr(`${m.name}: ${grade}`)}">
 <meta property="og:description" content="${escAttr(desc)}">
 <meta property="og:image" content="${base}/og/${m.bioguide}.png">
@@ -173,13 +250,86 @@ function memberPage(m, base) {
 <meta property="og:type" content="profile">
 <meta property="og:site_name" content="Congressional Injury Report">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="canonical" href="${base}/m/${m.bioguide}.html">
-<meta http-equiv="refresh" content="0;url=/member.html?m=${m.bioguide}">
-</head><body>
-<p><a href="/member.html?m=${m.bioguide}">${escAttr(m.name)} — attendance report card</a></p>
-</body></html>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Libre+Franklin:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏛️</text></svg>">
+<script type="application/ld+json">${ldJson}</script>
+</head>
+<body>
+<header class="masthead">
+  <div class="masthead-inner">
+    <p class="kicker">United States Congress · Member Report Card</p>
+    <div class="rule-ornament" aria-hidden="true">★ ★ ★</div>
+    <h1>${escHtml(first)} <em>${escHtml(last)}</em></h1>
+    <p class="sub">${escHtml([m.title, `${seat} · ${chamberName} · ${sessionYear} Session`].filter(Boolean).join(" · "))}</p>
+    <nav>
+      <a href="/">Injury Report</a>
+      <a href="/today.html">Today in Congress</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="search">
+    <input id="member-search" type="text" autocomplete="off" spellcheck="false"
+      placeholder="Search another member — name, state, or seat" aria-label="Search members of Congress">
+    <div class="search-results" id="search-results"></div>
+  </div>
+  <div id="card">
+    <div class="report-card">
+      <p class="rc-label">Official Attendance Record</p>
+      <div class="grade-seal ${poor ? "poor" : ""}">${escHtml(grade)}</div>
+      <div class="rc-pct">${pctText}</div>
+      <div class="rc-stats">
+        <div><div class="label">Votes attended</div><div class="value">${s.attended}</div></div>
+        <div><div class="label">Votes eligible</div><div class="value">${s.eligible}</div></div>
+        <div><div class="label">Votes missed</div><div class="value">${s.missed}</div></div>
+        <div><div class="label">Chamber rank</div><div class="value">${rank}</div></div>
+      </div>
+      ${statusHtml}
+      ${speakerHtml}
+      <a class="rc-back" href="/">← Back to the Injury Report</a>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <p><strong>Grading:</strong> attendance across every roll-call vote of the current session. 99%+ earns an A+,
+  below 65% is an F; members with fewer than ten eligible votes receive an incomplete. Data from official
+  <a href="https://clerk.house.gov">House Clerk</a> and
+  <a href="https://www.senate.gov/legislative/votes_new.htm">Senate</a> roll-call records, updated daily.</p>
+</footer>
+<script src="/assets/search.js"></script>
+</body>
+</html>
 `;
 }
+
+// XML sitemap of every indexable URL, so crawlers discover all member pages.
+function sitemapXml(memberStats, base) {
+  const lastmod = (memberStats.generatedAt || new Date().toISOString()).slice(0, 10);
+  const urls = [
+    `${base}/`,
+    `${base}/today.html`,
+    ...memberStats.members.map((m) => `${base}/m/${m.bioguide}.html`),
+  ];
+  const body = urls
+    .map((loc) => `  <url><loc>${escAttr(loc)}</loc><lastmod>${lastmod}</lastmod></url>`)
+    .join("\n");
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${body}
+</urlset>
+`;
+}
+
+const robotsTxt = (base) => `User-agent: *
+Allow: /
+
+Sitemap: ${base}/sitemap.xml
+`;
 
 // Write only when bytes changed, so unchanged cards don't churn git mtimes.
 async function writeIfChanged(file, buf) {
@@ -194,11 +344,20 @@ export async function generateOg(memberStats) {
   await mkdir(M_DIR, { recursive: true });
   const base = await siteBase();
 
-  let changed = 0;
+  let cards = 0;
+  let pages = 0;
   for (const m of memberStats.members) {
-    if (await writeIfChanged(path.join(OG_DIR, `${m.bioguide}.png`), memberCard(m))) changed++;
-    await writeIfChanged(path.join(M_DIR, `${m.bioguide}.html`), Buffer.from(memberPage(m, base)));
+    if (await writeIfChanged(path.join(OG_DIR, `${m.bioguide}.png`), memberCard(m))) cards++;
+    if (await writeIfChanged(path.join(M_DIR, `${m.bioguide}.html`),
+        Buffer.from(memberPage(m, base, memberStats.sessionYear)))) pages++;
   }
   await writeIfChanged(path.join(OG_DIR, "site.png"), siteCard());
-  log("og", `${memberStats.members.length} share cards (${changed} changed)`);
+
+  // Sitemap + robots need absolute URLs; only emit when a domain is configured.
+  if (base) {
+    await writeIfChanged(path.join(SITE_DIR, "sitemap.xml"), Buffer.from(sitemapXml(memberStats, base)));
+    await writeIfChanged(path.join(SITE_DIR, "robots.txt"), Buffer.from(robotsTxt(base)));
+  }
+  log("og", `${memberStats.members.length} members: ${cards} cards, ${pages} pages changed` +
+    (base ? "; sitemap + robots updated" : "; no CNAME — skipped sitemap"));
 }
