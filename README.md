@@ -33,32 +33,6 @@ Mattered** — votes where the absent members outnumbered the margin.
 | **QUESTIONABLE** | Missed at least half (but not all) of the latest day's votes |
 | **PROBABLE** | Voted most recently, but sat out a full vote day within the past week |
 
-## Local usage
-
-```sh
-npm install
-cp .env.example .env       # add ANTHROPIC_API_KEY for reasons + agenda (optional)
-node scripts/run.js        # fetch data, build site/data/*.json
-npm run serve              # http://localhost:8080
-```
-
-The pipeline degrades gracefully: without an `ANTHROPIC_API_KEY`, absences are
-still detected from roll-call data but reasons show as "Undisclosed" and the
-agenda page falls back to links to official sources.
-
-## Workflows
-
-- **Daily injury report** (cron 6 AM ET + manual): runs the pipeline, commits
-  fresh data, then deploys. Vote XML is cached between runs.
-- **Deploy site** (any push touching `site/**` + manual): deploys Pages
-  without a pipeline run — frontend changes ship on push.
-
-## Deploying
-
-1. Push to GitHub and enable **Settings → Pages → Source: GitHub Actions**.
-2. Add repository secret `ANTHROPIC_API_KEY` (Settings → Secrets → Actions).
-3. Run the **Daily injury report** workflow manually once (Actions tab →
-   workflow_dispatch), then it runs itself every morning.
 
 ## Data sources
 
