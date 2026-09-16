@@ -98,14 +98,14 @@ function render() {
   document.getElementById("tiles").innerHTML = `
     <div class="tile"><div class="label">${label} active roster</div>
       <div class="value">${ch.activeCount}<small> / ${ch.totalMembers}</small></div></div>
-    <div class="tile accent-out"><div class="label">Out</div>
-      <div class="value">${byStatus.OUT.length}</div></div>
-    <div class="tile accent-ir"><div class="label">Injured Reserve</div>
-      <div class="value">${byStatus.IR.length}</div></div>
-    <div class="tile"><div class="label">Questionable</div>
-      <div class="value">${byStatus.QUESTIONABLE.length}</div></div>
-    <div class="tile"><div class="label">Probable</div>
-      <div class="value">${byStatus.PROBABLE.length}</div></div>
+    <a class="tile tile-link accent-out" href="#sec-OUT" data-status="OUT"><div class="label">Out</div>
+      <div class="value">${byStatus.OUT.length}</div></a>
+    <a class="tile tile-link accent-ir" href="#sec-IR" data-status="IR"><div class="label">Injured Reserve</div>
+      <div class="value">${byStatus.IR.length}</div></a>
+    <a class="tile tile-link" href="#sec-QUESTIONABLE" data-status="QUESTIONABLE"><div class="label">Questionable</div>
+      <div class="value">${byStatus.QUESTIONABLE.length}</div></a>
+    <a class="tile tile-link" href="#sec-PROBABLE" data-status="PROBABLE"><div class="label">Probable</div>
+      <div class="value">${byStatus.PROBABLE.length}</div></a>
     ${ch.closeCalls && ch.closeCalls.length ? `<a class="tile tile-link" href="#close-calls">
       <div class="label">Close Calls</div>
       <div class="value">${ch.closeCalls.length}<small> ↓</small></div></a>` : ""}`;
@@ -115,7 +115,7 @@ function render() {
     const list = byStatus[status];
     // PROBABLE is the long tail — start it folded so the serious tiers lead.
     const open = status === "PROBABLE" ? "" : " open";
-    html += `<details class="status-section" data-status="${status}"${open}>
+    html += `<details class="status-section" id="sec-${status}" data-status="${status}"${open}>
       <summary class="status-head"><h2>${statusLabel(status)}</h2>
         <span class="count">${list.length}</span>
         <span class="hint">${STATUS_HINTS[status]}</span></summary>`;
@@ -208,6 +208,15 @@ fetch("data/report.json")
     }
     document.getElementById("tab-house").addEventListener("click", () => setChamber("house"));
     document.getElementById("tab-senate").addEventListener("click", () => setChamber("senate"));
+    // Clicking a status tile focuses its section, like the Close Calls tile.
+    // Just expand the (possibly collapsed) target — the anchor's href then does
+    // the native fragment scroll, honoring the page's smooth scroll-behavior.
+    document.getElementById("tiles").addEventListener("click", (e) => {
+      const link = e.target.closest("a[data-status]");
+      if (!link) return;
+      const sec = document.getElementById("sec-" + link.dataset.status);
+      if (sec) sec.open = true;
+    });
     render();
   })
   .catch(() => {
