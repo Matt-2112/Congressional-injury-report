@@ -1,64 +1,59 @@
 {
-  "generatedAt": "2026-09-16T20:08:32.076Z",
+  "generatedAt": "2026-09-16T20:16:43.748Z",
   "reportDate": "2026-09-16",
   "recordIssueDate": "2026-09-15",
   "available": true,
-  "headline": "House votes to spike impeachment while Senate advances college sports bill with cloture motion!",
+  "headline": "Senate advances landmark college sports protection bill with supermajority cloture vote while House moves on fentanyl and fraud bills!",
   "chambers": {
     "senate": {
       "nextMeeting": "Wednesday, September 16 at 10:00 AM",
-      "lastSessionSummary": "The Senate voted 74-24 to advance cloture on the motion to proceed to S. 4668, the Protect College Sports Act. A cloture motion on the Digital Asset Market Clarity Act (H.R. 3633) failed 49-50. Matthew R. Byrne was confirmed as U.S. District Judge for the Southern District of Ohio with a 52-45 vote.",
+      "lastSessionSummary": "The Senate rejected a motion to advance the Digital Asset Market Clarity Act in a 49-50 vote, falling short of the 60-vote threshold needed. However, it secured 74 votes to clear a procedural hurdle on the Protect College Sports Act, which will see continued debate on Wednesday morning post-cloture. The chamber also confirmed Matthew R. Byrne as a United States District Judge for the Southern District of Ohio by a 52-45 vote.",
       "onTheFloor": [
         {
           "measure": "S. 4668",
-          "title": "Protect College Sports Act - protects student-athletes' name, image, and likeness rights and promotes fair competition in college athletics",
-          "status": "Cloture agreed 74-24, debate continues post-cloture at 10 a.m. Wednesday"
+          "title": "Protect College Sports Act - Protect name, image, and likeness rights of student athletes and promote fair competition in intercollegiate athletics",
+          "status": "Cloture invoked 74-24; motion to proceed debate continuing Wednesday"
         },
         {
           "measure": "H.R. 3633",
-          "title": "Digital Asset Market Clarity Act - regulates digital commodities and central bank digital currency",
-          "status": "Cloture motion rejected 49-50, motion to reconsider entered"
-        },
-        {
-          "measure": "Judicial Nomination - Matthew R. Byrne",
-          "title": "United States District Judge for the Southern District of Ohio",
-          "status": "Confirmed 52-45"
+          "title": "Digital Asset Market Clarity Act - Create federal regulation system for digital commodities and restrict Federal Reserve from offering central bank digital currency products",
+          "status": "Cloture motion failed 49-50; motion to reconsider filed"
         }
       ]
     },
     "house": {
       "nextMeeting": "Wednesday, September 16 at 9:00 AM",
-      "lastSessionSummary": "The House voted 232-147 with 47 answering present to table an impeachment resolution against Donald John Trump. Multiple suspension bills passed with strong bipartisan votes including elder fraud protections (414-7), whistleblower protections (424-0), and the War Powers resolution directing removal of forces from Iran (220-204).",
+      "lastSessionSummary": "The House passed multiple bills focused on fraud prevention and drug enforcement, including the GUARD Act targeting elder financial fraud (414-7), the Fentanyl Prevention package including Tyler's Law (424-0), and measures to combat xylazine and counterfeit pill operations. The chamber also passed a War Powers resolution directing removal of U.S. Armed Forces from hostilities with Iran (220-204) and tabled an impeachment resolution against the former President (232-147).",
       "onTheFloor": [
         {
-          "measure": "H. Res. 1486",
-          "title": "Impeachment resolution against President Donald John Trump",
-          "status": "Motion to table agreed 232-147 (47 present)"
-        },
-        {
-          "measure": "H. Con. Res. 93",
-          "title": "Directing removal of U.S. Armed Forces from hostilities with Iran under War Powers Resolution",
-          "status": "Passed 220-204"
-        },
-        {
           "measure": "H.R. 2978",
-          "title": "Guarding Unprotected Aging Retirees from Deception Act - permits law enforcement to investigate elder and blockchain financial fraud",
-          "status": "Passed under suspension 414-7"
+          "title": "Guarding Unprotected Aging Retirees from Deception (GUARD) Act - Allow law enforcement to use federal funds for investigating elder and financial fraud",
+          "status": "Passed 414-7"
         },
         {
           "measure": "H.R. 4646",
-          "title": "Whistleblower Protection Act - applies whistleblower protections to HUD-funded contracts",
-          "status": "Passed under suspension 424-0"
+          "title": "Whistleblower Protection Act - Extend whistleblower protections to contracts funded by HUD appropriations",
+          "status": "Passed 424-0"
         },
         {
-          "measure": "H.J. Res. 210",
-          "title": "Congressional disapproval of EPA rule on California vehicle at-berth emissions standards",
-          "status": "Passed 216-11"
+          "measure": "H.R. 2004",
+          "title": "Tyler's Law - Direct HHS guidance on fentanyl testing in hospital emergency departments for overdose patients",
+          "status": "Passed"
         },
         {
-          "measure": "H.R. 8278",
-          "title": "FUTURES Act - requires agencies to assess technological capabilities in supervision",
-          "status": "Passed under suspension 417-7"
+          "measure": "H.R. 8005",
+          "title": "Stop Pills That Kill Act - Prohibit misuse of tableting and encapsulating machines for illicit controlled substance manufacturing",
+          "status": "Passed"
+        },
+        {
+          "measure": "H. Con. Res. 93",
+          "title": "War Powers Resolution - Direct President to remove U.S. Armed Forces from hostilities with Iran",
+          "status": "Passed 220-204"
+        },
+        {
+          "measure": "H. Res. 1486",
+          "title": "Impeachment Resolution against former President - Motion to table agreed to 232-147",
+          "status": "Tabled"
         }
       ]
     }
@@ -66,33 +61,28 @@
   "committees": [
     {
       "chamber": "senate",
-      "committee": "Committee on Commerce, Science, and Transportation",
-      "topic": "Business meeting to consider various bills including Virginia Graeme Baker Pool Safety reauthorization, FAA airborne position reference tools, and professional boxing safety requirements - 10 a.m. Wednesday, SR-253"
+      "committee": "Committee on Finance",
+      "topic": "Nominations for Deputy Secretary of HHS, Assistant Secretary of HHS, IRS Chief Counsel, and Tax Court Judge"
     },
     {
       "chamber": "senate",
-      "committee": "Committee on Energy and Natural Resources",
-      "topic": "Hearings on geothermal energy expediting, giant sequoia health, and various energy and water infrastructure bills - 10 a.m. Wednesday, SD-366"
-    },
-    {
-      "chamber": "senate",
-      "committee": "Committee on Health, Education, Labor, and Pensions",
-      "topic": "Hearings on nominations of Gerard Klomp for Deputy HHS Secretary, Timothy Westlake for Mental Health Assistant Secretary, and Nicole Saphier for Surgeon General - 10 a.m. Wednesday, SD-430"
-    },
-    {
-      "chamber": "house",
-      "committee": "Committee on Energy and Commerce",
-      "topic": "Full committee markup on automotive security, AI leadership, semiconductor competitiveness, broadband, and data privacy bills - 10 a.m. Wednesday, 2123 Rayburn"
-    },
-    {
-      "chamber": "house",
-      "committee": "Committee on Ways and Means",
-      "topic": "Full committee markup on digital asset taxation, tax verification, health screening pilots, and trade enforcement bills - 10 a.m. Wednesday, HVC-210"
-    },
-    {
-      "chamber": "house",
       "committee": "Committee on the Judiciary",
-      "topic": "Full committee markup on firearms taxes, tort reform, Secret Service protections, and climate litigation bills - 10 a.m. Wednesday, 2141 Rayburn"
+      "topic": "FBI oversight hearing with Director Kashyap Patel"
+    },
+    {
+      "chamber": "house",
+      "committee": "Committee on Energy and Commerce, Subcommittee on Health",
+      "topic": "Legislative proposals to reform Medicare provider payment and healthcare cybersecurity"
+    },
+    {
+      "chamber": "house",
+      "committee": "Committee on Financial Services",
+      "topic": "Annual testimony from Treasury Secretary Scott Bessent on the state of the international financial system"
+    },
+    {
+      "chamber": "house",
+      "committee": "Committee on Foreign Affairs, Western Hemisphere Subcommittee",
+      "topic": "U.S. policy toward the Ortega-Murillo regime in Nicaragua"
     }
   ]
 }
