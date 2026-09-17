@@ -1,59 +1,64 @@
 {
-  "generatedAt": "2026-09-16T20:16:43.748Z",
-  "reportDate": "2026-09-16",
+  "generatedAt": "2026-09-17T14:47:01.597Z",
+  "reportDate": "2026-09-17",
   "recordIssueDate": "2026-09-15",
   "available": true,
-  "headline": "Senate advances landmark college sports protection bill with supermajority cloture vote while House moves on fentanyl and fraud bills!",
+  "headline": "House votes down Trump impeachment resolution while Senate advances college athletes rights bill with cloture",
   "chambers": {
     "senate": {
       "nextMeeting": "Wednesday, September 16 at 10:00 AM",
-      "lastSessionSummary": "The Senate rejected a motion to advance the Digital Asset Market Clarity Act in a 49-50 vote, falling short of the 60-vote threshold needed. However, it secured 74 votes to clear a procedural hurdle on the Protect College Sports Act, which will see continued debate on Wednesday morning post-cloture. The chamber also confirmed Matthew R. Byrne as a United States District Judge for the Southern District of Ohio by a 52-45 vote.",
+      "lastSessionSummary": "The Senate rejected a cloture motion on the Digital Asset Market Clarity Act (H.R. 3633) by a vote of 49-50, failing to reach the three-fifths threshold needed. The Senate then advanced consideration of the Protect College Sports Act (S. 4668) by invoking cloture 74-24, with a unanimous consent agreement set for continued debate Wednesday morning. The chamber also confirmed Judge Matthew R. Byrne to the U.S. District Court for the Southern District of Ohio.",
       "onTheFloor": [
         {
           "measure": "S. 4668",
-          "title": "Protect College Sports Act - Protect name, image, and likeness rights of student athletes and promote fair competition in intercollegiate athletics",
-          "status": "Cloture invoked 74-24; motion to proceed debate continuing Wednesday"
+          "title": "Protect College Sports Act - protect name, image, and likeness rights of student athletes and promote fair competition in intercollegiate athletics",
+          "status": "cloture invoked 74-24; debate continues Wednesday at 10 a.m."
         },
         {
           "measure": "H.R. 3633",
-          "title": "Digital Asset Market Clarity Act - Create federal regulation system for digital commodities and restrict Federal Reserve from offering central bank digital currency products",
-          "status": "Cloture motion failed 49-50; motion to reconsider filed"
+          "title": "Digital Asset Market Clarity Act - regulate offer and sale of digital commodities by SEC and CFTC",
+          "status": "cloture motion rejected 49-50; motion to reconsider entered"
+        },
+        {
+          "measure": "Matthew R. Byrne judicial nomination",
+          "title": "United States District Judge for the Southern District of Ohio",
+          "status": "confirmed 52-45"
         }
       ]
     },
     "house": {
       "nextMeeting": "Wednesday, September 16 at 9:00 AM",
-      "lastSessionSummary": "The House passed multiple bills focused on fraud prevention and drug enforcement, including the GUARD Act targeting elder financial fraud (414-7), the Fentanyl Prevention package including Tyler's Law (424-0), and measures to combat xylazine and counterfeit pill operations. The chamber also passed a War Powers resolution directing removal of U.S. Armed Forces from hostilities with Iran (220-204) and tabled an impeachment resolution against the former President (232-147).",
+      "lastSessionSummary": "The House tabled an impeachment resolution against former President Trump by a vote of 232-147 with 47 voting present, defeating the measure. The chamber passed multiple bills under suspension of rules, including fraud prevention legislation, tax relief measures, and environmental initiatives. The House also passed a congressional resolution directing the President to remove U.S. Armed Forces from hostilities with Iran.",
       "onTheFloor": [
         {
-          "measure": "H.R. 2978",
-          "title": "Guarding Unprotected Aging Retirees from Deception (GUARD) Act - Allow law enforcement to use federal funds for investigating elder and financial fraud",
-          "status": "Passed 414-7"
-        },
-        {
-          "measure": "H.R. 4646",
-          "title": "Whistleblower Protection Act - Extend whistleblower protections to contracts funded by HUD appropriations",
-          "status": "Passed 424-0"
-        },
-        {
-          "measure": "H.R. 2004",
-          "title": "Tyler's Law - Direct HHS guidance on fentanyl testing in hospital emergency departments for overdose patients",
-          "status": "Passed"
-        },
-        {
-          "measure": "H.R. 8005",
-          "title": "Stop Pills That Kill Act - Prohibit misuse of tableting and encapsulating machines for illicit controlled substance manufacturing",
-          "status": "Passed"
+          "measure": "H. Res. 1486",
+          "title": "Impeachment resolution against Donald John Trump for high crimes and misdemeanors",
+          "status": "tabled 232-147 (47 present)"
         },
         {
           "measure": "H. Con. Res. 93",
-          "title": "War Powers Resolution - Direct President to remove U.S. Armed Forces from hostilities with Iran",
-          "status": "Passed 220-204"
+          "title": "Direct President to remove U.S. Armed Forces from hostilities with Iran under War Powers Resolution",
+          "status": "passed 220-204"
         },
         {
-          "measure": "H. Res. 1486",
-          "title": "Impeachment Resolution against former President - Motion to table agreed to 232-147",
-          "status": "Tabled"
+          "measure": "H.R. 2978",
+          "title": "Guarding Unprotected Aging Retirees from Deception Act - permit law enforcement to use grant funds to investigate elder financial fraud and pig butchering",
+          "status": "passed 414-7"
+        },
+        {
+          "measure": "H.R. 8278",
+          "title": "Fostering Technology to Uphold Regulatory Effectiveness in Supervision Act - require supervisory agencies to assess technological capabilities",
+          "status": "passed 417-7"
+        },
+        {
+          "measure": "H.R. 4646",
+          "title": "Whistleblower Protection Act - clarify whistleblower protections apply to HUD contracts",
+          "status": "passed 424-0"
+        },
+        {
+          "measure": "H.J. Res. 210",
+          "title": "Congressional disapproval of EPA rule on California State Nonroad Engine Pollution Control Standards for ocean-going vessels",
+          "status": "passed 216-11"
         }
       ]
     }
@@ -61,28 +66,33 @@
   "committees": [
     {
       "chamber": "senate",
-      "committee": "Committee on Finance",
-      "topic": "Nominations for Deputy Secretary of HHS, Assistant Secretary of HHS, IRS Chief Counsel, and Tax Court Judge"
+      "committee": "Committee on Agriculture, Nutrition, and Forestry",
+      "topic": "Business meeting to consider Agricultural Act of 2026 - Wednesday, September 16 at 3:30 p.m."
     },
     {
       "chamber": "senate",
-      "committee": "Committee on the Judiciary",
-      "topic": "FBI oversight hearing with Director Kashyap Patel"
+      "committee": "Committee on Commerce, Science, and Transportation",
+      "topic": "Business meeting on fisheries bycatch reduction, FAA airborne positioning tools, Virginia Graeme Baker Pool Safety Act reauthorization, and other measures - Wednesday, September 16 at 10:00 a.m."
+    },
+    {
+      "chamber": "senate",
+      "committee": "Committee on Energy and Natural Resources",
+      "topic": "Hearings on geothermal development, energy efficiency standards, national park studies, and water projects - Wednesday, September 16 at 10:00 a.m."
     },
     {
       "chamber": "house",
-      "committee": "Committee on Energy and Commerce, Subcommittee on Health",
-      "topic": "Legislative proposals to reform Medicare provider payment and healthcare cybersecurity"
+      "committee": "Committee on Energy and Commerce",
+      "topic": "Markup on automotive security, AI leadership, quantum competitiveness, semiconductor competitiveness, and broadband bills - Wednesday, September 16 at 10:00 a.m."
     },
     {
       "chamber": "house",
       "committee": "Committee on Financial Services",
-      "topic": "Annual testimony from Treasury Secretary Scott Bessent on the state of the international financial system"
+      "topic": "Markup on consumer lending fairness, affordable housing program funding, and financial protection measures - Wednesday, September 16 at 10:00 a.m."
     },
     {
       "chamber": "house",
-      "committee": "Committee on Foreign Affairs, Western Hemisphere Subcommittee",
-      "topic": "U.S. policy toward the Ortega-Murillo regime in Nicaragua"
+      "committee": "Committee on Transportation and Infrastructure",
+      "topic": "Subcommittee hearing on U.S. Coast Guard operations and readiness - Wednesday, September 16 at 1:00 p.m."
     }
   ]
 }
