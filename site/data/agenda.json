@@ -1,64 +1,64 @@
 {
-  "generatedAt": "2026-09-17T14:47:01.597Z",
-  "reportDate": "2026-09-17",
-  "recordIssueDate": "2026-09-15",
+  "generatedAt": "2026-09-18T14:14:19.692Z",
+  "reportDate": "2026-09-18",
+  "recordIssueDate": "2026-09-17",
   "available": true,
-  "headline": "House votes down Trump impeachment resolution while Senate advances college athletes rights bill with cloture",
+  "headline": "Senate advances Protect College Sports Act with cloture votes pending while student athlete NIL rights hang in the balance!",
   "chambers": {
     "senate": {
-      "nextMeeting": "Wednesday, September 16 at 10:00 AM",
-      "lastSessionSummary": "The Senate rejected a cloture motion on the Digital Asset Market Clarity Act (H.R. 3633) by a vote of 49-50, failing to reach the three-fifths threshold needed. The Senate then advanced consideration of the Protect College Sports Act (S. 4668) by invoking cloture 74-24, with a unanimous consent agreement set for continued debate Wednesday morning. The chamber also confirmed Judge Matthew R. Byrne to the U.S. District Court for the Southern District of Ohio.",
+      "nextMeeting": "Friday, September 18 at 9:00 AM",
+      "lastSessionSummary": "The Senate voted 77-22 to proceed with debate on the Protect College Sports Act (S. 4668), which aims to regulate student athlete name, image, and likeness rights. Multiple amendments from Senator Thune were filed as the chamber worked through the bill's contentious provisions, with cloture votes scheduled for next week. The Senate also confirmed federal judge Kasdin Miller Mitchell 49-45 and passed resolutions honoring Dolly Parton and Central Asian independence.",
       "onTheFloor": [
         {
           "measure": "S. 4668",
-          "title": "Protect College Sports Act - protect name, image, and likeness rights of student athletes and promote fair competition in intercollegiate athletics",
-          "status": "cloture invoked 74-24; debate continues Wednesday at 10 a.m."
+          "title": "Protect College Sports Act—regulate student athlete NIL rights and promote fair intercollegiate athletics competition",
+          "status": "debate ongoing, cloture vote on Thune amendment pending Tuesday, September 22"
         },
         {
-          "measure": "H.R. 3633",
-          "title": "Digital Asset Market Clarity Act - regulate offer and sale of digital commodities by SEC and CFTC",
-          "status": "cloture motion rejected 49-50; motion to reconsider entered"
+          "measure": "Angela Veronica Colmenero nomination",
+          "title": "Nomination to be U.S. District Judge for Southern District of Texas",
+          "status": "cloture vote scheduled Tuesday, September 22 at 5:30 PM"
         },
         {
-          "measure": "Matthew R. Byrne judicial nomination",
-          "title": "United States District Judge for the Southern District of Ohio",
-          "status": "confirmed 52-45"
+          "measure": "H.R. 5345",
+          "title": "Improving Social Security's Service to Victims of Identity Theft Act",
+          "status": "passed Senate"
+        },
+        {
+          "measure": "S. Res. 862",
+          "title": "Honoring the life and legacy of Dolly Parton",
+          "status": "agreed to"
+        },
+        {
+          "measure": "S. Res. 816",
+          "title": "Honoring 35 years of independence for Central Asian countries",
+          "status": "agreed to"
+        },
+        {
+          "measure": "Kasdin Miller Mitchell nomination",
+          "title": "Nomination to be U.S. District Judge for Northern District of Texas",
+          "status": "confirmed 49-45"
+        },
+        {
+          "measure": "S. 4395",
+          "title": "Terrorism Risk Insurance Program Reauthorization Act of 2026",
+          "status": "ordered favorably reported by Banking Committee"
         }
       ]
     },
     "house": {
-      "nextMeeting": "Wednesday, September 16 at 9:00 AM",
-      "lastSessionSummary": "The House tabled an impeachment resolution against former President Trump by a vote of 232-147 with 47 voting present, defeating the measure. The chamber passed multiple bills under suspension of rules, including fraud prevention legislation, tax relief measures, and environmental initiatives. The House also passed a congressional resolution directing the President to remove U.S. Armed Forces from hostilities with Iran.",
+      "nextMeeting": "Monday, September 21 at 10:30 AM",
+      "lastSessionSummary": "The House convened at 10:30 a.m. and immediately adjourned at 10:32 a.m. The chamber met in a brief session with Speaker Simpson acting as Speaker pro tempore. No votes or quorum calls were held, and no bills were passed.",
       "onTheFloor": [
         {
-          "measure": "H. Res. 1486",
-          "title": "Impeachment resolution against Donald John Trump for high crimes and misdemeanors",
-          "status": "tabled 232-147 (47 present)"
+          "measure": "H.R. 7269",
+          "title": "Helping Our People Act of 2026—hearing on Indian and Insular Affairs",
+          "status": "hearing held Thursday in Natural Resources Subcommittee"
         },
         {
-          "measure": "H. Con. Res. 93",
-          "title": "Direct President to remove U.S. Armed Forces from hostilities with Iran under War Powers Resolution",
-          "status": "passed 220-204"
-        },
-        {
-          "measure": "H.R. 2978",
-          "title": "Guarding Unprotected Aging Retirees from Deception Act - permit law enforcement to use grant funds to investigate elder financial fraud and pig butchering",
-          "status": "passed 414-7"
-        },
-        {
-          "measure": "H.R. 8278",
-          "title": "Fostering Technology to Uphold Regulatory Effectiveness in Supervision Act - require supervisory agencies to assess technological capabilities",
-          "status": "passed 417-7"
-        },
-        {
-          "measure": "H.R. 4646",
-          "title": "Whistleblower Protection Act - clarify whistleblower protections apply to HUD contracts",
-          "status": "passed 424-0"
-        },
-        {
-          "measure": "H.J. Res. 210",
-          "title": "Congressional disapproval of EPA rule on California State Nonroad Engine Pollution Control Standards for ocean-going vessels",
-          "status": "passed 216-11"
+          "measure": "H.R. 8674",
+          "title": "Geese House Site Conveyance Act—hearing on land conveyance",
+          "status": "hearing held Thursday in Natural Resources Subcommittee"
         }
       ]
     }
@@ -66,33 +66,23 @@
   "committees": [
     {
       "chamber": "senate",
-      "committee": "Committee on Agriculture, Nutrition, and Forestry",
-      "topic": "Business meeting to consider Agricultural Act of 2026 - Wednesday, September 16 at 3:30 p.m."
+      "committee": "Armed Services",
+      "topic": "National Defense Strategy implementation and global defense posture"
     },
     {
       "chamber": "senate",
-      "committee": "Committee on Commerce, Science, and Transportation",
-      "topic": "Business meeting on fisheries bycatch reduction, FAA airborne positioning tools, Virginia Graeme Baker Pool Safety Act reauthorization, and other measures - Wednesday, September 16 at 10:00 a.m."
+      "committee": "Banking, Housing, and Urban Affairs",
+      "topic": "Terrorism Risk Insurance Program Reauthorization and nominations for financial regulators and HUD officials"
     },
     {
       "chamber": "senate",
-      "committee": "Committee on Energy and Natural Resources",
-      "topic": "Hearings on geothermal development, energy efficiency standards, national park studies, and water projects - Wednesday, September 16 at 10:00 a.m."
+      "committee": "Foreign Relations",
+      "topic": "Nominations of ambassadors to Serbia, Bosnia and Herzegovina, the Arctic, the Kyrgyz Republic, and Cabo Verde"
     },
     {
       "chamber": "house",
-      "committee": "Committee on Energy and Commerce",
-      "topic": "Markup on automotive security, AI leadership, quantum competitiveness, semiconductor competitiveness, and broadband bills - Wednesday, September 16 at 10:00 a.m."
-    },
-    {
-      "chamber": "house",
-      "committee": "Committee on Financial Services",
-      "topic": "Markup on consumer lending fairness, affordable housing program funding, and financial protection measures - Wednesday, September 16 at 10:00 a.m."
-    },
-    {
-      "chamber": "house",
-      "committee": "Committee on Transportation and Infrastructure",
-      "topic": "Subcommittee hearing on U.S. Coast Guard operations and readiness - Wednesday, September 16 at 1:00 p.m."
+      "committee": "Natural Resources Subcommittee on Indian and Insular Affairs",
+      "topic": "Helping Our People Act and Geese House Site Conveyance Act"
     }
   ]
 }
