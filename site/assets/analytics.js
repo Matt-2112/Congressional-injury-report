@@ -5,7 +5,7 @@
 // SETUP: create a free site at https://www.goatcounter.com/ (pick a code), then
 // replace YOURCODE below with it. Until then this is a dormant no-op.
 (function () {
-  var ENDPOINT = "https://YOURCODE.goatcounter.com/count";
+  var ENDPOINT = "https://congressinjury.goatcounter.com/count";
 
   // Always define track() so callers are safe whether or not analytics is live.
   window.track = function () {};
