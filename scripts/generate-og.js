@@ -256,6 +256,7 @@ function memberPage(m, base, sessionYear) {
 <link rel="stylesheet" href="/assets/styles.css">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏛️</text></svg>">
 <script type="application/ld+json">${ldJson}</script>
+<script src="/assets/analytics.js"></script>
 </head>
 <body>
 <header class="masthead">

@@ -20,6 +20,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Libre+Franklin:wght@400;600;700&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="assets/styles.css" />
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏛️</text></svg>" />
+<script src="/assets/analytics.js"></script>
 </head>
 <body>
 <header class="masthead">
@@ -206,16 +207,20 @@ fetch("data/report.json")
           `Congress may be in recess; statuses reflect the last vote days on record.</div>`;
       }
     }
-    document.getElementById("tab-house").addEventListener("click", () => setChamber("house"));
-    document.getElementById("tab-senate").addEventListener("click", () => setChamber("senate"));
+    document.getElementById("tab-house").addEventListener("click", () => { window.track("chamber/house"); setChamber("house"); });
+    document.getElementById("tab-senate").addEventListener("click", () => { window.track("chamber/senate"); setChamber("senate"); });
     // Clicking a status tile focuses its section, like the Close Calls tile.
     // Just expand the (possibly collapsed) target — the anchor's href then does
     // the native fragment scroll, honoring the page's smooth scroll-behavior.
     document.getElementById("tiles").addEventListener("click", (e) => {
       const link = e.target.closest("a[data-status]");
-      if (!link) return;
-      const sec = document.getElementById("sec-" + link.dataset.status);
-      if (sec) sec.open = true;
+      if (link) {
+        const sec = document.getElementById("sec-" + link.dataset.status);
+        if (sec) sec.open = true;
+        window.track("tile/" + link.dataset.status.toLowerCase());
+        return;
+      }
+      if (e.target.closest('a[href="#close-calls"]')) window.track("tile/close-calls");
     });
     render();
   })

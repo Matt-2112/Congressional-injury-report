@@ -88,6 +88,7 @@
       if (q.length < 5) return render([], "Keep typing a 5-digit ZIP code…");
       await Promise.all([load(), loadZips()]);
       const list = zipMembers(q);
+      if (window.track) window.track(list.length ? "search/zip" : "search/zip-miss");
       return render(
         list,
         list.length
