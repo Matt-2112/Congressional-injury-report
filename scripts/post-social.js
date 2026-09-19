@@ -17,9 +17,54 @@ const STORE = path.join(DATA_DIR, "social-store.json");
 const utf8 = (s) => Buffer.byteLength(s, "utf8");
 const fmtDate = (iso) =>
   new Date(iso + "T12:00:00Z").toLocaleDateString("en-US", { month: "short", day: "numeric", timeZone: "UTC" });
+const fmtDateWeekday = (iso) =>
+  new Date(iso + "T12:00:00Z").toLocaleDateString("en-US", {
+    weekday: "short", month: "short", day: "numeric", timeZone: "UTC",
+  });
+
+const dayBefore = (iso) => {
+  const d = new Date(iso + "T12:00:00Z");
+  d.setUTCDate(d.getUTCDate() - 1);
+  return d.toISOString().slice(0, 10);
+};
+
+// Congress convened on a date iff the Congressional Record has an issue for it.
+// The pipeline runs each morning, before that day's issue is published, so the
+// latest issue we can see is yesterday's on a normal session day. Treat Congress
+// as in session when the latest issue is the report date or the day before.
+// When the Record was unavailable (lastSessionDate null), don't suppress the
+// roster update — an enrichment fetch failure shouldn't masquerade as a recess.
+function isInSession(lastSessionDate, reportDate) {
+  if (!lastSessionDate) return true;
+  return lastSessionDate === reportDate || lastSessionDate === dayBefore(reportDate);
+}
+
+// Bluesky doesn't auto-link bare URLs; attach a link facet so SITE_URL is
+// tappable. Shared by every composer.
+function linkFacet(text) {
+  const at = text.indexOf(SITE_URL);
+  if (at < 0) return [];
+  return [{
+    index: { byteStart: utf8(text.slice(0, at)), byteEnd: utf8(text.slice(0, at)) + utf8(SITE_URL) },
+    features: [{ $type: "app.bsky.richtext.facet#link", uri: SITE_URL + "/" }],
+  }];
+}
+
+// Posted on days Congress didn't convene, in place of a stale roster update.
+function composeNotInSession(report, lastSessionDate) {
+  const lines = [
+    `🏛️ Congressional Injury Report · ${fmtDate(report.reportDate)}`,
+    "",
+    "Congress is not in session today — no floor activity to report.",
+  ];
+  if (lastSessionDate) lines.push("", `Last convened ${fmtDateWeekday(lastSessionDate)}.`);
+  lines.push("", `Full attendance record → ${SITE_URL}`);
+  const text = lines.join("\n");
+  return { text, facets: linkFacet(text) };
+}
 
 // Compose the digest text (kept well under Bluesky's 300-grapheme limit) plus a
-// link facet so the URL is tappable — Bluesky does not auto-link bare URLs.
+// link facet so the URL is tappable.
 function composeDigest(report) {
   const count = (ch, st) => ch.listed.filter((e) => e.status === st).length;
   const h = report.chambers.house;
@@ -48,14 +93,7 @@ function composeDigest(report) {
     text = [lines[0], "", lines[2], lines[3], "", `Who's showing up → ${SITE_URL}`].join("\n");
   }
 
-  const at = text.indexOf(SITE_URL);
-  const facets = at >= 0
-    ? [{
-        index: { byteStart: utf8(text.slice(0, at)), byteEnd: utf8(text.slice(0, at)) + utf8(SITE_URL) },
-        features: [{ $type: "app.bsky.richtext.facet#link", uri: SITE_URL + "/" }],
-      }]
-    : [];
-  return { text, facets };
+  return { text, facets: linkFacet(text) };
 }
 
 async function xrpc(method, { jwt, json, body, contentType } = {}) {
@@ -71,7 +109,7 @@ async function xrpc(method, { jwt, json, body, contentType } = {}) {
   return res.json();
 }
 
-export async function postSocial(report, { dryRun = false } = {}) {
+export async function postSocial(report, { dryRun = false, lastSessionDate = null } = {}) {
   // Idempotency: one post per report date, tracked in a committed store.
   let store = null;
   try { store = JSON.parse(await readFile(STORE, "utf8")); } catch { /* first run */ }
@@ -80,7 +118,12 @@ export async function postSocial(report, { dryRun = false } = {}) {
     return { posted: false, reason: "duplicate" };
   }
 
-  const { text, facets } = composeDigest(report);
+  // On days Congress didn't convene, announce the recess instead of reposting
+  // the last session's stale roster numbers.
+  const inSession = isInSession(lastSessionDate, report.reportDate);
+  const { text, facets } = inSession
+    ? composeDigest(report)
+    : composeNotInSession(report, lastSessionDate);
   const id = process.env.BLUESKY_IDENTIFIER;
   const pw = process.env.BLUESKY_APP_PASSWORD;
 

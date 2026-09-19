@@ -128,7 +128,9 @@ await writeJson(path.join(DATA_DIR, "history", `${report.reportDate}.json`), rep
 // (local runs) or an already-posted date means it quietly does nothing.
 try {
   const { postSocial } = await import("./post-social.js");
-  await postSocial(report);
+  // The most recent Congressional Record issue tells the poster whether Congress
+  // convened recently; on a recess it posts a "not in session" note instead.
+  await postSocial(report, { lastSessionDate: record.issues[0] ?? null });
 } catch (err) {
   log("social", `FAILED (continuing): ${err.message}`);
 }
