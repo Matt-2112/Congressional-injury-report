@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-09-20T14:01:42.958Z",
-  "reportDate": "2026-09-20",
+  "generatedAt": "2026-09-21T16:20:30.607Z",
+  "reportDate": "2026-09-21",
   "recordIssueDate": "2026-09-18",
   "available": true,
-  "headline": "Congress in a holding pattern—Senate back Tuesday for judicial confirmation showdown, House pro forma Monday!",
+  "headline": "Congress takes a breather heading into the week—Senate returns Tuesday for judicial confirmation showdown!",
   "chambers": {
     "senate": {
       "nextMeeting": "Tuesday, September 22 at 3:00 PM",
-      "lastSessionSummary": "The Senate met in pro forma session on Friday, September 18, conducting no legislative business and adjourning until Tuesday.",
+      "lastSessionSummary": "The Senate met in pro forma session on Friday, September 18, conducting minimal business before adjourning. The chamber will reconvene Tuesday to resume consideration of Angela Veronica Colmenero's nomination to be United States District Judge for the Southern District of Texas.",
       "onTheFloor": [
         {
-          "measure": "Angela Veronica Colmenero nomination",
-          "title": "Confirmation of Angela Veronica Colmenero of Texas to be United States District Judge for the Southern District of Texas",
-          "status": "cloture vote scheduled for 5:30 PM Tuesday"
+          "measure": "Colmenero Nomination",
+          "title": "Confirmation vote on Angela Veronica Colmenero for U.S. District Judge, Southern District of Texas",
+          "status": "Cloture vote scheduled for 5:30 PM Tuesday"
         }
       ]
     },
     "house": {
       "nextMeeting": "Monday, September 21 at 10:30 AM",
-      "lastSessionSummary": "The House was not in session on Friday, September 18. The chamber will reconvene in pro forma session on Monday, September 21 for procedural purposes only.",
+      "lastSessionSummary": "The House was not in session on Friday, September 18. The chamber will reconvene Monday, September 21 in pro forma session, with no substantive floor activity scheduled.",
       "onTheFloor": []
     }
   },
