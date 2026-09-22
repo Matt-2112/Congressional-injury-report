@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-09-21T16:20:30.607Z",
-  "reportDate": "2026-09-21",
-  "recordIssueDate": "2026-09-18",
+  "generatedAt": "2026-09-22T14:30:53.757Z",
+  "reportDate": "2026-09-22",
+  "recordIssueDate": "2026-09-21",
   "available": true,
-  "headline": "Congress takes a breather heading into the week—Senate returns Tuesday for judicial confirmation showdown!",
+  "headline": "Congress hits pause for the holiday week—Senate returns Tuesday for judicial showdown, House meets in pro forma later this week.",
   "chambers": {
     "senate": {
       "nextMeeting": "Tuesday, September 22 at 3:00 PM",
-      "lastSessionSummary": "The Senate met in pro forma session on Friday, September 18, conducting minimal business before adjourning. The chamber will reconvene Tuesday to resume consideration of Angela Veronica Colmenero's nomination to be United States District Judge for the Southern District of Texas.",
+      "lastSessionSummary": "The Senate was not in session on Monday, September 21. The chamber stands adjourned and will reconvene on Tuesday afternoon.",
       "onTheFloor": [
         {
-          "measure": "Colmenero Nomination",
-          "title": "Confirmation vote on Angela Veronica Colmenero for U.S. District Judge, Southern District of Texas",
-          "status": "Cloture vote scheduled for 5:30 PM Tuesday"
+          "measure": "Nomination of Angela Veronica Colmenero",
+          "title": "United States District Judge for the Southern District of Texas",
+          "status": "cloture vote scheduled for 5:30 PM on Tuesday"
         }
       ]
     },
     "house": {
-      "nextMeeting": "Monday, September 21 at 10:30 AM",
-      "lastSessionSummary": "The House was not in session on Friday, September 18. The chamber will reconvene Monday, September 21 in pro forma session, with no substantive floor activity scheduled.",
+      "nextMeeting": "Thursday, September 24 at 2:30 PM",
+      "lastSessionSummary": "The House met briefly on Monday, September 21 and adjourned after just four minutes. The chamber introduced 20 public bills and 7 resolutions, with no votes taken. An announcement was made regarding a contempt certification for Leon D. Black's failure to comply with an Oversight and Government Reform Committee subpoena.",
       "onTheFloor": []
     }
   },
