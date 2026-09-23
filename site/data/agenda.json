@@ -1,26 +1,82 @@
 {
-  "generatedAt": "2026-09-22T14:30:53.757Z",
-  "reportDate": "2026-09-22",
-  "recordIssueDate": "2026-09-21",
+  "generatedAt": "2026-09-23T14:48:13.211Z",
+  "reportDate": "2026-09-23",
+  "recordIssueDate": "2026-09-22",
   "available": true,
-  "headline": "Congress hits pause for the holiday week—Senate returns Tuesday for judicial showdown, House meets in pro forma later this week.",
+  "headline": "Senate battles over college athlete NIL rights as Colmenero nomination vote looms!",
   "chambers": {
     "senate": {
-      "nextMeeting": "Tuesday, September 22 at 3:00 PM",
-      "lastSessionSummary": "The Senate was not in session on Monday, September 21. The chamber stands adjourned and will reconvene on Tuesday afternoon.",
+      "nextMeeting": "Wednesday, September 23 at 10:00 AM",
+      "lastSessionSummary": "The Senate continued debate on the Protect College Sports Act (S. 4668) with multiple amendments pending, securing cloture on the Cruz substitute amendment by 70-21. The chamber also voted 52-43 to close debate on the Colmenero judicial nomination, which will head to a confirmation vote Wednesday afternoon.",
       "onTheFloor": [
         {
-          "measure": "Nomination of Angela Veronica Colmenero",
-          "title": "United States District Judge for the Southern District of Texas",
-          "status": "cloture vote scheduled for 5:30 PM on Tuesday"
+          "measure": "S. 4668",
+          "title": "Protect College Sports Act—regulate name, image, and likeness rights for student athletes",
+          "status": "Thune amendment post-cloture debate continuing Wednesday at 10 a.m."
+        },
+        {
+          "measure": "Colmenero Nomination",
+          "title": "Angela Veronica Colmenero for U.S. District Judge, Southern District of Texas",
+          "status": "Confirmation vote scheduled Wednesday at 2:15 p.m."
+        },
+        {
+          "measure": "S. 4429",
+          "title": "Prohibit importation of connected vehicles from foreign adversaries",
+          "status": "Reported from committee with amendment"
+        },
+        {
+          "measure": "S. 1514",
+          "title": "Place Washington land in trust for Quinault Indian Nation",
+          "status": "Reported from committee with amendments"
+        },
+        {
+          "measure": "H.R. 4467",
+          "title": "Modify boundary of Vicksburg National Military Park",
+          "status": "Passed"
+        },
+        {
+          "measure": "H.R. 952",
+          "title": "Convey reversionary interest in Sacramento, California land",
+          "status": "Passed"
         }
       ]
     },
     "house": {
       "nextMeeting": "Thursday, September 24 at 2:30 PM",
-      "lastSessionSummary": "The House met briefly on Monday, September 21 and adjourned after just four minutes. The chamber introduced 20 public bills and 7 resolutions, with no votes taken. An announcement was made regarding a contempt certification for Leon D. Black's failure to comply with an Oversight and Government Reform Committee subpoena.",
+      "lastSessionSummary": "The House was not in session on Tuesday. The chamber will reconvene in Pro Forma session Thursday afternoon.",
       "onTheFloor": []
     }
   },
-  "committees": []
+  "committees": [
+    {
+      "chamber": "senate",
+      "committee": "Committee on the Judiciary",
+      "topic": "Standing up for women in sports—ensuring opportunity, fairness and safety for female athletes"
+    },
+    {
+      "chamber": "senate",
+      "committee": "Committee on Environment and Public Works",
+      "topic": "Updating America's nuclear waste management policy"
+    },
+    {
+      "chamber": "senate",
+      "committee": "Committee on Armed Services",
+      "topic": "Closed briefing on United States Central Command area of operations update"
+    },
+    {
+      "chamber": "senate",
+      "committee": "Committee on Indian Affairs",
+      "topic": "Reauthorization of Native American Housing Assistance and Self-Determination Act, plus tribal land trust bills"
+    },
+    {
+      "chamber": "senate",
+      "committee": "Subcommittee on Crime and Counterterrorism",
+      "topic": "Flock's nationwide AI surveillance network"
+    },
+    {
+      "chamber": "senate",
+      "committee": "Special Committee on Aging",
+      "topic": "Leveling the playing field—restoring America's edge in generic drug manufacturing"
+    }
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T14:30:57.598Z",
+  "generatedAt": "2026-09-23T14:48:27.832Z",
   "sessionYear": 2026,
   "members": [
     {
@@ -12,9 +12,9 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 1,
-        "attended": 237,
+        "attended": 239,
         "pct": 99.6,
         "grade": "A+",
         "rank": 11,
@@ -32,12 +32,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 6,
-        "attended": 232,
+        "attended": 234,
         "pct": 97.5,
         "grade": "A",
-        "rank": 53,
+        "rank": 52,
         "of": 100
       },
       "status": null
@@ -52,12 +52,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 6,
-        "attended": 232,
+        "attended": 234,
         "pct": 97.5,
         "grade": "A",
-        "rank": 53,
+        "rank": 52,
         "of": 100
       },
       "status": null
@@ -72,15 +72,25 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
-        "missed": 9,
+        "eligible": 240,
+        "missed": 11,
         "attended": 229,
-        "pct": 96.2,
+        "pct": 95.4,
         "grade": "A-",
-        "rank": 77,
+        "rank": 80,
         "of": 100
       },
-      "status": null
+      "status": {
+        "status": "OUT",
+        "note": "missed all 2 votes on 2026-09-22",
+        "reason": null,
+        "detail": null,
+        "since": "2026-09-22",
+        "last7": {
+          "missed": 2,
+          "total": 8
+        }
+      }
     },
     {
       "bioguide": "B001261",
@@ -92,9 +102,9 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 1,
-        "attended": 237,
+        "attended": 239,
         "pct": 99.6,
         "grade": "A+",
         "rank": 11,
@@ -112,12 +122,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 7,
-        "attended": 231,
+        "attended": 233,
         "pct": 97.1,
         "grade": "A",
-        "rank": 66,
+        "rank": 65,
         "of": 100
       },
       "status": null
@@ -132,9 +142,9 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 0,
-        "attended": 238,
+        "attended": 240,
         "pct": 100,
         "grade": "A+",
         "rank": 1,
@@ -152,12 +162,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 8,
-        "attended": 230,
-        "pct": 96.6,
+        "attended": 232,
+        "pct": 96.7,
         "grade": "A-",
-        "rank": 73,
+        "rank": 72,
         "of": 100
       },
       "status": null
@@ -172,12 +182,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 6,
-        "attended": 232,
+        "attended": 234,
         "pct": 97.5,
         "grade": "A",
-        "rank": 53,
+        "rank": 52,
         "of": 100
       },
       "status": null
@@ -192,25 +202,15 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 81,
-        "attended": 157,
-        "pct": 66,
+        "attended": 159,
+        "pct": 66.3,
         "grade": "D",
         "rank": 100,
         "of": 100
       },
-      "status": {
-        "status": "QUESTIONABLE",
-        "note": "missed 2 of 3 votes on 2026-09-17",
-        "reason": null,
-        "detail": null,
-        "since": null,
-        "last7": {
-          "missed": 3,
-          "total": 7
-        }
-      }
+      "status": null
     },
     {
       "bioguide": "M001176",
@@ -222,9 +222,9 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 1,
-        "attended": 237,
+        "attended": 239,
         "pct": 99.6,
         "grade": "A+",
         "rank": 11,
@@ -242,9 +242,9 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 0,
-        "attended": 238,
+        "attended": 240,
         "pct": 100,
         "grade": "A+",
         "rank": 1,
@@ -262,25 +262,15 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 14,
-        "attended": 224,
-        "pct": 94.1,
+        "attended": 226,
+        "pct": 94.2,
         "grade": "B+",
         "rank": 84,
         "of": 100
       },
-      "status": {
-        "status": "PROBABLE",
-        "note": "back on the floor after sitting out 2026-09-14",
-        "reason": null,
-        "detail": null,
-        "since": null,
-        "last7": {
-          "missed": 1,
-          "total": 7
-        }
-      }
+      "status": null
     },
     {
       "bioguide": "S001181",
@@ -292,10 +282,10 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 14,
-        "attended": 224,
-        "pct": 94.1,
+        "attended": 226,
+        "pct": 94.2,
         "grade": "B+",
         "rank": 84,
         "of": 100
@@ -312,12 +302,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 21,
-        "attended": 217,
-        "pct": 91.2,
+        "attended": 219,
+        "pct": 91.3,
         "grade": "B",
-        "rank": 95,
+        "rank": 94,
         "of": 100
       },
       "status": null
@@ -332,12 +322,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 7,
-        "attended": 231,
+        "attended": 233,
         "pct": 97.1,
         "grade": "A",
-        "rank": 66,
+        "rank": 65,
         "of": 100
       },
       "status": null
@@ -352,23 +342,23 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
-        "missed": 17,
+        "eligible": 240,
+        "missed": 19,
         "attended": 221,
-        "pct": 92.9,
+        "pct": 92.1,
         "grade": "B",
         "rank": 89,
         "of": 100
       },
       "status": {
-        "status": "PROBABLE",
-        "note": "back on the floor after sitting out 2026-09-15",
+        "status": "OUT",
+        "note": "missed all 2 votes on 2026-09-22",
         "reason": null,
         "detail": null,
-        "since": null,
+        "since": "2026-09-22",
         "last7": {
-          "missed": 4,
-          "total": 7
+          "missed": 5,
+          "total": 8
         }
       }
     },
@@ -382,9 +372,9 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 0,
-        "attended": 238,
+        "attended": 240,
         "pct": 100,
         "grade": "A+",
         "rank": 1,
@@ -402,10 +392,10 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 71,
-        "attended": 167,
-        "pct": 70.2,
+        "attended": 169,
+        "pct": 70.4,
         "grade": "D",
         "rank": 99,
         "of": 100
@@ -422,12 +412,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 19,
-        "attended": 219,
-        "pct": 92,
+        "attended": 221,
+        "pct": 92.1,
         "grade": "B",
-        "rank": 90,
+        "rank": 89,
         "of": 100
       },
       "status": null
@@ -442,9 +432,9 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 1,
-        "attended": 237,
+        "attended": 239,
         "pct": 99.6,
         "grade": "A+",
         "rank": 11,
@@ -462,9 +452,9 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 2,
-        "attended": 236,
+        "attended": 238,
         "pct": 99.2,
         "grade": "A+",
         "rank": 20,
@@ -482,10 +472,10 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 3,
-        "attended": 235,
-        "pct": 98.7,
+        "attended": 237,
+        "pct": 98.8,
         "grade": "A",
         "rank": 29,
         "of": 100
@@ -502,15 +492,25 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
-        "missed": 6,
+        "eligible": 240,
+        "missed": 8,
         "attended": 232,
-        "pct": 97.5,
-        "grade": "A",
-        "rank": 53,
+        "pct": 96.7,
+        "grade": "A-",
+        "rank": 72,
         "of": 100
       },
-      "status": null
+      "status": {
+        "status": "OUT",
+        "note": "missed all 2 votes on 2026-09-22",
+        "reason": null,
+        "detail": null,
+        "since": "2026-09-22",
+        "last7": {
+          "missed": 2,
+          "total": 8
+        }
+      }
     },
     {
       "bioguide": "C000880",
@@ -522,12 +522,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 6,
-        "attended": 232,
+        "attended": 234,
         "pct": 97.5,
         "grade": "A",
-        "rank": 53,
+        "rank": 52,
         "of": 100
       },
       "status": null
@@ -542,12 +542,12 @@
       "district": null,
       "title": "President Pro Tempore of the Senate",
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 20,
-        "attended": 218,
-        "pct": 91.6,
+        "attended": 220,
+        "pct": 91.7,
         "grade": "B",
-        "rank": 93,
+        "rank": 92,
         "of": 100
       },
       "status": null
@@ -562,9 +562,9 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 0,
-        "attended": 238,
+        "attended": 240,
         "pct": 100,
         "grade": "A+",
         "rank": 1,
@@ -582,9 +582,9 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 2,
-        "attended": 236,
+        "attended": 238,
         "pct": 99.2,
         "grade": "A+",
         "rank": 20,
@@ -602,9 +602,9 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 2,
-        "attended": 236,
+        "attended": 238,
         "pct": 99.2,
         "grade": "A+",
         "rank": 20,
@@ -622,12 +622,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 4,
-        "attended": 234,
+        "attended": 236,
         "pct": 98.3,
         "grade": "A",
-        "rank": 39,
+        "rank": 37,
         "of": 100
       },
       "status": null
@@ -642,12 +642,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 4,
-        "attended": 234,
+        "attended": 236,
         "pct": 98.3,
         "grade": "A",
-        "rank": 39,
+        "rank": 37,
         "of": 100
       },
       "status": null
@@ -662,12 +662,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 4,
-        "attended": 234,
+        "attended": 236,
         "pct": 98.3,
         "grade": "A",
-        "rank": 39,
+        "rank": 37,
         "of": 100
       },
       "status": null
@@ -682,12 +682,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 6,
-        "attended": 232,
+        "attended": 234,
         "pct": 97.5,
         "grade": "A",
-        "rank": 53,
+        "rank": 52,
         "of": 100
       },
       "status": null
@@ -702,10 +702,10 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 3,
-        "attended": 235,
-        "pct": 98.7,
+        "attended": 237,
+        "pct": 98.8,
         "grade": "A",
         "rank": 29,
         "of": 100
@@ -722,23 +722,23 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 19,
-        "attended": 219,
-        "pct": 92,
+        "attended": 221,
+        "pct": 92.1,
         "grade": "B",
-        "rank": 90,
+        "rank": 89,
         "of": 100
       },
       "status": {
-        "status": "OUT",
-        "note": "missed all 3 votes on 2026-09-17",
+        "status": "PROBABLE",
+        "note": "back on the floor after sitting out 2026-09-17",
         "reason": null,
         "detail": null,
-        "since": "2026-09-17",
+        "since": null,
         "last7": {
           "missed": 3,
-          "total": 7
+          "total": 8
         }
       }
     },
@@ -752,25 +752,15 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 16,
-        "attended": 222,
+        "attended": 224,
         "pct": 93.3,
         "grade": "B+",
         "rank": 88,
         "of": 100
       },
-      "status": {
-        "status": "PROBABLE",
-        "note": "back on the floor after sitting out 2026-09-14",
-        "reason": null,
-        "detail": null,
-        "since": null,
-        "last7": {
-          "missed": 1,
-          "total": 7
-        }
-      }
+      "status": null
     },
     {
       "bioguide": "M001169",
@@ -782,15 +772,25 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
-        "missed": 3,
+        "eligible": 240,
+        "missed": 5,
         "attended": 235,
-        "pct": 98.7,
+        "pct": 97.9,
         "grade": "A",
-        "rank": 29,
+        "rank": 44,
         "of": 100
       },
-      "status": null
+      "status": {
+        "status": "OUT",
+        "note": "missed all 2 votes on 2026-09-22",
+        "reason": null,
+        "detail": null,
+        "since": "2026-09-22",
+        "last7": {
+          "missed": 2,
+          "total": 8
+        }
+      }
     },
     {
       "bioguide": "M001111",
@@ -802,12 +802,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 7,
-        "attended": 231,
+        "attended": 233,
         "pct": 97.1,
         "grade": "A",
-        "rank": 66,
+        "rank": 65,
         "of": 100
       },
       "status": null
@@ -822,12 +822,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 20,
-        "attended": 218,
-        "pct": 91.6,
+        "attended": 220,
+        "pct": 91.7,
         "grade": "B",
-        "rank": 93,
+        "rank": 92,
         "of": 100
       },
       "status": null
@@ -842,12 +842,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 5,
-        "attended": 233,
+        "attended": 235,
         "pct": 97.9,
         "grade": "A",
-        "rank": 45,
+        "rank": 44,
         "of": 100
       },
       "status": null
@@ -862,12 +862,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 7,
-        "attended": 231,
+        "attended": 233,
         "pct": 97.1,
         "grade": "A",
-        "rank": 66,
+        "rank": 65,
         "of": 100
       },
       "status": null
@@ -882,9 +882,9 @@
       "district": null,
       "title": "Senate Minority Leader",
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 1,
-        "attended": 237,
+        "attended": 239,
         "pct": 99.6,
         "grade": "A+",
         "rank": 11,
@@ -902,12 +902,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 6,
-        "attended": 232,
+        "attended": 234,
         "pct": 97.5,
         "grade": "A",
-        "rank": 53,
+        "rank": 52,
         "of": 100
       },
       "status": null
@@ -922,9 +922,9 @@
       "district": null,
       "title": "Senate Majority Leader",
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 0,
-        "attended": 238,
+        "attended": 240,
         "pct": 100,
         "grade": "A+",
         "rank": 1,
@@ -942,9 +942,9 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 2,
-        "attended": 236,
+        "attended": 238,
         "pct": 99.2,
         "grade": "A+",
         "rank": 20,
@@ -962,12 +962,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 4,
-        "attended": 234,
+        "attended": 236,
         "pct": 98.3,
         "grade": "A",
-        "rank": 39,
+        "rank": 37,
         "of": 100
       },
       "status": null
@@ -982,9 +982,9 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 0,
-        "attended": 238,
+        "attended": 240,
         "pct": 100,
         "grade": "A+",
         "rank": 1,
@@ -1002,9 +1002,9 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 2,
-        "attended": 236,
+        "attended": 238,
         "pct": 99.2,
         "grade": "A+",
         "rank": 20,
@@ -1022,15 +1022,25 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
-        "missed": 3,
-        "attended": 235,
-        "pct": 98.7,
+        "eligible": 240,
+        "missed": 4,
+        "attended": 236,
+        "pct": 98.3,
         "grade": "A",
-        "rank": 29,
+        "rank": 37,
         "of": 100
       },
-      "status": null
+      "status": {
+        "status": "QUESTIONABLE",
+        "note": "missed 1 of 2 votes on 2026-09-22",
+        "reason": null,
+        "detail": null,
+        "since": null,
+        "last7": {
+          "missed": 1,
+          "total": 8
+        }
+      }
     },
     {
       "bioguide": "C001095",
@@ -1042,10 +1052,10 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 3,
-        "attended": 235,
-        "pct": 98.7,
+        "attended": 237,
+        "pct": 98.8,
         "grade": "A",
         "rank": 29,
         "of": 100
@@ -1062,10 +1072,10 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 3,
-        "attended": 235,
-        "pct": 98.7,
+        "attended": 237,
+        "pct": 98.8,
         "grade": "A",
         "rank": 29,
         "of": 100
@@ -1082,9 +1092,9 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 0,
-        "attended": 238,
+        "attended": 240,
         "pct": 100,
         "grade": "A+",
         "rank": 1,
@@ -1102,10 +1112,10 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 3,
-        "attended": 235,
-        "pct": 98.7,
+        "attended": 237,
+        "pct": 98.8,
         "grade": "A",
         "rank": 29,
         "of": 100
@@ -1122,12 +1132,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 8,
-        "attended": 230,
-        "pct": 96.6,
+        "attended": 232,
+        "pct": 96.7,
         "grade": "A-",
-        "rank": 73,
+        "rank": 72,
         "of": 100
       },
       "status": null
@@ -1142,25 +1152,15 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 11,
-        "attended": 227,
+        "attended": 229,
         "pct": 95.4,
         "grade": "A-",
-        "rank": 81,
+        "rank": 80,
         "of": 100
       },
-      "status": {
-        "status": "PROBABLE",
-        "note": "back on the floor after sitting out 2026-09-14",
-        "reason": null,
-        "detail": null,
-        "since": null,
-        "last7": {
-          "missed": 1,
-          "total": 7
-        }
-      }
+      "status": null
     },
     {
       "bioguide": "F000463",
@@ -1172,12 +1172,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 5,
-        "attended": 233,
+        "attended": 235,
         "pct": 97.9,
         "grade": "A",
-        "rank": 45,
+        "rank": 44,
         "of": 100
       },
       "status": null
@@ -1192,12 +1192,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 5,
-        "attended": 233,
+        "attended": 235,
         "pct": 97.9,
         "grade": "A",
-        "rank": 45,
+        "rank": 44,
         "of": 100
       },
       "status": null
@@ -1212,12 +1212,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 5,
-        "attended": 233,
+        "attended": 235,
         "pct": 97.9,
         "grade": "A",
-        "rank": 45,
+        "rank": 44,
         "of": 100
       },
       "status": null
@@ -1232,12 +1232,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 10,
-        "attended": 228,
+        "attended": 230,
         "pct": 95.8,
         "grade": "A-",
-        "rank": 79,
+        "rank": 78,
         "of": 100
       },
       "status": null
@@ -1252,15 +1252,25 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
-        "missed": 19,
+        "eligible": 240,
+        "missed": 21,
         "attended": 219,
-        "pct": 92,
+        "pct": 91.3,
         "grade": "B",
-        "rank": 90,
+        "rank": 94,
         "of": 100
       },
-      "status": null
+      "status": {
+        "status": "OUT",
+        "note": "missed all 2 votes on 2026-09-22",
+        "reason": null,
+        "detail": null,
+        "since": "2026-09-22",
+        "last7": {
+          "missed": 2,
+          "total": 8
+        }
+      }
     },
     {
       "bioguide": "S001198",
@@ -1272,9 +1282,9 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 0,
-        "attended": 238,
+        "attended": 240,
         "pct": 100,
         "grade": "A+",
         "rank": 1,
@@ -1292,12 +1302,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 6,
-        "attended": 232,
+        "attended": 234,
         "pct": 97.5,
         "grade": "A",
-        "rank": 53,
+        "rank": 52,
         "of": 100
       },
       "status": null
@@ -1312,23 +1322,23 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
-        "missed": 31,
-        "attended": 207,
-        "pct": 87,
+        "eligible": 240,
+        "missed": 32,
+        "attended": 208,
+        "pct": 86.7,
         "grade": "C+",
         "rank": 98,
         "of": 100
       },
       "status": {
-        "status": "PROBABLE",
-        "note": "back on the floor after sitting out 2026-09-14",
+        "status": "QUESTIONABLE",
+        "note": "missed 1 of 2 votes on 2026-09-22",
         "reason": null,
         "detail": null,
         "since": null,
         "last7": {
           "missed": 1,
-          "total": 7
+          "total": 8
         }
       }
     },
@@ -1342,12 +1352,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 4,
-        "attended": 234,
+        "attended": 236,
         "pct": 98.3,
         "grade": "A",
-        "rank": 39,
+        "rank": 37,
         "of": 100
       },
       "status": null
@@ -1362,9 +1372,9 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 2,
-        "attended": 236,
+        "attended": 238,
         "pct": 99.2,
         "grade": "A+",
         "rank": 20,
@@ -1382,12 +1392,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 6,
-        "attended": 232,
+        "attended": 234,
         "pct": 97.5,
         "grade": "A",
-        "rank": 53,
+        "rank": 52,
         "of": 100
       },
       "status": null
@@ -1402,9 +1412,9 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 1,
-        "attended": 237,
+        "attended": 239,
         "pct": 99.6,
         "grade": "A+",
         "rank": 11,
@@ -1422,12 +1432,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 4,
-        "attended": 234,
+        "attended": 236,
         "pct": 98.3,
         "grade": "A",
-        "rank": 39,
+        "rank": 37,
         "of": 100
       },
       "status": null
@@ -1442,9 +1452,9 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 2,
-        "attended": 236,
+        "attended": 238,
         "pct": 99.2,
         "grade": "A+",
         "rank": 20,
@@ -1462,25 +1472,15 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 2,
-        "attended": 236,
+        "attended": 238,
         "pct": 99.2,
         "grade": "A+",
         "rank": 20,
         "of": 100
       },
-      "status": {
-        "status": "PROBABLE",
-        "note": "back on the floor after sitting out 2026-09-14",
-        "reason": null,
-        "detail": null,
-        "since": null,
-        "last7": {
-          "missed": 2,
-          "total": 7
-        }
-      }
+      "status": null
     },
     {
       "bioguide": "B001305",
@@ -1492,9 +1492,9 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 2,
-        "attended": 236,
+        "attended": 238,
         "pct": 99.2,
         "grade": "A+",
         "rank": 20,
@@ -1512,10 +1512,10 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 3,
-        "attended": 235,
-        "pct": 98.7,
+        "attended": 237,
+        "pct": 98.8,
         "grade": "A",
         "rank": 29,
         "of": 100
@@ -1532,12 +1532,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 8,
-        "attended": 230,
-        "pct": 96.6,
+        "attended": 232,
+        "pct": 96.7,
         "grade": "A-",
-        "rank": 73,
+        "rank": 72,
         "of": 100
       },
       "status": null
@@ -1552,10 +1552,10 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 9,
-        "attended": 229,
-        "pct": 96.2,
+        "attended": 231,
+        "pct": 96.3,
         "grade": "A-",
         "rank": 77,
         "of": 100
@@ -1572,12 +1572,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 6,
-        "attended": 232,
+        "attended": 234,
         "pct": 97.5,
         "grade": "A",
-        "rank": 53,
+        "rank": 52,
         "of": 100
       },
       "status": null
@@ -1592,10 +1592,10 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 3,
-        "attended": 235,
-        "pct": 98.7,
+        "attended": 237,
+        "pct": 98.8,
         "grade": "A",
         "rank": 29,
         "of": 100
@@ -1612,15 +1612,25 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
-        "missed": 5,
-        "attended": 233,
-        "pct": 97.9,
+        "eligible": 240,
+        "missed": 6,
+        "attended": 234,
+        "pct": 97.5,
         "grade": "A",
-        "rank": 45,
+        "rank": 52,
         "of": 100
       },
-      "status": null
+      "status": {
+        "status": "QUESTIONABLE",
+        "note": "missed 1 of 2 votes on 2026-09-22",
+        "reason": null,
+        "detail": null,
+        "since": null,
+        "last7": {
+          "missed": 1,
+          "total": 8
+        }
+      }
     },
     {
       "bioguide": "S001217",
@@ -1632,9 +1642,9 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 1,
-        "attended": 237,
+        "attended": 239,
         "pct": 99.6,
         "grade": "A+",
         "rank": 11,
@@ -1652,12 +1662,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 6,
-        "attended": 232,
+        "attended": 234,
         "pct": 97.5,
         "grade": "A",
-        "rank": 53,
+        "rank": 52,
         "of": 100
       },
       "status": null
@@ -1672,12 +1682,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 11,
-        "attended": 227,
+        "attended": 229,
         "pct": 95.4,
         "grade": "A-",
-        "rank": 81,
+        "rank": 80,
         "of": 100
       },
       "status": null
@@ -1692,12 +1702,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 8,
-        "attended": 230,
-        "pct": 96.6,
+        "attended": 232,
+        "pct": 96.7,
         "grade": "A-",
-        "rank": 73,
+        "rank": 72,
         "of": 100
       },
       "status": null
@@ -1712,23 +1722,23 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
-        "missed": 30,
-        "attended": 208,
-        "pct": 87.4,
+        "eligible": 240,
+        "missed": 31,
+        "attended": 209,
+        "pct": 87.1,
         "grade": "B-",
         "rank": 97,
         "of": 100
       },
       "status": {
         "status": "QUESTIONABLE",
-        "note": "missed 2 of 3 votes on 2026-09-17",
+        "note": "missed 1 of 2 votes on 2026-09-22",
         "reason": null,
         "detail": null,
         "since": null,
         "last7": {
-          "missed": 2,
-          "total": 7
+          "missed": 3,
+          "total": 8
         }
       }
     },
@@ -1742,9 +1752,9 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 1,
-        "attended": 237,
+        "attended": 239,
         "pct": 99.6,
         "grade": "A+",
         "rank": 11,
@@ -1762,10 +1772,10 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 14,
-        "attended": 224,
-        "pct": 94.1,
+        "attended": 226,
+        "pct": 94.2,
         "grade": "B+",
         "rank": 84,
         "of": 100
@@ -1782,12 +1792,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 5,
-        "attended": 233,
+        "attended": 235,
         "pct": 97.9,
         "grade": "A",
-        "rank": 45,
+        "rank": 44,
         "of": 100
       },
       "status": null
@@ -1802,9 +1812,9 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 1,
-        "attended": 237,
+        "attended": 239,
         "pct": 99.6,
         "grade": "A+",
         "rank": 11,
@@ -1822,12 +1832,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 10,
-        "attended": 228,
+        "attended": 230,
         "pct": 95.8,
         "grade": "A-",
-        "rank": 79,
+        "rank": 78,
         "of": 100
       },
       "status": null
@@ -1842,12 +1852,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 7,
-        "attended": 231,
+        "attended": 233,
         "pct": 97.1,
         "grade": "A",
-        "rank": 66,
+        "rank": 65,
         "of": 100
       },
       "status": null
@@ -1862,25 +1872,15 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 3,
-        "attended": 235,
-        "pct": 98.7,
+        "attended": 237,
+        "pct": 98.8,
         "grade": "A",
         "rank": 29,
         "of": 100
       },
-      "status": {
-        "status": "PROBABLE",
-        "note": "back on the floor after sitting out 2026-09-14",
-        "reason": null,
-        "detail": null,
-        "since": null,
-        "last7": {
-          "missed": 1,
-          "total": 7
-        }
-      }
+      "status": null
     },
     {
       "bioguide": "F000479",
@@ -1892,10 +1892,10 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 14,
-        "attended": 224,
-        "pct": 94.1,
+        "attended": 226,
+        "pct": 94.2,
         "grade": "B+",
         "rank": 84,
         "of": 100
@@ -1912,12 +1912,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 7,
-        "attended": 231,
+        "attended": 233,
         "pct": 97.1,
         "grade": "A",
-        "rank": 66,
+        "rank": 65,
         "of": 100
       },
       "status": null
@@ -1932,12 +1932,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 5,
-        "attended": 233,
+        "attended": 235,
         "pct": 97.9,
         "grade": "A",
-        "rank": 45,
+        "rank": 44,
         "of": 100
       },
       "status": null
@@ -1952,12 +1952,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 6,
-        "attended": 232,
+        "attended": 234,
         "pct": 97.5,
         "grade": "A",
-        "rank": 53,
+        "rank": 52,
         "of": 100
       },
       "status": null
@@ -1972,12 +1972,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 5,
-        "attended": 233,
+        "attended": 235,
         "pct": 97.9,
         "grade": "A",
-        "rank": 45,
+        "rank": 44,
         "of": 100
       },
       "status": null
@@ -1992,12 +1992,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 6,
-        "attended": 232,
+        "attended": 234,
         "pct": 97.5,
         "grade": "A",
-        "rank": 53,
+        "rank": 52,
         "of": 100
       },
       "status": null
@@ -2012,12 +2012,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 11,
-        "attended": 227,
+        "attended": 229,
         "pct": 95.4,
         "grade": "A-",
-        "rank": 81,
+        "rank": 80,
         "of": 100
       },
       "status": null
@@ -2032,9 +2032,9 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 0,
-        "attended": 238,
+        "attended": 240,
         "pct": 100,
         "grade": "A+",
         "rank": 1,
@@ -2052,12 +2052,12 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 238,
+        "eligible": 240,
         "missed": 7,
-        "attended": 231,
+        "attended": 233,
         "pct": 97.1,
         "grade": "A",
-        "rank": 66,
+        "rank": 65,
         "of": 100
       },
       "status": null
@@ -2072,9 +2072,9 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 173,
+        "eligible": 175,
         "missed": 0,
-        "attended": 173,
+        "attended": 175,
         "pct": 100,
         "grade": "A+",
         "rank": 1,
@@ -2092,10 +2092,10 @@
       "district": null,
       "title": null,
       "session": {
-        "eligible": 44,
+        "eligible": 46,
         "missed": 5,
-        "attended": 39,
-        "pct": 88.6,
+        "attended": 41,
+        "pct": 89.1,
         "grade": "B-",
         "rank": 96,
         "of": 100
