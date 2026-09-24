@@ -1,82 +1,82 @@
 {
-  "generatedAt": "2026-09-23T14:48:13.211Z",
-  "reportDate": "2026-09-23",
-  "recordIssueDate": "2026-09-22",
+  "generatedAt": "2026-09-24T14:44:59.749Z",
+  "reportDate": "2026-09-24",
+  "recordIssueDate": "2026-09-23",
   "available": true,
-  "headline": "Senate battles over college athlete NIL rights as Colmenero nomination vote looms!",
+  "headline": "Senate tees up final votes on college sports rights bill while House takes a breather!",
   "chambers": {
     "senate": {
-      "nextMeeting": "Wednesday, September 23 at 10:00 AM",
-      "lastSessionSummary": "The Senate continued debate on the Protect College Sports Act (S. 4668) with multiple amendments pending, securing cloture on the Cruz substitute amendment by 70-21. The chamber also voted 52-43 to close debate on the Colmenero judicial nomination, which will head to a confirmation vote Wednesday afternoon.",
+      "nextMeeting": "Thursday, September 24 at 10:00 AM",
+      "lastSessionSummary": "The Senate passed six bills including the Critical Infrastructure Manufacturing Feasibility Act, New Mexico Land Grant-Mercedes Historical or Traditional Use Cooperation Act, and the Secure Space Act restricting satellite communications with entities on covered lists. The chamber also confirmed U.S. District Judge Angela Veronica Colmenero in a close 50-47 vote and agreed to multiple commemorative resolutions, including honoring former Arizona Senator Jon Llewellyn Kyl.",
       "onTheFloor": [
         {
           "measure": "S. 4668",
           "title": "Protect College Sports Act—regulate name, image, and likeness rights for student athletes",
-          "status": "Thune amendment post-cloture debate continuing Wednesday at 10 a.m."
+          "status": "post-cloture consideration, amendment vote at 10:45 AM, cloture vote expected to follow"
         },
         {
-          "measure": "Colmenero Nomination",
-          "title": "Angela Veronica Colmenero for U.S. District Judge, Southern District of Texas",
-          "status": "Confirmation vote scheduled Wednesday at 2:15 p.m."
+          "measure": "H.R. 1721",
+          "title": "Critical Infrastructure Manufacturing Feasibility Act—direct Commerce Secretary to study U.S. critical infrastructure manufacturing",
+          "status": "passed"
         },
         {
-          "measure": "S. 4429",
-          "title": "Prohibit importation of connected vehicles from foreign adversaries",
-          "status": "Reported from committee with amendment"
+          "measure": "S. 1363",
+          "title": "New Mexico Land Grant-Mercedes Historical or Traditional Use Cooperation and Coordination Act—improve federal-state coordination on land grants",
+          "status": "passed"
         },
         {
-          "measure": "S. 1514",
-          "title": "Place Washington land in trust for Quinault Indian Nation",
-          "status": "Reported from committee with amendments"
+          "measure": "S. 1962",
+          "title": "Secure Space Act—prohibit FCC licenses for satellite systems controlled by entities on covered lists",
+          "status": "passed"
         },
         {
-          "measure": "H.R. 4467",
-          "title": "Modify boundary of Vicksburg National Military Park",
-          "status": "Passed"
+          "measure": "H.R. 2481",
+          "title": "Romance Scam Prevention Act—require dating platforms to notify users of fraud bans",
+          "status": "passed"
         },
         {
-          "measure": "H.R. 952",
-          "title": "Convey reversionary interest in Sacramento, California land",
-          "status": "Passed"
+          "measure": "S. 3404",
+          "title": "Satellite Cybersecurity Act—require federal report on cybersecurity support for commercial satellites",
+          "status": "passed"
         }
       ]
     },
     "house": {
       "nextMeeting": "Thursday, September 24 at 2:30 PM",
-      "lastSessionSummary": "The House was not in session on Tuesday. The chamber will reconvene in Pro Forma session Thursday afternoon.",
+      "lastSessionSummary": "The House was not in session on Wednesday, September 23. The chamber will convene in Pro Forma session on Thursday, a procedural meeting that does not allow legislative business.",
       "onTheFloor": []
     }
   },
   "committees": [
     {
       "chamber": "senate",
-      "committee": "Committee on the Judiciary",
-      "topic": "Standing up for women in sports—ensuring opportunity, fairness and safety for female athletes"
+      "committee": "Committee on Armed Services",
+      "topic": "Budget update on the Department of Defense"
     },
     {
       "chamber": "senate",
-      "committee": "Committee on Environment and Public Works",
-      "topic": "Updating America's nuclear waste management policy"
+      "committee": "Committee on Foreign Relations",
+      "topic": "Nominations hearings for ambassadors to Indonesia, El Salvador, Rwanda, Nicaragua, and Malawi"
+    },
+    {
+      "chamber": "senate",
+      "committee": "Committee on Health, Education, Labor, and Pensions",
+      "topic": "Business meeting on Surgeon General nominee Nicole Saphier and other HHS nominations, plus hearing on Food and Drug Administration Commissioner nominee Heidi Overton"
+    },
+    {
+      "chamber": "senate",
+      "committee": "Committee on Finance",
+      "topic": "Business meeting on Department of Health and Human Services and Treasury nominations"
+    },
+    {
+      "chamber": "senate",
+      "committee": "Committee on the Judiciary",
+      "topic": "Business meeting on Fifth Circuit and District Court judicial nominees and Justice Department nominations"
     },
     {
       "chamber": "senate",
       "committee": "Committee on Armed Services",
-      "topic": "Closed briefing on United States Central Command area of operations update"
-    },
-    {
-      "chamber": "senate",
-      "committee": "Committee on Indian Affairs",
-      "topic": "Reauthorization of Native American Housing Assistance and Self-Determination Act, plus tribal land trust bills"
-    },
-    {
-      "chamber": "senate",
-      "committee": "Subcommittee on Crime and Counterterrorism",
-      "topic": "Flock's nationwide AI surveillance network"
-    },
-    {
-      "chamber": "senate",
-      "committee": "Special Committee on Aging",
-      "topic": "Leveling the playing field—restoring America's edge in generic drug manufacturing"
+      "topic": "Closed briefing on cyber operations and election security readiness"
     }
   ]
 }
