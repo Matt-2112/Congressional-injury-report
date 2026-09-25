@@ -1,82 +1,52 @@
 {
-  "generatedAt": "2026-09-24T14:44:59.749Z",
-  "reportDate": "2026-09-24",
+  "generatedAt": "2026-09-25T15:04:31.256Z",
+  "reportDate": "2026-09-25",
   "recordIssueDate": "2026-09-23",
   "available": true,
-  "headline": "Senate tees up final votes on college sports rights bill while House takes a breather!",
+  "headline": "Senate muscle-flexes student-athlete protections as amendments fly on the college sports bill!",
   "chambers": {
     "senate": {
       "nextMeeting": "Thursday, September 24 at 10:00 AM",
-      "lastSessionSummary": "The Senate passed six bills including the Critical Infrastructure Manufacturing Feasibility Act, New Mexico Land Grant-Mercedes Historical or Traditional Use Cooperation Act, and the Secure Space Act restricting satellite communications with entities on covered lists. The chamber also confirmed U.S. District Judge Angela Veronica Colmenero in a close 50-47 vote and agreed to multiple commemorative resolutions, including honoring former Arizona Senator Jon Llewellyn Kyl.",
+      "lastSessionSummary": "Senate convened at 10 a.m. on Wednesday and spent the day considering amendments to S. 4668, the Protect College Sports Act, with multiple procedural motions and amendments from Senator Thune filed. The chamber passed six bills including the Romance Scam Prevention Act and Secure Space Act, and confirmed Angela Veronica Colmenero as United States District Judge for the Southern District of Texas by a 50-47 vote. Senate adjourned at 7:28 p.m. as a mark of respect to the memory of former Senator Jon Kyl.",
       "onTheFloor": [
         {
           "measure": "S. 4668",
-          "title": "Protect College Sports Act—regulate name, image, and likeness rights for student athletes",
-          "status": "post-cloture consideration, amendment vote at 10:45 AM, cloture vote expected to follow"
-        },
-        {
-          "measure": "H.R. 1721",
-          "title": "Critical Infrastructure Manufacturing Feasibility Act—direct Commerce Secretary to study U.S. critical infrastructure manufacturing",
-          "status": "passed"
-        },
-        {
-          "measure": "S. 1363",
-          "title": "New Mexico Land Grant-Mercedes Historical or Traditional Use Cooperation and Coordination Act—improve federal-state coordination on land grants",
-          "status": "passed"
-        },
-        {
-          "measure": "S. 1962",
-          "title": "Secure Space Act—prohibit FCC licenses for satellite systems controlled by entities on covered lists",
-          "status": "passed"
-        },
-        {
-          "measure": "H.R. 2481",
-          "title": "Romance Scam Prevention Act—require dating platforms to notify users of fraud bans",
-          "status": "passed"
-        },
-        {
-          "measure": "S. 3404",
-          "title": "Satellite Cybersecurity Act—require federal report on cybersecurity support for commercial satellites",
-          "status": "passed"
+          "title": "Protect College Sports Act - protect name, image and likeness rights of student athletes and promote fair competition in college sports",
+          "status": "Thune Amendment No. 6776 pending post-cloture vote at 10:45 a.m. Thursday, September 24"
         }
       ]
     },
     "house": {
       "nextMeeting": "Thursday, September 24 at 2:30 PM",
-      "lastSessionSummary": "The House was not in session on Wednesday, September 23. The chamber will convene in Pro Forma session on Thursday, a procedural meeting that does not allow legislative business.",
+      "lastSessionSummary": "The House was not in session Wednesday. The chamber will meet in Pro Forma session Thursday afternoon at 2:30 p.m.",
       "onTheFloor": []
     }
   },
   "committees": [
     {
       "chamber": "senate",
-      "committee": "Committee on Armed Services",
-      "topic": "Budget update on the Department of Defense"
+      "committee": "Armed Services",
+      "topic": "Closed briefing on Department of Defense budget update at 9:30 a.m. Thursday, September 24"
     },
     {
       "chamber": "senate",
-      "committee": "Committee on Foreign Relations",
-      "topic": "Nominations hearings for ambassadors to Indonesia, El Salvador, Rwanda, Nicaragua, and Malawi"
+      "committee": "Foreign Relations",
+      "topic": "Hearings on ambassador nominations to Indonesia, El Salvador, Rwanda, Nicaragua and Malawi at 9:30 a.m. Thursday, September 24"
     },
     {
       "chamber": "senate",
-      "committee": "Committee on Health, Education, Labor, and Pensions",
-      "topic": "Business meeting on Surgeon General nominee Nicole Saphier and other HHS nominations, plus hearing on Food and Drug Administration Commissioner nominee Heidi Overton"
+      "committee": "Health, Education, Labor, and Pensions",
+      "topic": "Business meeting and hearing on surgeon general nomination, health official nominations, and FAFSA fraud detection system at 10 a.m. and 10:30 a.m. Thursday, September 24"
     },
     {
       "chamber": "senate",
-      "committee": "Committee on Finance",
-      "topic": "Business meeting on Department of Health and Human Services and Treasury nominations"
+      "committee": "Finance",
+      "topic": "Business meeting on HHS and Treasury deputy secretary and officer nominations at 10 a.m. Thursday, September 24"
     },
     {
       "chamber": "senate",
-      "committee": "Committee on the Judiciary",
-      "topic": "Business meeting on Fifth Circuit and District Court judicial nominees and Justice Department nominations"
-    },
-    {
-      "chamber": "senate",
-      "committee": "Committee on Armed Services",
-      "topic": "Closed briefing on cyber operations and election security readiness"
+      "committee": "Judiciary",
+      "topic": "Business meeting on judicial and Department of Justice nominations at 10:15 a.m. Thursday, September 24"
     }
   ]
 }
