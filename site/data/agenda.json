@@ -1,52 +1,88 @@
 {
-  "generatedAt": "2026-09-25T15:04:31.256Z",
-  "reportDate": "2026-09-25",
-  "recordIssueDate": "2026-09-23",
+  "generatedAt": "2026-09-26T14:15:02.639Z",
+  "reportDate": "2026-09-26",
+  "recordIssueDate": "2026-09-24",
   "available": true,
-  "headline": "Senate muscle-flexes student-athlete protections as amendments fly on the college sports bill!",
+  "headline": "Senate passes aviation mental health measures as college sports bill heads toward final vote Monday!",
   "chambers": {
     "senate": {
-      "nextMeeting": "Thursday, September 24 at 10:00 AM",
-      "lastSessionSummary": "Senate convened at 10 a.m. on Wednesday and spent the day considering amendments to S. 4668, the Protect College Sports Act, with multiple procedural motions and amendments from Senator Thune filed. The chamber passed six bills including the Romance Scam Prevention Act and Secure Space Act, and confirmed Angela Veronica Colmenero as United States District Judge for the Southern District of Texas by a 50-47 vote. Senate adjourned at 7:28 p.m. as a mark of respect to the memory of former Senator Jon Kyl.",
+      "nextMeeting": "Monday, September 28 at 3:00 PM",
+      "lastSessionSummary": "The Senate passed two aviation-related bills: the John A. Hauser Mental Health in Aviation Act and the Aviation Medication Transparency Act, both addressing FAA regulations for pilots and air traffic control specialists. The chamber also passed the Lower Elwha Klallam Tribe Project Lands Restoration Act and voted down a war powers resolution on Iran, 49-50.",
       "onTheFloor": [
         {
           "measure": "S. 4668",
-          "title": "Protect College Sports Act - protect name, image and likeness rights of student athletes and promote fair competition in college sports",
-          "status": "Thune Amendment No. 6776 pending post-cloture vote at 10:45 a.m. Thursday, September 24"
+          "title": "Protect College Sports Act - revises name, image, and likeness rules for student athletes and intercollegiate competition",
+          "status": "Post-cloture debate scheduled Monday 4-5:30 PM; vote expected 5:30 PM"
+        },
+        {
+          "measure": "S. 3257",
+          "title": "John A. Hauser Mental Health in Aviation Act - updates FAA regulations for pilots and air traffic controllers with mental health disclosures",
+          "status": "Passed"
+        },
+        {
+          "measure": "S. 3258",
+          "title": "Aviation Medication Transparency Act - requires FAA to publish list of approved medications for airmen and air traffic control specialists",
+          "status": "Passed"
+        },
+        {
+          "measure": "H.R. 2388",
+          "title": "Lower Elwha Klallam Tribe Project Lands Restoration Act - takes federal land in Washington into trust for the tribe",
+          "status": "Passed"
+        },
+        {
+          "measure": "H. Con. Res. 89",
+          "title": "War Powers Resolution measure on Iran hostilities - directs President to remove U.S. forces from conflict",
+          "status": "Failed 49-50"
         }
       ]
     },
     "house": {
-      "nextMeeting": "Thursday, September 24 at 2:30 PM",
-      "lastSessionSummary": "The House was not in session Wednesday. The chamber will meet in Pro Forma session Thursday afternoon at 2:30 p.m.",
-      "onTheFloor": []
+      "nextMeeting": "Monday, September 28 at 12:00 PM",
+      "lastSessionSummary": "The House convened briefly in pro forma session for less than four minutes, conducting no substantive legislative business. The chamber received messages from the Senate and held three bills at the desk.",
+      "onTheFloor": [
+        {
+          "measure": "H.R. 8052",
+          "title": "Veterans Health Administration - requires sterile processing technicians to hold professional certification",
+          "status": "Reported from committee with amendment"
+        },
+        {
+          "measure": "H.R. 5436",
+          "title": "Veteran Education - prohibits educational institutions from withholding transcripts for Post-9/11 GI Bill users",
+          "status": "Reported from committee with amendment"
+        },
+        {
+          "measure": "H.R. 4986",
+          "title": "Student Privacy Protection - requires prior written consent for personal information surveys in schools",
+          "status": "Reported from committee with amendment"
+        }
+      ]
     }
   },
   "committees": [
     {
       "chamber": "senate",
-      "committee": "Armed Services",
-      "topic": "Closed briefing on Department of Defense budget update at 9:30 a.m. Thursday, September 24"
+      "committee": "Committee on Armed Services",
+      "topic": "Closed briefing on Department of Defense budget update"
     },
     {
       "chamber": "senate",
-      "committee": "Foreign Relations",
-      "topic": "Hearings on ambassador nominations to Indonesia, El Salvador, Rwanda, Nicaragua and Malawi at 9:30 a.m. Thursday, September 24"
+      "committee": "Committee on Finance",
+      "topic": "Favorable action on nominations for HHS and IRS leadership positions"
     },
     {
       "chamber": "senate",
-      "committee": "Health, Education, Labor, and Pensions",
-      "topic": "Business meeting and hearing on surgeon general nomination, health official nominations, and FAFSA fraud detection system at 10 a.m. and 10:30 a.m. Thursday, September 24"
+      "committee": "Committee on Foreign Relations",
+      "topic": "Hearing on ambassadorial nominees to Indonesia, Rwanda, El Salvador, Nicaragua, and Malawi"
     },
     {
       "chamber": "senate",
-      "committee": "Finance",
-      "topic": "Business meeting on HHS and Treasury deputy secretary and officer nominations at 10 a.m. Thursday, September 24"
+      "committee": "Committee on Health, Education, Labor, and Pensions",
+      "topic": "Hearing on nomination of Heidi Overton to be FDA Commissioner"
     },
     {
       "chamber": "senate",
-      "committee": "Judiciary",
-      "topic": "Business meeting on judicial and Department of Justice nominations at 10:15 a.m. Thursday, September 24"
+      "committee": "Committee on the Judiciary",
+      "topic": "Favorable action on judicial nominations and Justice Department leadership positions"
     }
   ]
 }
