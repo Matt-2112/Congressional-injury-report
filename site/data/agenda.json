@@ -1,58 +1,58 @@
 {
-  "generatedAt": "2026-09-26T14:15:02.639Z",
-  "reportDate": "2026-09-26",
+  "generatedAt": "2026-09-27T15:02:16.503Z",
+  "reportDate": "2026-09-27",
   "recordIssueDate": "2026-09-24",
   "available": true,
-  "headline": "Senate passes aviation mental health measures as college sports bill heads toward final vote Monday!",
+  "headline": "Senate passes mental health and aviation bills while Protect College Sports Act heads to Monday vote showdown!",
   "chambers": {
     "senate": {
       "nextMeeting": "Monday, September 28 at 3:00 PM",
-      "lastSessionSummary": "The Senate passed two aviation-related bills: the John A. Hauser Mental Health in Aviation Act and the Aviation Medication Transparency Act, both addressing FAA regulations for pilots and air traffic control specialists. The chamber also passed the Lower Elwha Klallam Tribe Project Lands Restoration Act and voted down a war powers resolution on Iran, 49-50.",
+      "lastSessionSummary": "The Senate passed three bills including the John A. Hauser Mental Health in Aviation Act and the Aviation Medication Transparency Act. The chamber also considered the Protect College Sports Act with a cloture vote passing 74-25, setting up a final vote scheduled for Monday at approximately 5:30 PM.",
       "onTheFloor": [
         {
           "measure": "S. 4668",
-          "title": "Protect College Sports Act - revises name, image, and likeness rules for student athletes and intercollegiate competition",
-          "status": "Post-cloture debate scheduled Monday 4-5:30 PM; vote expected 5:30 PM"
+          "title": "Protect College Sports Act - Protects student athlete name, image, and likeness rights and promotes fair competition in college athletics",
+          "status": "Cloture voted 74-25; final passage vote scheduled Monday at 5:30 PM"
         },
         {
           "measure": "S. 3257",
-          "title": "John A. Hauser Mental Health in Aviation Act - updates FAA regulations for pilots and air traffic controllers with mental health disclosures",
+          "title": "John A. Hauser Mental Health in Aviation Act - Revises FAA regulations for individuals disclosing mental health diagnoses in aviation activities",
           "status": "Passed"
         },
         {
           "measure": "S. 3258",
-          "title": "Aviation Medication Transparency Act - requires FAA to publish list of approved medications for airmen and air traffic control specialists",
+          "title": "Aviation Medication Transparency Act - Requires FAA to publish list of medications reviewed for airmen and air traffic control specialists certification",
           "status": "Passed"
         },
         {
           "measure": "H.R. 2388",
-          "title": "Lower Elwha Klallam Tribe Project Lands Restoration Act - takes federal land in Washington into trust for the tribe",
+          "title": "Lower Elwha Klallam Tribe Project Lands Restoration Act - Takes certain federal land in Washington into trust for the Lower Elwha Klallam Tribe",
           "status": "Passed"
         },
         {
           "measure": "H. Con. Res. 89",
-          "title": "War Powers Resolution measure on Iran hostilities - directs President to remove U.S. forces from conflict",
+          "title": "Directs President to remove U.S. Armed Forces from hostilities with Iran under War Powers Resolution",
           "status": "Failed 49-50"
         }
       ]
     },
     "house": {
       "nextMeeting": "Monday, September 28 at 12:00 PM",
-      "lastSessionSummary": "The House convened briefly in pro forma session for less than four minutes, conducting no substantive legislative business. The chamber received messages from the Senate and held three bills at the desk.",
+      "lastSessionSummary": "The House convened briefly at 2:30 PM for a pro forma session, with no votes taken. The chamber adjourned at 2:33 PM. Three bills were reported from committee including measures on veteran healthcare certifications and student educational records.",
       "onTheFloor": [
         {
           "measure": "H.R. 8052",
-          "title": "Veterans Health Administration - requires sterile processing technicians to hold professional certification",
+          "title": "Requires Veterans Health Administration sterile processing technicians to hold appropriate professional certification",
           "status": "Reported from committee with amendment"
         },
         {
           "measure": "H.R. 5436",
-          "title": "Veteran Education - prohibits educational institutions from withholding transcripts for Post-9/11 GI Bill users",
+          "title": "Prohibits educational institutions from withholding transcripts from students using Post-9/11 educational assistance",
           "status": "Reported from committee with amendment"
         },
         {
           "measure": "H.R. 4986",
-          "title": "Student Privacy Protection - requires prior written consent for personal information surveys in schools",
+          "title": "Ensures students are not required to submit surveys revealing personal information without prior written consent",
           "status": "Reported from committee with amendment"
         }
       ]
@@ -67,22 +67,22 @@
     {
       "chamber": "senate",
       "committee": "Committee on Finance",
-      "topic": "Favorable action on nominations for HHS and IRS leadership positions"
+      "topic": "Business meeting - ordered favorable reports on HHS and Treasury nominations"
     },
     {
       "chamber": "senate",
       "committee": "Committee on Foreign Relations",
-      "topic": "Hearing on ambassadorial nominees to Indonesia, Rwanda, El Salvador, Nicaragua, and Malawi"
+      "topic": "Nominations hearing for ambassadors to Indonesia, Rwanda, El Salvador, Nicaragua, and Malawi"
     },
     {
       "chamber": "senate",
       "committee": "Committee on Health, Education, Labor, and Pensions",
-      "topic": "Hearing on nomination of Heidi Overton to be FDA Commissioner"
+      "topic": "Nomination hearing for Commissioner of Food and Drugs"
     },
     {
       "chamber": "senate",
       "committee": "Committee on the Judiciary",
-      "topic": "Favorable action on judicial nominations and Justice Department leadership positions"
+      "topic": "Business meeting - ordered favorable reports on federal judicial and DOJ nominations"
     }
   ]
 }
