@@ -1,59 +1,54 @@
 {
-  "generatedAt": "2026-09-27T15:02:16.503Z",
-  "reportDate": "2026-09-27",
+  "generatedAt": "2026-09-28T18:00:58.397Z",
+  "reportDate": "2026-09-28",
   "recordIssueDate": "2026-09-24",
   "available": true,
-  "headline": "Senate passes mental health and aviation bills while Protect College Sports Act heads to Monday vote showdown!",
+  "headline": "Senate stakes out the home stretch on college sports rights as athletics reform nears a pivotal vote!",
   "chambers": {
     "senate": {
       "nextMeeting": "Monday, September 28 at 3:00 PM",
-      "lastSessionSummary": "The Senate passed three bills including the John A. Hauser Mental Health in Aviation Act and the Aviation Medication Transparency Act. The chamber also considered the Protect College Sports Act with a cloture vote passing 74-25, setting up a final vote scheduled for Monday at approximately 5:30 PM.",
+      "lastSessionSummary": "The Senate cleared major hurdles on the Protect College Sports Act with a 74-25 cloture vote, paving the way for final passage Monday. Members also passed mental health screening reforms for pilots and seafood enforcement legislation.",
       "onTheFloor": [
         {
           "measure": "S. 4668",
-          "title": "Protect College Sports Act - Protects student athlete name, image, and likeness rights and promotes fair competition in college athletics",
-          "status": "Cloture voted 74-25; final passage vote scheduled Monday at 5:30 PM"
+          "title": "Protect College Sports Act - establish uniform rules for student-athlete name, image, and likeness rights and fair competition in college athletics",
+          "status": "Cloture passed 74-25; debate time 4-5:30 PM Monday followed by final vote expected at 5:30 PM"
         },
         {
           "measure": "S. 3257",
-          "title": "John A. Hauser Mental Health in Aviation Act - Revises FAA regulations for individuals disclosing mental health diagnoses in aviation activities",
+          "title": "John A. Hauser Mental Health in Aviation Act - revise FAA regulations for pilots disclosing mental health diagnoses",
           "status": "Passed"
         },
         {
           "measure": "S. 3258",
-          "title": "Aviation Medication Transparency Act - Requires FAA to publish list of medications reviewed for airmen and air traffic control specialists certification",
+          "title": "Aviation Medication Transparency Act - require FAA to publish approved medication list for airmen and controllers",
           "status": "Passed"
         },
         {
           "measure": "H.R. 2388",
-          "title": "Lower Elwha Klallam Tribe Project Lands Restoration Act - Takes certain federal land in Washington into trust for the Lower Elwha Klallam Tribe",
+          "title": "Lower Elwha Klallam Tribe Project Lands Restoration Act - transfer federal land in Washington to tribal trust",
           "status": "Passed"
-        },
-        {
-          "measure": "H. Con. Res. 89",
-          "title": "Directs President to remove U.S. Armed Forces from hostilities with Iran under War Powers Resolution",
-          "status": "Failed 49-50"
         }
       ]
     },
     "house": {
       "nextMeeting": "Monday, September 28 at 12:00 PM",
-      "lastSessionSummary": "The House convened briefly at 2:30 PM for a pro forma session, with no votes taken. The chamber adjourned at 2:33 PM. Three bills were reported from committee including measures on veteran healthcare certifications and student educational records.",
+      "lastSessionSummary": "The House held a brief pro forma session lasting just three minutes, adjourning after introducing 85 bills and 15 resolutions related to veterans affairs, education, and student protections.",
       "onTheFloor": [
         {
           "measure": "H.R. 8052",
-          "title": "Requires Veterans Health Administration sterile processing technicians to hold appropriate professional certification",
-          "status": "Reported from committee with amendment"
+          "title": "Veterans Health Administration sterile processing technician certification requirement",
+          "status": "Reported with amendment"
         },
         {
           "measure": "H.R. 5436",
-          "title": "Prohibits educational institutions from withholding transcripts from students using Post-9/11 educational assistance",
-          "status": "Reported from committee with amendment"
+          "title": "Prohibit educational institutions from withholding transcripts from students using Post-9/11 GI Bill benefits",
+          "status": "Reported with amendment"
         },
         {
           "measure": "H.R. 4986",
-          "title": "Ensures students are not required to submit surveys revealing personal information without prior written consent",
-          "status": "Reported from committee with amendment"
+          "title": "Protect students from personal surveys and evaluations without parental written consent",
+          "status": "Reported with amendment"
         }
       ]
     }
@@ -67,22 +62,22 @@
     {
       "chamber": "senate",
       "committee": "Committee on Finance",
-      "topic": "Business meeting - ordered favorable reports on HHS and Treasury nominations"
+      "topic": "Business meeting on HHS and Treasury nominations"
     },
     {
       "chamber": "senate",
       "committee": "Committee on Foreign Relations",
-      "topic": "Nominations hearing for ambassadors to Indonesia, Rwanda, El Salvador, Nicaragua, and Malawi"
+      "topic": "Concluded hearing on ambassador nominations to Indonesia, Rwanda, El Salvador, Nicaragua, and Malawi"
     },
     {
       "chamber": "senate",
       "committee": "Committee on Health, Education, Labor, and Pensions",
-      "topic": "Nomination hearing for Commissioner of Food and Drugs"
+      "topic": "Concluded hearing on FDA Commissioner nominee Heidi Overton"
     },
     {
       "chamber": "senate",
       "committee": "Committee on the Judiciary",
-      "topic": "Business meeting - ordered favorable reports on federal judicial and DOJ nominations"
+      "topic": "Business meeting on federal judge and Justice Department nominations"
     }
   ]
 }
