@@ -1,83 +1,82 @@
 {
-  "generatedAt": "2026-09-28T18:00:58.397Z",
-  "reportDate": "2026-09-28",
-  "recordIssueDate": "2026-09-24",
+  "generatedAt": "2026-09-29T16:24:16.756Z",
+  "reportDate": "2026-09-29",
+  "recordIssueDate": "2026-09-28",
   "available": true,
-  "headline": "Senate stakes out the home stretch on college sports rights as athletics reform nears a pivotal vote!",
+  "headline": "Senate dominates the scoreboard with college sports legislation, as Protect College Sports Act clears 77-22!",
   "chambers": {
     "senate": {
-      "nextMeeting": "Monday, September 28 at 3:00 PM",
-      "lastSessionSummary": "The Senate cleared major hurdles on the Protect College Sports Act with a 74-25 cloture vote, paving the way for final passage Monday. Members also passed mental health screening reforms for pilots and seafood enforcement legislation.",
+      "nextMeeting": "Tuesday, September 29 at 10:00 AM",
+      "lastSessionSummary": "The Senate passed the Protect College Sports Act (S. 4668) by a vote of 77-22, protecting student-athlete name, image, and likeness rights while regulating conference mergers. The chamber also passed eight additional bills including food safety, counterterrorism insurance reauthorization, and ALS therapy access improvements, honored former Senator Nancy Kassebaum with a resolution, and set up cloture votes on two pending measures for later in the week.",
       "onTheFloor": [
         {
           "measure": "S. 4668",
-          "title": "Protect College Sports Act - establish uniform rules for student-athlete name, image, and likeness rights and fair competition in college athletics",
-          "status": "Cloture passed 74-25; debate time 4-5:30 PM Monday followed by final vote expected at 5:30 PM"
+          "title": "Protect College Sports Act - safeguard student-athlete NIL rights and regulate intercollegiate athletics competition",
+          "status": "passed 77-22"
         },
         {
-          "measure": "S. 3257",
-          "title": "John A. Hauser Mental Health in Aviation Act - revise FAA regulations for pilots disclosing mental health diagnoses",
-          "status": "Passed"
+          "measure": "H.R. 10167",
+          "title": "Common Cents Act - end penny minting and round cash transactions to nearest 5 cents",
+          "status": "passed"
         },
         {
-          "measure": "S. 3258",
-          "title": "Aviation Medication Transparency Act - require FAA to publish approved medication list for airmen and controllers",
-          "status": "Passed"
+          "measure": "S. 2339",
+          "title": "Children's Health Protection Act - reauthorize Young Women's Breast Health Education program",
+          "status": "passed"
         },
         {
-          "measure": "H.R. 2388",
-          "title": "Lower Elwha Klallam Tribe Project Lands Restoration Act - transfer federal land in Washington to tribal trust",
-          "status": "Passed"
+          "measure": "H.R. 8205",
+          "title": "Accelerating Access to Critical Therapies for ALS Reauthorization Act - extend ALS therapy provisions through 2031",
+          "status": "passed"
+        },
+        {
+          "measure": "S. 4009",
+          "title": "Falun Gong and Victims of Forced Organ Harvesting Protection Act - impose sanctions on China for forced organ harvesting",
+          "status": "passed"
+        },
+        {
+          "measure": "S. 4974",
+          "title": "Making America's Food Safer Act - strengthen food safety regulations under FDA",
+          "status": "passed"
+        },
+        {
+          "measure": "S. 4395",
+          "title": "Terrorism Risk Insurance Program Reauthorization Act - extend terrorism risk coverage for 2002 act",
+          "status": "passed"
+        },
+        {
+          "measure": "H.R. 7008",
+          "title": "Stop Insider Trading Act - restrict stock trading by members of Congress and their families",
+          "status": "cloture vote scheduled Wednesday, September 30"
         }
       ]
     },
     "house": {
-      "nextMeeting": "Monday, September 28 at 12:00 PM",
-      "lastSessionSummary": "The House held a brief pro forma session lasting just three minutes, adjourning after introducing 85 bills and 15 resolutions related to veterans affairs, education, and student protections.",
-      "onTheFloor": [
-        {
-          "measure": "H.R. 8052",
-          "title": "Veterans Health Administration sterile processing technician certification requirement",
-          "status": "Reported with amendment"
-        },
-        {
-          "measure": "H.R. 5436",
-          "title": "Prohibit educational institutions from withholding transcripts from students using Post-9/11 GI Bill benefits",
-          "status": "Reported with amendment"
-        },
-        {
-          "measure": "H.R. 4986",
-          "title": "Protect students from personal surveys and evaluations without parental written consent",
-          "status": "Reported with amendment"
-        }
-      ]
+      "nextMeeting": "Thursday, October 1 at 11:30 AM",
+      "lastSessionSummary": "The House convened briefly at noon and adjourned at 12:02 p.m. after routine business including reading remarks from Speaker pro tempore and the Minority Leader's appointment to the Independent Mexico Labor Expert Board. No votes or quorum calls were held.",
+      "onTheFloor": []
     }
   },
   "committees": [
     {
       "chamber": "senate",
-      "committee": "Committee on Armed Services",
-      "topic": "Closed briefing on Department of Defense budget update"
-    },
-    {
-      "chamber": "senate",
-      "committee": "Committee on Finance",
-      "topic": "Business meeting on HHS and Treasury nominations"
-    },
-    {
-      "chamber": "senate",
-      "committee": "Committee on Foreign Relations",
-      "topic": "Concluded hearing on ambassador nominations to Indonesia, Rwanda, El Salvador, Nicaragua, and Malawi"
-    },
-    {
-      "chamber": "senate",
-      "committee": "Committee on Health, Education, Labor, and Pensions",
-      "topic": "Concluded hearing on FDA Commissioner nominee Heidi Overton"
-    },
-    {
-      "chamber": "senate",
       "committee": "Committee on the Judiciary",
-      "topic": "Business meeting on federal judge and Justice Department nominations"
+      "topic": "Oversight hearings on Jack Smith's authority and related matters"
+    },
+    {
+      "chamber": "senate",
+      "committee": "Committee on Armed Services, Subcommittee on Strategic Forces",
+      "topic": "Hearings on an update to Golden Dome"
+    },
+    {
+      "chamber": "senate",
+      "committee": "Committee on the Judiciary, Subcommittee on Intellectual Property",
+      "topic": "Oversight hearings on the United States Patent and Trademark Office"
+    },
+    {
+      "chamber": "senate",
+      "committee": "Select Committee on Intelligence",
+      "topic": "Closed briefing on certain intelligence matters"
     }
   ]
 }
