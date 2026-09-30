@@ -1,82 +1,92 @@
 {
-  "generatedAt": "2026-09-29T16:24:16.756Z",
-  "reportDate": "2026-09-29",
-  "recordIssueDate": "2026-09-28",
+  "generatedAt": "2026-09-30T16:19:27.235Z",
+  "reportDate": "2026-09-30",
+  "recordIssueDate": "2026-09-29",
   "available": true,
-  "headline": "Senate dominates the scoreboard with college sports legislation, as Protect College Sports Act clears 77-22!",
+  "headline": "Senate passes historic slate of conservation bills while House stays dark; cloture votes on Insider Trading Act and Labor Secretary set for Wednesday",
   "chambers": {
     "senate": {
-      "nextMeeting": "Tuesday, September 29 at 10:00 AM",
-      "lastSessionSummary": "The Senate passed the Protect College Sports Act (S. 4668) by a vote of 77-22, protecting student-athlete name, image, and likeness rights while regulating conference mergers. The chamber also passed eight additional bills including food safety, counterterrorism insurance reauthorization, and ALS therapy access improvements, honored former Senator Nancy Kassebaum with a resolution, and set up cloture votes on two pending measures for later in the week.",
+      "nextMeeting": "Wednesday, September 30 at 10:15 AM",
+      "lastSessionSummary": "The Senate passed 14 bills Tuesday, including major conservation legislation designating wilderness areas and national parks across multiple states. Votes on two nominations and healthcare regulations failed along party lines, while the chamber advanced toward cloture votes on the Stop Insider Trading Act, the Ratepayer Protection Act, and Keith Sonderling's nomination for Labor Secretary, all scheduled for Wednesday.",
       "onTheFloor": [
         {
-          "measure": "S. 4668",
-          "title": "Protect College Sports Act - safeguard student-athlete NIL rights and regulate intercollegiate athletics competition",
-          "status": "passed 77-22"
-        },
-        {
-          "measure": "H.R. 10167",
-          "title": "Common Cents Act - end penny minting and round cash transactions to nearest 5 cents",
-          "status": "passed"
-        },
-        {
-          "measure": "S. 2339",
-          "title": "Children's Health Protection Act - reauthorize Young Women's Breast Health Education program",
-          "status": "passed"
-        },
-        {
-          "measure": "H.R. 8205",
-          "title": "Accelerating Access to Critical Therapies for ALS Reauthorization Act - extend ALS therapy provisions through 2031",
-          "status": "passed"
-        },
-        {
-          "measure": "S. 4009",
-          "title": "Falun Gong and Victims of Forced Organ Harvesting Protection Act - impose sanctions on China for forced organ harvesting",
-          "status": "passed"
-        },
-        {
-          "measure": "S. 4974",
-          "title": "Making America's Food Safer Act - strengthen food safety regulations under FDA",
-          "status": "passed"
-        },
-        {
-          "measure": "S. 4395",
-          "title": "Terrorism Risk Insurance Program Reauthorization Act - extend terrorism risk coverage for 2002 act",
-          "status": "passed"
-        },
-        {
           "measure": "H.R. 7008",
-          "title": "Stop Insider Trading Act - restrict stock trading by members of Congress and their families",
-          "status": "cloture vote scheduled Wednesday, September 30"
+          "title": "Stop Insider Trading Act",
+          "status": "cloture vote scheduled Wednesday"
+        },
+        {
+          "measure": "H.R. 9340",
+          "title": "Ratepayer Protection Act",
+          "status": "cloture vote scheduled Wednesday"
+        },
+        {
+          "measure": "Keith Sonderling nomination",
+          "title": "Nomination to be Secretary of Labor",
+          "status": "cloture vote scheduled Wednesday"
+        },
+        {
+          "measure": "S. 3383",
+          "title": "Unlocking Native Lands and Opportunities for Commerce and Key Economic Developments Act",
+          "status": "passed with amendment"
+        },
+        {
+          "measure": "S. 5045",
+          "title": "Wildfire Emissions Prevention Act",
+          "status": "passed"
+        },
+        {
+          "measure": "S. 528",
+          "title": "GLRI Act - Great Lakes Restoration Initiative reauthorization",
+          "status": "passed with amendment"
+        },
+        {
+          "measure": "H.R. 5284",
+          "title": "Claiming Age Clarity Act - Social Security terminology reform",
+          "status": "passed"
+        },
+        {
+          "measure": "H.R. 1190",
+          "title": "Expanding Access to Capital for Rural Job Creators Act",
+          "status": "passed"
         }
       ]
     },
     "house": {
       "nextMeeting": "Thursday, October 1 at 11:30 AM",
-      "lastSessionSummary": "The House convened briefly at noon and adjourned at 12:02 p.m. after routine business including reading remarks from Speaker pro tempore and the Minority Leader's appointment to the Independent Mexico Labor Expert Board. No votes or quorum calls were held.",
+      "lastSessionSummary": "The House did not meet on Tuesday and will only hold a pro forma session on Thursday, October 1, maintaining minimal business during the recess period.",
       "onTheFloor": []
     }
   },
   "committees": [
     {
       "chamber": "senate",
+      "committee": "Committee on Energy and Natural Resources",
+      "topic": "Business meeting on conservation, wilderness areas, and energy infrastructure across 80+ bills"
+    },
+    {
+      "chamber": "senate",
+      "committee": "Committee on Foreign Relations",
+      "topic": "Confirmation hearings for ambassadors to Tonga, Chad, Bulgaria, Madagascar, and Mauritania"
+    },
+    {
+      "chamber": "senate",
+      "committee": "Committee on Health, Education, Labor, and Pensions",
+      "topic": "Business meeting on nominations for Surgeon General, Mental Health Assistant Secretary, and other HHS positions"
+    },
+    {
+      "chamber": "senate",
       "committee": "Committee on the Judiciary",
-      "topic": "Oversight hearings on Jack Smith's authority and related matters"
+      "topic": "Hearings on pending nominations"
     },
     {
       "chamber": "senate",
-      "committee": "Committee on Armed Services, Subcommittee on Strategic Forces",
-      "topic": "Hearings on an update to Golden Dome"
-    },
-    {
-      "chamber": "senate",
-      "committee": "Committee on the Judiciary, Subcommittee on Intellectual Property",
-      "topic": "Oversight hearings on the United States Patent and Trademark Office"
+      "committee": "Subcommittee on Disaster Management, District of Columbia, and Census",
+      "topic": "Hearings on rogue AI and homeland security threats from AI agents"
     },
     {
       "chamber": "senate",
       "committee": "Select Committee on Intelligence",
-      "topic": "Closed briefing on certain intelligence matters"
+      "topic": "Closed briefing on intelligence matters"
     }
   ]
 }
