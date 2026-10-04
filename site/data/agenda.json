@@ -1,32 +1,26 @@
 {
-  "generatedAt": "2026-10-04T00:38:20.476Z",
-  "reportDate": "2026-10-03",
+  "generatedAt": "2026-10-04T15:11:52.310Z",
+  "reportDate": "2026-10-04",
   "recordIssueDate": "2026-10-01",
   "available": true,
-  "headline": "Both chambers go pro forma to close out the week, with limited action on the floor.",
+  "headline": "Congress hits pause with both chambers gaveling down to skeleton crews as they recess into next week.",
   "chambers": {
     "senate": {
       "nextMeeting": "Monday, October 5 at 4:00 PM",
-      "lastSessionSummary": "The Senate met in pro forma session on Thursday morning, October 1, adjourning almost immediately after convening at 10:30 a.m. No votes or substantive business was conducted.",
+      "lastSessionSummary": "The Senate convened in pro forma session on Thursday, October 1, conducting only routine business before adjourning for the recess period. No substantive legislative action took place.",
       "onTheFloor": []
     },
     "house": {
       "nextMeeting": "Monday, October 5 at 4:30 PM",
-      "lastSessionSummary": "The House met in pro forma session on Thursday, October 1, with minimal floor activity. Eighty public bills and 17 resolutions were introduced, and one committee report on traumatic brain injury research grants was filed, but no votes were recorded.",
-      "onTheFloor": [
-        {
-          "measure": "H.R. 6993",
-          "title": "Veterans Affairs grant program for traumatic brain injury and neurorehabilitation research clinical trials",
-          "status": "committee report filed (H. Rept. 119-838)"
-        }
-      ]
+      "lastSessionSummary": "The House met briefly on Thursday, October 1, for a pro forma session lasting just three minutes. Eighty new bills and 17 resolutions were introduced, and a report on veteran traumatic brain injury research grants was filed, but no floor votes occurred.",
+      "onTheFloor": []
     }
   },
   "committees": [
     {
       "chamber": "senate",
       "committee": "Banking, Housing, and Urban Affairs",
-      "topic": "Nomination hearing concluding for Treasury Assistant Secretary Jeremy Wiggins, HUD Assistant Secretary Matthew Jones, and Export-Import Bank officials David Slade and Michael Rigas"
+      "topic": "Nominations hearing for Assistant Secretaries and Export-Import Bank officials"
     }
   ]
 }
