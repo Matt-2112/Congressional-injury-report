@@ -5,7 +5,9 @@
 // January, enough of the previous session to cover the status window.
 // Per-vote XML is immutable and cached on disk, so only new rolls hit the
 // network on repeat runs.
-import { asArray, congressForYear, fetchCached, log, pMap, toIsoDate, xml } from "./lib.js";
+import { unlink } from "node:fs/promises";
+import path from "node:path";
+import { asArray, CACHE_DIR, congressForYear, fetchCached, log, pMap, toIsoDate, xml } from "./lib.js";
 
 export const VOTE_DAYS = 10; // status window: streaks + 7-day lookback
 
@@ -181,11 +183,22 @@ async function houseRollExists(year, roll) {
 
 async function houseRollText(year, roll) {
   const num = String(roll).padStart(3, "0");
-  return fetchCached(
+  const cacheKey = `house/${year}/roll${num}.xml`;
+  const text = await fetchCached(
     `https://clerk.house.gov/evs/${year}/roll${num}.xml`,
-    `house/${year}/roll${num}.xml`,
+    cacheKey,
     { allow404: true }
   );
+  // The Clerk sometimes serves a 200 placeholder for rolls it hasn't finished
+  // processing (e.g. `<xml>Error sanitizing file "roll315.xml"...</xml>`).
+  // Treat anything that isn't a real roll-call document as not-yet-available,
+  // and don't let the placeholder poison the cache (house rolls are trusted
+  // forever) — a later run should pick up the vote once the Clerk fixes it.
+  if (text && !text.includes("<rollcall-vote")) {
+    await unlink(path.join(CACHE_DIR, cacheKey)).catch(() => {});
+    return null;
+  }
+  return text;
 }
 
 async function houseRoll(year, roll) {
