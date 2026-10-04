@@ -1,92 +1,32 @@
 {
-  "generatedAt": "2026-09-30T16:19:27.235Z",
-  "reportDate": "2026-09-30",
-  "recordIssueDate": "2026-09-29",
+  "generatedAt": "2026-10-04T00:38:20.476Z",
+  "reportDate": "2026-10-03",
+  "recordIssueDate": "2026-10-01",
   "available": true,
-  "headline": "Senate passes historic slate of conservation bills while House stays dark; cloture votes on Insider Trading Act and Labor Secretary set for Wednesday",
+  "headline": "Both chambers go pro forma to close out the week, with limited action on the floor.",
   "chambers": {
     "senate": {
-      "nextMeeting": "Wednesday, September 30 at 10:15 AM",
-      "lastSessionSummary": "The Senate passed 14 bills Tuesday, including major conservation legislation designating wilderness areas and national parks across multiple states. Votes on two nominations and healthcare regulations failed along party lines, while the chamber advanced toward cloture votes on the Stop Insider Trading Act, the Ratepayer Protection Act, and Keith Sonderling's nomination for Labor Secretary, all scheduled for Wednesday.",
-      "onTheFloor": [
-        {
-          "measure": "H.R. 7008",
-          "title": "Stop Insider Trading Act",
-          "status": "cloture vote scheduled Wednesday"
-        },
-        {
-          "measure": "H.R. 9340",
-          "title": "Ratepayer Protection Act",
-          "status": "cloture vote scheduled Wednesday"
-        },
-        {
-          "measure": "Keith Sonderling nomination",
-          "title": "Nomination to be Secretary of Labor",
-          "status": "cloture vote scheduled Wednesday"
-        },
-        {
-          "measure": "S. 3383",
-          "title": "Unlocking Native Lands and Opportunities for Commerce and Key Economic Developments Act",
-          "status": "passed with amendment"
-        },
-        {
-          "measure": "S. 5045",
-          "title": "Wildfire Emissions Prevention Act",
-          "status": "passed"
-        },
-        {
-          "measure": "S. 528",
-          "title": "GLRI Act - Great Lakes Restoration Initiative reauthorization",
-          "status": "passed with amendment"
-        },
-        {
-          "measure": "H.R. 5284",
-          "title": "Claiming Age Clarity Act - Social Security terminology reform",
-          "status": "passed"
-        },
-        {
-          "measure": "H.R. 1190",
-          "title": "Expanding Access to Capital for Rural Job Creators Act",
-          "status": "passed"
-        }
-      ]
+      "nextMeeting": "Monday, October 5 at 4:00 PM",
+      "lastSessionSummary": "The Senate met in pro forma session on Thursday morning, October 1, adjourning almost immediately after convening at 10:30 a.m. No votes or substantive business was conducted.",
+      "onTheFloor": []
     },
     "house": {
-      "nextMeeting": "Thursday, October 1 at 11:30 AM",
-      "lastSessionSummary": "The House did not meet on Tuesday and will only hold a pro forma session on Thursday, October 1, maintaining minimal business during the recess period.",
-      "onTheFloor": []
+      "nextMeeting": "Monday, October 5 at 4:30 PM",
+      "lastSessionSummary": "The House met in pro forma session on Thursday, October 1, with minimal floor activity. Eighty public bills and 17 resolutions were introduced, and one committee report on traumatic brain injury research grants was filed, but no votes were recorded.",
+      "onTheFloor": [
+        {
+          "measure": "H.R. 6993",
+          "title": "Veterans Affairs grant program for traumatic brain injury and neurorehabilitation research clinical trials",
+          "status": "committee report filed (H. Rept. 119-838)"
+        }
+      ]
     }
   },
   "committees": [
     {
       "chamber": "senate",
-      "committee": "Committee on Energy and Natural Resources",
-      "topic": "Business meeting on conservation, wilderness areas, and energy infrastructure across 80+ bills"
-    },
-    {
-      "chamber": "senate",
-      "committee": "Committee on Foreign Relations",
-      "topic": "Confirmation hearings for ambassadors to Tonga, Chad, Bulgaria, Madagascar, and Mauritania"
-    },
-    {
-      "chamber": "senate",
-      "committee": "Committee on Health, Education, Labor, and Pensions",
-      "topic": "Business meeting on nominations for Surgeon General, Mental Health Assistant Secretary, and other HHS positions"
-    },
-    {
-      "chamber": "senate",
-      "committee": "Committee on the Judiciary",
-      "topic": "Hearings on pending nominations"
-    },
-    {
-      "chamber": "senate",
-      "committee": "Subcommittee on Disaster Management, District of Columbia, and Census",
-      "topic": "Hearings on rogue AI and homeland security threats from AI agents"
-    },
-    {
-      "chamber": "senate",
-      "committee": "Select Committee on Intelligence",
-      "topic": "Closed briefing on intelligence matters"
+      "committee": "Banking, Housing, and Urban Affairs",
+      "topic": "Nomination hearing concluding for Treasury Assistant Secretary Jeremy Wiggins, HUD Assistant Secretary Matthew Jones, and Export-Import Bank officials David Slade and Michael Rigas"
     }
   ]
 }
