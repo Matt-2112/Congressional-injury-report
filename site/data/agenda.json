@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-10-04T15:11:52.310Z",
-  "reportDate": "2026-10-04",
+  "generatedAt": "2026-10-05T19:08:48.834Z",
+  "reportDate": "2026-10-05",
   "recordIssueDate": "2026-10-01",
   "available": true,
-  "headline": "Congress hits pause with both chambers gaveling down to skeleton crews as they recess into next week.",
+  "headline": "Congress takes a pro forma breather as both chambers reconvene Monday for brief sessions.",
   "chambers": {
     "senate": {
       "nextMeeting": "Monday, October 5 at 4:00 PM",
-      "lastSessionSummary": "The Senate convened in pro forma session on Thursday, October 1, conducting only routine business before adjourning for the recess period. No substantive legislative action took place.",
+      "lastSessionSummary": "The Senate met in pro forma session on October 1, convening for just 35 seconds before adjourning until Monday. The Banking, Housing, and Urban Affairs Committee concluded hearings on four Trump administration nominees for Treasury, HUD, and Export-Import Bank positions.",
       "onTheFloor": []
     },
     "house": {
       "nextMeeting": "Monday, October 5 at 4:30 PM",
-      "lastSessionSummary": "The House met briefly on Thursday, October 1, for a pro forma session lasting just three minutes. Eighty new bills and 17 resolutions were introduced, and a report on veteran traumatic brain injury research grants was filed, but no floor votes occurred.",
+      "lastSessionSummary": "The House met briefly on October 1 for just three minutes. Eighty public bills were introduced, along with one private bill and 17 resolutions. The chamber approved a committee report on H.R. 6993, legislation directing the VA to fund traumatic brain injury research programs.",
       "onTheFloor": []
     }
   },
   "committees": [
     {
       "chamber": "senate",
-      "committee": "Banking, Housing, and Urban Affairs",
-      "topic": "Nominations hearing for Assistant Secretaries and Export-Import Bank officials"
+      "committee": "Committee on Banking, Housing, and Urban Affairs",
+      "topic": "Nominations hearings for Treasury, HUD, and Export-Import Bank officials"
     }
   ]
 }
