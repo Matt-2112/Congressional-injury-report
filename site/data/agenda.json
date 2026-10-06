@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-10-05T19:08:48.834Z",
-  "reportDate": "2026-10-05",
-  "recordIssueDate": "2026-10-01",
+  "generatedAt": "2026-10-06T16:35:55.897Z",
+  "reportDate": "2026-10-06",
+  "recordIssueDate": "2026-10-05",
   "available": true,
-  "headline": "Congress takes a pro forma breather as both chambers reconvene Monday for brief sessions.",
+  "headline": "Congress lights out for a Monday with pro forma sessions and committee silence, but 30 new bills hit the House floor on tap.",
   "chambers": {
     "senate": {
-      "nextMeeting": "Monday, October 5 at 4:00 PM",
-      "lastSessionSummary": "The Senate met in pro forma session on October 1, convening for just 35 seconds before adjourning until Monday. The Banking, Housing, and Urban Affairs Committee concluded hearings on four Trump administration nominees for Treasury, HUD, and Export-Import Bank positions.",
+      "nextMeeting": "Tuesday, October 6 at 1:30 PM",
+      "lastSessionSummary": "The Senate convened briefly at 4:00 p.m. for a pro forma session, conducting minimal formal business before adjourning. No substantive floor action occurred.",
       "onTheFloor": []
     },
     "house": {
-      "nextMeeting": "Monday, October 5 at 4:30 PM",
-      "lastSessionSummary": "The House met briefly on October 1 for just three minutes. Eighty public bills were introduced, along with one private bill and 17 resolutions. The chamber approved a committee report on H.R. 6993, legislation directing the VA to fund traumatic brain injury research programs.",
-      "onTheFloor": []
+      "nextMeeting": "Tuesday, October 6 at 4:00 PM",
+      "lastSessionSummary": "The House met for just three minutes, from 4:30 p.m. to 4:33 p.m., in a brief pro forma session with no votes recorded. Speaker Thompson (PA) was appointed as Speaker pro tempore, and 30 new bills plus 11 resolutions were introduced.",
+      "onTheFloor": [
+        {
+          "measure": "H.R. 2283",
+          "title": "Veterans mental health grant program to support culturally competent care at outpatient facilities",
+          "status": "Report filed with amendment (H. Rept. 119-839)"
+        }
+      ]
     }
   },
-  "committees": [
-    {
-      "chamber": "senate",
-      "committee": "Committee on Banking, Housing, and Urban Affairs",
-      "topic": "Nominations hearings for Treasury, HUD, and Export-Import Bank officials"
-    }
-  ]
+  "committees": []
 }
