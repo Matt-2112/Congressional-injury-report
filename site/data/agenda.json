@@ -1,19 +1,30 @@
 {
-  "generatedAt": "2026-10-07T17:21:07.501Z",
-  "reportDate": "2026-10-07",
+  "generatedAt": "2026-10-08T17:17:28.593Z",
+  "reportDate": "2026-10-08",
   "recordIssueDate": "2026-10-06",
   "available": true,
-  "headline": "Congress goes quiet on the road to Election Day—both chambers in pro forma mode Friday.",
+  "headline": "Congress in cruise control: both chambers convening only for pro forma sessions this week as business grinds to a halt",
   "chambers": {
     "senate": {
       "nextMeeting": "Friday, October 9 at 1:30 PM",
-      "lastSessionSummary": "The Senate held a pro forma session on Tuesday, October 6, meeting for just 33 seconds at 1:31 p.m. and immediately adjourning. No legislative business was conducted; the chamber is in recess mode.",
+      "lastSessionSummary": "The Senate met in pro forma session on Tuesday, October 6, convening at 1:31 p.m. and adjourning just 33 seconds later. No legislative business was conducted.",
       "onTheFloor": []
     },
     "house": {
       "nextMeeting": "Friday, October 9 at 12:30 PM",
-      "lastSessionSummary": "The House held a brief session on Tuesday, October 6, lasting just 2 minutes. Seventeen new bills (H.R. 10751–10767) and five resolutions were introduced. Two committee reports filed on veterans' appeals and cemetery administration matters. No votes were taken.",
-      "onTheFloor": []
+      "lastSessionSummary": "The House met in brief session on Tuesday, October 6, adjourning after just two minutes. Seventeen public bills and five resolutions were introduced, and committee reports on veterans affairs matters were filed, but no votes were taken.",
+      "onTheFloor": [
+        {
+          "measure": "H.R. 6698",
+          "title": "Require the Board of Veterans' Appeals to identify factors contributing to untimely disposition and remand of appeals",
+          "status": "reported from committee"
+        },
+        {
+          "measure": "H.R. 7260",
+          "title": "Require the Secretary of Veterans Affairs to submit annual report on the National Cemetery Administration",
+          "status": "reported from committee"
+        }
+      ]
     }
   },
   "committees": []
