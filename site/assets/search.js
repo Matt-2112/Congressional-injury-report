@@ -1,5 +1,6 @@
 // Member search: lazy-loads members.json on first focus, filters by name,
-// state, or seat (e.g. "D-CO"). A 5-digit query is treated as a ZIP code and
+// state (code or full name), or seat (e.g. "D-CO"). A full state name lists
+// that state's whole delegation. A 5-digit query is treated as a ZIP code and
 // resolved to that district's House member(s) plus the state's two senators.
 (function () {
   const input = document.getElementById("member-search");
@@ -12,6 +13,22 @@
 
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) =>
     ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+  const STATE_NAMES = {
+    AL: "Alabama", AK: "Alaska", AZ: "Arizona", AR: "Arkansas", CA: "California", CO: "Colorado",
+    CT: "Connecticut", DE: "Delaware", FL: "Florida", GA: "Georgia", HI: "Hawaii", ID: "Idaho",
+    IL: "Illinois", IN: "Indiana", IA: "Iowa", KS: "Kansas", KY: "Kentucky", LA: "Louisiana",
+    ME: "Maine", MD: "Maryland", MA: "Massachusetts", MI: "Michigan", MN: "Minnesota",
+    MS: "Mississippi", MO: "Missouri", MT: "Montana", NE: "Nebraska", NV: "Nevada",
+    NH: "New Hampshire", NJ: "New Jersey", NM: "New Mexico", NY: "New York", NC: "North Carolina",
+    ND: "North Dakota", OH: "Ohio", OK: "Oklahoma", OR: "Oregon", PA: "Pennsylvania",
+    RI: "Rhode Island", SC: "South Carolina", SD: "South Dakota", TN: "Tennessee", TX: "Texas",
+    UT: "Utah", VT: "Vermont", VA: "Virginia", WA: "Washington", WV: "West Virginia",
+    WI: "Wisconsin", WY: "Wyoming", DC: "District of Columbia", PR: "Puerto Rico", GU: "Guam",
+    VI: "Virgin Islands", AS: "American Samoa", MP: "Northern Mariana Islands",
+  };
+  const STATE_BY_NAME = Object.fromEntries(
+    Object.entries(STATE_NAMES).map(([code, name]) => [name.toLowerCase(), code]));
 
   const seat = (m) =>
     m.chamber === "senate" ? `${m.party}-${m.state}` : `${m.party}-${m.state}${m.district ? "-" + m.district : ""}`;
@@ -33,7 +50,7 @@
     if (q.length < 2) return [];
     return members
       .filter((m) => {
-        const hay = `${m.name} ${m.last} ${m.state} ${seat(m)} ${m.chamber}`.toLowerCase();
+        const hay = `${m.name} ${m.last} ${m.state} ${STATE_NAMES[m.state] ?? ""} ${seat(m)} ${m.chamber}`.toLowerCase();
         return q.split(/\s+/).every((part) => hay.includes(part));
       })
       .sort((a, b) => {
@@ -42,6 +59,21 @@
         return aStarts - bStarts || a.last.localeCompare(b.last);
       })
       .slice(0, 8);
+  }
+
+  // A query that is exactly a state's name → its whole delegation, senators
+  // first, then House members in district order.
+  function stateDelegation(query) {
+    const code = STATE_BY_NAME[query.trim().toLowerCase().replace(/\s+/g, " ")];
+    if (!code) return null;
+    const inState = members.filter((m) => m.state === code);
+    const senate = inState.filter((m) => m.chamber === "senate").sort((a, b) => a.last.localeCompare(b.last));
+    const house = inState.filter((m) => m.chamber === "house").sort((a, b) => (a.district ?? 0) - (b.district ?? 0));
+    const plural = (n, word) => `${n} ${word}${n === 1 ? "" : "s"}`;
+    return {
+      list: [...senate, ...house],
+      header: `${STATE_NAMES[code]} · ${plural(senate.length, "senator")}, ${plural(house.length, "representative")}`,
+    };
   }
 
   // Returns members representing a ZIP: House member(s) for its district(s),
@@ -97,6 +129,11 @@
       );
     }
     await load();
+    const state = stateDelegation(q);
+    if (state) {
+      if (window.track) window.track("search/state");
+      return render(state.list, state.header);
+    }
     render(matches(q));
   }
 
@@ -109,6 +146,7 @@
       if (links.length === 0) return;
       highlighted = (highlighted + (e.key === "ArrowDown" ? 1 : -1) + links.length) % links.length;
       links.forEach((a, i) => a.classList.toggle("hl", i === highlighted));
+      links[highlighted].scrollIntoView({ block: "nearest" });
     } else if (e.key === "Enter" && links.length > 0) {
       e.preventDefault();
       links[Math.max(highlighted, 0)].click();
