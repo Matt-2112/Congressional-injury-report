@@ -11,18 +11,23 @@ const SITE_DIR = path.join(ROOT, "site");
 const OG_DIR = path.join(SITE_DIR, "og");
 const M_DIR = path.join(SITE_DIR, "m");
 
-const NAVY = "#0e2144";
-const NAVY_EDGE = "#0a1730";
-const GOLD = "#d4af5a";
-const CREAM = "#faf7ee";
-const CREAM_DIM = "rgba(244,239,227,0.72)";
-const STATUS_COLORS = { OUT: "#e06c6c", IR: "#e0925f", QUESTIONABLE: "#d4af5a", PROBABLE: "#7fbd8b" };
-// Display labels for statuses whose badge text differs from the internal key.
-const STATUS_LABELS = { IR: "Injured Reserve" };
+// Palette mirrors the site's light "Archives" theme (site/assets/styles.css).
+const PAGE = "#ffffff";
+const INK = "#1b1b1b";
+const INK_2 = "#3b3a36";
+const MUTED = "#5c5a55";
+const RULE = "#dedad0";
+const OXBLOOD = "#7b1e1e";
+const OXBLOOD_TINT = "#f0dede";
+const UTILITY = "#141414";
+const LINK = "#1d4f91";
+const STATUS_COLORS = { OUT: "#a01b1b", IR: "#8a4300", QUESTIONABLE: "#6a5600", PROBABLE: "#2d6338" };
+const STATUS_LABELS = { OUT: "Out", IR: "Injured Reserve", QUESTIONABLE: "Questionable", PROBABLE: "Probable" };
 const statusLabel = (s) => STATUS_LABELS[s] ?? s;
 
-GlobalFonts.registerFromPath(path.join(ROOT, "scripts/og-assets/PlayfairDisplay.ttf"), "Playfair");
-GlobalFonts.registerFromPath(path.join(ROOT, "scripts/og-assets/LibreFranklin.ttf"), "Franklin");
+GlobalFonts.registerFromPath(path.join(ROOT, "scripts/og-assets/LibreCaslonText-Regular.ttf"), "Caslon");
+GlobalFonts.registerFromPath(path.join(ROOT, "scripts/og-assets/PublicSans-SemiBold.ttf"), "PublicSansSemi");
+GlobalFonts.registerFromPath(path.join(ROOT, "scripts/og-assets/PublicSans-Bold.ttf"), "PublicSansBold");
 
 async function siteBase() {
   try {
@@ -33,30 +38,84 @@ async function siteBase() {
   }
 }
 
-function drawFrame(ctx, W, H) {
-  const grad = ctx.createLinearGradient(0, 0, 0, H);
-  grad.addColorStop(0, NAVY);
-  grad.addColorStop(1, NAVY_EDGE);
-  ctx.fillStyle = grad;
-  ctx.fillRect(0, 0, W, H);
-  ctx.strokeStyle = GOLD;
-  ctx.lineWidth = 2;
-  ctx.strokeRect(26, 26, W - 52, H - 52);
-  ctx.lineWidth = 1;
-  ctx.strokeRect(34, 34, W - 68, H - 68);
+const W = 1200;
+const H = 630;
+const X0 = 80;          // left margin
+const X1 = W - 80;      // right margin
+
+// Uppercase label with letter-spacing, drawn glyph by glyph so the result
+// doesn't depend on canvas letterSpacing support. Returns the drawn width.
+function tracked(ctx, text, x, y, { font, color, spacing, align = "left" }) {
+  ctx.font = font;
+  ctx.fillStyle = color;
+  ctx.textAlign = "left";
+  const chars = [...text.toUpperCase()];
+  const width = chars.reduce((w, c) => w + ctx.measureText(c).width + spacing, 0) - spacing;
+  let cx = align === "right" ? x - width : align === "center" ? x - width / 2 : x;
+  for (const c of chars) {
+    ctx.fillText(c, cx, y);
+    cx += ctx.measureText(c).width + spacing;
+  }
+  return width;
 }
 
-function kicker(ctx, text, x, y, { align = "left" } = {}) {
-  ctx.font = "600 22px Franklin";
-  ctx.fillStyle = GOLD;
-  ctx.textAlign = align;
-  ctx.fillText(text.toUpperCase().split("").join("  "), x, y);
+function rule(ctx, x0, y, x1, color, width = 1) {
+  ctx.fillStyle = color;
+  ctx.fillRect(x0, y, x1 - x0, width);
+}
+
+// The capitol seal from the site masthead, scaled to radius r around (cx, cy).
+function seal(ctx, cx, cy, r, color) {
+  const k = r / 27; // the masthead SVG is drawn on a 54px box
+  ctx.save();
+  ctx.translate(cx - 27 * k, cy - 27 * k);
+  ctx.scale(k, k);
+  ctx.strokeStyle = color;
+  ctx.lineWidth = 1.4;
+  ctx.beginPath(); ctx.arc(27, 27, 25.5, 0, Math.PI * 2); ctx.stroke();
+  ctx.beginPath(); ctx.arc(27, 27, 21, 0, Math.PI * 2); ctx.stroke();
+  ctx.beginPath();
+  for (const [x0, y0, x1, y1] of [[14, 36, 40, 36], [16, 33, 38, 33], [15, 24, 39, 24],
+    [18, 33, 18, 24], [22.5, 33, 22.5, 24], [27, 33, 27, 24], [31.5, 33, 31.5, 24], [36, 33, 36, 24]]) {
+    ctx.moveTo(x0, y0); ctx.lineTo(x1, y1);
+  }
+  ctx.moveTo(17, 24); ctx.lineTo(27, 17); ctx.lineTo(37, 24);
+  ctx.stroke();
+  ctx.restore();
+}
+
+// Shared chrome: utility strip, oxblood masthead band, and footer rule.
+function drawChrome(ctx) {
+  ctx.fillStyle = PAGE;
+  ctx.fillRect(0, 0, W, H);
+  ctx.fillStyle = UTILITY;
+  ctx.fillRect(0, 0, W, 12);
+  ctx.fillStyle = OXBLOOD;
+  ctx.fillRect(0, 12, W, 120);
+  seal(ctx, X0 + 34, 72, 34, "#ffffff");
+  ctx.font = "40px Caslon";
+  ctx.fillStyle = "#ffffff";
+  ctx.textAlign = "left";
+  ctx.fillText("Congressional Injury Report", X0 + 90, 72);
+  tracked(ctx, "Daily Attendance Register · House & Senate", X0 + 92, 104,
+    { font: "16px PublicSansSemi", color: OXBLOOD_TINT, spacing: 3 });
+
+  rule(ctx, X0, 548, X1, RULE);
+  ctx.font = "22px PublicSansSemi";
+  ctx.fillStyle = LINK;
+  ctx.textAlign = "left";
+  ctx.fillText("congressinjuryreport.com", X0, 590);
+  ctx.font = "18px PublicSansSemi";
+  ctx.fillStyle = MUTED;
+  ctx.textAlign = "right";
+  ctx.fillText("House Clerk · Senate roll calls · Congressional Record", X1, 589);
+  ctx.textAlign = "left";
 }
 
 function fitText(ctx, text, maxWidth, px, font) {
   let size = px;
   do {
-    ctx.font = `700 ${size}px ${font}`;
+    ctx.font = `${size}px ${font}`;
     if (ctx.measureText(text).width <= maxWidth) break;
     size -= 4;
   } while (size > 30);
@@ -64,94 +123,91 @@ function fitText(ctx, text, maxWidth, px, font) {
 }
 
 function memberCard(m) {
-  const W = 1200;
-  const H = 630;
   const canvas = createCanvas(W, H);
   const ctx = canvas.getContext("2d");
-  drawFrame(ctx, W, H);
+  drawChrome(ctx);
 
-  kicker(ctx, "The Congressional Injury Report", 80, 118);
+  const colRight = 790; // left column ends here; grade block starts after the rule
+  tracked(ctx, "Member record", X0, 206, { font: "18px PublicSansSemi", color: MUTED, spacing: 2.5 });
 
-  // Name (shrink to fit the space left of the grade seal)
-  const nameMax = 720;
-  const size = fitText(ctx, m.name, nameMax, 72, "Playfair");
-  ctx.fillStyle = CREAM;
+  // Name (shrink to fit the left column), with typographic quotes on nicknames
+  const name = m.name.replace(/"([^"]*)"/g, "\u201c$1\u201d");
+  const size = fitText(ctx, name, colRight - X0 - 40, 74, "Caslon");
+  ctx.font = `${size}px Caslon`;
+  ctx.fillStyle = INK;
   ctx.textAlign = "left";
-  ctx.font = `700 ${size}px Playfair`;
-  ctx.fillText(m.name, 80, 118 + 46 + size);
+  ctx.fillText(name, X0, 206 + 22 + size * 0.95);
 
   // Seat line
   const seat = m.chamber === "senate"
     ? `${m.party}-${m.state} · United States Senate`
     : `${m.party}-${m.state}${m.district ? "-" + m.district : ""} · House of Representatives`;
-  ctx.font = "600 26px Franklin";
-  ctx.fillStyle = CREAM_DIM;
-  ctx.fillText([m.title, seat].filter(Boolean).join(" · ").toUpperCase(), 80, 118 + 46 + size + 52);
+  const seatText = [m.title, seat].filter(Boolean).join(" · ");
+  ctx.font = "24px PublicSansSemi";
+  ctx.fillStyle = INK_2;
+  let seatSize = 24;
+  while (ctx.measureText(seatText).width > colRight - X0 - 20 && seatSize > 16) {
+    seatSize -= 2;
+    ctx.font = `${seatSize}px PublicSansSemi`;
+  }
+  ctx.fillText(seatText, X0, 206 + 22 + size * 0.95 + 50);
 
-  // Status line (only when listed)
+  // Status line (only when listed), set off by a rule like the site's notice
   if (m.status) {
-    const color = STATUS_COLORS[m.status.status] ?? GOLD;
-    ctx.font = "700 30px Franklin";
-    ctx.fillStyle = color;
-    const label = statusLabel(m.status.status);
-    ctx.fillText(label, 80, 470);
-    const lw = ctx.measureText(label).width;
+    rule(ctx, X0, 410, colRight - 20, INK, 2);
+    tracked(ctx, statusLabel(m.status.status), X0, 456, {
+      font: "26px PublicSansBold", color: STATUS_COLORS[m.status.status] ?? INK, spacing: 2,
+    });
     if (m.status.reason) {
-      ctx.font = "600 30px Franklin";
-      ctx.fillStyle = CREAM_DIM;
-      ctx.fillText(`  —  ${m.status.reason}`, 80 + lw, 470);
+      // Reasons sit on their own line; they're short ("medical procedure") but
+      // can run to ~10 words, so shrink rather than spill past the column.
+      const reason = m.status.reason.charAt(0).toUpperCase() + m.status.reason.slice(1);
+      let px = 24;
+      ctx.font = `${px}px PublicSansSemi`;
+      while (ctx.measureText(reason).width > colRight - 20 - X0 && px > 16) {
+        px -= 2;
+        ctx.font = `${px}px PublicSansSemi`;
+      }
+      ctx.fillStyle = INK_2;
+      ctx.textAlign = "left";
+      ctx.fillText(reason, X0, 496);
     }
   }
 
-  // Grade seal (right side)
-  const cx = 985;
-  const cy = 315;
-  ctx.strokeStyle = GOLD;
-  ctx.lineWidth = 3;
-  ctx.beginPath();
-  ctx.arc(cx, cy, 128, 0, Math.PI * 2);
-  ctx.stroke();
-  ctx.lineWidth = 1.5;
-  ctx.beginPath();
-  ctx.arc(cx, cy, 118, 0, Math.PI * 2);
-  ctx.stroke();
+  // Grade block (right): ruled top, label, large Caslon letter
+  const gx = colRight + 40;
+  ctx.fillStyle = RULE;
+  ctx.fillRect(colRight, 180, 1, 330); // vertical divider
+  rule(ctx, gx, 180, X1, INK, 2);
+  tracked(ctx, "Session grade", gx, 222, { font: "18px PublicSansSemi", color: MUTED, spacing: 2.5 });
   const poor = m.session.grade === "F" || m.session.grade === "D";
-  ctx.fillStyle = poor ? "#e06c6c" : CREAM;
-  ctx.font = "700 130px Playfair";
-  ctx.textAlign = "center";
-  ctx.textBaseline = "middle";
-  ctx.fillText(m.session.grade, cx, cy + 8);
-  ctx.textBaseline = "alphabetic";
-  ctx.font = "600 20px Franklin";
-  ctx.fillStyle = GOLD;
-  ctx.fillText("ATTENDANCE GRADE", cx, cy + 178);
-
-  // Footer
-  ctx.textAlign = "center";
-  ctx.font = "600 22px Franklin";
-  ctx.fillStyle = CREAM_DIM;
-  ctx.fillText("congressinjuryreport.com", W / 2, H - 62);
+  ctx.font = "200px Caslon";
+  ctx.fillStyle = poor ? STATUS_COLORS.OUT : INK;
+  ctx.textAlign = "left";
+  ctx.fillText(m.session.grade, gx - 6, 440);
+  rule(ctx, gx, 508, X1, RULE);
 
   return canvas.toBuffer("image/png");
 }
 
 function siteCard() {
-  const W = 1200;
-  const H = 630;
   const canvas = createCanvas(W, H);
   const ctx = canvas.getContext("2d");
-  drawFrame(ctx, W, H);
-  kicker(ctx, "United States Congress · Daily Attendance Register", W / 2, 200, { align: "center" });
-  ctx.fillStyle = CREAM;
-  ctx.textAlign = "center";
-  ctx.font = "700 88px Playfair";
-  ctx.fillText("The Congressional", W / 2, 330);
-  ctx.fillStyle = GOLD;
-  ctx.font = "italic 700 88px Playfair";
-  ctx.fillText("Injury Report", W / 2, 430);
-  ctx.font = "600 24px Franklin";
-  ctx.fillStyle = CREAM_DIM;
-  ctx.fillText("Who's out, who's questionable, and why — updated daily", W / 2, 500);
+  drawChrome(ctx);
+
+  tracked(ctx, "Updated daily from official roll calls", X0, 214,
+    { font: "18px PublicSansSemi", color: MUTED, spacing: 2.5 });
+  ctx.font = "84px Caslon";
+  ctx.fillStyle = INK;
+  ctx.textAlign = "left";
+  ctx.fillText("Who’s out in Congress,", X0, 316);
+  ctx.fillText("and why.", X0, 412);
+
+  rule(ctx, X0, 452, X1, INK, 2);
+  let x = X0;
+  for (const s of ["OUT", "IR", "QUESTIONABLE", "PROBABLE"]) {
+    x += tracked(ctx, statusLabel(s), x, 500, { font: "22px PublicSansBold", color: STATUS_COLORS[s], spacing: 2 }) + 44;
+  }
   return canvas.toBuffer("image/png");
 }
 
