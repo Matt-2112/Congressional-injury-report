@@ -7,42 +7,55 @@
 <meta name="description" content="Attendance report card for a member of the United States Congress." />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Libre+Franklin:wght@400;600;700&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="/assets/styles.css" />
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏛️</text></svg>" />
+<script src="/assets/theme.js"></script>
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
 <script src="/assets/analytics.js"></script>
 </head>
 <body>
-<header class="masthead">
-  <div class="masthead-inner">
-    <p class="kicker">United States Congress · Member Report Card</p>
-    <div class="rule-ornament" aria-hidden="true">★ ★ ★</div>
-    <h1 id="member-name">Report <em>Card</em></h1>
-    <p class="sub" id="updated">Loading…</p>
-    <nav>
-      <a href="/">Injury Report</a>
-      <a href="/today.html">Today in Congress</a>
-    </nav>
-  </div>
-</header>
-
-<main>
-  <div class="search">
-    <input id="member-search" type="text" autocomplete="off" spellcheck="false"
-      placeholder="Search another member — name, state, seat, or ZIP" aria-label="Search members of Congress by name, state, seat, or ZIP code" />
+<!-- site-header:start -->
+<div class="utility"><div class="wrap">
+  <span>An independent register of attendance in the United States Congress</span>
+  <span>Sources: House Clerk · Senate roll calls · Congressional Record</span>
+</div></div>
+<header class="masthead"><div class="wrap masthead-row">
+  <a class="brand" href="/">
+    <svg width="54" height="54" viewBox="0 0 54 54" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><circle cx="27" cy="27" r="25.5"/><circle cx="27" cy="27" r="21"/><path d="M14 36h26M16 33h22M18 33V24M22.5 33V24M27 33V24M31.5 33V24M36 33V24M15 24h24M17 24l10-7 10 7"/></svg>
+    <span><span class="brand-name">Congressional Injury Report</span><span class="brand-sub">Daily Attendance Register · House &amp; Senate</span></span>
+  </a>
+  <div class="search" role="search">
+    <label class="sr-only" for="member-search">Find a member of Congress by name, state, seat, or ZIP code</label>
+    <input id="member-search" type="search" autocomplete="off" spellcheck="false" placeholder="Find your rep — name, state, or ZIP" />
     <div class="search-results" id="search-results"></div>
   </div>
+</div></header>
+<nav class="primary-nav" aria-label="Site"><div class="wrap">
+  <a href="/" data-nav="report">Injury Report</a>
+  <a href="/today.html" data-nav="today">Today in Congress</a>
+  <a href="/#how" data-nav="how">How It Works</a>
+  <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode"></button>
+</div></nav>
+<!-- site-header:end -->
+
+<main class="wrap">
+  <div class="crumbs"><a href="/">Injury Report</a> <span aria-hidden="true">›</span> Member record</div>
+  <h1 class="page-title" id="member-name">Member Record</h1>
+  <p class="dateline" id="updated">Loading…</p>
   <div id="card"></div>
 </main>
 
-<footer>
+<footer class="site-footer"><div class="wrap">
   <p><strong>Grading:</strong> attendance across every roll-call vote of the current session. 99%+ earns an A+,
   below 65% is an F; members with fewer than ten eligible votes receive an incomplete. Data from official
   <a href="https://clerk.house.gov">House Clerk</a> and
   <a href="https://www.senate.gov/legislative/votes_new.htm">Senate</a> roll-call records, updated daily.</p>
-</footer>
+  <p>Not affiliated with the U.S. Congress.</p>
+</div></footer>
 
 <script>
+const STATUS_LABELS = { OUT: "Out", IR: "Injured Reserve", QUESTIONABLE: "Questionable", PROBABLE: "Probable" };
+
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) =>
   ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
@@ -64,7 +77,7 @@ fetch("/data/members.json")
     const m = d.members.find((x) => x.bioguide === bioguide);
     if (!m) {
       document.getElementById("card").innerHTML =
-        `<div class="empty-note">Member not found — use the search box above to look one up.</div>`;
+        `<p class="empty-note">Member not found — use the search box above to look one up.</p>`;
       document.getElementById("updated").textContent = "";
       return;
     }
@@ -86,12 +99,7 @@ fetch("/data/members.json")
     // carry Open Graph previews (the /m/ page redirects back here).
     try { history.replaceState(null, "", `/m/${m.bioguide}.html`); } catch {}
 
-    const parts = m.name.split(" ");
-    let last = parts.pop();
-    if (/^(Jr\.?|Sr\.?|II|III|IV)$/.test(last) && parts.length > 1) {
-      last = parts.pop() + " " + last;
-    }
-    document.getElementById("member-name").innerHTML = `${esc(parts.join(" "))} <em>${esc(last)}</em>`;
+    document.getElementById("member-name").textContent = m.name;
     document.title = `${m.name} — Report Card`;
     document.getElementById("updated").textContent =
       [m.title, `${seat} · ${chamberName} · ${d.sessionYear} Session`].filter(Boolean).join(" · ");
@@ -99,7 +107,7 @@ fetch("/data/members.json")
     const s = m.session;
     const poor = s.grade === "F" || s.grade === "D";
     const rank = s.rank
-      ? `${ordinal(s.rank)} of ${s.of}`
+      ? `${ordinal(s.rank)}<small> of ${s.of}</small>`
       : "—";
 
     let statusHtml = "";
@@ -109,7 +117,7 @@ fetch("/data/members.json")
         ? `<span class="reason">${esc(m.status.reason)}</span>${m.status.detail ? " — " + esc(m.status.detail) : ""}. `
         : "";
       statusHtml = `<p class="rc-status">
-        <span class="chip ${esc(m.status.status)}">${esc(m.status.status)}</span>
+        <span class="status-label ${esc(m.status.status)}">${esc(STATUS_LABELS[m.status.status] ?? m.status.status)}</span>
         ${why}${note.charAt(0).toUpperCase() + note.slice(1)}${m.status.since ? ` (since ${fmtDate(m.status.since)})` : ""}.
       </p>`;
     } else if (s.pct !== null) {
@@ -117,27 +125,29 @@ fetch("/data/members.json")
     }
 
     document.getElementById("card").innerHTML = `
-      <div class="report-card">
-        <p class="rc-label">Official Attendance Record</p>
-        <div class="grade-seal ${poor ? "poor" : ""}">${esc(s.grade)}</div>
-        <div class="rc-pct">${s.pct === null ? "insufficient record" : s.pct + "% attendance this session"}</div>
-        <div class="rc-stats">
-          <div><div class="label">Votes attended</div><div class="value">${s.attended}</div></div>
-          <div><div class="label">Votes eligible</div><div class="value">${s.eligible}</div></div>
-          <div><div class="label">Votes missed</div><div class="value">${s.missed}</div></div>
-          <div><div class="label">Chamber rank</div><div class="value">${rank}</div></div>
+      <section class="record" aria-label="Session attendance">
+        <div class="grade-block">
+          <span class="ledger-label">Session grade</span>
+          <div class="grade-letter ${poor ? "poor" : ""}">${esc(s.grade)}</div>
+          <div class="grade-pct">${s.pct === null ? "Insufficient record" : s.pct + "% attendance this session"}</div>
         </div>
-        ${statusHtml}
-        ${/Speaker/i.test(m.title ?? "") ? `<p class="rc-status" style="font-style:italic;font-family:Georgia,serif">
-          By tradition, the Speaker of the House votes at the chair's discretion; presiding days without a
-          recorded position do not count against attendance.</p>` : ""}
-        <a class="rc-back" href="/">← Back to the Injury Report</a>
-      </div>`;
+        <div class="ledger">
+          <div><span class="ledger-label">Votes attended</span><span class="ledger-value">${s.attended}</span></div>
+          <div><span class="ledger-label">Votes eligible</span><span class="ledger-value">${s.eligible}</span></div>
+          <div><span class="ledger-label">Votes missed</span><span class="ledger-value">${s.missed}</span></div>
+          <div><span class="ledger-label">Chamber rank</span><span class="ledger-value">${rank}</span></div>
+        </div>
+      </section>
+      ${statusHtml}
+      ${/Speaker/i.test(m.title ?? "") ? `<p class="rc-note">
+        By tradition, the Speaker of the House votes at the chair's discretion; presiding days without a
+        recorded position do not count against attendance.</p>` : ""}
+      <a class="rc-back" href="/">← Back to the Injury Report</a>`;
   })
   .catch(() => {
     document.getElementById("card").innerHTML =
-      `<div class="empty-note">Couldn't load member data. If you're running locally, serve the site with
-       <code>npm run serve</code> and make sure <code>node scripts/run.js</code> has been run.</div>`;
+      `<p class="empty-note">Couldn't load member data. If you're running locally, serve the site with
+       <code>npm run serve</code> and make sure <code>node scripts/run.js</code> has been run.</p>`;
   });
 </script>
 <script src="/assets/search.js"></script>

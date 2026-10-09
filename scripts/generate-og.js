@@ -171,14 +171,6 @@ const fmtDate = (iso) =>
     ? new Date(iso + "T12:00:00Z").toLocaleDateString("en-US", { month: "short", day: "numeric", timeZone: "UTC" })
     : iso;
 
-// The head name is set off with the surname in italic, mirroring member.html.
-function splitName(name) {
-  const parts = name.split(" ");
-  let last = parts.pop();
-  if (/^(Jr\.?|Sr\.?|II|III|IV)$/.test(last) && parts.length > 1) last = parts.pop() + " " + last;
-  return { first: parts.join(" "), last };
-}
-
 function seatLine(m) {
   const seat = m.chamber === "senate"
     ? `${m.party}-${m.state}`
@@ -194,7 +186,6 @@ function memberPage(m, base, sessionYear) {
   const s = m.session;
   const grade = s.grade;
   const { seat, chamberName } = seatLine(m);
-  const { first, last } = splitName(m.name);
   const jobTitle = m.title || (m.chamber === "senate" ? "United States Senator" : "United States Representative");
 
   const title = `${m.name} — ${grade} | Congressional Injury Report`;
@@ -203,8 +194,8 @@ function memberPage(m, base, sessionYear) {
     : `${s.pct === null ? "New this session" : s.pct + "% attendance this session"} — ranked ${s.rank ?? "—"} of ${s.of ?? "—"} in the ${m.chamber === "senate" ? "Senate" : "House"}.`;
 
   const poor = grade === "F" || grade === "D";
-  const rank = s.rank ? `${ordinal(s.rank)} of ${s.of}` : "—";
-  const pctText = s.pct === null ? "insufficient record" : `${s.pct}% attendance this session`;
+  const rank = s.rank ? `${ordinal(s.rank)}<small> of ${s.of}</small>` : "—";
+  const pctText = s.pct === null ? "Insufficient record" : `${s.pct}% attendance this session`;
 
   let statusHtml = "";
   if (m.status) {
@@ -214,14 +205,14 @@ function memberPage(m, base, sessionYear) {
       ? `<span class="reason">${escHtml(m.status.reason)}</span>${m.status.detail ? " — " + escHtml(m.status.detail) : ""}. `
       : "";
     statusHtml = `<p class="rc-status">
-      <span class="chip ${escAttr(m.status.status)}">${escHtml(m.status.status)}</span>
+      <span class="status-label ${escAttr(m.status.status)}">${escHtml(statusLabel(m.status.status))}</span>
       ${why}${note}${m.status.since ? ` (since ${fmtDate(m.status.since)})` : ""}.
     </p>`;
   } else if (s.pct !== null) {
     statusHtml = `<p class="rc-status">Active — no absence flags on the current report.</p>`;
   }
   const speakerHtml = /Speaker/i.test(m.title ?? "")
-    ? `<p class="rc-status" style="font-style:italic;font-family:Georgia,serif">By tradition, the Speaker of the House votes at the chair's discretion; presiding days without a recorded position do not count against attendance.</p>`
+    ? `<p class="rc-note">By tradition, the Speaker of the House votes at the chair's discretion; presiding days without a recorded position do not count against attendance.</p>`
     : "";
 
   const ld = {
@@ -252,56 +243,69 @@ function memberPage(m, base, sessionYear) {
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Libre+Franklin:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/styles.css">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏛️</text></svg>">
+<script src="/assets/theme.js"></script>
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <script type="application/ld+json">${ldJson}</script>
 <script src="/assets/analytics.js"></script>
 </head>
 <body>
-<header class="masthead">
-  <div class="masthead-inner">
-    <p class="kicker">United States Congress · Member Report Card</p>
-    <div class="rule-ornament" aria-hidden="true">★ ★ ★</div>
-    <h1>${escHtml(first)} <em>${escHtml(last)}</em></h1>
-    <p class="sub">${escHtml([m.title, `${seat} · ${chamberName} · ${sessionYear} Session`].filter(Boolean).join(" · "))}</p>
-    <nav>
-      <a href="/">Injury Report</a>
-      <a href="/today.html">Today in Congress</a>
-    </nav>
-  </div>
-</header>
-
-<main>
-  <div class="search">
-    <input id="member-search" type="text" autocomplete="off" spellcheck="false"
-      placeholder="Search another member — name, state, seat, or ZIP" aria-label="Search members of Congress by name, state, seat, or ZIP code">
+<!-- site-header:start -->
+<div class="utility"><div class="wrap">
+  <span>An independent register of attendance in the United States Congress</span>
+  <span>Sources: House Clerk · Senate roll calls · Congressional Record</span>
+</div></div>
+<header class="masthead"><div class="wrap masthead-row">
+  <a class="brand" href="/">
+    <svg width="54" height="54" viewBox="0 0 54 54" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><circle cx="27" cy="27" r="25.5"/><circle cx="27" cy="27" r="21"/><path d="M14 36h26M16 33h22M18 33V24M22.5 33V24M27 33V24M31.5 33V24M36 33V24M15 24h24M17 24l10-7 10 7"/></svg>
+    <span><span class="brand-name">Congressional Injury Report</span><span class="brand-sub">Daily Attendance Register · House &amp; Senate</span></span>
+  </a>
+  <div class="search" role="search">
+    <label class="sr-only" for="member-search">Find a member of Congress by name, state, seat, or ZIP code</label>
+    <input id="member-search" type="search" autocomplete="off" spellcheck="false" placeholder="Find your rep — name, state, or ZIP" />
     <div class="search-results" id="search-results"></div>
   </div>
+</div></header>
+<nav class="primary-nav" aria-label="Site"><div class="wrap">
+  <a href="/" data-nav="report">Injury Report</a>
+  <a href="/today.html" data-nav="today">Today in Congress</a>
+  <a href="/#how" data-nav="how">How It Works</a>
+  <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode"></button>
+</div></nav>
+<!-- site-header:end -->
+
+<main class="wrap">
+  <div class="crumbs"><a href="/">Injury Report</a> <span aria-hidden="true">›</span> Member record</div>
+  <h1 class="page-title">${escHtml(m.name)}</h1>
+  <p class="dateline">${escHtml([m.title, `${seat} · ${chamberName} · ${sessionYear} Session`].filter(Boolean).join(" · "))}</p>
   <div id="card">
-    <div class="report-card">
-      <p class="rc-label">Official Attendance Record</p>
-      <div class="grade-seal ${poor ? "poor" : ""}">${escHtml(grade)}</div>
-      <div class="rc-pct">${pctText}</div>
-      <div class="rc-stats">
-        <div><div class="label">Votes attended</div><div class="value">${s.attended}</div></div>
-        <div><div class="label">Votes eligible</div><div class="value">${s.eligible}</div></div>
-        <div><div class="label">Votes missed</div><div class="value">${s.missed}</div></div>
-        <div><div class="label">Chamber rank</div><div class="value">${rank}</div></div>
+    <section class="record" aria-label="Session attendance">
+      <div class="grade-block">
+        <span class="ledger-label">Session grade</span>
+        <div class="grade-letter ${poor ? "poor" : ""}">${escHtml(grade)}</div>
+        <div class="grade-pct">${pctText}</div>
       </div>
-      ${statusHtml}
-      ${speakerHtml}
-      <a class="rc-back" href="/">← Back to the Injury Report</a>
-    </div>
+      <div class="ledger">
+        <div><span class="ledger-label">Votes attended</span><span class="ledger-value">${s.attended}</span></div>
+        <div><span class="ledger-label">Votes eligible</span><span class="ledger-value">${s.eligible}</span></div>
+        <div><span class="ledger-label">Votes missed</span><span class="ledger-value">${s.missed}</span></div>
+        <div><span class="ledger-label">Chamber rank</span><span class="ledger-value">${rank}</span></div>
+      </div>
+    </section>
+    ${statusHtml}
+    ${speakerHtml}
+    <a class="rc-back" href="/">← Back to the Injury Report</a>
   </div>
 </main>
 
-<footer>
+<footer class="site-footer"><div class="wrap">
   <p><strong>Grading:</strong> attendance across every roll-call vote of the current session. 99%+ earns an A+,
   below 65% is an F; members with fewer than ten eligible votes receive an incomplete. Data from official
   <a href="https://clerk.house.gov">House Clerk</a> and
   <a href="https://www.senate.gov/legislative/votes_new.htm">Senate</a> roll-call records, updated daily.</p>
-</footer>
+  <p>Not affiliated with the U.S. Congress.</p>
+</div></footer>
 <script src="/assets/search.js"></script>
 </body>
 </html>

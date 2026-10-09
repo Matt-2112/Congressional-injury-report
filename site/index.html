@@ -17,63 +17,98 @@
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Libre+Franklin:wght@400;600;700&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="assets/styles.css" />
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏛️</text></svg>" />
+<script src="/assets/theme.js"></script>
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
 <script src="/assets/analytics.js"></script>
 </head>
 <body>
-<header class="masthead">
-  <div class="masthead-inner">
-    <p class="kicker">United States Congress · Daily Attendance Register</p>
-    <div class="rule-ornament" aria-hidden="true">★ ★ ★</div>
-    <h1>The Congressional<br /><em>Injury Report</em></h1>
-    <p class="sub" id="updated">Loading…</p>
-    <nav>
-      <a href="./" class="active">Injury Report</a>
-      <a href="today.html">Today in Congress</a>
-    </nav>
-  </div>
-</header>
-
-<main>
-  <div class="search">
-    <input id="member-search" type="text" autocomplete="off" spellcheck="false"
-      placeholder="Find your rep — name, state, seat, or ZIP code" inputmode="text" aria-label="Search members of Congress by name, state, seat, or ZIP code" />
+<!-- site-header:start -->
+<div class="utility"><div class="wrap">
+  <span>An independent register of attendance in the United States Congress</span>
+  <span>Sources: House Clerk · Senate roll calls · Congressional Record</span>
+</div></div>
+<header class="masthead"><div class="wrap masthead-row">
+  <a class="brand" href="/">
+    <svg width="54" height="54" viewBox="0 0 54 54" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><circle cx="27" cy="27" r="25.5"/><circle cx="27" cy="27" r="21"/><path d="M14 36h26M16 33h22M18 33V24M22.5 33V24M27 33V24M31.5 33V24M36 33V24M15 24h24M17 24l10-7 10 7"/></svg>
+    <span><span class="brand-name">Congressional Injury Report</span><span class="brand-sub">Daily Attendance Register · House &amp; Senate</span></span>
+  </a>
+  <div class="search" role="search">
+    <label class="sr-only" for="member-search">Find a member of Congress by name, state, seat, or ZIP code</label>
+    <input id="member-search" type="search" autocomplete="off" spellcheck="false" placeholder="Find your rep — name, state, or ZIP" />
     <div class="search-results" id="search-results"></div>
   </div>
+</div></header>
+<nav class="primary-nav" aria-label="Site"><div class="wrap">
+  <a href="/" data-nav="report" class="active" aria-current="page">Injury Report</a>
+  <a href="/today.html" data-nav="today">Today in Congress</a>
+  <a href="/#how" data-nav="how">How It Works</a>
+  <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode"></button>
+</div></nav>
+<!-- site-header:end -->
+
+<main class="wrap">
+  <h1 class="page-title">Injury Report</h1>
+  <p class="dateline" id="updated">Loading…</p>
+  <p class="lede" id="lede"></p>
   <div id="stale"></div>
-  <div class="tiles" id="tiles"></div>
-  <div class="tabs" role="tablist">
-    <button id="tab-house" role="tab" aria-selected="true" class="active">House</button>
+  <div class="tabs" role="tablist" aria-label="Chamber">
+    <button id="tab-house" role="tab" aria-selected="true" class="active">House of Representatives</button>
     <button id="tab-senate" role="tab" aria-selected="false">Senate</button>
   </div>
-  <div id="report"></div>
+  <div class="ledger" id="tiles"></div>
+  <div class="columns">
+    <div class="col-main" id="report"></div>
+    <aside class="col-side">
+      <div id="close-calls-panel"></div>
+      <section id="how">
+        <h2 class="side-title">How statuses work</h2>
+        <dl class="definitions">
+          <dt class="status-label OUT">Out</dt>
+          <dd>Announced leave of absence, or missed every roll-call vote on the most recent vote day.</dd>
+          <dt class="status-label IR">Injured Reserve</dt>
+          <dd>Missed every vote on three or more straight vote days with no announced return.</dd>
+          <dt class="status-label QUESTIONABLE">Questionable</dt>
+          <dd>Missed at least half of the latest day’s votes.</dd>
+          <dt class="status-label PROBABLE">Probable</dt>
+          <dd>Back on the floor after sitting out a full vote day in the past week.</dd>
+        </dl>
+      </section>
+    </aside>
+  </div>
 </main>
 
-<footer>
-  <p><strong>How statuses work:</strong> OUT — announced leave of absence, or missed every roll-call vote on the most
-  recent vote day. INJURED RESERVE (IR) — missed every vote on 3+ straight vote days with no announced return. QUESTIONABLE —
-  missed at least half of the latest day's votes. PROBABLE — back on the floor after sitting out a full vote day in
-  the past week.</p>
+<footer class="site-footer"><div class="wrap">
   <p>Built from official sources: <a href="https://clerk.house.gov">House Clerk roll-call votes</a>,
   <a href="https://www.senate.gov/legislative/votes_new.htm">Senate roll-call votes</a>, the
   <a href="https://www.govinfo.gov/app/collection/CREC">Congressional Record</a>, and the
   <a href="https://unitedstates.github.io/congress-legislators/">congress-legislators</a> project.
-  Reasons are extracted from leave-of-absence grants and members' personal explanations; when none is on record,
+  Reasons are extracted from leave-of-absence grants and members’ personal explanations; when none is on record,
   the absence is listed as undisclosed.</p>
-</footer>
+  <p>Not affiliated with the U.S. Congress.</p>
+</div></footer>
 
 <script>
 const STATUS_ORDER = ["OUT", "IR", "QUESTIONABLE", "PROBABLE"];
-// Display labels for statuses whose section/tile text differs from the key.
-const STATUS_LABELS = { IR: "Injured Reserve" };
+const STATUS_LABELS = { OUT: "Out", IR: "Injured Reserve", QUESTIONABLE: "Questionable", PROBABLE: "Probable" };
 const statusLabel = (s) => STATUS_LABELS[s] ?? s;
 const STATUS_HINTS = {
-  OUT: "did not participate — missed every vote",
+  OUT: "did not participate on the latest vote day",
   IR: "extended absence, no timetable for return",
   QUESTIONABLE: "limited participation on the latest vote day",
   PROBABLE: "back on the floor after a recent absence",
+};
+const STATE_NAMES = {
+  AL: "Alabama", AK: "Alaska", AZ: "Arizona", AR: "Arkansas", CA: "California", CO: "Colorado", CT: "Connecticut",
+  DE: "Delaware", FL: "Florida", GA: "Georgia", HI: "Hawaii", ID: "Idaho", IL: "Illinois", IN: "Indiana", IA: "Iowa",
+  KS: "Kansas", KY: "Kentucky", LA: "Louisiana", ME: "Maine", MD: "Maryland", MA: "Massachusetts", MI: "Michigan",
+  MN: "Minnesota", MS: "Mississippi", MO: "Missouri", MT: "Montana", NE: "Nebraska", NV: "Nevada", NH: "New Hampshire",
+  NJ: "New Jersey", NM: "New Mexico", NY: "New York", NC: "North Carolina", ND: "North Dakota", OH: "Ohio",
+  OK: "Oklahoma", OR: "Oregon", PA: "Pennsylvania", RI: "Rhode Island", SC: "South Carolina", SD: "South Dakota",
+  TN: "Tennessee", TX: "Texas", UT: "Utah", VT: "Vermont", VA: "Virginia", WA: "Washington", WV: "West Virginia",
+  WI: "Wisconsin", WY: "Wyoming", DC: "the District of Columbia", PR: "Puerto Rico", GU: "Guam",
+  VI: "the U.S. Virgin Islands", AS: "American Samoa", MP: "the Northern Mariana Islands",
 };
 let data = null;
 let chamber = "house";
@@ -84,10 +119,57 @@ const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) =>
 const fmtDate = (iso) => iso
   ? new Date(iso + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric" })
   : "";
+const fmtLong = (iso) => new Date(iso + "T12:00:00").toLocaleDateString("en-US", { month: "long", day: "numeric" });
+const cap = (s) => s.charAt(0).toUpperCase() + s.slice(1);
+const NUM_WORDS = ["no", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"];
+const num = (n) => NUM_WORDS[n] ?? String(n);
 
 function seat(m) {
   if (m.chamber === "senate") return `${m.party}-${m.state}`;
   return `${m.party}-${m.state}${m.district ? "-" + m.district : ""}`;
+}
+
+// One plain-English sentence per chamber for the lede, e.g. "Four representatives
+// are out and four more are on injured reserve. Neal P. Dunn of Florida has
+// missed every vote since July 23."
+function chamberSentence(ch, noun) {
+  const out = ch.listed.filter((m) => m.status === "OUT");
+  const ir = ch.listed.filter((m) => m.status === "IR");
+  const plural = (n) => (n === 1 ? noun : noun + "s");
+  const be = (n) => (n === 1 ? "is" : "are");
+  const where = (m) => `${m.name} of ${STATE_NAMES[m.state] ?? m.state}`;
+  if (!out.length && !ir.length) return `no ${noun}s are out.`;
+  if (out.length === 1 && !ir.length) return `${where(out[0])} is out.`;
+  let s = out.length
+    ? `${num(out.length)} ${plural(out.length)} ${be(out.length)} out`
+    : `no ${noun}s are out`;
+  if (ir.length) {
+    s += out.length
+      ? ` and ${num(ir.length)} more ${be(ir.length)} on injured reserve`
+      : `, but ${num(ir.length)} ${be(ir.length)} on injured reserve`;
+  }
+  s += ".";
+  const longest = ir.filter((m) => m.since).sort((a, b) => a.since.localeCompare(b.since))[0];
+  if (longest) s += ` ${where(longest)} has missed every vote since ${fmtLong(longest.since)}.`;
+  return s;
+}
+
+// Sports-desk style dated comment: "Sep 16: Missed all 7 votes. No reason on record."
+function comment(m) {
+  const day = m.latestDay && m.latestDay.date;
+  let note = String(m.note ?? "");
+  if (day) note = note.replace(" on " + day, "");
+  note = cap(esc(note).replace(/\d{4}-\d{2}-\d{2}/g, (d) => fmtDate(d)));
+  let text;
+  if (m.reason) {
+    text = `<span class="reason" title="${esc(m.reasonSource || "")}">${esc(m.reason)}</span>` +
+      `${m.detail ? " — " + esc(m.detail) : ""}. ${note}.`;
+  } else if (m.status === "PROBABLE") {
+    text = `${note}.`;
+  } else {
+    text = `${note}. No reason on record.`;
+  }
+  return (day ? `<b>${fmtDate(day)}:</b> ` : "") + text;
 }
 
 function render() {
@@ -97,79 +179,71 @@ function render() {
   for (const e of ch.listed) byStatus[e.status].push(e);
 
   document.getElementById("tiles").innerHTML = `
-    <div class="tile"><div class="label">${label} active roster</div>
-      <div class="value">${ch.activeCount}<small> / ${ch.totalMembers}</small></div></div>
-    <a class="tile tile-link accent-out" href="#sec-OUT" data-status="OUT"><div class="label">Out</div>
-      <div class="value">${byStatus.OUT.length}</div></a>
-    <a class="tile tile-link accent-ir" href="#sec-IR" data-status="IR"><div class="label">Injured Reserve</div>
-      <div class="value">${byStatus.IR.length}</div></a>
-    <a class="tile tile-link" href="#sec-QUESTIONABLE" data-status="QUESTIONABLE"><div class="label">Questionable</div>
-      <div class="value">${byStatus.QUESTIONABLE.length}</div></a>
-    <a class="tile tile-link" href="#sec-PROBABLE" data-status="PROBABLE"><div class="label">Probable</div>
-      <div class="value">${byStatus.PROBABLE.length}</div></a>
-    ${ch.closeCalls && ch.closeCalls.length ? `<a class="tile tile-link" href="#close-calls">
-      <div class="label">Close Calls</div>
-      <div class="value">${ch.closeCalls.length}<small> ↓</small></div></a>` : ""}`;
+    <div><span class="ledger-label">Active roster</span>
+      <span class="ledger-value">${ch.activeCount}<small> / ${ch.totalMembers}</small></span></div>
+    ${STATUS_ORDER.map((s) => `<a href="#sec-${s}" data-status="${s}">
+      <span class="ledger-label">${statusLabel(s)}</span>
+      <span class="ledger-value ${s}">${byStatus[s].length}</span></a>`).join("")}
+    ${ch.closeCalls && ch.closeCalls.length ? `<a href="#close-calls">
+      <span class="ledger-label">Close votes</span>
+      <span class="ledger-value">${ch.closeCalls.length}</span></a>` : ""}`;
 
   let html = "";
   for (const status of STATUS_ORDER) {
     const list = byStatus[status];
     // PROBABLE is the long tail — start it folded so the serious tiers lead.
     const open = status === "PROBABLE" ? "" : " open";
+    const count = `${list.length} ${list.length === 1 ? "member" : "members"}`;
     html += `<details class="status-section" id="sec-${status}" data-status="${status}"${open}>
       <summary class="status-head"><h2>${statusLabel(status)}</h2>
-        <span class="count">${list.length}</span>
-        <span class="hint">${STATUS_HINTS[status]}</span></summary>`;
+        <span class="hint">${count} — ${STATUS_HINTS[status]}</span>
+        ${list.length ? `<span class="toggle" aria-hidden="true"></span>` : ""}</summary>`;
     if (list.length === 0) {
-      html += `<div class="empty-note" style="margin-top:8px">No ${label} members listed as ${statusLabel(status).toLowerCase()}.</div>`;
-    }
-    for (const m of list) {
-      const note = esc(m.note).replace(/\d{4}-\d{2}-\d{2}/g, (d) => fmtDate(d));
-      const why = m.reason
-        ? `<span class="reason">${esc(m.reason)}</span>${m.detail ? " — " + esc(m.detail) : ""} <span title="${esc(m.reasonSource || "")}">·</span> ${note}`
-        : m.status === "PROBABLE"
-          ? note.charAt(0).toUpperCase() + note.slice(1)
-          : `<span class="reason">Undisclosed</span> — ${note}`;
-      html += `<div class="member">
-        <div class="who">
-          <span class="team-badge ${esc(m.party)}">${esc(seat(m))}</span>
-          <span class="name"><a href="member.html?m=${esc(m.bioguide)}">${esc(m.name)}</a></span>
-          <span class="chip ${esc(m.status)}">${esc(m.status)}</span>
-        </div>
-        <div class="why">${why}</div>
-        <div class="meta">
-          ${m.since ? `<b>since ${fmtDate(m.since)}</b>` : ""}
-          <b>${m.last7.missed}/${m.last7.total} votes missed</b>
-          <span>last 7 days</span>
-        </div>
-      </div>`;
+      html += `<p class="empty-note">No ${label} members listed as ${statusLabel(status).toLowerCase()}.</p>`;
+    } else {
+      html += `<table class="roster"><thead><tr>
+          <th scope="col">Member</th><th scope="col">Seat</th><th scope="col">Since</th>
+          <th scope="col">Missed, 7 days</th><th scope="col">Status</th><th scope="col">Comment</th>
+        </tr></thead><tbody>`;
+      for (const m of list) {
+        html += `<tr>
+          <td class="c-name"><a href="member.html?m=${esc(m.bioguide)}">${esc(m.name)}</a></td>
+          <td class="c-seat num">${esc(seat(m))}</td>
+          <td class="c-since num">${m.since ? fmtDate(m.since) : ""}</td>
+          <td class="c-missed num">${m.last7.missed} of ${m.last7.total}</td>
+          <td class="c-status"><span class="status-label ${esc(m.status)}">${statusLabel(m.status)}</span></td>
+          <td class="c-comment">${comment(m)}</td>
+        </tr>`;
+      }
+      html += `</tbody></table>`;
     }
     html += `</details>`;
   }
+  document.getElementById("report").innerHTML = html;
 
+  let cc = "";
   if (ch.closeCalls && ch.closeCalls.length) {
-    html += `<section class="close-calls" id="close-calls">
-      <div class="status-head"><h2>Absences That Mattered</h2>
-        <span class="hint">votes this session where the absent outnumbered the margin</span></div>`;
+    cc = `<section class="panel" id="close-calls">
+      <h2>Absences That Mattered</h2>
+      <p class="panel-sub">${label} votes this session where the members out outnumbered the margin.</p>`;
     for (const c of ch.closeCalls) {
       const names = c.absentees
         .map((a) => `<a href="member.html?m=${esc(a.bioguide)}">${esc(a.last)}</a> (${esc(a.party)}-${esc(a.state)})`)
         .join(", ");
       const more = c.absent > c.absentees.length ? ` and ${c.absent - c.absentees.length} more` : "";
-      html += `<div class="close-call">
+      cc += `<div class="close-call">
         <div class="cc-head">
           <span class="cc-measure">${esc(c.legisNum ?? "")}</span>
-          <span class="cc-question">${esc(c.question)}</span>
           <span class="cc-tally">${c.yeas}–${c.nays}</span>
         </div>
+        <div class="cc-question">${esc(c.question)}</div>
         <div class="cc-detail">${esc(String(c.result))} by ${c.margin === 0 ? "a tie" : `${c.margin} vote${c.margin === 1 ? "" : "s"}`}
-          on ${fmtDate(c.date)} with <b>${c.absent} member${c.absent === 1 ? "" : "s"} out</b>: ${names}${more}.</div>
+          on ${fmtDate(c.date)} with <b>${c.absent} out</b>: ${names}${more}.</div>
       </div>`;
     }
-    html += `</section>`;
+    cc += `</section>`;
   }
-
-  document.getElementById("report").innerHTML = html;
+  document.getElementById("close-calls-panel").innerHTML = cc;
 }
 
 function setChamber(next) {
@@ -194,24 +268,26 @@ fetch("data/report.json")
     const gen = new Date(d.generatedAt);
     document.getElementById("updated").textContent =
       `Report for ${new Date(d.reportDate + "T12:00:00").toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric", year: "numeric" })}` +
-      ` · updated ${gen.toLocaleString("en-US", { hour: "numeric", minute: "2-digit", timeZoneName: "short" })}`;
+      ` · Updated ${gen.toLocaleString("en-US", { hour: "numeric", minute: "2-digit", timeZoneName: "short" })}`;
+    document.getElementById("lede").textContent =
+      cap(chamberSentence(d.chambers.house, "representative")) +
+      " In the Senate, " + chamberSentence(d.chambers.senate, "senator");
 
-    // Recess / stale-data banner: latest vote day well before the report date
+    // Recess / stale-data notice: latest vote day well before the report date
     const latest = [d.chambers.house.latestVoteDay, d.chambers.senate.latestVoteDay]
       .filter(Boolean).sort().reverse()[0];
     if (latest) {
       const gapDays = Math.round((new Date(d.reportDate) - new Date(latest)) / 86400000);
       if (gapDays > 4) {
         document.getElementById("stale").innerHTML =
-          `<div class="stale">No games scheduled — the most recent roll-call votes were on ${fmtDate(latest)}. ` +
-          `Congress may be in recess; statuses reflect the last vote days on record.</div>`;
+          `<div class="notice"><b>Notice</b><span>No games scheduled — the most recent roll-call votes were on ${fmtDate(latest)}. ` +
+          `Congress may be in recess; statuses reflect the last vote days on record.</span></div>`;
       }
     }
     document.getElementById("tab-house").addEventListener("click", () => { window.track("chamber/house"); setChamber("house"); });
     document.getElementById("tab-senate").addEventListener("click", () => { window.track("chamber/senate"); setChamber("senate"); });
-    // Clicking a status tile focuses its section, like the Close Calls tile.
-    // Just expand the (possibly collapsed) target — the anchor's href then does
-    // the native fragment scroll, honoring the page's smooth scroll-behavior.
+    // Clicking a status count focuses its section. Just expand the (possibly
+    // collapsed) target — the anchor's href then does the native fragment scroll.
     document.getElementById("tiles").addEventListener("click", (e) => {
       const link = e.target.closest("a[data-status]");
       if (link) {
@@ -226,8 +302,8 @@ fetch("data/report.json")
   })
   .catch(() => {
     document.getElementById("report").innerHTML =
-      `<div class="empty-note">Couldn't load the report data. If you're running locally, serve the site with
-       <code>npm run serve</code> and make sure <code>node scripts/run.js</code> has been run.</div>`;
+      `<p class="empty-note">Couldn't load the report data. If you're running locally, serve the site with
+       <code>npm run serve</code> and make sure <code>node scripts/run.js</code> has been run.</p>`;
   });
 </script>
 <script src="assets/search.js"></script>

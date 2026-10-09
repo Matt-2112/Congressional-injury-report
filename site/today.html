@@ -13,35 +13,50 @@
 <meta name="twitter:card" content="summary_large_image" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Libre+Franklin:wght@400;600;700&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="assets/styles.css" />
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏛️</text></svg>" />
+<script src="/assets/theme.js"></script>
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
 <script src="/assets/analytics.js"></script>
 </head>
 <body>
-<header class="masthead">
-  <div class="masthead-inner">
-    <p class="kicker">United States Congress · Order of Business</p>
-    <div class="rule-ornament" aria-hidden="true">★ ★ ★</div>
-    <h1>Today in <em>Congress</em></h1>
-    <p class="sub" id="updated">Loading…</p>
-    <nav>
-      <a href="./">Injury Report</a>
-      <a href="today.html" class="active">Today in Congress</a>
-    </nav>
+<!-- site-header:start -->
+<div class="utility"><div class="wrap">
+  <span>An independent register of attendance in the United States Congress</span>
+  <span>Sources: House Clerk · Senate roll calls · Congressional Record</span>
+</div></div>
+<header class="masthead"><div class="wrap masthead-row">
+  <a class="brand" href="/">
+    <svg width="54" height="54" viewBox="0 0 54 54" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><circle cx="27" cy="27" r="25.5"/><circle cx="27" cy="27" r="21"/><path d="M14 36h26M16 33h22M18 33V24M22.5 33V24M27 33V24M31.5 33V24M36 33V24M15 24h24M17 24l10-7 10 7"/></svg>
+    <span><span class="brand-name">Congressional Injury Report</span><span class="brand-sub">Daily Attendance Register · House &amp; Senate</span></span>
+  </a>
+  <div class="search" role="search">
+    <label class="sr-only" for="member-search">Find a member of Congress by name, state, seat, or ZIP code</label>
+    <input id="member-search" type="search" autocomplete="off" spellcheck="false" placeholder="Find your rep — name, state, or ZIP" />
+    <div class="search-results" id="search-results"></div>
   </div>
-</header>
+</div></header>
+<nav class="primary-nav" aria-label="Site"><div class="wrap">
+  <a href="/" data-nav="report">Injury Report</a>
+  <a href="/today.html" data-nav="today" class="active" aria-current="page">Today in Congress</a>
+  <a href="/#how" data-nav="how">How It Works</a>
+  <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode"></button>
+</div></nav>
+<!-- site-header:end -->
 
-<main>
+<main class="wrap">
+  <h1 class="page-title">Today in Congress</h1>
+  <p class="dateline" id="updated">Loading…</p>
   <div id="content"></div>
 </main>
 
-<footer>
+<footer class="site-footer"><div class="wrap">
   <p>Summarized from the <a href="https://www.govinfo.gov/app/collection/CREC">Congressional Record Daily Digest</a>.
   Live floor activity: <a href="https://clerk.house.gov/FloorSummary">House Floor Summary</a> ·
   <a href="https://www.senate.gov/legislative/floor_activity_pail.htm">Senate Floor Proceedings</a> ·
   <a href="https://www.majorityleader.gov/schedule/">House schedule</a>.</p>
-</footer>
+  <p>Not affiliated with the U.S. Congress.</p>
+</div></footer>
 
 <script>
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) =>
@@ -52,14 +67,14 @@ function chamberCard(name, ch) {
     <div class="floor-item">
       <div class="measure">${esc(it.measure)}</div>
       <div class="title">${esc(it.title)}</div>
-      <span class="state">${esc(it.status)}</span>
+      <div class="state">${esc(it.status)}</div>
     </div>`).join("");
-  return `<div class="card">
+  return `<section class="card">
     <h2>${name}</h2>
     <div class="when">Next convenes: ${esc(ch.nextMeeting)}</div>
     <p class="recap">${esc(ch.lastSessionSummary)}</p>
     ${items || `<div class="floor-item"><div class="title">Nothing currently listed on the floor.</div></div>`}
-  </div>`;
+  </section>`;
 }
 
 fetch("data/agenda.json")
@@ -72,33 +87,36 @@ fetch("data/agenda.json")
 
     if (!d.available) {
       document.getElementById("content").innerHTML = `
-        <div class="empty-note">Today's structured agenda isn't available yet — the summary step needs the daily
-        Congressional Record and an API key. Check the official links below for live floor activity.</div>`;
+        <p class="empty-note">Today's structured agenda isn't available yet — the summary step needs the daily
+        Congressional Record and an API key. Check the official links below for live floor activity.</p>`;
       return;
     }
 
-    let html = `<p class="headline">${esc(d.headline)}</p>
+    let html = `<p class="lede">${esc(d.headline)}</p>
       <div class="chamber-grid">
         ${chamberCard("House", d.chambers.house)}
         ${chamberCard("Senate", d.chambers.senate)}
       </div>`;
 
     if (d.committees && d.committees.length) {
-      html += `<div class="committees"><h2>Committee Matchups</h2>` +
-        d.committees.map((c) => `
-          <div class="committee-row">
-            <span class="ch">${esc(c.chamber)}</span>
-            <span class="cm">${esc(c.committee)}</span>
-            <span class="tp">${esc(c.topic)}</span>
-          </div>`).join("") + `</div>`;
+      html += `<section class="committees"><h2>Committee Matchups</h2>
+        <table class="roster"><thead><tr>
+          <th scope="col" style="width:14%">Chamber</th><th scope="col" style="width:36%">Committee</th><th scope="col">Topic</th>
+        </tr></thead><tbody>` +
+        d.committees.map((c) => `<tr>
+            <td class="ch">${esc(c.chamber)}</td>
+            <td class="cm">${esc(c.committee)}</td>
+            <td class="tp">${esc(c.topic)}</td>
+          </tr>`).join("") + `</tbody></table></section>`;
     }
     document.getElementById("content").innerHTML = html;
   })
   .catch(() => {
     document.getElementById("content").innerHTML =
-      `<div class="empty-note">Couldn't load the agenda data. If you're running locally, serve the site with
-       <code>npm run serve</code> and make sure <code>node scripts/run.js</code> has been run.</div>`;
+      `<p class="empty-note">Couldn't load the agenda data. If you're running locally, serve the site with
+       <code>npm run serve</code> and make sure <code>node scripts/run.js</code> has been run.</p>`;
   });
 </script>
+<script src="/assets/search.js"></script>
 </body>
 </html>
