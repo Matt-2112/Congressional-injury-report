@@ -28,33 +28,8 @@
   --serif: "Libre Caslon Text", Georgia, "Times New Roman", serif;
   --sans: "Public Sans", "Helvetica Neue", Helvetica, sans-serif;
 }
-/* Dark tokens apply when the OS prefers dark (unless the reader picked light
-   with the toggle), or whenever the reader picked dark. Keep both copies in sync. */
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --page: #14120f;
-    --paper: #1d1b17;
-    --ink: #ece8df;
-    --ink-2: #c9c4b8;
-    --muted: #a39d90;
-    --rule: #34312b;
-    --rule-strong: #ece8df;
-    --oxblood: #5c1616;
-    --accent: #d0605c;
-    --link: #8fb4ea;
-    --link-hover: #b9d0f3;
-    --utility-bg: #0b0a08;
-    --focus: #8fb4ea;
-    --out: #ff8a80;
-    --ir: #f0a35e;
-    --questionable: #e0c25a;
-    --probable: #7cc58b;
-    --dem: #8fb4ea;
-    --rep: #f09a9a;
-    --ind: #b9a8ec;
-    color-scheme: dark;
-  }
-}
+/* Light is the default; dark applies only when the reader picks it with the
+   nav toggle (theme.js sets data-theme on <html>). */
 :root[data-theme="dark"] {
   --page: #14120f;
   --paper: #1d1b17;
