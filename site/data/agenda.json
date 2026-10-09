@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-10-08T17:17:28.593Z",
-  "reportDate": "2026-10-08",
+  "generatedAt": "2026-10-09T16:53:07.756Z",
+  "reportDate": "2026-10-09",
   "recordIssueDate": "2026-10-06",
   "available": true,
-  "headline": "Congress in cruise control: both chambers convening only for pro forma sessions this week as business grinds to a halt",
+  "headline": "Congress essentially takes the week off—both chambers convening in pro forma sessions Friday with no committee action scheduled.",
   "chambers": {
     "senate": {
       "nextMeeting": "Friday, October 9 at 1:30 PM",
-      "lastSessionSummary": "The Senate met in pro forma session on Tuesday, October 6, convening at 1:31 p.m. and adjourning just 33 seconds later. No legislative business was conducted.",
+      "lastSessionSummary": "The Senate met briefly in pro forma session on October 6 and immediately adjourned until Friday. Pro forma sessions are minimal procedural meetings with no legislative business conducted.",
       "onTheFloor": []
     },
     "house": {
       "nextMeeting": "Friday, October 9 at 12:30 PM",
-      "lastSessionSummary": "The House met in brief session on Tuesday, October 6, adjourning after just two minutes. Seventeen public bills and five resolutions were introduced, and committee reports on veterans affairs matters were filed, but no votes were taken.",
+      "lastSessionSummary": "The House met at 4 p.m. on October 6 and adjourned at 4:02 p.m. Seventeen public bills and five resolutions were introduced, and two veterans affairs-related bills were reported out of committee.",
       "onTheFloor": [
         {
           "measure": "H.R. 6698",
-          "title": "Require the Board of Veterans' Appeals to identify factors contributing to untimely disposition and remand of appeals",
-          "status": "reported from committee"
+          "title": "Requires the Board of Veterans' Appeals to identify factors contributing to untimely disposition and remand of appeals in its annual report",
+          "status": "committee report filed (H. Rept. 119-840)"
         },
         {
           "measure": "H.R. 7260",
-          "title": "Require the Secretary of Veterans Affairs to submit annual report on the National Cemetery Administration",
-          "status": "reported from committee"
+          "title": "Requires the Secretary of Veterans Affairs to submit annual reports on the National Cemetery Administration",
+          "status": "committee report filed (H. Rept. 119-841)"
         }
       ]
     }
