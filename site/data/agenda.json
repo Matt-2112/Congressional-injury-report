@@ -1,28 +1,58 @@
 {
-  "generatedAt": "2026-10-09T16:53:07.756Z",
-  "reportDate": "2026-10-09",
-  "recordIssueDate": "2026-10-06",
+  "generatedAt": "2026-10-10T15:47:23.668Z",
+  "reportDate": "2026-10-10",
+  "recordIssueDate": "2026-10-09",
   "available": true,
-  "headline": "Congress essentially takes the week off—both chambers convening in pro forma sessions Friday with no committee action scheduled.",
+  "headline": "Congress powers down for the long weekend with back-to-back pro forma sessions and small business bills still in the hopper.",
   "chambers": {
     "senate": {
-      "nextMeeting": "Friday, October 9 at 1:30 PM",
-      "lastSessionSummary": "The Senate met briefly in pro forma session on October 6 and immediately adjourned until Friday. Pro forma sessions are minimal procedural meetings with no legislative business conducted.",
+      "nextMeeting": "Tuesday, October 13 at 3:30 PM",
+      "lastSessionSummary": "The Senate met in pro forma session on Friday, October 9, convening at 1:30 p.m. and adjourning just 38 seconds later until Tuesday. No substantive business was conducted.",
       "onTheFloor": []
     },
     "house": {
-      "nextMeeting": "Friday, October 9 at 12:30 PM",
-      "lastSessionSummary": "The House met at 4 p.m. on October 6 and adjourned at 4:02 p.m. Seventeen public bills and five resolutions were introduced, and two veterans affairs-related bills were reported out of committee.",
+      "nextMeeting": "Tuesday, October 13 at 1:30 PM",
+      "lastSessionSummary": "The House met briefly in pro forma session on Friday, October 9, convening at 12:30 p.m. and adjourning two minutes later at 12:32 p.m. No votes or quorum calls were held. The chamber introduced 27 new bills and filed 9 committee reports focused on small business administration improvements.",
       "onTheFloor": [
         {
-          "measure": "H.R. 6698",
-          "title": "Requires the Board of Veterans' Appeals to identify factors contributing to untimely disposition and remand of appeals in its annual report",
-          "status": "committee report filed (H. Rept. 119-840)"
+          "measure": "H.R. 7683",
+          "title": "Clarify and expand authority of the Assistant Secretary for Management of the Department of Veterans Affairs",
+          "status": "committee report filed with amendment"
         },
         {
-          "measure": "H.R. 7260",
-          "title": "Requires the Secretary of Veterans Affairs to submit annual reports on the National Cemetery Administration",
-          "status": "committee report filed (H. Rept. 119-841)"
+          "measure": "H.R. 9718",
+          "title": "Require SBA to maintain website for small business concerns relating to onshoring manufacturing capacity",
+          "status": "committee report filed with amendment"
+        },
+        {
+          "measure": "H.R. 10329",
+          "title": "Require SBA to disseminate information on foreign adversary conduct harmful to small businesses",
+          "status": "committee report filed"
+        },
+        {
+          "measure": "H.R. 10353",
+          "title": "Require quarterly reports on small business investment companies",
+          "status": "committee report filed"
+        },
+        {
+          "measure": "H.R. 10355",
+          "title": "Require SBA to establish procedures for consistency in disaster loan outreach materials",
+          "status": "committee report filed"
+        },
+        {
+          "measure": "H.R. 10371",
+          "title": "Direct SBA Veterans Business Development Associate Administrator to ensure reporting compliance",
+          "status": "committee report filed"
+        },
+        {
+          "measure": "H.R. 10375",
+          "title": "Improve small business loan guaranty program and enhance manufacturer access to affordable capital",
+          "status": "committee report filed"
+        },
+        {
+          "measure": "H.R. 4615",
+          "title": "Provide interim partial payment to small business contractors requesting equitable adjustment for contract changes",
+          "status": "committee report filed with amendment"
         }
       ]
     }
