@@ -1,19 +1,50 @@
 {
-  "generatedAt": "2026-10-11T16:11:43.436Z",
-  "reportDate": "2026-10-11",
+  "generatedAt": "2026-10-12T19:41:48.168Z",
+  "reportDate": "2026-10-12",
   "recordIssueDate": "2026-10-09",
   "available": true,
-  "headline": "Congress goes dark for a long weekend, with both chambers running skeleton schedules Friday ahead of Tuesday's pro forma sessions.",
+  "headline": "Congress takes a breather after a marathon week of legislative action, reconvening in pro forma sessions next week!",
   "chambers": {
     "senate": {
       "nextMeeting": "Tuesday, October 13 at 3:30 PM",
-      "lastSessionSummary": "The Senate convened in pro forma session on Friday, October 9, meeting briefly at 1:30 p.m. before adjourning until Tuesday. No business was conducted beyond the minimal proceedings required to keep the chamber technically in session.",
+      "lastSessionSummary": "The Senate held a brief pro forma session on Friday, October 9, meeting at 1:30 p.m. and adjourning just 39 seconds later to continue the recess. No substantive business was conducted.",
       "onTheFloor": []
     },
     "house": {
       "nextMeeting": "Tuesday, October 13 at 1:30 PM",
-      "lastSessionSummary": "The House met briefly on Friday, October 9, adjourning after just two minutes at 12:32 p.m. The chamber processed introductions of 27 new bills and 4 resolutions, along with nine committee reports focused on small business and Veterans Affairs initiatives, before adjourning for the recess period.",
-      "onTheFloor": []
+      "lastSessionSummary": "The House held a 2-minute session on Friday, October 9, during which it introduced 27 new bills and 4 resolutions. Nine committee reports on Small Business Administration-related legislation were filed, but no votes were taken.",
+      "onTheFloor": [
+        {
+          "measure": "H.R. 7683",
+          "title": "Clarify and expand the authority of the Assistant Secretary for Management of the Department of Veterans Affairs",
+          "status": "Committee report filed (H. Rept. 119-842)"
+        },
+        {
+          "measure": "H.R. 9718",
+          "title": "Require the Small Business Administration to maintain a website for small business concerns relating to onshoring manufacturing capacity",
+          "status": "Committee report filed (H. Rept. 119-843)"
+        },
+        {
+          "measure": "H.R. 10329",
+          "title": "Require the Administrator of the Small Business Administration to disseminate information on foreign adversary conduct harming small businesses",
+          "status": "Committee report filed (H. Rept. 119-844)"
+        },
+        {
+          "measure": "H.R. 10353",
+          "title": "Require quarterly reports on small business investment companies",
+          "status": "Committee report filed (H. Rept. 119-845)"
+        },
+        {
+          "measure": "H.R. 10375",
+          "title": "Improve the loan guaranty program and enhance access to affordable capital for small manufacturers",
+          "status": "Committee report filed (H. Rept. 119-848)"
+        },
+        {
+          "measure": "H.R. 4615",
+          "title": "Provide interim partial payment to small business contractors requesting equitable adjustments due to construction contract changes",
+          "status": "Committee report filed (H. Rept. 119-849)"
+        }
+      ]
     }
   },
   "committees": []
