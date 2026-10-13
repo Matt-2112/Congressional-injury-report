@@ -1,50 +1,19 @@
 {
-  "generatedAt": "2026-10-12T19:41:48.168Z",
-  "reportDate": "2026-10-12",
+  "generatedAt": "2026-10-13T17:26:31.678Z",
+  "reportDate": "2026-10-13",
   "recordIssueDate": "2026-10-09",
   "available": true,
-  "headline": "Congress takes a breather after a marathon week of legislative action, reconvening in pro forma sessions next week!",
+  "headline": "Congress back in pro forma mode as both chambers reconvene Tuesday with minimal legislative action planned",
   "chambers": {
     "senate": {
       "nextMeeting": "Tuesday, October 13 at 3:30 PM",
-      "lastSessionSummary": "The Senate held a brief pro forma session on Friday, October 9, meeting at 1:30 p.m. and adjourning just 39 seconds later to continue the recess. No substantive business was conducted.",
+      "lastSessionSummary": "The Senate held a brief pro forma session on Friday, October 9, meeting at 1:30 p.m. and adjourning just 39 seconds later until Tuesday. No legislative business was conducted.",
       "onTheFloor": []
     },
     "house": {
       "nextMeeting": "Tuesday, October 13 at 1:30 PM",
-      "lastSessionSummary": "The House held a 2-minute session on Friday, October 9, during which it introduced 27 new bills and 4 resolutions. Nine committee reports on Small Business Administration-related legislation were filed, but no votes were taken.",
-      "onTheFloor": [
-        {
-          "measure": "H.R. 7683",
-          "title": "Clarify and expand the authority of the Assistant Secretary for Management of the Department of Veterans Affairs",
-          "status": "Committee report filed (H. Rept. 119-842)"
-        },
-        {
-          "measure": "H.R. 9718",
-          "title": "Require the Small Business Administration to maintain a website for small business concerns relating to onshoring manufacturing capacity",
-          "status": "Committee report filed (H. Rept. 119-843)"
-        },
-        {
-          "measure": "H.R. 10329",
-          "title": "Require the Administrator of the Small Business Administration to disseminate information on foreign adversary conduct harming small businesses",
-          "status": "Committee report filed (H. Rept. 119-844)"
-        },
-        {
-          "measure": "H.R. 10353",
-          "title": "Require quarterly reports on small business investment companies",
-          "status": "Committee report filed (H. Rept. 119-845)"
-        },
-        {
-          "measure": "H.R. 10375",
-          "title": "Improve the loan guaranty program and enhance access to affordable capital for small manufacturers",
-          "status": "Committee report filed (H. Rept. 119-848)"
-        },
-        {
-          "measure": "H.R. 4615",
-          "title": "Provide interim partial payment to small business contractors requesting equitable adjustments due to construction contract changes",
-          "status": "Committee report filed (H. Rept. 119-849)"
-        }
-      ]
+      "lastSessionSummary": "The House convened briefly on Friday, October 9, meeting for just 2 minutes with no recorded votes or quorum calls. The chamber introduced 27 public bills and 4 resolutions, and filed 9 committee reports, primarily related to Small Business Administration matters.",
+      "onTheFloor": []
     }
   },
   "committees": []
