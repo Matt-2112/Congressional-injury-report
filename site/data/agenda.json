@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-10-13T17:26:31.678Z",
-  "reportDate": "2026-10-13",
-  "recordIssueDate": "2026-10-09",
+  "generatedAt": "2026-10-14T14:57:08.692Z",
+  "reportDate": "2026-10-14",
+  "recordIssueDate": "2026-10-13",
   "available": true,
-  "headline": "Congress back in pro forma mode as both chambers reconvene Tuesday with minimal legislative action planned",
+  "headline": "Congress in pro forma holding pattern — Senate and House both in skeleton-crew sessions Tuesday with no votes, no floor action, nothing on the agenda.",
   "chambers": {
     "senate": {
-      "nextMeeting": "Tuesday, October 13 at 3:30 PM",
-      "lastSessionSummary": "The Senate held a brief pro forma session on Friday, October 9, meeting at 1:30 p.m. and adjourning just 39 seconds later until Tuesday. No legislative business was conducted.",
+      "nextMeeting": "Thursday, October 15 at 9:30 AM",
+      "lastSessionSummary": "The Senate met in pro forma session for 24 seconds Tuesday afternoon before adjourning. No legislative business was conducted.",
       "onTheFloor": []
     },
     "house": {
-      "nextMeeting": "Tuesday, October 13 at 1:30 PM",
-      "lastSessionSummary": "The House convened briefly on Friday, October 9, meeting for just 2 minutes with no recorded votes or quorum calls. The chamber introduced 27 public bills and 4 resolutions, and filed 9 committee reports, primarily related to Small Business Administration matters.",
+      "nextMeeting": "Thursday, October 15 at 11:00 AM",
+      "lastSessionSummary": "The House convened briefly at 1:30 p.m. and adjourned after three minutes with no votes or floor action. Fifteen bills and one resolution were introduced for the record.",
       "onTheFloor": []
     }
   },
