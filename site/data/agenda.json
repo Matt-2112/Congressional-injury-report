@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-10-14T14:57:08.692Z",
-  "reportDate": "2026-10-14",
-  "recordIssueDate": "2026-10-13",
+  "generatedAt": "2026-10-16T14:40:25.751Z",
+  "reportDate": "2026-10-16",
+  "recordIssueDate": "2026-10-15",
   "available": true,
-  "headline": "Congress in pro forma holding pattern — Senate and House both in skeleton-crew sessions Tuesday with no votes, no floor action, nothing on the agenda.",
+  "headline": "Congress takes a legislative breather as both chambers meet briefly in pro forma sessions before resuming next week!",
   "chambers": {
     "senate": {
-      "nextMeeting": "Thursday, October 15 at 9:30 AM",
-      "lastSessionSummary": "The Senate met in pro forma session for 24 seconds Tuesday afternoon before adjourning. No legislative business was conducted.",
+      "nextMeeting": "Monday, October 19 at 9:00 AM",
+      "lastSessionSummary": "The Senate convened in pro forma session on Thursday morning for just 26 seconds, conducting no legislative business. The chamber will remain in recess until Monday.",
       "onTheFloor": []
     },
     "house": {
-      "nextMeeting": "Thursday, October 15 at 11:00 AM",
-      "lastSessionSummary": "The House convened briefly at 1:30 p.m. and adjourned after three minutes with no votes or floor action. Fifteen bills and one resolution were introduced for the record.",
+      "nextMeeting": "Monday, October 19 at 10:00 AM",
+      "lastSessionSummary": "The House met briefly Thursday morning, introducing 30 public bills and 5 resolutions before adjourning after just over an hour. No votes or quorum calls occurred, with the chamber primarily handling administrative matters.",
       "onTheFloor": []
     }
   },
