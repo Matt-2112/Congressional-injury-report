@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-10-16T14:40:25.751Z",
-  "reportDate": "2026-10-16",
+  "generatedAt": "2026-10-17T13:31:53.243Z",
+  "reportDate": "2026-10-17",
   "recordIssueDate": "2026-10-15",
   "available": true,
-  "headline": "Congress takes a legislative breather as both chambers meet briefly in pro forma sessions before resuming next week!",
+  "headline": "Congress takes a breather with pro forma sessions scheduled for both chambers as next week's agenda shapes up.",
   "chambers": {
     "senate": {
       "nextMeeting": "Monday, October 19 at 9:00 AM",
-      "lastSessionSummary": "The Senate convened in pro forma session on Thursday morning for just 26 seconds, conducting no legislative business. The chamber will remain in recess until Monday.",
+      "lastSessionSummary": "The Senate met in pro forma session on Thursday, October 15 and adjourned without conducting legislative business. The chamber will reconvene Monday for another pro forma session.",
       "onTheFloor": []
     },
     "house": {
       "nextMeeting": "Monday, October 19 at 10:00 AM",
-      "lastSessionSummary": "The House met briefly Thursday morning, introducing 30 public bills and 5 resolutions before adjourning after just over an hour. No votes or quorum calls occurred, with the chamber primarily handling administrative matters.",
+      "lastSessionSummary": "The House met briefly on Thursday, October 15, introducing 30 public bills and 5 resolutions during a short session. No votes were held as the chamber adjourned after just over an hour.",
       "onTheFloor": []
     }
   },
