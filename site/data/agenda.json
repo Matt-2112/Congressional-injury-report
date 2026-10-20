@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-10-19T16:51:59.100Z",
-  "reportDate": "2026-10-19",
-  "recordIssueDate": "2026-10-15",
+  "generatedAt": "2026-10-20T14:50:38.975Z",
+  "reportDate": "2026-10-20",
+  "recordIssueDate": "2026-10-19",
   "available": true,
-  "headline": "Congress grinds to a halt with back-to-back pro forma sessions as both chambers return to D.C. Monday with skeleton crews.",
+  "headline": "Congress takes a breather with pro forma sessions as both chambers stay dark until Thursday!",
   "chambers": {
     "senate": {
-      "nextMeeting": "Monday, October 19 at 9:00 AM",
-      "lastSessionSummary": "The Senate convened in pro forma session on Thursday, October 15, with no substantive business conducted. The brief meeting lasted less than a minute before the chamber adjourned until Monday.",
+      "nextMeeting": "Thursday, October 22 at 9:00 AM",
+      "lastSessionSummary": "The Senate met in pro forma session on Monday, October 19, convening at 9:00 a.m. and adjourning just thirty seconds later at 9:00:31 a.m. No legislative business was conducted. The chamber will remain in recess until reconvening Thursday morning.",
       "onTheFloor": []
     },
     "house": {
-      "nextMeeting": "Monday, October 19 at 10:00 AM",
-      "lastSessionSummary": "The House met for just over an hour on Thursday, October 15, introducing 30 new bills and 5 resolutions with no floor votes or quorum calls. Representative Wittman was appointed to act as Speaker pro tempore for the day.",
+      "nextMeeting": "Thursday, October 22 at 3:00 PM",
+      "lastSessionSummary": "The House met in session for just two minutes on Monday, October 19, convening at 10:00 a.m. and adjourning at 10:02 a.m. Representative Goldman (TX) was appointed to act as Speaker pro tempore for the day. Fifteen public bills and five resolutions were introduced, but no votes were taken.",
       "onTheFloor": []
     }
   },
