@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-10-20T14:50:38.975Z",
-  "reportDate": "2026-10-20",
+  "generatedAt": "2026-10-21T14:58:01.111Z",
+  "reportDate": "2026-10-21",
   "recordIssueDate": "2026-10-19",
   "available": true,
-  "headline": "Congress takes a breather with pro forma sessions as both chambers stay dark until Thursday!",
+  "headline": "Congress goes quiet with brief pro forma sessions and zero floor action as lawmakers prepare for Thursday reconvening.",
   "chambers": {
     "senate": {
       "nextMeeting": "Thursday, October 22 at 9:00 AM",
-      "lastSessionSummary": "The Senate met in pro forma session on Monday, October 19, convening at 9:00 a.m. and adjourning just thirty seconds later at 9:00:31 a.m. No legislative business was conducted. The chamber will remain in recess until reconvening Thursday morning.",
+      "lastSessionSummary": "The Senate met in pro forma session for 30 seconds on Monday morning, October 19, with no legislative business conducted. The chamber adjourned immediately and will reconvene Thursday.",
       "onTheFloor": []
     },
     "house": {
       "nextMeeting": "Thursday, October 22 at 3:00 PM",
-      "lastSessionSummary": "The House met in session for just two minutes on Monday, October 19, convening at 10:00 a.m. and adjourning at 10:02 a.m. Representative Goldman (TX) was appointed to act as Speaker pro tempore for the day. Fifteen public bills and five resolutions were introduced, but no votes were taken.",
+      "lastSessionSummary": "The House convened briefly on Monday morning for just 2 minutes with Speaker pro tempore Goldman presiding. Fifteen new bills and five resolutions were introduced, but no votes or substantive floor action occurred before adjournment.",
       "onTheFloor": []
     }
   },
