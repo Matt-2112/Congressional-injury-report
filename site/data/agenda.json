@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-10-21T14:58:01.111Z",
-  "reportDate": "2026-10-21",
+  "generatedAt": "2026-10-22T14:58:08.610Z",
+  "reportDate": "2026-10-22",
   "recordIssueDate": "2026-10-19",
   "available": true,
-  "headline": "Congress goes quiet with brief pro forma sessions and zero floor action as lawmakers prepare for Thursday reconvening.",
+  "headline": "Congress takes a breath—both chambers meeting in pro forma sessions Thursday as the legislative calendar stays quiet.",
   "chambers": {
     "senate": {
       "nextMeeting": "Thursday, October 22 at 9:00 AM",
-      "lastSessionSummary": "The Senate met in pro forma session for 30 seconds on Monday morning, October 19, with no legislative business conducted. The chamber adjourned immediately and will reconvene Thursday.",
+      "lastSessionSummary": "The Senate met briefly in pro forma session on Monday, October 19, convening at 9:00 a.m. and adjourning at 9:00:31 a.m. No business was conducted.",
       "onTheFloor": []
     },
     "house": {
       "nextMeeting": "Thursday, October 22 at 3:00 PM",
-      "lastSessionSummary": "The House convened briefly on Monday morning for just 2 minutes with Speaker pro tempore Goldman presiding. Fifteen new bills and five resolutions were introduced, but no votes or substantive floor action occurred before adjournment.",
+      "lastSessionSummary": "The House met for a brief session on Monday, October 19, introducing 15 public bills (H.R. 10840-10854) and 5 resolutions (H. Res. 1629-1633) before adjourning. No votes were taken.",
       "onTheFloor": []
     }
   },
