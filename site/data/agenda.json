@@ -1,20 +1,37 @@
 {
-  "generatedAt": "2026-10-22T14:58:08.610Z",
-  "reportDate": "2026-10-22",
-  "recordIssueDate": "2026-10-19",
+  "generatedAt": "2026-11-09T20:31:53.529Z",
+  "reportDate": "2026-11-09",
+  "recordIssueDate": "2026-11-05",
   "available": true,
-  "headline": "Congress takes a breath—both chambers meeting in pro forma sessions Thursday as the legislative calendar stays quiet.",
+  "headline": "Senate returns Monday to vote on cloture for the Survivor Justice Tax Prevention Act after a pro forma Thursday session.",
   "chambers": {
     "senate": {
-      "nextMeeting": "Thursday, October 22 at 9:00 AM",
-      "lastSessionSummary": "The Senate met briefly in pro forma session on Monday, October 19, convening at 9:00 a.m. and adjourning at 9:00:31 a.m. No business was conducted.",
-      "onTheFloor": []
+      "nextMeeting": "Monday, November 9 at 3:00 PM",
+      "lastSessionSummary": "The Senate met in pro forma session on Thursday, November 5, adjourning briefly before reconvening. No substantive business was conducted.",
+      "onTheFloor": [
+        {
+          "measure": "H.R. 2347",
+          "title": "Survivor Justice Tax Prevention Act",
+          "status": "cloture vote scheduled for Monday, November 9 at 5:30 PM"
+        }
+      ]
     },
     "house": {
-      "nextMeeting": "Thursday, October 22 at 3:00 PM",
-      "lastSessionSummary": "The House met for a brief session on Monday, October 19, introducing 15 public bills (H.R. 10840-10854) and 5 resolutions (H. Res. 1629-1633) before adjourning. No votes were taken.",
+      "nextMeeting": "Monday, November 9 at 12:00 PM",
+      "lastSessionSummary": "The House met briefly on Thursday, November 5, introducing 7 public bills and 2 resolutions before adjourning. Nine committee reports were filed covering veterans affairs, foreign medical school accreditation, nuclear energy policy, and child protection background checks.",
       "onTheFloor": []
     }
   },
-  "committees": []
+  "committees": [
+    {
+      "chamber": "senate",
+      "committee": "Committee on Veterans' Affairs",
+      "topic": "Business meeting to consider pending nominations and Fiscal Year 2027 Major Medical Facility Lease Authorizations"
+    },
+    {
+      "chamber": "house",
+      "committee": "Committee on Rules",
+      "topic": "Hearing on H.R. 1013, the Retirement Fairness for Charities and Educational Institutions Act of 2025"
+    }
+  ]
 }

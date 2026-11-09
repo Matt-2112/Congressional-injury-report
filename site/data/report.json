@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-22T14:58:08.582Z",
-  "reportDate": "2026-10-22",
+  "generatedAt": "2026-11-09T20:31:53.497Z",
+  "reportDate": "2026-11-09",
   "chambers": {
     "senate": {
       "latestVoteDay": "2026-09-30",
@@ -16,8 +16,8 @@
         "2026-09-14",
         "2026-08-08"
       ],
-      "totalMembers": 100,
-      "activeCount": 100,
+      "totalMembers": 98,
+      "activeCount": 98,
       "closeCalls": [
         {
           "id": "senate-119-2-256",
