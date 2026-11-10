@@ -1,37 +1,108 @@
 {
-  "generatedAt": "2026-11-09T20:31:53.529Z",
-  "reportDate": "2026-11-09",
-  "recordIssueDate": "2026-11-05",
+  "generatedAt": "2026-11-10T17:35:03.848Z",
+  "reportDate": "2026-11-10",
+  "recordIssueDate": "2026-11-09",
   "available": true,
-  "headline": "Senate returns Monday to vote on cloture for the Survivor Justice Tax Prevention Act after a pro forma Thursday session.",
+  "headline": "Senate advances procedurally on tax relief bill while House powers through nuclear energy and veterans benefits!",
   "chambers": {
     "senate": {
-      "nextMeeting": "Monday, November 9 at 3:00 PM",
-      "lastSessionSummary": "The Senate met in pro forma session on Thursday, November 5, adjourning briefly before reconvening. No substantive business was conducted.",
+      "nextMeeting": "Tuesday, November 10 at 12:00 PM",
+      "lastSessionSummary": "The Senate voted 73-25 to invoke cloture on the motion to proceed to H.R. 2347, the Survivor Justice Tax Prevention Act, clearing the way for continued debate. Senators also passed S. 3589, the RISE Act, providing information access for students with disabilities, and agreed to S. Res. 952 authorizing use of Hart Senate Atrium on November 18 for Alexander Calder's sculpture commemoration.",
       "onTheFloor": [
         {
           "measure": "H.R. 2347",
-          "title": "Survivor Justice Tax Prevention Act",
-          "status": "cloture vote scheduled for Monday, November 9 at 5:30 PM"
+          "title": "Survivor Justice Tax Prevention Act - excludes sexual abuse damages from taxable income",
+          "status": "cloture invoked 73-25; post-cloture debate continues"
+        },
+        {
+          "measure": "S. 3589",
+          "title": "RISE Act - provides disability students and families college selection information",
+          "status": "passed"
+        },
+        {
+          "measure": "S. Res. 952",
+          "title": "Authorizes Hart Senate Atrium use for Calder sculpture event",
+          "status": "agreed to"
         }
       ]
     },
     "house": {
-      "nextMeeting": "Monday, November 9 at 12:00 PM",
-      "lastSessionSummary": "The House met briefly on Thursday, November 5, introducing 7 public bills and 2 resolutions before adjourning. Nine committee reports were filed covering veterans affairs, foreign medical school accreditation, nuclear energy policy, and child protection background checks.",
-      "onTheFloor": []
+      "nextMeeting": "Tuesday, November 10 at 10:00 AM",
+      "lastSessionSummary": "The House passed five bipartisan nuclear energy and veterans bills by wide margins under suspension of rules. H.R. 3978 modernizing nuclear fuel reprocessing passed 397-2, H.R. 9612 updating uranium enrichment licensing passed 394-3, and H.R. 8552 boosting veterans disability compensation passed without opposition. Two additional nuclear measures saw debate postponed for further consideration.",
+      "onTheFloor": [
+        {
+          "measure": "H.R. 3978",
+          "title": "Nuclear REFUEL Act - modernizes definition of nuclear fuel production facilities",
+          "status": "passed 397-2"
+        },
+        {
+          "measure": "H.R. 9612",
+          "title": "American Enrichment Deployment Act - updates uranium enrichment facility licensing",
+          "status": "passed 394-3"
+        },
+        {
+          "measure": "H.R. 9613",
+          "title": "Nuclear Advisory Committee Reform Act - updates Advisory Committee on Reactor Safeguards role",
+          "status": "passed"
+        },
+        {
+          "measure": "H.R. 9614",
+          "title": "NRC Staff Pay Alignment Act - provides compensation authority for NRC career appointees",
+          "status": "passed"
+        },
+        {
+          "measure": "H.R. 8552",
+          "title": "Veterans Compensation Cost-of-Living Adjustment Act - increases disability compensation effective December 1, 2026",
+          "status": "passed"
+        },
+        {
+          "measure": "H.R. 5549",
+          "title": "Efficient Nuclear Licensing Hearings Act - streamlines hearings on nuclear facility applications",
+          "status": "debate postponed"
+        },
+        {
+          "measure": "H.R. 9084",
+          "title": "Department of Energy Nuclear Transparency Act - increases transparency on DOE nuclear authorizations",
+          "status": "debate postponed"
+        },
+        {
+          "measure": "H.R. 1013",
+          "title": "Retirement Fairness for Charities and Educational Institutions Act - enhances 403(b) plans",
+          "status": "rule granted; scheduled for floor consideration"
+        }
+      ]
     }
   },
   "committees": [
     {
       "chamber": "senate",
-      "committee": "Committee on Veterans' Affairs",
-      "topic": "Business meeting to consider pending nominations and Fiscal Year 2027 Major Medical Facility Lease Authorizations"
+      "committee": "Committee on Foreign Relations",
+      "topic": "Nominations for ambassadors to Egypt, Ecuador, Barbados, Paraguay, Saudi Arabia, Kuwait, Somalia, Djibouti, Suriname, and Ambassador at Large for International Religious Freedom"
+    },
+    {
+      "chamber": "senate",
+      "committee": "Committee on the Judiciary",
+      "topic": "Business meeting to consider S. 5289 on free exercise of religion and nominations for 10 federal judges, U.S. attorneys, and U.S. marshals"
+    },
+    {
+      "chamber": "senate",
+      "committee": "Committee on Commerce, Science, and Transportation",
+      "topic": "Nominations for Assistant Secretary of Transportation, FCC member, and NASA Chief Financial Officer and Inspector General"
+    },
+    {
+      "chamber": "senate",
+      "committee": "Committee on Finance",
+      "topic": "Nominations for Treasury Under Secretary, Treasury General Counsel, and Commerce Assistant Secretary"
     },
     {
       "chamber": "house",
-      "committee": "Committee on Rules",
-      "topic": "Hearing on H.R. 1013, the Retirement Fairness for Charities and Educational Institutions Act of 2025"
+      "committee": "Committee on Education and Workforce",
+      "topic": "Subcommittee hearing on sports gambling on college campuses (Wednesday, November 11)"
+    },
+    {
+      "chamber": "house",
+      "committee": "Committee on Foreign Affairs",
+      "topic": "Africa Subcommittee hearing on Nigeria's efforts to protect Christians and secure Middle Belt region (Thursday, November 12)"
     }
   ]
 }

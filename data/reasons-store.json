@@ -1,1 +1,16 @@
-{}
+{
+  "C001110": {
+    "reason": "necessarily absent",
+    "detail": "J. Luis Correa was necessarily absent on November 9, 2026 and missed votes on Roll Call No. 315 and 316.",
+    "onLeave": false,
+    "source": "Congressional Record 2026-11-09",
+    "date": "2026-11-09"
+  },
+  "D000096": {
+    "reason": "granted leave of absence",
+    "detail": "Danny K. Davis of Illinois was granted leave of absence for November 9, 2026 by unanimous consent.",
+    "onLeave": true,
+    "source": "Congressional Record 2026-11-09",
+    "date": "2026-11-09"
+  }
+}
