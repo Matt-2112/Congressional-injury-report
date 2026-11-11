@@ -1,74 +1,79 @@
 {
-  "generatedAt": "2026-11-10T17:35:03.848Z",
-  "reportDate": "2026-11-10",
+  "generatedAt": "2026-11-11T17:46:56.313Z",
+  "reportDate": "2026-11-11",
   "recordIssueDate": "2026-11-09",
   "available": true,
-  "headline": "Senate advances procedurally on tax relief bill while House powers through nuclear energy and veterans benefits!",
+  "headline": "Senate clears the deck on tax relief for abuse survivors as House powers up nuclear energy trio!",
   "chambers": {
     "senate": {
       "nextMeeting": "Tuesday, November 10 at 12:00 PM",
-      "lastSessionSummary": "The Senate voted 73-25 to invoke cloture on the motion to proceed to H.R. 2347, the Survivor Justice Tax Prevention Act, clearing the way for continued debate. Senators also passed S. 3589, the RISE Act, providing information access for students with disabilities, and agreed to S. Res. 952 authorizing use of Hart Senate Atrium on November 18 for Alexander Calder's sculpture commemoration.",
+      "lastSessionSummary": "The Senate voted 73-25 to advance debate on H.R. 2347, the Survivor Justice Tax Prevention Act, clearing a cloture hurdle. The chamber also passed the RISE Act to help students with disabilities navigate college selection and enrollment, and authorized use of the Hart Senate Office Building atrium for an art installation on November 18. A unanimous consent agreement was reached to consider H. Con. Res. 93 on war powers and Iran hostilities by November 20.",
       "onTheFloor": [
         {
           "measure": "H.R. 2347",
-          "title": "Survivor Justice Tax Prevention Act - excludes sexual abuse damages from taxable income",
-          "status": "cloture invoked 73-25; post-cloture debate continues"
+          "title": "Survivor Justice Tax Prevention Act—excludes non-punitive damages from sexual abuse from gross income; legislative vehicle for Bipartisan American Affordability and Jobs Act",
+          "status": "Cloture vote passed 73-25, post-cloture consideration continuing Tuesday"
         },
         {
           "measure": "S. 3589",
-          "title": "RISE Act - provides disability students and families college selection information",
-          "status": "passed"
+          "title": "RISE Act—provides students with disabilities and families access to information for college selection and success",
+          "status": "Passed"
         },
         {
           "measure": "S. Res. 952",
-          "title": "Authorizes Hart Senate Atrium use for Calder sculpture event",
-          "status": "agreed to"
+          "title": "Authorization for use of Hart Senate Office Building atrium for Alexander Calder sculpture commemoration and reunification",
+          "status": "Passed"
+        },
+        {
+          "measure": "H. Con. Res. 93",
+          "title": "War Powers Resolution directing removal of U.S. Armed Forces from hostilities with Iran",
+          "status": "Discharged by November 20 with 6 hours debate"
+        },
+        {
+          "measure": "S. 933",
+          "title": "NASA reauthorization for fiscal year 2025",
+          "status": "Reported from committee with amendment"
+        },
+        {
+          "measure": "S. 2378",
+          "title": "Aviation security checkpoint technology funding",
+          "status": "Reported from committee with amendment"
         }
       ]
     },
     "house": {
       "nextMeeting": "Tuesday, November 10 at 10:00 AM",
-      "lastSessionSummary": "The House passed five bipartisan nuclear energy and veterans bills by wide margins under suspension of rules. H.R. 3978 modernizing nuclear fuel reprocessing passed 397-2, H.R. 9612 updating uranium enrichment licensing passed 394-3, and H.R. 8552 boosting veterans disability compensation passed without opposition. Two additional nuclear measures saw debate postponed for further consideration.",
+      "lastSessionSummary": "The House passed five major nuclear energy bills under suspension of the rules with overwhelming bipartisan support, including the Nuclear REFUEL Act (397-2), American Enrichment Deployment Act (394-3), and supporting measures for reactor oversight and NRC staff compensation. The chamber also voted to increase veterans' disability compensation effective December 1, 2026. Two additional nuclear licensing bills saw debate postponed.",
       "onTheFloor": [
         {
           "measure": "H.R. 3978",
-          "title": "Nuclear REFUEL Act - modernizes definition of nuclear fuel production facilities",
-          "status": "passed 397-2"
+          "title": "Nuclear REFUEL Act—updates definition of production facility to exclude certain spent nuclear fuel reprocessing equipment",
+          "status": "Passed 397-2 under suspension of rules"
         },
         {
           "measure": "H.R. 9612",
-          "title": "American Enrichment Deployment Act - updates uranium enrichment facility licensing",
-          "status": "passed 394-3"
+          "title": "American Enrichment Deployment Act—updates licensing procedures for uranium enrichment facilities",
+          "status": "Passed 394-3 under suspension of rules"
         },
         {
           "measure": "H.R. 9613",
-          "title": "Nuclear Advisory Committee Reform Act - updates Advisory Committee on Reactor Safeguards role",
-          "status": "passed"
+          "title": "Nuclear Advisory Committee Reform Act—updates role of Advisory Committee on Reactor Safeguards",
+          "status": "Passed under suspension of rules"
         },
         {
           "measure": "H.R. 9614",
-          "title": "NRC Staff Pay Alignment Act - provides compensation authority for NRC career appointees",
-          "status": "passed"
+          "title": "NRC Staff Pay Alignment Act—provides compensation authority for career appointees",
+          "status": "Passed under suspension of rules"
         },
         {
           "measure": "H.R. 8552",
-          "title": "Veterans Compensation Cost-of-Living Adjustment Act - increases disability compensation effective December 1, 2026",
-          "status": "passed"
-        },
-        {
-          "measure": "H.R. 5549",
-          "title": "Efficient Nuclear Licensing Hearings Act - streamlines hearings on nuclear facility applications",
-          "status": "debate postponed"
-        },
-        {
-          "measure": "H.R. 9084",
-          "title": "Department of Energy Nuclear Transparency Act - increases transparency on DOE nuclear authorizations",
-          "status": "debate postponed"
+          "title": "Veterans' Compensation Cost-of-Living Adjustment Act of 2026—increases disability and survivor compensation effective December 1",
+          "status": "Passed under suspension of rules"
         },
         {
           "measure": "H.R. 1013",
-          "title": "Retirement Fairness for Charities and Educational Institutions Act - enhances 403(b) plans",
-          "status": "rule granted; scheduled for floor consideration"
+          "title": "Retirement Fairness for Charities and Educational Institutions Act—enhances 403(b) retirement plans",
+          "status": "Rule approved 7-3; consideration scheduled"
         }
       ]
     }
@@ -77,17 +82,17 @@
     {
       "chamber": "senate",
       "committee": "Committee on Foreign Relations",
-      "topic": "Nominations for ambassadors to Egypt, Ecuador, Barbados, Paraguay, Saudi Arabia, Kuwait, Somalia, Djibouti, Suriname, and Ambassador at Large for International Religious Freedom"
+      "topic": "Nominations for ambassadorships and international religious freedom at large (Egypt, Ecuador, Barbados, Paraguay, Saudi Arabia, Kuwait, Somalia, Djibouti, Suriname and others)"
     },
     {
       "chamber": "senate",
       "committee": "Committee on the Judiciary",
-      "topic": "Business meeting to consider S. 5289 on free exercise of religion and nominations for 10 federal judges, U.S. attorneys, and U.S. marshals"
+      "topic": "Business meeting on S. 5289 to protect free exercise of religion, plus nominations for 10 federal judges, U.S. attorneys, and U.S. marshals"
     },
     {
       "chamber": "senate",
       "committee": "Committee on Commerce, Science, and Transportation",
-      "topic": "Nominations for Assistant Secretary of Transportation, FCC member, and NASA Chief Financial Officer and Inspector General"
+      "topic": "Nominations for Assistant Secretary of Transportation, FCC member, and NASA CFO and Inspector General"
     },
     {
       "chamber": "senate",
@@ -95,14 +100,14 @@
       "topic": "Nominations for Treasury Under Secretary, Treasury General Counsel, and Commerce Assistant Secretary"
     },
     {
-      "chamber": "house",
-      "committee": "Committee on Education and Workforce",
-      "topic": "Subcommittee hearing on sports gambling on college campuses (Wednesday, November 11)"
+      "chamber": "senate",
+      "committee": "Committee on Agriculture, Nutrition, and Forestry",
+      "topic": "Nominations for USDA Under Secretary and four Farm Credit Administration Board members"
     },
     {
       "chamber": "house",
-      "committee": "Committee on Foreign Affairs",
-      "topic": "Africa Subcommittee hearing on Nigeria's efforts to protect Christians and secure Middle Belt region (Thursday, November 12)"
+      "committee": "Committee on Education and Workforce Subcommittee on Higher Education and Workforce Development",
+      "topic": "Hearing on the rise of sports gambling on college campuses"
     }
   ]
 }
