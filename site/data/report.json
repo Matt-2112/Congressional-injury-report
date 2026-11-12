@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-11T17:46:56.282Z",
-  "reportDate": "2026-11-11",
+  "generatedAt": "2026-11-12T18:00:07.170Z",
+  "reportDate": "2026-11-12",
   "chambers": {
     "senate": {
       "latestVoteDay": "2026-11-10",
@@ -653,8 +653,9 @@
       ]
     },
     "house": {
-      "latestVoteDay": "2026-11-10",
+      "latestVoteDay": "2026-11-11",
       "voteDaysCovered": [
+        "2026-11-11",
         "2026-11-10",
         "2026-11-09",
         "2026-09-16",
@@ -663,11 +664,10 @@
         "2026-09-03",
         "2026-09-02",
         "2026-09-01",
-        "2026-08-31",
-        "2026-07-23"
+        "2026-08-31"
       ],
       "totalMembers": 433,
-      "activeCount": 425,
+      "activeCount": 420,
       "closeCalls": [
         {
           "id": "house-2026-317",
@@ -792,6 +792,67 @@
           ]
         },
         {
+          "id": "house-2026-319",
+          "date": "2026-11-10",
+          "question": "On Agreeing to the Resolution",
+          "legisNum": "H RES 1650",
+          "result": "Passed",
+          "yeas": 215,
+          "nays": 209,
+          "margin": 6,
+          "absent": 9,
+          "absentees": [
+            {
+              "bioguide": "C001110",
+              "last": "Correa",
+              "party": "D",
+              "state": "CA"
+            },
+            {
+              "bioguide": "D000594",
+              "last": "De La Cruz",
+              "party": "R",
+              "state": "TX"
+            },
+            {
+              "bioguide": "D000628",
+              "last": "Dunn",
+              "party": "R",
+              "state": "FL"
+            },
+            {
+              "bioguide": "E000246",
+              "last": "Edwards",
+              "party": "R",
+              "state": "NC"
+            },
+            {
+              "bioguide": "G000599",
+              "last": "Goldman",
+              "party": "D",
+              "state": "NY"
+            },
+            {
+              "bioguide": "P000197",
+              "last": "Pelosi",
+              "party": "D",
+              "state": "CA"
+            },
+            {
+              "bioguide": "S001176",
+              "last": "Scalise",
+              "party": "R",
+              "state": "LA"
+            },
+            {
+              "bioguide": "S001215",
+              "last": "Stevens",
+              "party": "D",
+              "state": "MI"
+            }
+          ]
+        },
+        {
           "id": "house-2026-311",
           "date": "2026-09-16",
           "question": "On Passage",
@@ -912,95 +973,9 @@
               "state": "WA"
             }
           ]
-        },
-        {
-          "id": "house-2026-300",
-          "date": "2026-09-15",
-          "question": "On Agreeing to the Resolution",
-          "legisNum": "H RES 1530",
-          "result": "Passed",
-          "yeas": 214,
-          "nays": 211,
-          "margin": 3,
-          "absent": 8,
-          "absentees": [
-            {
-              "bioguide": "D000032",
-              "last": "Donalds",
-              "party": "R",
-              "state": "FL"
-            },
-            {
-              "bioguide": "D000628",
-              "last": "Dunn",
-              "party": "R",
-              "state": "FL"
-            },
-            {
-              "bioguide": "G000559",
-              "last": "Garamendi",
-              "party": "D",
-              "state": "CA"
-            },
-            {
-              "bioguide": "H001094",
-              "last": "Hoyle",
-              "party": "D",
-              "state": "OR"
-            },
-            {
-              "bioguide": "M001216",
-              "last": "Mills",
-              "party": "R",
-              "state": "FL"
-            },
-            {
-              "bioguide": "R000614",
-              "last": "Roy",
-              "party": "R",
-              "state": "TX"
-            },
-            {
-              "bioguide": "S000510",
-              "last": "Smith",
-              "party": "D",
-              "state": "WA"
-            },
-            {
-              "bioguide": "T000165",
-              "last": "Tiffany",
-              "party": "R",
-              "state": "WI"
-            }
-          ]
         }
       ],
       "listed": [
-        {
-          "bioguide": "C001110",
-          "name": "J. Luis Correa",
-          "last": "Correa",
-          "party": "D",
-          "state": "CA",
-          "district": 46,
-          "chamber": "house",
-          "status": "OUT",
-          "note": "missed all 2 votes on 2026-11-10",
-          "since": "2026-11-09",
-          "streakDays": 2,
-          "latestDay": {
-            "date": "2026-11-10",
-            "missed": 2,
-            "total": 2
-          },
-          "last7": {
-            "missed": 4,
-            "total": 4
-          },
-          "reason": "necessarily absent",
-          "detail": "Member was necessarily absent on November 9, 2026 and missed votes on H.R. 3978 and H.R. 9612.",
-          "reasonSource": "Congressional Record 2026-11-09"
-        },
         {
           "bioguide": "D000594",
           "name": "Monica De La Cruz",
@@ -1010,42 +985,217 @@
           "district": 15,
           "chamber": "house",
           "status": "OUT",
-          "note": "missed all 2 votes on 2026-11-10",
+          "note": "missed all 1 vote on 2026-11-11",
           "since": "2026-11-10",
-          "streakDays": 1,
+          "streakDays": 2,
           "latestDay": {
-            "date": "2026-11-10",
-            "missed": 2,
-            "total": 2
+            "date": "2026-11-11",
+            "missed": 1,
+            "total": 1
           },
           "last7": {
-            "missed": 2,
-            "total": 4
+            "missed": 4,
+            "total": 6
           },
           "reason": null,
           "detail": null,
           "reasonSource": null
         },
         {
-          "bioguide": "H001066",
-          "name": "Steven Horsford",
-          "last": "Horsford",
-          "party": "D",
-          "state": "NV",
-          "district": 4,
+          "bioguide": "D000032",
+          "name": "Byron Donalds",
+          "last": "Donalds",
+          "party": "R",
+          "state": "FL",
+          "district": 19,
           "chamber": "house",
           "status": "OUT",
-          "note": "missed all 2 votes on 2026-11-10",
-          "since": "2026-11-10",
+          "note": "missed all 1 vote on 2026-11-11",
+          "since": "2026-11-11",
           "streakDays": 1,
           "latestDay": {
-            "date": "2026-11-10",
-            "missed": 2,
-            "total": 2
+            "date": "2026-11-11",
+            "missed": 1,
+            "total": 1
+          },
+          "last7": {
+            "missed": 3,
+            "total": 6
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "G000581",
+          "name": "Vicente Gonzalez",
+          "last": "Gonzalez",
+          "party": "D",
+          "state": "TX",
+          "district": 34,
+          "chamber": "house",
+          "status": "OUT",
+          "note": "missed all 1 vote on 2026-11-11",
+          "since": "2026-11-11",
+          "streakDays": 1,
+          "latestDay": {
+            "date": "2026-11-11",
+            "missed": 1,
+            "total": 1
+          },
+          "last7": {
+            "missed": 3,
+            "total": 6
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "L000600",
+          "name": "Nicholas A. Langworthy",
+          "last": "Langworthy",
+          "party": "R",
+          "state": "NY",
+          "district": 23,
+          "chamber": "house",
+          "status": "OUT",
+          "note": "missed all 1 vote on 2026-11-11",
+          "since": "2026-11-11",
+          "streakDays": 1,
+          "latestDay": {
+            "date": "2026-11-11",
+            "missed": 1,
+            "total": 1
+          },
+          "last7": {
+            "missed": 1,
+            "total": 6
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "L000595",
+          "name": "Julia Letlow",
+          "last": "Letlow",
+          "party": "R",
+          "state": "LA",
+          "district": 5,
+          "chamber": "house",
+          "status": "OUT",
+          "note": "missed all 1 vote on 2026-11-11",
+          "since": "2026-11-11",
+          "streakDays": 1,
+          "latestDay": {
+            "date": "2026-11-11",
+            "missed": 1,
+            "total": 1
           },
           "last7": {
             "missed": 2,
-            "total": 4
+            "total": 6
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "L000596",
+          "name": "Anna Paulina Luna",
+          "last": "Luna",
+          "party": "R",
+          "state": "FL",
+          "district": 13,
+          "chamber": "house",
+          "status": "OUT",
+          "note": "missed all 1 vote on 2026-11-11",
+          "since": "2026-11-11",
+          "streakDays": 1,
+          "latestDay": {
+            "date": "2026-11-11",
+            "missed": 1,
+            "total": 1
+          },
+          "last7": {
+            "missed": 3,
+            "total": 6
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "M001239",
+          "name": "John J. McGuire III",
+          "last": "McGuire",
+          "party": "R",
+          "state": "VA",
+          "district": 5,
+          "chamber": "house",
+          "status": "OUT",
+          "note": "missed all 1 vote on 2026-11-11",
+          "since": "2026-11-11",
+          "streakDays": 1,
+          "latestDay": {
+            "date": "2026-11-11",
+            "missed": 1,
+            "total": 1
+          },
+          "last7": {
+            "missed": 1,
+            "total": 6
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "M001196",
+          "name": "Seth Moulton",
+          "last": "Moulton",
+          "party": "D",
+          "state": "MA",
+          "district": 6,
+          "chamber": "house",
+          "status": "OUT",
+          "note": "missed all 1 vote on 2026-11-11",
+          "since": "2026-11-11",
+          "streakDays": 1,
+          "latestDay": {
+            "date": "2026-11-11",
+            "missed": 1,
+            "total": 1
+          },
+          "last7": {
+            "missed": 1,
+            "total": 6
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "M001210",
+          "name": "Gregory F. Murphy",
+          "last": "Murphy",
+          "party": "R",
+          "state": "NC",
+          "district": 3,
+          "chamber": "house",
+          "status": "OUT",
+          "note": "missed all 1 vote on 2026-11-11",
+          "since": "2026-11-11",
+          "streakDays": 1,
+          "latestDay": {
+            "date": "2026-11-11",
+            "missed": 1,
+            "total": 1
+          },
+          "last7": {
+            "missed": 1,
+            "total": 6
           },
           "reason": null,
           "detail": null,
@@ -1060,96 +1210,71 @@
           "district": 11,
           "chamber": "house",
           "status": "OUT",
-          "note": "missed all 2 votes on 2026-11-10",
+          "note": "missed all 1 vote on 2026-11-11",
           "since": "2026-11-10",
-          "streakDays": 1,
+          "streakDays": 2,
           "latestDay": {
-            "date": "2026-11-10",
-            "missed": 2,
-            "total": 2
+            "date": "2026-11-11",
+            "missed": 1,
+            "total": 1
           },
           "last7": {
-            "missed": 2,
-            "total": 4
+            "missed": 4,
+            "total": 6
           },
           "reason": null,
           "detail": null,
           "reasonSource": null
         },
         {
-          "bioguide": "S001215",
-          "name": "Haley M. Stevens",
-          "last": "Stevens",
-          "party": "D",
-          "state": "MI",
-          "district": 11,
-          "chamber": "house",
-          "status": "OUT",
-          "note": "missed all 2 votes on 2026-11-10",
-          "since": "2026-11-10",
-          "streakDays": 1,
-          "latestDay": {
-            "date": "2026-11-10",
-            "missed": 2,
-            "total": 2
-          },
-          "last7": {
-            "missed": 2,
-            "total": 4
-          },
-          "reason": null,
-          "detail": null,
-          "reasonSource": null
-        },
-        {
-          "bioguide": "V000135",
-          "name": "Derrick Van Orden",
-          "last": "Van Orden",
+          "bioguide": "S000168",
+          "name": "Maria Elvira Salazar",
+          "last": "Salazar",
           "party": "R",
-          "state": "WI",
-          "district": 3,
+          "state": "FL",
+          "district": 27,
           "chamber": "house",
           "status": "OUT",
-          "note": "missed all 2 votes on 2026-11-10",
-          "since": "2026-11-09",
-          "streakDays": 2,
+          "note": "missed all 1 vote on 2026-11-11",
+          "since": "2026-11-11",
+          "streakDays": 1,
           "latestDay": {
-            "date": "2026-11-10",
-            "missed": 2,
-            "total": 2
+            "date": "2026-11-11",
+            "missed": 1,
+            "total": 1
           },
           "last7": {
-            "missed": 4,
-            "total": 4
+            "missed": 3,
+            "total": 6
           },
           "reason": null,
           "detail": null,
           "reasonSource": null
         },
         {
-          "bioguide": "W000808",
-          "name": "Frederica S. Wilson",
-          "last": "Wilson",
+          "bioguide": "C001110",
+          "name": "J. Luis Correa",
+          "last": "Correa",
           "party": "D",
-          "state": "FL",
-          "district": 24,
+          "state": "CA",
+          "district": 46,
           "chamber": "house",
-          "status": "OUT",
-          "note": "missed all 2 votes on 2026-11-10",
+          "status": "IR",
+          "note": "missed all votes on 3 straight vote days — no announced return",
           "since": "2026-11-09",
-          "streakDays": 2,
+          "streakDays": 3,
           "latestDay": {
-            "date": "2026-11-10",
-            "missed": 2,
-            "total": 2
+            "date": "2026-11-11",
+            "missed": 1,
+            "total": 1
           },
           "last7": {
-            "missed": 4,
-            "total": 4
+            "missed": 6,
+            "total": 6
           },
-          "reason": null,
-          "detail": null,
-          "reasonSource": null
+          "reason": "necessarily absent",
+          "detail": "J. Luis Correa was necessarily absent on November 9, 2026, and missed votes on Roll Call No. 315 and 316.",
+          "reasonSource": "Congressional Record 2026-11-09"
         },
         {
           "bioguide": "D000628",
@@ -1160,392 +1285,17 @@
           "district": 2,
           "chamber": "house",
           "status": "IR",
-          "note": "missed all votes on 10 straight vote days — no announced return",
+          "note": "missed all votes on 11 straight vote days — no announced return",
           "since": "2026-07-23",
-          "streakDays": 10,
+          "streakDays": 11,
           "latestDay": {
-            "date": "2026-11-10",
-            "missed": 2,
-            "total": 2
+            "date": "2026-11-11",
+            "missed": 1,
+            "total": 1
           },
           "last7": {
-            "missed": 4,
-            "total": 4
-          },
-          "reason": null,
-          "detail": null,
-          "reasonSource": null
-        },
-        {
-          "bioguide": "A000375",
-          "name": "Jodey C. Arrington",
-          "last": "Arrington",
-          "party": "R",
-          "state": "TX",
-          "district": 19,
-          "chamber": "house",
-          "status": "QUESTIONABLE",
-          "note": "missed 1 of 2 votes on 2026-11-10",
-          "since": null,
-          "streakDays": 0,
-          "latestDay": {
-            "date": "2026-11-10",
-            "missed": 1,
-            "total": 2
-          },
-          "last7": {
-            "missed": 1,
-            "total": 4
-          },
-          "reason": null,
-          "detail": null,
-          "reasonSource": null
-        },
-        {
-          "bioguide": "B001285",
-          "name": "Julia Brownley",
-          "last": "Brownley",
-          "party": "D",
-          "state": "CA",
-          "district": 26,
-          "chamber": "house",
-          "status": "QUESTIONABLE",
-          "note": "missed 1 of 2 votes on 2026-11-10",
-          "since": null,
-          "streakDays": 0,
-          "latestDay": {
-            "date": "2026-11-10",
-            "missed": 1,
-            "total": 2
-          },
-          "last7": {
-            "missed": 1,
-            "total": 4
-          },
-          "reason": null,
-          "detail": null,
-          "reasonSource": null
-        },
-        {
-          "bioguide": "F000478",
-          "name": "Russell Fry",
-          "last": "Fry",
-          "party": "R",
-          "state": "SC",
-          "district": 7,
-          "chamber": "house",
-          "status": "QUESTIONABLE",
-          "note": "missed 1 of 2 votes on 2026-11-10",
-          "since": null,
-          "streakDays": 0,
-          "latestDay": {
-            "date": "2026-11-10",
-            "missed": 1,
-            "total": 2
-          },
-          "last7": {
-            "missed": 1,
-            "total": 4
-          },
-          "reason": null,
-          "detail": null,
-          "reasonSource": null
-        },
-        {
-          "bioguide": "G000602",
-          "name": "Laura Gillen",
-          "last": "Gillen",
-          "party": "D",
-          "state": "NY",
-          "district": 4,
-          "chamber": "house",
-          "status": "QUESTIONABLE",
-          "note": "missed 1 of 2 votes on 2026-11-10",
-          "since": null,
-          "streakDays": 0,
-          "latestDay": {
-            "date": "2026-11-10",
-            "missed": 1,
-            "total": 2
-          },
-          "last7": {
-            "missed": 3,
-            "total": 4
-          },
-          "reason": null,
-          "detail": null,
-          "reasonSource": null
-        },
-        {
-          "bioguide": "J000309",
-          "name": "Jonathan L. Jackson",
-          "last": "Jackson",
-          "party": "D",
-          "state": "IL",
-          "district": 1,
-          "chamber": "house",
-          "status": "QUESTIONABLE",
-          "note": "missed 1 of 2 votes on 2026-11-10",
-          "since": null,
-          "streakDays": 0,
-          "latestDay": {
-            "date": "2026-11-10",
-            "missed": 1,
-            "total": 2
-          },
-          "last7": {
-            "missed": 1,
-            "total": 4
-          },
-          "reason": null,
-          "detail": null,
-          "reasonSource": null
-        },
-        {
-          "bioguide": "J000310",
-          "name": "Julie Johnson",
-          "last": "Johnson",
-          "party": "D",
-          "state": "TX",
-          "district": 32,
-          "chamber": "house",
-          "status": "QUESTIONABLE",
-          "note": "missed 1 of 2 votes on 2026-11-10",
-          "since": null,
-          "streakDays": 0,
-          "latestDay": {
-            "date": "2026-11-10",
-            "missed": 1,
-            "total": 2
-          },
-          "last7": {
-            "missed": 1,
-            "total": 4
-          },
-          "reason": null,
-          "detail": null,
-          "reasonSource": null
-        },
-        {
-          "bioguide": "L000590",
-          "name": "Susie Lee",
-          "last": "Lee",
-          "party": "D",
-          "state": "NV",
-          "district": 3,
-          "chamber": "house",
-          "status": "QUESTIONABLE",
-          "note": "missed 1 of 2 votes on 2026-11-10",
-          "since": null,
-          "streakDays": 0,
-          "latestDay": {
-            "date": "2026-11-10",
-            "missed": 1,
-            "total": 2
-          },
-          "last7": {
-            "missed": 1,
-            "total": 4
-          },
-          "reason": null,
-          "detail": null,
-          "reasonSource": null
-        },
-        {
-          "bioguide": "L000595",
-          "name": "Julia Letlow",
-          "last": "Letlow",
-          "party": "R",
-          "state": "LA",
-          "district": 5,
-          "chamber": "house",
-          "status": "QUESTIONABLE",
-          "note": "missed 1 of 2 votes on 2026-11-10",
-          "since": null,
-          "streakDays": 0,
-          "latestDay": {
-            "date": "2026-11-10",
-            "missed": 1,
-            "total": 2
-          },
-          "last7": {
-            "missed": 1,
-            "total": 4
-          },
-          "reason": null,
-          "detail": null,
-          "reasonSource": null
-        },
-        {
-          "bioguide": "M001157",
-          "name": "Michael T. McCaul",
-          "last": "McCaul",
-          "party": "R",
-          "state": "TX",
-          "district": 10,
-          "chamber": "house",
-          "status": "QUESTIONABLE",
-          "note": "missed 1 of 2 votes on 2026-11-10",
-          "since": null,
-          "streakDays": 0,
-          "latestDay": {
-            "date": "2026-11-10",
-            "missed": 1,
-            "total": 2
-          },
-          "last7": {
-            "missed": 3,
-            "total": 4
-          },
-          "reason": null,
-          "detail": null,
-          "reasonSource": null
-        },
-        {
-          "bioguide": "M001222",
-          "name": "Max L. Miller",
-          "last": "Miller",
-          "party": "R",
-          "state": "OH",
-          "district": 7,
-          "chamber": "house",
-          "status": "QUESTIONABLE",
-          "note": "missed 1 of 2 votes on 2026-11-10",
-          "since": null,
-          "streakDays": 0,
-          "latestDay": {
-            "date": "2026-11-10",
-            "missed": 1,
-            "total": 2
-          },
-          "last7": {
-            "missed": 1,
-            "total": 4
-          },
-          "reason": null,
-          "detail": null,
-          "reasonSource": null
-        },
-        {
-          "bioguide": "P000620",
-          "name": "Brittany Pettersen",
-          "last": "Pettersen",
-          "party": "D",
-          "state": "CO",
-          "district": 7,
-          "chamber": "house",
-          "status": "QUESTIONABLE",
-          "note": "missed 1 of 2 votes on 2026-11-10",
-          "since": null,
-          "streakDays": 0,
-          "latestDay": {
-            "date": "2026-11-10",
-            "missed": 1,
-            "total": 2
-          },
-          "last7": {
-            "missed": 1,
-            "total": 4
-          },
-          "reason": null,
-          "detail": null,
-          "reasonSource": null
-        },
-        {
-          "bioguide": "S001218",
-          "name": "Melanie A. Stansbury",
-          "last": "Stansbury",
-          "party": "D",
-          "state": "NM",
-          "district": 1,
-          "chamber": "house",
-          "status": "QUESTIONABLE",
-          "note": "missed 1 of 2 votes on 2026-11-10",
-          "since": null,
-          "streakDays": 0,
-          "latestDay": {
-            "date": "2026-11-10",
-            "missed": 1,
-            "total": 2
-          },
-          "last7": {
-            "missed": 1,
-            "total": 4
-          },
-          "reason": null,
-          "detail": null,
-          "reasonSource": null
-        },
-        {
-          "bioguide": "S001159",
-          "name": "Marilyn Strickland",
-          "last": "Strickland",
-          "party": "D",
-          "state": "WA",
-          "district": 10,
-          "chamber": "house",
-          "status": "QUESTIONABLE",
-          "note": "missed 1 of 2 votes on 2026-11-10",
-          "since": null,
-          "streakDays": 0,
-          "latestDay": {
-            "date": "2026-11-10",
-            "missed": 1,
-            "total": 2
-          },
-          "last7": {
-            "missed": 1,
-            "total": 4
-          },
-          "reason": null,
-          "detail": null,
-          "reasonSource": null
-        },
-        {
-          "bioguide": "T000165",
-          "name": "Thomas P. Tiffany",
-          "last": "Tiffany",
-          "party": "R",
-          "state": "WI",
-          "district": 7,
-          "chamber": "house",
-          "status": "QUESTIONABLE",
-          "note": "missed 1 of 2 votes on 2026-11-10",
-          "since": null,
-          "streakDays": 0,
-          "latestDay": {
-            "date": "2026-11-10",
-            "missed": 1,
-            "total": 2
-          },
-          "last7": {
-            "missed": 3,
-            "total": 4
-          },
-          "reason": null,
-          "detail": null,
-          "reasonSource": null
-        },
-        {
-          "bioguide": "Y000067",
-          "name": "Rudy Yakym III",
-          "last": "Yakym",
-          "party": "R",
-          "state": "IN",
-          "district": 2,
-          "chamber": "house",
-          "status": "QUESTIONABLE",
-          "note": "missed 1 of 2 votes on 2026-11-10",
-          "since": null,
-          "streakDays": 0,
-          "latestDay": {
-            "date": "2026-11-10",
-            "missed": 1,
-            "total": 2
-          },
-          "last7": {
-            "missed": 1,
-            "total": 4
+            "missed": 6,
+            "total": 6
           },
           "reason": null,
           "detail": null,
@@ -1564,13 +1314,13 @@
           "since": null,
           "streakDays": 0,
           "latestDay": {
-            "date": "2026-11-10",
+            "date": "2026-11-11",
             "missed": 0,
-            "total": 2
+            "total": 1
           },
           "last7": {
             "missed": 2,
-            "total": 4
+            "total": 6
           },
           "reason": null,
           "detail": null,
@@ -1589,13 +1339,13 @@
           "since": null,
           "streakDays": 0,
           "latestDay": {
-            "date": "2026-11-10",
+            "date": "2026-11-11",
             "missed": 0,
-            "total": 2
+            "total": 1
           },
           "last7": {
             "missed": 2,
-            "total": 4
+            "total": 6
           },
           "reason": null,
           "detail": null,
@@ -1614,13 +1364,13 @@
           "since": null,
           "streakDays": 0,
           "latestDay": {
-            "date": "2026-11-10",
+            "date": "2026-11-11",
             "missed": 0,
-            "total": 2
+            "total": 1
           },
           "last7": {
             "missed": 2,
-            "total": 4
+            "total": 6
           },
           "reason": null,
           "detail": null,
@@ -1639,13 +1389,13 @@
           "since": null,
           "streakDays": 0,
           "latestDay": {
-            "date": "2026-11-10",
+            "date": "2026-11-11",
             "missed": 0,
-            "total": 2
+            "total": 1
           },
           "last7": {
             "missed": 2,
-            "total": 4
+            "total": 6
           },
           "reason": null,
           "detail": null,
@@ -1664,13 +1414,13 @@
           "since": null,
           "streakDays": 0,
           "latestDay": {
-            "date": "2026-11-10",
+            "date": "2026-11-11",
             "missed": 0,
-            "total": 2
+            "total": 1
           },
           "last7": {
             "missed": 2,
-            "total": 4
+            "total": 6
           },
           "reason": null,
           "detail": null,
@@ -1689,38 +1439,13 @@
           "since": null,
           "streakDays": 0,
           "latestDay": {
-            "date": "2026-11-10",
+            "date": "2026-11-11",
             "missed": 0,
-            "total": 2
+            "total": 1
           },
           "last7": {
             "missed": 2,
-            "total": 4
-          },
-          "reason": null,
-          "detail": null,
-          "reasonSource": null
-        },
-        {
-          "bioguide": "D000032",
-          "name": "Byron Donalds",
-          "last": "Donalds",
-          "party": "R",
-          "state": "FL",
-          "district": 19,
-          "chamber": "house",
-          "status": "PROBABLE",
-          "note": "back on the floor after sitting out 2026-11-09",
-          "since": null,
-          "streakDays": 0,
-          "latestDay": {
-            "date": "2026-11-10",
-            "missed": 0,
-            "total": 2
-          },
-          "last7": {
-            "missed": 2,
-            "total": 4
+            "total": 6
           },
           "reason": null,
           "detail": null,
@@ -1739,13 +1464,13 @@
           "since": null,
           "streakDays": 0,
           "latestDay": {
-            "date": "2026-11-10",
+            "date": "2026-11-11",
             "missed": 0,
-            "total": 2
+            "total": 1
           },
           "last7": {
             "missed": 2,
-            "total": 4
+            "total": 6
           },
           "reason": null,
           "detail": null,
@@ -1764,13 +1489,38 @@
           "since": null,
           "streakDays": 0,
           "latestDay": {
-            "date": "2026-11-10",
+            "date": "2026-11-11",
             "missed": 0,
-            "total": 2
+            "total": 1
           },
           "last7": {
             "missed": 2,
-            "total": 4
+            "total": 6
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "G000602",
+          "name": "Laura Gillen",
+          "last": "Gillen",
+          "party": "D",
+          "state": "NY",
+          "district": 4,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-11-09",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-11-11",
+            "missed": 0,
+            "total": 1
+          },
+          "last7": {
+            "missed": 3,
+            "total": 6
           },
           "reason": null,
           "detail": null,
@@ -1789,38 +1539,13 @@
           "since": null,
           "streakDays": 0,
           "latestDay": {
-            "date": "2026-11-10",
+            "date": "2026-11-11",
             "missed": 0,
-            "total": 2
+            "total": 1
           },
           "last7": {
             "missed": 2,
-            "total": 4
-          },
-          "reason": null,
-          "detail": null,
-          "reasonSource": null
-        },
-        {
-          "bioguide": "G000581",
-          "name": "Vicente Gonzalez",
-          "last": "Gonzalez",
-          "party": "D",
-          "state": "TX",
-          "district": 34,
-          "chamber": "house",
-          "status": "PROBABLE",
-          "note": "back on the floor after sitting out 2026-11-09",
-          "since": null,
-          "streakDays": 0,
-          "latestDay": {
-            "date": "2026-11-10",
-            "missed": 0,
-            "total": 2
-          },
-          "last7": {
-            "missed": 2,
-            "total": 4
+            "total": 6
           },
           "reason": null,
           "detail": null,
@@ -1839,13 +1564,13 @@
           "since": null,
           "streakDays": 0,
           "latestDay": {
-            "date": "2026-11-10",
+            "date": "2026-11-11",
             "missed": 0,
-            "total": 2
+            "total": 1
           },
           "last7": {
             "missed": 2,
-            "total": 4
+            "total": 6
           },
           "reason": null,
           "detail": null,
@@ -1864,13 +1589,13 @@
           "since": null,
           "streakDays": 0,
           "latestDay": {
-            "date": "2026-11-10",
+            "date": "2026-11-11",
             "missed": 0,
-            "total": 2
+            "total": 1
           },
           "last7": {
             "missed": 2,
-            "total": 4
+            "total": 6
           },
           "reason": null,
           "detail": null,
@@ -1889,13 +1614,13 @@
           "since": null,
           "streakDays": 0,
           "latestDay": {
-            "date": "2026-11-10",
+            "date": "2026-11-11",
             "missed": 0,
-            "total": 2
+            "total": 1
           },
           "last7": {
             "missed": 2,
-            "total": 4
+            "total": 6
           },
           "reason": null,
           "detail": null,
@@ -1914,38 +1639,38 @@
           "since": null,
           "streakDays": 0,
           "latestDay": {
-            "date": "2026-11-10",
+            "date": "2026-11-11",
             "missed": 0,
-            "total": 2
+            "total": 1
           },
           "last7": {
             "missed": 2,
-            "total": 4
+            "total": 6
           },
           "reason": null,
           "detail": null,
           "reasonSource": null
         },
         {
-          "bioguide": "L000596",
-          "name": "Anna Paulina Luna",
-          "last": "Luna",
+          "bioguide": "M001157",
+          "name": "Michael T. McCaul",
+          "last": "McCaul",
           "party": "R",
-          "state": "FL",
-          "district": 13,
+          "state": "TX",
+          "district": 10,
           "chamber": "house",
           "status": "PROBABLE",
           "note": "back on the floor after sitting out 2026-11-09",
           "since": null,
           "streakDays": 0,
           "latestDay": {
-            "date": "2026-11-10",
+            "date": "2026-11-11",
             "missed": 0,
-            "total": 2
+            "total": 1
           },
           "last7": {
-            "missed": 2,
-            "total": 4
+            "missed": 3,
+            "total": 6
           },
           "reason": null,
           "detail": null,
@@ -1964,13 +1689,13 @@
           "since": null,
           "streakDays": 0,
           "latestDay": {
-            "date": "2026-11-10",
+            "date": "2026-11-11",
             "missed": 0,
-            "total": 2
+            "total": 1
           },
           "last7": {
             "missed": 2,
-            "total": 4
+            "total": 6
           },
           "reason": null,
           "detail": null,
@@ -1989,13 +1714,13 @@
           "since": null,
           "streakDays": 0,
           "latestDay": {
-            "date": "2026-11-10",
+            "date": "2026-11-11",
             "missed": 0,
-            "total": 2
+            "total": 1
           },
           "last7": {
             "missed": 2,
-            "total": 4
+            "total": 6
           },
           "reason": null,
           "detail": null,
@@ -2014,13 +1739,13 @@
           "since": null,
           "streakDays": 0,
           "latestDay": {
-            "date": "2026-11-10",
+            "date": "2026-11-11",
             "missed": 0,
-            "total": 2
+            "total": 1
           },
           "last7": {
             "missed": 2,
-            "total": 4
+            "total": 6
           },
           "reason": null,
           "detail": null,
@@ -2039,13 +1764,13 @@
           "since": null,
           "streakDays": 0,
           "latestDay": {
-            "date": "2026-11-10",
+            "date": "2026-11-11",
             "missed": 0,
-            "total": 2
+            "total": 1
           },
           "last7": {
             "missed": 2,
-            "total": 4
+            "total": 6
           },
           "reason": null,
           "detail": null,
@@ -2064,13 +1789,13 @@
           "since": null,
           "streakDays": 0,
           "latestDay": {
-            "date": "2026-11-10",
+            "date": "2026-11-11",
             "missed": 0,
-            "total": 2
+            "total": 1
           },
           "last7": {
             "missed": 2,
-            "total": 4
+            "total": 6
           },
           "reason": null,
           "detail": null,
@@ -2089,13 +1814,13 @@
           "since": null,
           "streakDays": 0,
           "latestDay": {
-            "date": "2026-11-10",
+            "date": "2026-11-11",
             "missed": 0,
-            "total": 2
+            "total": 1
           },
           "last7": {
             "missed": 2,
-            "total": 4
+            "total": 6
           },
           "reason": null,
           "detail": null,
@@ -2114,38 +1839,13 @@
           "since": null,
           "streakDays": 0,
           "latestDay": {
-            "date": "2026-11-10",
+            "date": "2026-11-11",
             "missed": 0,
-            "total": 2
+            "total": 1
           },
           "last7": {
             "missed": 2,
-            "total": 4
-          },
-          "reason": null,
-          "detail": null,
-          "reasonSource": null
-        },
-        {
-          "bioguide": "S000168",
-          "name": "Maria Elvira Salazar",
-          "last": "Salazar",
-          "party": "R",
-          "state": "FL",
-          "district": 27,
-          "chamber": "house",
-          "status": "PROBABLE",
-          "note": "back on the floor after sitting out 2026-11-09",
-          "since": null,
-          "streakDays": 0,
-          "latestDay": {
-            "date": "2026-11-10",
-            "missed": 0,
-            "total": 2
-          },
-          "last7": {
-            "missed": 2,
-            "total": 4
+            "total": 6
           },
           "reason": null,
           "detail": null,
@@ -2164,13 +1864,13 @@
           "since": null,
           "streakDays": 0,
           "latestDay": {
-            "date": "2026-11-10",
+            "date": "2026-11-11",
             "missed": 0,
-            "total": 2
+            "total": 1
           },
           "last7": {
             "missed": 2,
-            "total": 4
+            "total": 6
           },
           "reason": null,
           "detail": null,
@@ -2189,13 +1889,113 @@
           "since": null,
           "streakDays": 0,
           "latestDay": {
-            "date": "2026-11-10",
+            "date": "2026-11-11",
             "missed": 0,
-            "total": 2
+            "total": 1
           },
           "last7": {
             "missed": 2,
-            "total": 4
+            "total": 6
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "S001215",
+          "name": "Haley M. Stevens",
+          "last": "Stevens",
+          "party": "D",
+          "state": "MI",
+          "district": 11,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-11-10",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-11-11",
+            "missed": 0,
+            "total": 1
+          },
+          "last7": {
+            "missed": 3,
+            "total": 6
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "T000165",
+          "name": "Thomas P. Tiffany",
+          "last": "Tiffany",
+          "party": "R",
+          "state": "WI",
+          "district": 7,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-11-09",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-11-11",
+            "missed": 0,
+            "total": 1
+          },
+          "last7": {
+            "missed": 3,
+            "total": 6
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "V000135",
+          "name": "Derrick Van Orden",
+          "last": "Van Orden",
+          "party": "R",
+          "state": "WI",
+          "district": 3,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-11-09",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-11-11",
+            "missed": 0,
+            "total": 1
+          },
+          "last7": {
+            "missed": 4,
+            "total": 6
+          },
+          "reason": null,
+          "detail": null,
+          "reasonSource": null
+        },
+        {
+          "bioguide": "W000808",
+          "name": "Frederica S. Wilson",
+          "last": "Wilson",
+          "party": "D",
+          "state": "FL",
+          "district": 24,
+          "chamber": "house",
+          "status": "PROBABLE",
+          "note": "back on the floor after sitting out 2026-11-10",
+          "since": null,
+          "streakDays": 0,
+          "latestDay": {
+            "date": "2026-11-11",
+            "missed": 0,
+            "total": 1
+          },
+          "last7": {
+            "missed": 5,
+            "total": 6
           },
           "reason": null,
           "detail": null,
