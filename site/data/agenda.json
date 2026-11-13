@@ -1,79 +1,64 @@
 {
-  "generatedAt": "2026-11-12T18:00:07.211Z",
-  "reportDate": "2026-11-12",
-  "recordIssueDate": "2026-11-11",
+  "generatedAt": "2026-11-13T17:34:59.923Z",
+  "reportDate": "2026-11-13",
+  "recordIssueDate": "2026-11-12",
   "available": true,
-  "headline": "Senate passes Veterans COLA boost while House marches through small-business bills on legislative priority day!",
+  "headline": "Senate confirms federal judge on eve of Domenico-St. John showdown, House rallies behind disabled veterans' benefits!",
   "chambers": {
     "senate": {
-      "nextMeeting": "Thursday, November 12 at 12:00 PM",
-      "lastSessionSummary": "The Senate passed the Veterans' Compensation Cost-of-Living Adjustment Act (H.R. 8552), boosting disability compensation for veterans effective December 1, 2026. Three resolutions honoring veterans and recognizing National Warrior Call Day and Veterans Small Business Week also passed unanimously.",
+      "nextMeeting": "Monday, November 16 at 3:00 PM",
+      "lastSessionSummary": "The Senate confirmed Gregory Carl Cook as United States District Judge for the Northern District of Alabama by a 49-27 vote. Cloture votes were also agreed to on the nominations of Daniel Desmond Domenico for the Tenth Circuit (51-27) and Anna St. John for the Fifth Circuit (49-26), with confirmation votes scheduled for Monday. The chamber passed five bills including the Route 66 National Historic Trail Designation Act, the Fort Ontario Holocaust Refugee Shelter National Historical Park Establishment Act, and measures regarding public lands and forest health.",
       "onTheFloor": [
         {
-          "measure": "H.R. 2347",
-          "title": "Survivor Justice Tax Prevention Act—exclude non-punitive sexual assault damages from gross income",
-          "status": "Multiple amendments pending; cloture vote scheduled for Friday, November 13"
+          "measure": "S. 2887",
+          "title": "Route 66 National Historic Trail Designation Act - designates Route 66 as a National Historic Trail",
+          "status": "passed"
         },
         {
-          "measure": "Richard Wesley Bennett nomination",
-          "title": "United States District Judge for the Southern District of Texas",
-          "status": "Cloture vote pending after H.R. 2347"
+          "measure": "S. 432",
+          "title": "Fort Ontario Holocaust Refugee Shelter National Historical Park Establishment Act - establishes a national historical park in New York",
+          "status": "passed"
         },
         {
-          "measure": "Courtney Leigh Coker nomination",
-          "title": "United States District Judge for the Northern District of Texas",
-          "status": "Cloture vote pending after Bennett nomination"
+          "measure": "S. 3493",
+          "title": "Carson City Public Land Correction Act - conveys certain federal land in Carson City, Nevada",
+          "status": "passed"
         },
         {
-          "measure": "Kyle Frederick Reardon nomination",
-          "title": "United States District Judge for the District of Alaska",
-          "status": "Cloture vote pending after Coker nomination"
+          "measure": "S. 1353",
+          "title": "Second Division Memorial in the District of Columbia - extends authority for memorial modifications",
+          "status": "passed"
         },
         {
-          "measure": "Daniel Lewis Ballou nomination",
-          "title": "United States District Judge for the Eastern District of Kentucky",
-          "status": "Cloture vote pending after Reardon nomination"
+          "measure": "Daniel Desmond Domenico nomination",
+          "title": "Circuit Judge for the Tenth Circuit",
+          "status": "cloture agreed to 51-27; confirmation vote Monday, November 16"
+        },
+        {
+          "measure": "Anna St. John nomination",
+          "title": "Circuit Judge for the Fifth Circuit",
+          "status": "cloture agreed to 49-26; confirmation vote Monday, November 16"
         },
         {
           "measure": "Gregory Carl Cook nomination",
-          "title": "United States District Judge for the Northern District of Alabama",
-          "status": "Scheduled for Thursday, November 12 at approximately 1:00 PM for cloture vote"
+          "title": "United States District Judge for Northern District of Alabama",
+          "status": "confirmed 49-27"
+        },
+        {
+          "measure": "S. Res. 834",
+          "title": "Honoring the 100th anniversary of the Golf Course Superintendents Association of America",
+          "status": "passed"
         }
       ]
     },
     "house": {
-      "nextMeeting": "Thursday, November 12 at 9:00 AM",
-      "lastSessionSummary": "The House passed seven bills focused on small-business support, including cybersecurity initiatives, SBA modernization, and reshoring manufacturing efforts. H.R. 1013 (403(b) retirement plan reforms) passed 295-128, and H.R. 9237 (veterans benefits improvements) passed by voice vote.",
+      "nextMeeting": "Friday, November 13 at 10:00 AM",
+      "lastSessionSummary": "The House passed H.R. 2102, the Major Richard Star Act, extending concurrent receipt of veterans' disability compensation and retired pay for combat-related disability retirees by an overwhelming 392-18 vote. The rule for consideration passed 271-135. The chamber introduced 24 new bills and 5 resolutions during the session.",
       "onTheFloor": [
         {
-          "measure": "H. Res. 1247",
-          "title": "Rule providing for consideration of H.R. 2102 on concurrent receipt of veterans disability compensation and retired pay",
-          "status": "Further proceedings postponed after discharge motion passed 245-175"
-        },
-        {
           "measure": "H.R. 2102",
-          "title": "Concurrent receipt of veterans' disability compensation and retired pay for combat-related disability retirees",
-          "status": "Scheduled for complete consideration Thursday, November 12"
-        },
-        {
-          "measure": "H.R. 10329",
-          "title": "Combating Foreign Threats to Main Street Act—disseminate information on foreign adversary threats to small businesses",
-          "status": "Passed under suspension of rules"
-        },
-        {
-          "measure": "H.R. 10238",
-          "title": "Cybersecurity for Small Businesses Act—disseminate cybersecurity information and resources to small businesses",
-          "status": "Passed under suspension of rules (amended)"
-        },
-        {
-          "measure": "H.R. 9718",
-          "title": "Reshoring American Manufacturing Act—maintain website for small businesses on onshoring manufacturing",
-          "status": "Passed under suspension of rules (amended)"
-        },
-        {
-          "measure": "H.R. 10375",
-          "title": "504 Modernization and Small Manufacturer Enhancement Act—improve SBA loan guaranty programs",
-          "status": "Passed under suspension of rules (amended)"
+          "title": "Major Richard Star Act - provides concurrent receipt of veterans' disability compensation and retired pay for combat-related disabilities",
+          "status": "passed 392-18"
         }
       ]
     }
@@ -81,7 +66,7 @@
   "committees": [
     {
       "chamber": "house",
-      "committee": "Committee on Foreign Affairs, Africa Subcommittee",
+      "committee": "Foreign Affairs - Africa Subcommittee",
       "topic": "One Year Later: Assessing Nigeria's Efforts to Protect Christians and Secure the Middle Belt"
     }
   ]
