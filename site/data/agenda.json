@@ -1,73 +1,37 @@
 {
-  "generatedAt": "2026-11-13T17:34:59.923Z",
-  "reportDate": "2026-11-13",
-  "recordIssueDate": "2026-11-12",
+  "generatedAt": "2026-11-14T16:27:24.980Z",
+  "reportDate": "2026-11-14",
+  "recordIssueDate": "2026-11-13",
   "available": true,
-  "headline": "Senate confirms federal judge on eve of Domenico-St. John showdown, House rallies behind disabled veterans' benefits!",
+  "headline": "Congress grinds to a halt on Friday: Senate dark, House gavels in and out in 2 minutes flat.",
   "chambers": {
     "senate": {
       "nextMeeting": "Monday, November 16 at 3:00 PM",
-      "lastSessionSummary": "The Senate confirmed Gregory Carl Cook as United States District Judge for the Northern District of Alabama by a 49-27 vote. Cloture votes were also agreed to on the nominations of Daniel Desmond Domenico for the Tenth Circuit (51-27) and Anna St. John for the Fifth Circuit (49-26), with confirmation votes scheduled for Monday. The chamber passed five bills including the Route 66 National Historic Trail Designation Act, the Fort Ontario Holocaust Refugee Shelter National Historical Park Establishment Act, and measures regarding public lands and forest health.",
+      "lastSessionSummary": "The Senate was not in session on Friday, November 13, 2026.",
       "onTheFloor": [
         {
-          "measure": "S. 2887",
-          "title": "Route 66 National Historic Trail Designation Act - designates Route 66 as a National Historic Trail",
-          "status": "passed"
-        },
-        {
-          "measure": "S. 432",
-          "title": "Fort Ontario Holocaust Refugee Shelter National Historical Park Establishment Act - establishes a national historical park in New York",
-          "status": "passed"
-        },
-        {
-          "measure": "S. 3493",
-          "title": "Carson City Public Land Correction Act - conveys certain federal land in Carson City, Nevada",
-          "status": "passed"
-        },
-        {
-          "measure": "S. 1353",
-          "title": "Second Division Memorial in the District of Columbia - extends authority for memorial modifications",
-          "status": "passed"
-        },
-        {
           "measure": "Daniel Desmond Domenico nomination",
-          "title": "Circuit Judge for the Tenth Circuit",
-          "status": "cloture agreed to 51-27; confirmation vote Monday, November 16"
+          "title": "Confirmation vote for U.S. Circuit Judge for the Tenth Circuit",
+          "status": "confirmation vote scheduled Monday at 5:30 PM"
         },
         {
-          "measure": "Anna St. John nomination",
-          "title": "Circuit Judge for the Fifth Circuit",
-          "status": "cloture agreed to 49-26; confirmation vote Monday, November 16"
-        },
-        {
-          "measure": "Gregory Carl Cook nomination",
-          "title": "United States District Judge for Northern District of Alabama",
-          "status": "confirmed 49-27"
-        },
-        {
-          "measure": "S. Res. 834",
-          "title": "Honoring the 100th anniversary of the Golf Course Superintendents Association of America",
-          "status": "passed"
+          "measure": "H.R. 2347",
+          "title": "Survivor Justice Tax Prevention Act (Bipartisan American Affordability and Jobs Act)",
+          "status": "cloture vote on Capito Amendment No. 6883 scheduled after nomination"
         }
       ]
     },
     "house": {
-      "nextMeeting": "Friday, November 13 at 10:00 AM",
-      "lastSessionSummary": "The House passed H.R. 2102, the Major Richard Star Act, extending concurrent receipt of veterans' disability compensation and retired pay for combat-related disability retirees by an overwhelming 392-18 vote. The rule for consideration passed 271-135. The chamber introduced 24 new bills and 5 resolutions during the session.",
-      "onTheFloor": [
-        {
-          "measure": "H.R. 2102",
-          "title": "Major Richard Star Act - provides concurrent receipt of veterans' disability compensation and retired pay for combat-related disabilities",
-          "status": "passed 392-18"
-        }
-      ]
+      "nextMeeting": "Tuesday, November 17 at 12:00 PM",
+      "lastSessionSummary": "The House convened at 10 a.m. with Speaker pro tempore Simpson in the chair and adjourned after just 2 minutes. Four public bills (H.R. 11033-11036) were introduced. No votes or quorum calls were held.",
+      "onTheFloor": []
     }
   },
   "committees": [
     {
-      "chamber": "house",
-      "committee": "Foreign Affairs - Africa Subcommittee",
-      "topic": "One Year Later: Assessing Nigeria's Efforts to Protect Christians and Secure the Middle Belt"
+      "chamber": "joint",
+      "committee": "Commission on Security and Cooperation in Europe",
+      "topic": "Briefing on Generation Victory: how Ukraine is educating students in wartime, 11 a.m., Room 2247 Rayburn Building, Monday November 16"
     }
   ]
 }
