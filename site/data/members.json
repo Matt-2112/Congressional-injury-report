@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T16:52:32.721Z",
+  "generatedAt": "2026-11-16T20:08:00.455Z",
   "sessionYear": 2026,
   "members": [
     {
@@ -5534,7 +5534,7 @@
         "status": "IR",
         "note": "missed all votes on 4 straight vote days — no announced return",
         "reason": "necessarily absent",
-        "detail": "J. Luis Correa was necessarily absent on November 9, 2026 and missed votes on H.R. 3978 and H.R. 9612.",
+        "detail": "J. Luis Correa was necessarily absent on November 9, 2026 and missed votes on Roll Call No. 315 and 316.",
         "since": "2026-11-09",
         "last7": {
           "missed": 9,

@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-11-15T16:52:24.625Z",
-  "reportDate": "2026-11-15",
+  "generatedAt": "2026-11-16T20:07:53.031Z",
+  "reportDate": "2026-11-16",
   "recordIssueDate": "2026-11-13",
   "available": true,
-  "headline": "Congress moves at a crawl—Senate returns Monday to vote on a judicial nominee and tax bill amendment, House stays dark until Tuesday.",
+  "headline": "Senate back Monday to vote on federal judge and tax bill while House takes brief recess",
   "chambers": {
     "senate": {
       "nextMeeting": "Monday, November 16 at 3:00 PM",
-      "lastSessionSummary": "The Senate was not in session on Friday, November 13. It stands adjourned and will reconvene Monday to handle judicial nominations and legislative business.",
+      "lastSessionSummary": "The Senate was not in session on Friday, November 13.",
       "onTheFloor": [
         {
-          "measure": "Daniel Desmond Domenico Nomination",
-          "title": "Confirmation vote on Colorado federal judge nominee for the Tenth Circuit Court of Appeals",
-          "status": "Vote scheduled for 5:30 PM Monday"
+          "measure": "Daniel Desmond Domenico nomination",
+          "title": "Confirmation of Colorado lawyer to be United States Circuit Judge for the Tenth Circuit",
+          "status": "confirmation vote scheduled for 5:30 p.m. Monday"
         },
         {
-          "measure": "Thune Amendment No. 6883 to H.R. 2347",
-          "title": "Amendment to the Bipartisan American Affordability and Jobs Act (Survivor Justice Tax Prevention Act)",
-          "status": "Cloture vote scheduled after Domenico nomination"
+          "measure": "H.R. 2347",
+          "title": "Survivor Justice Tax Prevention Act and Bipartisan American Affordability and Jobs Act",
+          "status": "cloture vote expected on amendment after judge confirmation"
         }
       ]
     },
     "house": {
-      "nextMeeting": "Tuesday, November 17 at 12:00 PM",
-      "lastSessionSummary": "The House met briefly on Friday for 2 minutes, with Speaker Simpson presiding pro tempore. Four bills (H.R. 11033-11036) were introduced, but no votes were taken. The chamber adjourned at 10:02 a.m.",
+      "nextMeeting": "Tuesday, November 17 at 12:00 noon",
+      "lastSessionSummary": "The House convened briefly on Friday, November 13, meeting at 10 a.m. and adjourning at 10:02 a.m. Four new bills were introduced but no votes were taken.",
       "onTheFloor": []
     }
   },
@@ -31,7 +31,7 @@
     {
       "chamber": "joint",
       "committee": "Commission on Security and Cooperation in Europe",
-      "topic": "Briefing on Ukraine's education of students in wartime ('Generation Victory')"
+      "topic": "Briefing on 'Generation Victory' focusing on Ukraine's education of students in wartime"
     }
   ]
 }
