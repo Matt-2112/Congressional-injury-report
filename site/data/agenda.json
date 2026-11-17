@@ -1,37 +1,72 @@
 {
-  "generatedAt": "2026-11-16T20:07:53.031Z",
-  "reportDate": "2026-11-16",
-  "recordIssueDate": "2026-11-13",
+  "generatedAt": "2026-11-17T18:59:49.576Z",
+  "reportDate": "2026-11-17",
+  "recordIssueDate": "2026-11-16",
   "available": true,
-  "headline": "Senate back Monday to vote on federal judge and tax bill while House takes brief recess",
+  "headline": "Senate confirms federal judge Domenico while advancing tax relief bill toward finish line!",
   "chambers": {
     "senate": {
-      "nextMeeting": "Monday, November 16 at 3:00 PM",
-      "lastSessionSummary": "The Senate was not in session on Friday, November 13.",
+      "nextMeeting": "Tuesday, November 17 at 10:00 AM",
+      "lastSessionSummary": "The Senate confirmed Daniel Desmond Domenico to be a United States Circuit Judge for the Tenth Circuit by a vote of 51-46. The chamber continued debate on H.R. 2347, the Survivor Justice Tax Prevention Act, with multiple amendments under consideration and a cloture vote successfully invoking closure on a Thune amendment. Three bills passed unanimously: the Improving Access to Workers' Compensation for Injured Federal Workers Act, the Shingle Springs Band of Miwok Indians Land Transfer Act, and the Safe Cloud Storage Act.",
       "onTheFloor": [
         {
-          "measure": "Daniel Desmond Domenico nomination",
-          "title": "Confirmation of Colorado lawyer to be United States Circuit Judge for the Tenth Circuit",
-          "status": "confirmation vote scheduled for 5:30 p.m. Monday"
+          "measure": "H.R. 2347",
+          "title": "Survivor Justice Tax Prevention Act - tax relief bill serving as legislative vehicle for broader affordability and jobs measures",
+          "status": "Debate continuing with multiple amendments pending; cloture invoked 70-27 on Thune Amendment No. 6883; full consideration resuming Tuesday at 10 a.m."
         },
         {
-          "measure": "H.R. 2347",
-          "title": "Survivor Justice Tax Prevention Act and Bipartisan American Affordability and Jobs Act",
-          "status": "cloture vote expected on amendment after judge confirmation"
+          "measure": "S. 3296",
+          "title": "Improving Access to Workers' Compensation for Injured Federal Workers Act - expands workers' compensation to cover physician assistants and nurse practitioners",
+          "status": "Passed unanimously"
+        },
+        {
+          "measure": "H.R. 2302",
+          "title": "Shingle Springs Band of Miwok Indians Land Transfer Act - takes certain federal land in California into trust for the Shingle Springs Band of Miwok Indians",
+          "status": "Passed unanimously"
+        },
+        {
+          "measure": "H.R. 7834",
+          "title": "Safe Cloud Storage Act - limits liability for entities storing child sexual abuse material for law enforcement",
+          "status": "Passed unanimously"
         }
       ]
     },
     "house": {
-      "nextMeeting": "Tuesday, November 17 at 12:00 noon",
-      "lastSessionSummary": "The House convened briefly on Friday, November 13, meeting at 10 a.m. and adjourning at 10:02 a.m. Four new bills were introduced but no votes were taken.",
+      "nextMeeting": "Tuesday, November 17 at 12:00 PM",
+      "lastSessionSummary": "The House was not in session on Monday, November 16, 2026. The chamber will reconvene on Tuesday.",
       "onTheFloor": []
     }
   },
   "committees": [
     {
-      "chamber": "joint",
-      "committee": "Commission on Security and Cooperation in Europe",
-      "topic": "Briefing on 'Generation Victory' focusing on Ukraine's education of students in wartime"
+      "chamber": "senate",
+      "committee": "Armed Services",
+      "topic": "Hearing on nomination of Hung Cao of Virginia to be Secretary of the Navy"
+    },
+    {
+      "chamber": "senate",
+      "committee": "Judiciary",
+      "topic": "Business meeting on S. 5289 (religious freedom protection) and multiple judicial and law enforcement nominations; followed by open hearing on competition and transparency in prescription drug costs"
+    },
+    {
+      "chamber": "senate",
+      "committee": "Foreign Relations",
+      "topic": "Closed briefing on U.S.-Saudi Arabia civil nuclear cooperation agreement"
+    },
+    {
+      "chamber": "senate",
+      "committee": "Agriculture, Nutrition, and Forestry",
+      "topic": "Hearing on nominations of Nathan Anonick and Matthew Rowland for Commodity Futures Trading Commission"
+    },
+    {
+      "chamber": "house",
+      "committee": "Rules",
+      "topic": "Hearing on H.R. 3495 (Direct Seller and Real Estate Agent Harmonization Act) and H.R. 5267 (American Franchise Act)"
+    },
+    {
+      "chamber": "house",
+      "committee": "Permanent Select Committee on Intelligence",
+      "topic": "Business meeting to consider release of Unclassified Report on Committee's Open Investigation"
     }
   ]
 }
