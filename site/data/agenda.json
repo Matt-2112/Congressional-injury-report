@@ -1,72 +1,103 @@
 {
-  "generatedAt": "2026-11-17T18:59:49.576Z",
-  "reportDate": "2026-11-17",
-  "recordIssueDate": "2026-11-16",
+  "generatedAt": "2026-11-18T18:44:11.092Z",
+  "reportDate": "2026-11-18",
+  "recordIssueDate": "2026-11-17",
   "available": true,
-  "headline": "Senate confirms federal judge Domenico while advancing tax relief bill toward finish line!",
+  "headline": "Senate confirms Fifth Circuit judge as chambers tackle tax relief and nominations ahead of Wednesday showdown",
   "chambers": {
     "senate": {
-      "nextMeeting": "Tuesday, November 17 at 10:00 AM",
-      "lastSessionSummary": "The Senate confirmed Daniel Desmond Domenico to be a United States Circuit Judge for the Tenth Circuit by a vote of 51-46. The chamber continued debate on H.R. 2347, the Survivor Justice Tax Prevention Act, with multiple amendments under consideration and a cloture vote successfully invoking closure on a Thune amendment. Three bills passed unanimously: the Improving Access to Workers' Compensation for Injured Federal Workers Act, the Shingle Springs Band of Miwok Indians Land Transfer Act, and the Safe Cloud Storage Act.",
+      "nextMeeting": "Wednesday, November 18 at 10:00 AM",
+      "lastSessionSummary": "The Senate adjourned early Tuesday out of respect for former Senator Jay Rockefeller IV. Before doing so, the chamber passed several bills including the Gateway Partnership Act and Federal Land in California transfer, confirmed Fifth Circuit Judge Anna St. John in a 52-46 vote, and advanced consideration of the Survivor Justice Tax Prevention Act with amendments pending.",
       "onTheFloor": [
         {
           "measure": "H.R. 2347",
-          "title": "Survivor Justice Tax Prevention Act - tax relief bill serving as legislative vehicle for broader affordability and jobs measures",
-          "status": "Debate continuing with multiple amendments pending; cloture invoked 70-27 on Thune Amendment No. 6883; full consideration resuming Tuesday at 10 a.m."
+          "title": "Survivor Justice Tax Prevention Act - exclude damages from sexual misconduct from taxable income",
+          "status": "continued consideration scheduled Wednesday at 10:00 AM with votes on amendments at 11:45 AM"
         },
         {
-          "measure": "S. 3296",
-          "title": "Improving Access to Workers' Compensation for Injured Federal Workers Act - expands workers' compensation to cover physician assistants and nurse practitioners",
-          "status": "Passed unanimously"
+          "measure": "S. 1885",
+          "title": "Mental health warning labels on social media platforms",
+          "status": "reported from committee with amendment"
         },
         {
-          "measure": "H.R. 2302",
-          "title": "Shingle Springs Band of Miwok Indians Land Transfer Act - takes certain federal land in California into trust for the Shingle Springs Band of Miwok Indians",
-          "status": "Passed unanimously"
+          "measure": "H.R. 5254",
+          "title": "Gateway Partnership Act - authorize Gateway Arch National Park to host private events",
+          "status": "passed"
         },
         {
-          "measure": "H.R. 7834",
-          "title": "Safe Cloud Storage Act - limits liability for entities storing child sexual abuse material for law enforcement",
-          "status": "Passed unanimously"
+          "measure": "H.R. 8454",
+          "title": "Federal Land in California - transfer administrative jurisdiction of federal land",
+          "status": "passed"
+        },
+        {
+          "measure": "S. Res. 959",
+          "title": "Recognize the death of former Senator Jay Rockefeller IV",
+          "status": "agreed to by Senate"
         }
       ]
     },
     "house": {
-      "nextMeeting": "Tuesday, November 17 at 12:00 PM",
-      "lastSessionSummary": "The House was not in session on Monday, November 16, 2026. The chamber will reconvene on Tuesday.",
-      "onTheFloor": []
+      "nextMeeting": "Wednesday, November 18 at 10:00 AM",
+      "lastSessionSummary": "The House passed eight bills under suspension of the rules, including the Barona Group Land Transfer Act (398-0), Common Sense 250 Act honoring Thomas Paine (365-36), and bills managing buffalo, cormorants, and experimental forests. The chamber also approved rules for floor consideration of employment classification and franchise business model legislation.",
+      "onTheFloor": [
+        {
+          "measure": "H.R. 3495",
+          "title": "Direct Seller and Real Estate Agent Harmonization Act - clarify employee definition for direct sellers and real estate agents",
+          "status": "rule approved 9-2 by Rules Committee, scheduled for House floor"
+        },
+        {
+          "measure": "H.R. 5267",
+          "title": "American Franchise Act - preserve the franchise business model",
+          "status": "rule approved 9-2 by Rules Committee, scheduled for House floor"
+        },
+        {
+          "measure": "H.R. 7954",
+          "title": "Don Young Doug LaMalfa Indian Buffalo Management Act - assist tribes in buffalo management and reestablishment",
+          "status": "passed under suspension"
+        },
+        {
+          "measure": "H.R. 8195",
+          "title": "Responsible Cormorant Management Act - develop regional management frameworks for cormorant control",
+          "status": "passed under suspension"
+        },
+        {
+          "measure": "H.R. 8483",
+          "title": "Barona Group Land Transfer Act - transfer California land to Barona Band of Mission Indians",
+          "status": "passed 398-0"
+        }
+      ]
     }
   },
   "committees": [
     {
       "chamber": "senate",
-      "committee": "Armed Services",
-      "topic": "Hearing on nomination of Hung Cao of Virginia to be Secretary of the Navy"
+      "committee": "Budget Committee",
+      "topic": "Social Security reality examination"
     },
     {
       "chamber": "senate",
-      "committee": "Judiciary",
-      "topic": "Business meeting on S. 5289 (religious freedom protection) and multiple judicial and law enforcement nominations; followed by open hearing on competition and transparency in prescription drug costs"
+      "committee": "Commerce, Science, and Transportation Committee",
+      "topic": "Content moderation, offshore aquaculture, semiconductor supply chain, and nominations including FCC Commissioner"
     },
     {
       "chamber": "senate",
-      "committee": "Foreign Relations",
-      "topic": "Closed briefing on U.S.-Saudi Arabia civil nuclear cooperation agreement"
-    },
-    {
-      "chamber": "senate",
-      "committee": "Agriculture, Nutrition, and Forestry",
-      "topic": "Hearing on nominations of Nathan Anonick and Matthew Rowland for Commodity Futures Trading Commission"
+      "committee": "Foreign Relations Committee",
+      "topic": "Business meeting on ambassador nominations across Africa, Asia, Americas, and new Arctic position"
     },
     {
       "chamber": "house",
-      "committee": "Rules",
-      "topic": "Hearing on H.R. 3495 (Direct Seller and Real Estate Agent Harmonization Act) and H.R. 5267 (American Franchise Act)"
+      "committee": "Natural Resources Committee",
+      "topic": "Markup on 23 bills including national parks, historical sites, and tribal land settlements"
     },
     {
       "chamber": "house",
-      "committee": "Permanent Select Committee on Intelligence",
-      "topic": "Business meeting to consider release of Unclassified Report on Committee's Open Investigation"
+      "committee": "Homeland Security Committee",
+      "topic": "Worldwide threats to homeland 25 years after 9/11"
+    },
+    {
+      "chamber": "senate",
+      "committee": "Judiciary Committee",
+      "topic": "Hearings on pending federal judge and law enforcement nominations"
     }
   ]
 }
