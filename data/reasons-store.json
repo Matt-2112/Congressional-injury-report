@@ -1,10 +1,10 @@
 {
-  "K000401": {
-    "reason": "imminent birth of child",
-    "detail": "Mr. Kiley of California was granted leave of absence for the week on account of the imminent birth of his child.",
-    "onLeave": true,
-    "source": "Congressional Record 2026-11-17",
-    "date": "2026-11-17"
+  "B001317": {
+    "reason": "illness",
+    "detail": "Josh Brecheen was unavoidably detained due to illness and unable to cast his vote on Roll Call No. 325.",
+    "onLeave": false,
+    "source": "Congressional Record 2026-11-18",
+    "date": "2026-11-18"
   },
   "C001110": {
     "reason": "necessarily absent",
@@ -12,5 +12,12 @@
     "onLeave": false,
     "source": "Congressional Record 2026-11-09",
     "date": "2026-11-09"
+  },
+  "K000401": {
+    "reason": "imminent birth of child",
+    "detail": "Kevin Kiley was granted leave of absence for the week on account of the imminent birth of his child.",
+    "onLeave": true,
+    "source": "Congressional Record 2026-11-17",
+    "date": "2026-11-17"
   }
 }

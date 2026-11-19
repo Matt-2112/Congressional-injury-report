@@ -1,69 +1,54 @@
 {
-  "generatedAt": "2026-11-18T18:44:11.092Z",
-  "reportDate": "2026-11-18",
-  "recordIssueDate": "2026-11-17",
+  "generatedAt": "2026-11-19T18:55:07.768Z",
+  "reportDate": "2026-11-19",
+  "recordIssueDate": "2026-11-18",
   "available": true,
-  "headline": "Senate confirms Fifth Circuit judge as chambers tackle tax relief and nominations ahead of Wednesday showdown",
+  "headline": "Senate advances Survivor Justice Tax Prevention Act post-cloture as anti-fraud bills move to victory lap!",
   "chambers": {
     "senate": {
-      "nextMeeting": "Wednesday, November 18 at 10:00 AM",
-      "lastSessionSummary": "The Senate adjourned early Tuesday out of respect for former Senator Jay Rockefeller IV. Before doing so, the chamber passed several bills including the Gateway Partnership Act and Federal Land in California transfer, confirmed Fifth Circuit Judge Anna St. John in a 52-46 vote, and advanced consideration of the Survivor Justice Tax Prevention Act with amendments pending.",
+      "nextMeeting": "Thursday, November 19 at 10:00 AM",
+      "lastSessionSummary": "The Senate continued floor debate on H.R. 2347, the Survivor Justice Tax Prevention Act, adopting a substitute amendment 69-27 and securing cloture 65-31 to advance the measure. Meanwhile, two anti-fraud bills cleared the chamber: the Financial Exploitation Prevention Act, which extends investment protections for seniors, and the Veterans Protection from Fraud Act, which enhances criminal penalties for crimes targeting veterans.",
       "onTheFloor": [
         {
           "measure": "H.R. 2347",
-          "title": "Survivor Justice Tax Prevention Act - exclude damages from sexual misconduct from taxable income",
-          "status": "continued consideration scheduled Wednesday at 10:00 AM with votes on amendments at 11:45 AM"
+          "title": "Survivor Justice Tax Prevention Act - exclude damages from sexual misconduct from gross income for tax purposes",
+          "status": "cloture invoked 65-31, post-cloture debate continues Thursday at 10 a.m."
         },
         {
-          "measure": "S. 1885",
-          "title": "Mental health warning labels on social media platforms",
-          "status": "reported from committee with amendment"
-        },
-        {
-          "measure": "H.R. 5254",
-          "title": "Gateway Partnership Act - authorize Gateway Arch National Park to host private events",
+          "measure": "H.R. 2478",
+          "title": "Financial Exploitation Prevention Act - protect seniors from financial exploitation in securities redemptions",
           "status": "passed"
         },
         {
-          "measure": "H.R. 8454",
-          "title": "Federal Land in California - transfer administrative jurisdiction of federal land",
+          "measure": "S. 4445",
+          "title": "Veterans Protection from Fraud Act - enhance criminal penalties for crimes against veterans",
           "status": "passed"
-        },
-        {
-          "measure": "S. Res. 959",
-          "title": "Recognize the death of former Senator Jay Rockefeller IV",
-          "status": "agreed to by Senate"
         }
       ]
     },
     "house": {
-      "nextMeeting": "Wednesday, November 18 at 10:00 AM",
-      "lastSessionSummary": "The House passed eight bills under suspension of the rules, including the Barona Group Land Transfer Act (398-0), Common Sense 250 Act honoring Thomas Paine (365-36), and bills managing buffalo, cormorants, and experimental forests. The chamber also approved rules for floor consideration of employment classification and franchise business model legislation.",
+      "nextMeeting": "Thursday, November 19 at 9:00 AM",
+      "lastSessionSummary": "The House passed the Earth MRI Reauthorization Act 396-14 under suspension of rules, reauthorizing the Earth Mapping Resources Initiative. The chamber also approved the Dismantle Foreign Scam Syndicates Act and the Settlement Agreement Information Database Act, while debate on the Preventive Health Savings Act was postponed for further consideration.",
       "onTheFloor": [
         {
-          "measure": "H.R. 3495",
-          "title": "Direct Seller and Real Estate Agent Harmonization Act - clarify employee definition for direct sellers and real estate agents",
-          "status": "rule approved 9-2 by Rules Committee, scheduled for House floor"
+          "measure": "H.R. 9640",
+          "title": "Earth MRI Reauthorization Act - reauthorize the Earth Mapping Resources Initiative under Infrastructure Investment and Jobs Act",
+          "status": "passed 396-14"
         },
         {
-          "measure": "H.R. 5267",
-          "title": "American Franchise Act - preserve the franchise business model",
-          "status": "rule approved 9-2 by Rules Committee, scheduled for House floor"
+          "measure": "H.R. 5490",
+          "title": "Dismantle Foreign Scam Syndicates Act - establish task force to dismantle transnational criminal scam operations",
+          "status": "passed"
         },
         {
-          "measure": "H.R. 7954",
-          "title": "Don Young Doug LaMalfa Indian Buffalo Management Act - assist tribes in buffalo management and reestablishment",
-          "status": "passed under suspension"
+          "measure": "H.R. 7934",
+          "title": "Settlement Agreement Information Database Act - require publication of settlement agreements",
+          "status": "passed"
         },
         {
-          "measure": "H.R. 8195",
-          "title": "Responsible Cormorant Management Act - develop regional management frameworks for cormorant control",
-          "status": "passed under suspension"
-        },
-        {
-          "measure": "H.R. 8483",
-          "title": "Barona Group Land Transfer Act - transfer California land to Barona Band of Mission Indians",
-          "status": "passed 398-0"
+          "measure": "H.R. 4464",
+          "title": "Preventive Health Savings Act - amend Congressional Budget Act scoring of preventive health savings",
+          "status": "debate postponed"
         }
       ]
     }
@@ -71,33 +56,33 @@
   "committees": [
     {
       "chamber": "senate",
-      "committee": "Budget Committee",
-      "topic": "Social Security reality examination"
+      "committee": "Armed Services",
+      "topic": "Nominations of William Toti (Under Secretary of the Navy), Daniel Zimmerman and Richard Breckenridge (Assistant Secretaries of the Navy), and Arthur Miller (Assistant Secretary of the Navy)"
     },
     {
       "chamber": "senate",
-      "committee": "Commerce, Science, and Transportation Committee",
-      "topic": "Content moderation, offshore aquaculture, semiconductor supply chain, and nominations including FCC Commissioner"
+      "committee": "Banking, Housing, and Urban Affairs",
+      "topic": "Nominations of Jeremy Wiggins (Assistant Secretary of Treasury), Matthew Jones (Assistant Secretary of HUD), David Slade and Michael Rigas (Export-Import Bank), plus Mark Aesch (Federal Transit Administrator) and others"
     },
     {
       "chamber": "senate",
-      "committee": "Foreign Relations Committee",
-      "topic": "Business meeting on ambassador nominations across Africa, Asia, Americas, and new Arctic position"
+      "committee": "Foreign Relations",
+      "topic": "Nominations of Elliott Hulse (CEO Millennium Challenge Corporation), Austin Holmes (Ambassador to Haiti), and Asa Pitt (Representative to Organization for the Prohibition of Chemical Weapons)"
     },
     {
       "chamber": "house",
-      "committee": "Natural Resources Committee",
-      "topic": "Markup on 23 bills including national parks, historical sites, and tribal land settlements"
+      "committee": "Science, Space, and Technology",
+      "topic": "Hearing on space weather capabilities and America's ability to weather solar storms"
     },
     {
       "chamber": "house",
-      "committee": "Homeland Security Committee",
-      "topic": "Worldwide threats to homeland 25 years after 9/11"
+      "committee": "Veterans' Affairs",
+      "topic": "VA Electronic Health Record Modernization status update and go-live assessment"
     },
     {
-      "chamber": "senate",
-      "committee": "Judiciary Committee",
-      "topic": "Hearings on pending federal judge and law enforcement nominations"
+      "chamber": "house",
+      "committee": "Foreign Affairs - East Asia and the Pacific Subcommittee",
+      "topic": "China's dominance in pharmaceutical production and supply chain vulnerabilities"
     }
   ]
 }
